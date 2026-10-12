@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: estudionoe-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.1
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGINS
+        value: https://mvisions.github.io
+      - key: GOOGLE_CLOUD_PROJECT
+        value: ayta-510923
+      - key: GOOGLE_APPLICATION_CREDENTIALS
+        value: /etc/secrets/estudionoe-firestore-key.json
