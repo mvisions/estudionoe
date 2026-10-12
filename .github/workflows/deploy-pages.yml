@@ -28,7 +28,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p site
-          cp index.html styles.css app.mjs questions.mjs grading.mjs config.mjs site/
+          cp index.html styles.css app.mjs questions.mjs grading.mjs local-ranking.mjs site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

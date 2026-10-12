@@ -1,6 +1,6 @@
 import { questions, matchingPairs } from "./questions.mjs";
 import { gradeChoice, gradeWritten, shuffle, summarize } from "./grading.mjs";
-import { API_BASE } from "./config.mjs";
+import { rankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
@@ -16,30 +16,12 @@ let results = [];
 let noticeTimer;
 let storageFailed = false;
 let rankingMode = "easy";
-let rankingRequest = 0;
-const receiptKey = "noe-ranking-receipts-v1";
 
 const duration = milliseconds => {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
   return `${Math.floor(seconds / 60)} min ${String(seconds % 60).padStart(2, "0")} s`;
 };
 const elapsed = () => state?.durationMs ?? Math.max(0, Date.now() - (state?.startedAt ?? Date.now()));
-
-async function api(path, method = "GET", body) {
-  const response = await fetch(`${API_BASE}${path}`, {
-    method, headers: body ? { "Content-Type": "application/json" } : {},
-    body: body ? JSON.stringify(body) : undefined, signal: AbortSignal.timeout(90000),
-  });
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || `Error del servidor (${response.status}).`);
-  return data;
-}
-
-function rememberReceipt(remote) {
-  const receipts = JSON.parse(localStorage.getItem(receiptKey) ?? "[]");
-  receipts.push({ id: remote.id, token: remote.token });
-  localStorage.setItem(receiptKey, JSON.stringify(receipts));
-}
 
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 const format = number => new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1 }).format(number);
@@ -68,13 +50,11 @@ function save() {
 
 function resetAll() {
   confirmAction("¿Borrar todo y empezar de nuevo?",
-    "Se borrarán tus respuestas, el progreso y tus resultados del ranking vinculados a este navegador. No se borran los resultados de otras personas. Esta acción no se puede deshacer.",
-    "Sí, borrar todo", async () => {
+    "Se borrarán las respuestas, el progreso y todo el ranking local de este navegador. Esta acción no se puede deshacer.",
+    "Sí, borrar todo", () => {
       try {
-        const receipts = JSON.parse(localStorage.getItem(receiptKey) ?? "[]");
-        if (state?.remote && !receipts.some(receipt => receipt.id === state.remote.id)) receipts.push(state.remote);
-        for (const receipt of receipts) await api(`/api/exams/${receipt.id}`, "DELETE", { token: receipt.token });
-        localStorage.removeItem(receiptKey);
+        localStorage.removeItem(rankingKey);
+        localStorage.removeItem("noe-ranking-receipts-v1");
         localStorage.removeItem(storageKey);
         localStorage.removeItem("noe-history-exam-v1");
       } catch (error) {
@@ -179,50 +159,29 @@ function profileForm(mode, ids) {
     <input id="student-name" name="name" maxlength="40" required autocomplete="off" value="${escape(profile.name)}">
     <label class="input-label" for="student-course">Curso</label>
     <input id="student-course" name="course" maxlength="30" required placeholder="Por ejemplo: 5.º A" value="${escape(profile.course)}">
-    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El ranking es público y se guarda en Google Cloud mediante Render. Usa un alias y un curso genérico; no incluyas datos personales."}</p>
-    ${ids ? "" : `<label class="consent"><input type="checkbox" name="consent"> Acepto publicar mi alias, curso, nota y tiempo en el ranking. Si eres menor, pide permiso a tu responsable.</label>`}
+    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El ranking se guarda solo en este navegador. No se envían nombres ni respuestas a ningún servidor."}</p>
     <p class="form-error" role="alert"></p><div class="nav"><button type="button" class="secondary" data-cancel>Cancelar</button>
-    <button type="submit" class="secondary" name="practice" value="yes">Practicar sin ranking</button>
-    ${ids ? "" : `<button type="submit" class="primary" name="ranked" value="yes">Empezar con ranking</button>`}</div></form>`;
+    <button type="submit" class="primary">Empezar ${ids ? "repaso" : "examen"}</button></div></form>`;
   document.body.append(dialog);
   dialog.querySelector("[data-cancel]").addEventListener("click", () => dialog.close());
   dialog.addEventListener("close", () => dialog.remove(), { once: true });
-  dialog.querySelector("form").addEventListener("submit", async event => {
+  dialog.querySelector("form").addEventListener("submit", event => {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    const ranked = event.submitter?.name === "ranked";
     const profile = { name: String(data.get("name")).trim(), course: String(data.get("course")).trim() };
     const errorLabel = form.querySelector(".form-error");
     if (!profile.name || !profile.course) { errorLabel.textContent = "Completa el nombre o alias y el curso."; return; }
-    if (ranked && data.get("consent") !== "on") { errorLabel.textContent = "Debes aceptar la publicación para participar; también puedes practicar sin ranking."; return; }
-    const buttons = form.querySelectorAll("button");
-    buttons.forEach(button => { button.disabled = true; });
-    errorLabel.textContent = ranked ? "Conectando con el ranking… Render puede tardar en arrancar." : "";
-    try {
-      const remote = ranked ? await api("/api/exams", "POST", { ...profile, mode, consent: true }) : null;
-      if (remote) {
-        try { rememberReceipt(remote); }
-        catch (error) {
-          await api(`/api/exams/${remote.id}`, "DELETE", { token: remote.token });
-          throw new Error(`No se puede guardar el acceso a tu resultado: ${error.message}`);
-        }
-      }
-      dialog.close();
-      start(mode, ids, profile, remote);
-    } catch (error) {
-      console.error("No se pudo iniciar el examen con ranking.", error);
-      errorLabel.textContent = `No se ha iniciado: ${error.message} Puedes reintentar o practicar sin ranking.`;
-      buttons.forEach(button => { button.disabled = false; });
-    }
+    dialog.close();
+    start(mode, ids, profile);
   });
   dialog.showModal();
 }
 
-function start(mode, ids, profile, remote) {
+function start(mode, ids, profile) {
   const items = ids ? bank(mode).filter(item => ids.includes(item.id)) : bank(mode);
-  state = { version: 2, mode, ids: remote?.ids ?? shuffle(items).map(item => item.id), answers: {}, options: {}, page: 0, finished: false,
-    profile, remote, startedAt: remote?.startedAt ?? Date.now(), practice: !remote };
+  state = { version: 2, mode, ids: shuffle(items).map(item => item.id), answers: {}, options: {}, page: 0, finished: false,
+    profile, id: crypto.randomUUID(), startedAt: Date.now(), practice: Boolean(ids) };
   if (mode === "easy") for (const item of items) state.options[item.id] = shuffle([item.answer, ...item.wrong]);
   if (mode === "matching") for (let page = 0; page < Math.ceil(state.ids.length / 5); page++)
     state.options[page] = shuffle(state.ids.slice(page * 5, page * 5 + 5));
@@ -248,7 +207,7 @@ function renderExam(focus = true) {
   app.innerHTML = `<div class="exam-top"><div><span class="eyebrow">Tu sesión de historia</span><h1>${modes[state.mode].title}</h1></div>
     <button class="secondary" data-action="home">Guardar y salir</button></div>
     <div class="student-strip"><span>${escape(state.profile?.name ?? "Estudiante")} · ${escape(state.profile?.course ?? "Sin curso")}</span>
-    <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.remote ? "Examen para el ranking" : "Práctica sin ranking"}</span></div>
+    <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.practice ? "Repaso sin ranking" : "Ranking local"}</span></div>
     <div class="progress"><div class="progress-label"><span>${matching ? "Bloque" : "Pregunta"} ${state.page + 1} de ${totalPages}</span>
     <span id="answered-count">${answered} de ${items.length} respondidas</span></div><progress id="exam-progress" value="${answered}" max="${items.length}" aria-label="Preguntas respondidas"></progress></div>
     <section class="question-card">${matching ? matchingMarkup(items) : `<span class="eyebrow">Pregunta ${question.id} de tus apuntes</span><h2>${escape(question.title)}</h2>
@@ -321,19 +280,19 @@ function calculateResults() {
 
 function renderResults(focus = true) {
   results = calculateResults();
-  const summary = state.remoteResult ? { ...summarize(results), grade: state.remoteResult.grade, points: state.remoteResult.points } : summarize(results);
+  const summary = summarize(results);
   const mistakes = results.filter(result => result.score < 1);
   app.innerHTML = `<section class="result-hero"><span class="eyebrow">Examen terminado · ${modes[state.mode].title}</span>
     <h1>${summary.grade >= 9 ? "¡Lo tienes dominado!" : summary.grade >= 5 ? "¡Vas por buen camino!" : "Cada intento te ayuda a aprender."}</h1>
-    <p><strong>${escape(state.profile?.name ?? "Estudiante")}</strong> · ${escape(state.profile?.course ?? "Sin curso")} · Tiempo: ${duration(state.remoteResult?.durationMs ?? elapsed())}</p>
+    <p><strong>${escape(state.profile?.name ?? "Estudiante")}</strong> · ${escape(state.profile?.course ?? "Sin curso")} · Tiempo: ${duration(elapsed())}</p>
     <div class="grade-circle"><strong>${format(summary.grade)}</strong><span>NOTA SOBRE 10</span></div>
     <p class="muted">${format(summary.points)} puntos de ${results.length} posibles. ${state.mode === "written" ? "Corrección automática orientativa por ideas clave." : "Cada acierto suma un punto."}</p>
     <div class="stats"><div class="stat"><strong>${summary.correct}</strong>Bien</div><div class="stat"><strong>${summary.partial}</strong>Regular</div><div class="stat"><strong>${summary.wrong}</strong>Mal / sin responder</div></div>
     <div class="result-actions"><button class="primary" data-action="retry">Repetir examen</button>
     ${mistakes.length ? `<button class="secondary" data-action="retry-mistakes">Practicar solo los fallos</button>` : ""}
     <button class="secondary" data-action="home">Elegir otro modo</button>${resetButton()}</div>
-    <p id="submission-status" class="muted">${state.remoteResult ? "Resultado guardado en el ranking compartido." : state.remote ? "Resultado pendiente de guardar en el ranking." : "Práctica: este resultado no participa en el ranking."}</p>
-    ${state.remote && !state.remoteResult ? `<button class="secondary" data-action="submit-ranking">Guardar resultado en el ranking</button>` : ""}</section>
+    <p id="submission-status" class="muted">${state.localResult ? "Resultado guardado en el ranking local de este navegador." : !state.practice && state.id ? "Resultado pendiente de guardar en el ranking local." : "Repaso: este resultado no participa en el ranking."}</p>
+    ${!state.practice && state.id && !state.localResult ? `<button class="secondary" data-action="submit-ranking">Guardar resultado en el ranking</button>` : ""}</section>
     ${rankingMarkup(state.mode)}
     <div class="section-heading"><h2>Lo que puedes mejorar</h2><span class="muted">${mistakes.length} para repasar</span></div>
     ${mistakes.length ? mistakes.map(reviewMarkup).join("") : `<div class="review"><span class="status bien">Todo bien</span><p>No hay fallos. ¡Prueba otro modo para seguir practicando!</p></div>`}
@@ -345,21 +304,19 @@ function renderResults(focus = true) {
 
 function rankingMarkup(mode = rankingMode) {
   rankingMode = mode;
-  return `<section class="ranking"><div class="section-heading"><h2>Ranking compartido</h2><button class="secondary" data-action="refresh-ranking">Actualizar</button></div>
+  return `<section class="ranking"><div class="section-heading"><h2>Ranking local</h2><button class="secondary" data-action="refresh-ranking">Actualizar</button></div>
     <label for="ranking-mode" class="input-label">Modo de examen</label><select id="ranking-mode">${Object.entries(modes).map(([key, value]) =>
       `<option value="${key}" ${key === rankingMode ? "selected" : ""}>${value.title}</option>`).join("")}</select>
-    <p class="muted">Los 50 mejores exámenes completos. Mayor nota primero; en empate, menor tiempo. El tiempo incluye pausas y salir de la página. Ranking de práctica, sin identidad verificada.</p>
+    <p class="muted">Los 50 mejores exámenes completos de cada modo, solo en este navegador. Mayor nota primero; en empate, menor tiempo. El tiempo incluye pausas y salir de la página. No se comparte entre dispositivos.</p>
     <div id="ranking-entries" aria-live="polite"><p class="muted">Cargando ranking…</p></div></section>`;
 }
 
-async function loadRanking() {
-  const request = ++rankingRequest;
+function loadRanking() {
   const container = app.querySelector("#ranking-entries");
   if (!container) return;
   container.innerHTML = `<p class="muted">Cargando ranking…</p>`;
   try {
-    const { entries } = await api(`/api/ranking?mode=${rankingMode}`);
-    if (request !== rankingRequest || !container.isConnected) return;
+    const entries = sortedRanking(readRanking(localStorage), rankingMode);
     container.innerHTML = entries.length ? `<div class="table-scroll"><table><caption class="visually-hidden">Clasificación de ${modes[rankingMode].title}</caption>
     <thead><tr><th>Puesto</th><th>Nombre o alias</th><th>Curso</th><th>Nota / 10</th><th>Tiempo</th><th>Fecha</th></tr></thead><tbody>${entries.map((entry, index) =>
       `<tr><td>${index + 1}</td><td>${escape(entry.name)}</td><td>${escape(entry.course)}</td><td><strong>${format(entry.grade)}</strong></td><td>${duration(entry.durationMs)}</td>
@@ -367,12 +324,12 @@ async function loadRanking() {
       `<p class="muted">Todavía no hay resultados en este modo. ¡Puedes ser el primero!</p>`;
   } catch (error) {
     console.error("No se pudo cargar el ranking.", error);
-    if (request === rankingRequest && container.isConnected) container.innerHTML = `<p class="form-error">Ranking no disponible: ${escape(error.message)}. Usa «Actualizar» para reintentar.</p>`;
+    container.innerHTML = `<p class="form-error">Ranking no disponible: ${escape(error.message)}. Usa «Actualizar» para reintentar.</p>`;
   }
 }
 
-async function submitRanking() {
-  if (!state?.remote || state.remoteResult || !state.finished) return;
+function submitRanking() {
+  if (!state?.id || state.practice || state.localResult || !state.finished) return;
   const exam = state;
   const button = app.querySelector('[data-action="submit-ranking"]');
   if (button?.disabled) return;
@@ -380,10 +337,13 @@ async function submitRanking() {
   const status = app.querySelector("#submission-status");
   if (status) status.textContent = "Guardando el resultado…";
   try {
-    const result = await api(`/api/exams/${exam.remote.id}/finish`, "POST", { token: exam.remote.token, answers: exam.answers });
-    if (state !== exam) return;
-    state.remoteResult = result;
-    state.durationMs = result.durationMs;
+    const summary = summarize(calculateResults());
+    saveResult(localStorage, {
+      id: exam.id, name: exam.profile.name, course: exam.profile.course, mode: exam.mode,
+      grade: summary.grade, points: summary.points, durationMs: exam.durationMs,
+      finishedAt: exam.finishedAt, total: exam.ids.length,
+    });
+    state.localResult = true;
     save();
     if (app.querySelector("#submission-status")) renderResults(false);
     announce("Nota y tiempo guardados en el ranking.");
@@ -485,7 +445,7 @@ app.addEventListener("click", event => {
     confirmAction("¿Entregar el examen?", unanswered
       ? `Quedan ${unanswered} preguntas sin responder; contarán como 0 puntos. Al entregar verás la nota y las explicaciones.`
       : "Al entregar verás tu nota y la revisión. Después podrás practicar los fallos.", "Entregar y corregir",
-    () => { state.durationMs = elapsed(); state.finished = true; save(); renderResults(); submitRanking(); });
+    () => { state.durationMs = elapsed(); state.finishedAt = Date.now(); state.finished = true; save(); renderResults(); submitRanking(); });
   }
 });
 
