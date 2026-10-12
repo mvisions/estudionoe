@@ -2,6 +2,10 @@ export const rankingKey = "noe-local-ranking-v1";
 
 export function readRanking(storage) {
   const entries = JSON.parse(storage.getItem(rankingKey) ?? "[]");
+  return validateEntries(entries);
+}
+
+function validateEntries(entries) {
   if (!Array.isArray(entries) || entries.some(entry =>
     !entry || typeof entry.id !== "string" || typeof entry.name !== "string"
     || typeof entry.course !== "string" || !["easy", "matching", "written"].includes(entry.mode)
@@ -9,6 +13,26 @@ export function readRanking(storage) {
     || !Number.isFinite(entry.durationMs) || entry.durationMs < 0
     || !Number.isFinite(entry.finishedAt))) throw new Error("El ranking guardado no es válido.");
   return entries;
+}
+
+export function exportRanking(storage) {
+  return JSON.stringify({ format: "noe-ranking", version: 1, entries: readRanking(storage) }, null, 2);
+}
+
+export function importRanking(storage, contents) {
+  const backup = JSON.parse(contents);
+  if (!backup || backup.format !== "noe-ranking" || backup.version !== 1)
+    throw new Error("Selecciona una copia exportada desde esta web.");
+  const imported = validateEntries(backup.entries);
+  const entries = readRanking(storage);
+  const ids = new Set(entries.map(entry => entry.id));
+  let added = 0;
+  for (const entry of imported) {
+    if (!ids.has(entry.id)) { entries.push(entry); ids.add(entry.id); added++; }
+  }
+  const retained = ["easy", "matching", "written"].flatMap(mode => sortedRanking(entries, mode));
+  storage.setItem(rankingKey, JSON.stringify(retained));
+  return { added, retained: retained.length };
 }
 
 export function sortedRanking(entries, mode) {

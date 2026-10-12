@@ -1,7 +1,8 @@
 import { createServer } from "node:http";
 import { createExamService, createFirestoreStore, createMemoryStore, HttpError } from "./exam-service.mjs";
+import { createGitHubRankingStore } from "./github-ranking-store.mjs";
 
-export function createApi(service, { origins, development = false }) {
+export function createApi(service, { origins, development = false, storage = "github" }) {
   const requests = new Map();
   const sweep = setInterval(() => {
     for (const [key, value] of requests) if (value.resetAt < Date.now()) requests.delete(key);
@@ -25,7 +26,7 @@ export function createApi(service, { origins, development = false }) {
     try {
       const url = new URL(req.url, "http://localhost");
       if (req.method === "GET" && url.pathname === "/api/health") {
-        res.end(JSON.stringify({ ok: true, storage: development ? "memory-development" : "firestore" })); return;
+        res.end(JSON.stringify({ ok: true, storage: development ? "memory-development" : storage })); return;
       }
       // Render proporciona X-Forwarded-For; no se conserva la IP fuera de este límite temporal.
       const ip = String(req.headers["x-forwarded-for"] ?? req.socket.remoteAddress).split(",").at(-1).trim();
@@ -36,7 +37,7 @@ export function createApi(service, { origins, development = false }) {
         res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode")) })); return;
       }
       const match = url.pathname.match(/^\/api\/exams\/([a-f0-9-]{36})(\/finish)?$/);
-      if ((req.method === "POST" && (url.pathname === "/api/exams" || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {
+      if ((req.method === "POST" && (["/api/exams", "/api/results"].includes(url.pathname) || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {
         if (!req.headers["content-type"]?.startsWith("application/json")) throw new HttpError(415, "Envía JSON.");
         const chunks = [];
         let size = 0;
@@ -51,7 +52,8 @@ export function createApi(service, { origins, development = false }) {
           await service.remove(match[1], input?.token);
           res.end(JSON.stringify({ deleted: true })); return;
         }
-        const result = match ? await service.finish(match[1], input?.token, input?.answers) : await service.start(input);
+        const result = url.pathname === "/api/results" ? await service.submit(input)
+          : match ? await service.finish(match[1], input?.token, input?.answers) : await service.start(input);
         res.writeHead(match ? 200 : 201); res.end(JSON.stringify(result)); return;
       }
       throw new HttpError(404, "Ruta no encontrada.");
@@ -72,13 +74,19 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
   if (development) {
     console.warn("DESARROLLO: ranking en memoria, se pierde al reiniciar.");
     store = createMemoryStore();
-  } else {
+  } else if (process.env.RANKING_STORAGE === "firestore") {
     if (!process.env.GOOGLE_CLOUD_PROJECT) throw new Error("Configura GOOGLE_CLOUD_PROJECT y las credenciales de Firestore.");
     const { Firestore } = await import("@google-cloud/firestore");
     store = createFirestoreStore(new Firestore({ projectId: process.env.GOOGLE_CLOUD_PROJECT }));
+  } else {
+    store = createGitHubRankingStore({
+      token: process.env.GITHUB_TOKEN,
+      repository: process.env.GITHUB_REPOSITORY ?? "mvisions/estudionoe",
+      branch: process.env.GITHUB_DATA_BRANCH ?? "ranking-data",
+    });
   }
   const origins = (process.env.ALLOWED_ORIGINS ?? "http://127.0.0.1:8080,http://localhost:8080").split(",").map(value => value.trim());
-  createApi(createExamService(store), { origins, development }).listen(Number(process.env.PORT ?? 8081), "0.0.0.0", () => {
+  createApi(createExamService(store), { origins, development, storage: process.env.RANKING_STORAGE ?? "github" }).listen(Number(process.env.PORT ?? 8081), "0.0.0.0", () => {
     console.log("API de estudio lista.");
   });
 }

@@ -43,6 +43,7 @@ p { line-height: 1.65; }
 .primary { background: var(--green); border-color: var(--green); color: white; }
 .primary:hover { background: #173d33; }
 .secondary { background: white; color: var(--green); }
+a.secondary { text-decoration: none; display: inline-block; }
 .danger { color: #a25045; border-color: #e6c8c1; }
 .danger:hover { background: #fbe9e5; }
 .reset-area { margin: 24px 0; }

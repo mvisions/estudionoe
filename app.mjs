@@ -1,6 +1,7 @@
 import { questions, matchingPairs } from "./questions.mjs";
 import { gradeChoice, gradeWritten, shuffle, summarize } from "./grading.mjs";
 import { rankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
+import { API_BASE } from "./config.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
@@ -16,6 +17,70 @@ let results = [];
 let noticeTimer;
 let storageFailed = false;
 let rankingMode = "easy";
+let rankingRequest = 0;
+let syncing = false;
+const receiptKey = "noe-github-ranking-receipts-v1";
+const outboxKey = "noe-github-ranking-outbox-v1";
+
+async function api(path, method = "GET", body) {
+  const response = await fetch(`${API_BASE}${path}`, {
+    method, headers: body ? { "Content-Type": "application/json" } : {},
+    body: body ? JSON.stringify(body) : undefined, signal: AbortSignal.timeout(90000),
+  });
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error || `Error del servidor (${response.status}).`);
+  return data;
+}
+
+function sharedStatus() {
+  if (!state?.consent) return "Resultado guardado solo en este navegador.";
+  return state.githubSaved ? "Resultado guardado automáticamente en el log TXT de GitHub."
+    : "Copia local guardada. Sincronización con GitHub pendiente; se reintentará automáticamente.";
+}
+
+async function syncResult() {
+  if (syncing) return;
+  syncing = true;
+  try {
+    const pending = JSON.parse(localStorage.getItem(outboxKey) ?? "[]");
+    const receipts = JSON.parse(localStorage.getItem(receiptKey) ?? "[]");
+    for (const payload of pending) {
+      if (!receipts.some(item => item.id === payload.id)) {
+        receipts.push({ id: payload.id, token: payload.token });
+        localStorage.setItem(receiptKey, JSON.stringify(receipts));
+      }
+      const result = await api("/api/results", "POST", payload);
+      const remaining = JSON.parse(localStorage.getItem(outboxKey) ?? "[]").filter(item => item.id !== payload.id);
+      localStorage.setItem(outboxKey, JSON.stringify(remaining));
+      if (state?.id === payload.id) {
+        state.githubSaved = true;
+        state.githubResult = result;
+        save();
+        const status = app.querySelector("#submission-status");
+        if (status) status.textContent = sharedStatus();
+      }
+      loadRanking();
+      announce("Resultado guardado en GitHub.");
+    }
+  } catch (error) {
+    console.error("No se pudo sincronizar el resultado con GitHub.", error);
+    const status = app.querySelector("#submission-status");
+    if (status && state?.consent) status.textContent = `${sharedStatus()} Error: ${error.message}`;
+    announce("No se ha podido guardar en GitHub. Conservamos la copia local y reintentaremos.", true);
+  } finally { syncing = false; }
+}
+
+function queueResult() {
+  if (!state?.finished || !state.consent || state.githubSaved || state.practice) return;
+  const pending = JSON.parse(localStorage.getItem(outboxKey) ?? "[]");
+  if (pending.some(item => item.id === state.id)) return;
+  pending.push({
+    id: state.id, token: state.syncToken, consent: true, ...state.profile,
+    mode: state.mode, ids: state.ids, answers: state.answers,
+    startedAt: state.startedAt, finishedAt: state.finishedAt,
+  });
+  localStorage.setItem(outboxKey, JSON.stringify(pending));
+}
 
 const duration = milliseconds => {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
@@ -50,9 +115,14 @@ function save() {
 
 function resetAll() {
   confirmAction("¿Borrar todo y empezar de nuevo?",
-    "Se borrarán las respuestas, el progreso y todo el ranking local de este navegador. Esta acción no se puede deshacer.",
-    "Sí, borrar todo", () => {
+    "Se borrarán las respuestas y el ranking local, y se retirarán tus entradas del ranking compartido vinculadas a este navegador. GitHub conserva el historial de commits. Esta acción no se puede deshacer.",
+    "Sí, borrar todo", async () => {
       try {
+        if (syncing) throw new Error("Espera a que termine la sincronización del resultado.");
+        const receipts = JSON.parse(localStorage.getItem(receiptKey) ?? "[]");
+        for (const receipt of receipts) await api(`/api/exams/${receipt.id}`, "DELETE", { token: receipt.token });
+        localStorage.removeItem(receiptKey);
+        localStorage.removeItem(outboxKey);
         localStorage.removeItem(rankingKey);
         localStorage.removeItem("noe-ranking-receipts-v1");
         localStorage.removeItem(storageKey);
@@ -159,7 +229,8 @@ function profileForm(mode, ids) {
     <input id="student-name" name="name" maxlength="40" required autocomplete="off" value="${escape(profile.name)}">
     <label class="input-label" for="student-course">Curso</label>
     <input id="student-course" name="course" maxlength="30" required placeholder="Por ejemplo: 5.º A" value="${escape(profile.course)}">
-    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El ranking se guarda solo en este navegador. No se envían nombres ni respuestas a ningún servidor."}</p>
+    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El resultado se guarda localmente. Si aceptas participar, se envía automáticamente a Render y se registra en un log TXT público de GitHub. Usa alias, no apellidos ni datos personales."}</p>
+    ${ids ? "" : `<label class="consent"><input type="checkbox" name="consent"> Acepto guardar públicamente mi alias, curso, nota y tiempo en GitHub. GitHub conserva el historial incluso si retiro el resultado del ranking. Si eres menor, pide permiso a tu responsable.</label>`}
     <p class="form-error" role="alert"></p><div class="nav"><button type="button" class="secondary" data-cancel>Cancelar</button>
     <button type="submit" class="primary">Empezar ${ids ? "repaso" : "examen"}</button></div></form>`;
   document.body.append(dialog);
@@ -173,15 +244,16 @@ function profileForm(mode, ids) {
     const errorLabel = form.querySelector(".form-error");
     if (!profile.name || !profile.course) { errorLabel.textContent = "Completa el nombre o alias y el curso."; return; }
     dialog.close();
-    start(mode, ids, profile);
+    start(mode, ids, profile, !ids && data.get("consent") === "on");
   });
   dialog.showModal();
 }
 
-function start(mode, ids, profile) {
+function start(mode, ids, profile, consent) {
   const items = ids ? bank(mode).filter(item => ids.includes(item.id)) : bank(mode);
   state = { version: 2, mode, ids: shuffle(items).map(item => item.id), answers: {}, options: {}, page: 0, finished: false,
-    profile, id: crypto.randomUUID(), startedAt: Date.now(), practice: Boolean(ids) };
+    profile, id: crypto.randomUUID(), startedAt: Date.now(), practice: Boolean(ids), consent,
+    syncToken: consent ? Array.from(crypto.getRandomValues(new Uint8Array(32)), byte => byte.toString(16).padStart(2, "0")).join("") : undefined };
   if (mode === "easy") for (const item of items) state.options[item.id] = shuffle([item.answer, ...item.wrong]);
   if (mode === "matching") for (let page = 0; page < Math.ceil(state.ids.length / 5); page++)
     state.options[page] = shuffle(state.ids.slice(page * 5, page * 5 + 5));
@@ -207,7 +279,7 @@ function renderExam(focus = true) {
   app.innerHTML = `<div class="exam-top"><div><span class="eyebrow">Tu sesión de historia</span><h1>${modes[state.mode].title}</h1></div>
     <button class="secondary" data-action="home">Guardar y salir</button></div>
     <div class="student-strip"><span>${escape(state.profile?.name ?? "Estudiante")} · ${escape(state.profile?.course ?? "Sin curso")}</span>
-    <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.practice ? "Repaso sin ranking" : "Ranking local"}</span></div>
+    <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.practice ? "Repaso sin ranking" : state.consent ? "Ranking automático en GitHub" : "Ranking local"}</span></div>
     <div class="progress"><div class="progress-label"><span>${matching ? "Bloque" : "Pregunta"} ${state.page + 1} de ${totalPages}</span>
     <span id="answered-count">${answered} de ${items.length} respondidas</span></div><progress id="exam-progress" value="${answered}" max="${items.length}" aria-label="Preguntas respondidas"></progress></div>
     <section class="question-card">${matching ? matchingMarkup(items) : `<span class="eyebrow">Pregunta ${question.id} de tus apuntes</span><h2>${escape(question.title)}</h2>
@@ -291,8 +363,8 @@ function renderResults(focus = true) {
     <div class="result-actions"><button class="primary" data-action="retry">Repetir examen</button>
     ${mistakes.length ? `<button class="secondary" data-action="retry-mistakes">Practicar solo los fallos</button>` : ""}
     <button class="secondary" data-action="home">Elegir otro modo</button>${resetButton()}</div>
-    <p id="submission-status" class="muted">${state.localResult ? "Resultado guardado en el ranking local de este navegador." : !state.practice && state.id ? "Resultado pendiente de guardar en el ranking local." : "Repaso: este resultado no participa en el ranking."}</p>
-    ${!state.practice && state.id && !state.localResult ? `<button class="secondary" data-action="submit-ranking">Guardar resultado en el ranking</button>` : ""}</section>
+    <p id="submission-status" class="muted">${state.localResult ? sharedStatus() : !state.practice && state.id ? "Resultado pendiente de guardar en el ranking local." : "Repaso: este resultado no participa en el ranking."}</p>
+    </section>
     ${rankingMarkup(state.mode)}
     <div class="section-heading"><h2>Lo que puedes mejorar</h2><span class="muted">${mistakes.length} para repasar</span></div>
     ${mistakes.length ? mistakes.map(reviewMarkup).join("") : `<div class="review"><span class="status bien">Todo bien</span><p>No hay fallos. ¡Prueba otro modo para seguir practicando!</p></div>`}
@@ -304,19 +376,33 @@ function renderResults(focus = true) {
 
 function rankingMarkup(mode = rankingMode) {
   rankingMode = mode;
-  return `<section class="ranking"><div class="section-heading"><h2>Ranking local</h2><button class="secondary" data-action="refresh-ranking">Actualizar</button></div>
+  return `<section class="ranking"><div class="section-heading"><h2>Ranking</h2><button class="secondary" data-action="refresh-ranking">Actualizar</button></div>
     <label for="ranking-mode" class="input-label">Modo de examen</label><select id="ranking-mode">${Object.entries(modes).map(([key, value]) =>
       `<option value="${key}" ${key === rankingMode ? "selected" : ""}>${value.title}</option>`).join("")}</select>
-    <p class="muted">Los 50 mejores exámenes completos de cada modo, solo en este navegador. Mayor nota primero; en empate, menor tiempo. El tiempo incluye pausas y salir de la página. No se comparte entre dispositivos.</p>
-    <div id="ranking-entries" aria-live="polite"><p class="muted">Cargando ranking…</p></div></section>`;
+    <p class="muted">Los 50 mejores exámenes completos de cada modo. Mayor nota primero; en empate, menor tiempo. El tiempo se mide en el navegador e incluye pausas. Clasificación de práctica, no un examen vigilado.</p>
+    <p id="ranking-origin" class="muted"></p><div id="ranking-entries" aria-live="polite"><p class="muted">Cargando ranking…</p></div></section>`;
 }
 
-function loadRanking() {
+async function loadRanking() {
+  const request = ++rankingRequest;
+  const mode = rankingMode;
   const container = app.querySelector("#ranking-entries");
   if (!container) return;
+  const origin = app.querySelector("#ranking-origin");
   container.innerHTML = `<p class="muted">Cargando ranking…</p>`;
   try {
-    const entries = sortedRanking(readRanking(localStorage), rankingMode);
+    let entries;
+    try {
+      const response = await api(`/api/ranking?mode=${mode}`);
+      if (request !== rankingRequest || !container.isConnected) return;
+      entries = response.entries;
+      origin.textContent = "Ranking compartido calculado desde ranking.txt en GitHub.";
+    } catch (error) {
+      console.error("No se pudo consultar el ranking compartido.", error);
+      if (request !== rankingRequest || !container.isConnected) return;
+      entries = sortedRanking(readRanking(localStorage), mode);
+      origin.textContent = `Ranking compartido no disponible (${error.message}). Mostramos únicamente los resultados locales de este navegador.`;
+    }
     container.innerHTML = entries.length ? `<div class="table-scroll"><table><caption class="visually-hidden">Clasificación de ${modes[rankingMode].title}</caption>
     <thead><tr><th>Puesto</th><th>Nombre o alias</th><th>Curso</th><th>Nota / 10</th><th>Tiempo</th><th>Fecha</th></tr></thead><tbody>${entries.map((entry, index) =>
       `<tr><td>${index + 1}</td><td>${escape(entry.name)}</td><td>${escape(entry.course)}</td><td><strong>${format(entry.grade)}</strong></td><td>${duration(entry.durationMs)}</td>
@@ -345,13 +431,15 @@ function submitRanking() {
     });
     state.localResult = true;
     save();
+    queueResult();
     if (app.querySelector("#submission-status")) renderResults(false);
     announce("Nota y tiempo guardados en el ranking.");
   } catch (error) {
     console.error("No se pudo guardar el resultado.", error);
-    if (state === exam && status?.isConnected) status.textContent = `No se ha guardado: ${error.message} Reintenta con el botón de guardar. Tu resultado local sigue disponible.`;
+    if (state === exam && status?.isConnected) status.textContent = `No se ha guardado: ${error.message} Se reintentará automáticamente. No cierres esta pestaña.`;
     if (button?.isConnected) button.disabled = false;
   }
+  syncResult();
 }
 
 function reviewMarkup(result) {
@@ -396,7 +484,6 @@ app.addEventListener("click", event => {
   }
   const action = button.dataset.action;
   if (action === "refresh-ranking") { loadRanking(); return; }
-  if (action === "submit-ranking") { submitRanking(); return; }
   if (action === "reset-all") { resetAll(); return; }
   if (action === "home") { save(); home(); focusHeading(); return; }
   if (!state) return;
@@ -458,5 +545,16 @@ setInterval(() => {
   if (timer && state && !state.finished) timer.textContent = `Tiempo: ${duration(elapsed())}`;
 }, 1000);
 restore();
-if (state?.finished) renderResults(false);
+if (state?.finished) {
+  renderResults(false);
+  submitRanking();
+  try { queueResult(); } catch (error) {
+    console.error("No se pudo preparar la sincronización.", error);
+    announce(`No se ha podido preparar el envío a GitHub: ${error.message}`, true);
+  }
+}
 else home();
+syncResult();
+const retryResults = () => { submitRanking(); syncResult(); };
+window.addEventListener("online", retryResults);
+setInterval(retryResults, 120000);

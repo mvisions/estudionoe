@@ -13,7 +13,11 @@ services:
         value: production
       - key: ALLOWED_ORIGINS
         value: https://mvisions.github.io
-      - key: GOOGLE_CLOUD_PROJECT
-        value: estudionoe-2026
-      - key: GOOGLE_APPLICATION_CREDENTIALS
-        value: /etc/secrets/estudionoe-firestore-key.json
+      - key: RANKING_STORAGE
+        value: github
+      - key: GITHUB_REPOSITORY
+        value: mvisions/estudionoe
+      - key: GITHUB_DATA_BRANCH
+        value: ranking-data
+      - key: GITHUB_TOKEN
+        sync: false

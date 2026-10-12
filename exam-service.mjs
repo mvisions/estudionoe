@@ -19,6 +19,24 @@ const publicFields = exam => ({
 
 export function createExamService(store, now = Date.now) {
   return {
+    async submit(input) {
+      if (!input || !validModes.includes(input.mode) || !text(input.name, 40) || !text(input.course, 30) || input.consent !== true
+        || typeof input.id !== "string" || !/^[a-f0-9-]{36}$/.test(input.id)
+        || typeof input.token !== "string" || !/^[a-f0-9]{64}$/.test(input.token)
+        || !Number.isFinite(input.startedAt) || !Number.isFinite(input.finishedAt) || input.startedAt < 0
+        || input.startedAt > input.finishedAt || input.finishedAt > now() + 60000
+        || input.finishedAt - input.startedAt > 86400000)
+        throw new HttpError(400, "El resultado no tiene un formato válido.");
+      const expected = getBank(input.mode).map(item => item.id);
+      if (!Array.isArray(input.ids) || input.ids.length !== expected.length || new Set(input.ids).size !== expected.length
+        || input.ids.some(id => !expected.includes(id))) throw new HttpError(400, "Solo los exámenes completos participan en el ranking.");
+      await store.create({
+        id: input.id, name: input.name.trim(), course: input.course.trim(), mode: input.mode,
+        tokenHash: hash(input.token), startedAt: input.startedAt, ids: input.ids,
+      });
+      // El tiempo de esta clasificación de práctica se mide en el navegador.
+      return createExamService(store, () => input.finishedAt).finish(input.id, input.token, input.answers);
+    },
     async start(input) {
       if (!input || !validModes.includes(input.mode) || !text(input.name, 40) || !text(input.course, 30) || input.consent !== true)
         throw new HttpError(400, "Indica nombre o alias, curso y acepta publicar el resultado.");
@@ -78,7 +96,7 @@ export function createExamService(store, now = Date.now) {
 export function createMemoryStore() {
   const exams = new Map();
   return {
-    async create(exam) { exams.set(exam.id, exam); },
+    async create(exam) { if (!exams.has(exam.id)) exams.set(exam.id, exam); },
     async update(id, change) {
       const result = change(exams.get(id));
       exams.set(id, result.exam);
