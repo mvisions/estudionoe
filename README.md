@@ -57,7 +57,7 @@ mantiene los identificadores locales para reintentarlo.
    `mvisions/estudionoe`, rama `main`, sin carpeta raíz,
    compilación `npm ci`, inicio `npm start`, plan gratuito.
    [render.yaml](./render.yaml) contiene los parámetros.
-3. Configurar `GOOGLE_CLOUD_PROJECT=ayta-510923`, `NODE_ENV=production`,
+3. Configurar `GOOGLE_CLOUD_PROJECT=estudionoe-2026`, `NODE_ENV=production`,
    `ALLOWED_ORIGINS=https://mvisions.github.io`,
    `GOOGLE_APPLICATION_CREDENTIALS=/etc/secrets/estudionoe-firestore-key.json`.
    Añadir ese archivo secreto en Render con credenciales de una cuenta de servicio
