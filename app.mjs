@@ -22,6 +22,32 @@ let syncing = false;
 let resetting = false;
 const receiptKey = "noe-github-ranking-receipts-v1";
 const outboxKey = "noe-github-ranking-outbox-v1";
+const themeKey = "noe-theme";
+const themeToggle = document.querySelector("#theme-toggle");
+
+function setTheme(dark) {
+  document.documentElement.dataset.theme = dark ? "dark" : "light";
+  themeToggle.textContent = dark ? "Modo claro" : "Modo oscuro";
+  themeToggle.setAttribute("aria-pressed", String(dark));
+  document.querySelector('meta[name="theme-color"]').content = dark ? "#14211d" : "#244b42";
+}
+
+try {
+  setTheme(localStorage.getItem(themeKey) === "dark");
+} catch (error) {
+  console.error("No se pudo recuperar el tema.", error);
+  announce("No se pudo recuperar el tema guardado.", true);
+}
+themeToggle.addEventListener("click", () => {
+  const dark = document.documentElement.dataset.theme !== "dark";
+  setTheme(dark);
+  try {
+    localStorage.setItem(themeKey, dark ? "dark" : "light");
+  } catch (error) {
+    console.error("No se pudo guardar el tema.", error);
+    announce("El tema ha cambiado, pero no se puede guardar la preferencia en este navegador.", true);
+  }
+});
 
 async function api(path, method = "GET", body) {
   const response = await fetch(`${API_BASE}${path}`, {

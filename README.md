@@ -6,6 +6,8 @@ Web: https://mvisions.github.io/estudionoe/
 alias y curso, cronómetro, nota sobre 10 y revisión de fallos.
 Bien suma 1, regular 0,5 y mal 0. La corrección escrita es orientativa por
 ideas clave, no IA. Los apuntes mantienen las respuestas aportadas.
+El botón «Modo oscuro / Modo claro» de la cabecera cambia el tema en todas
+las pantallas y conserva la preferencia en este navegador.
 
 ## Ranking automático en GitHub
 
