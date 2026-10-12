@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { createGitHubRankingStore, parseLog } from "../github-ranking-store.mjs";
 import { createExamService } from "../exam-service.mjs";
-import { questions } from "../questions.mjs";
+import { questions, matchingPairs } from "../questions.mjs";
 import { randomUUID } from "node:crypto";
 
 function mockGitHub() {
@@ -53,4 +53,25 @@ test("Rechaza repasos, notas inventadas y contenido inválido", async () => {
   assert.throws(() => parseLog('{"type":"result","id":"x"}'), /inválido/);
   const failing = createGitHubRankingStore({ token: "test", repository: "a/b", fetcher: async () => new Response("{}", { status: 403 }) });
   await assert.rejects(failing.ranking("easy"), /403/);
+});
+
+test("Entregas completas automáticas de los tres modos y conflictos concurrentes", async () => {
+  const mock = mockGitHub();
+  const service = createExamService(createGitHubRankingStore({ token: "test", repository: "a/b", fetcher: mock.fetcher }));
+  const payloads = ["easy", "written", "matching"].map(mode => {
+    const bank = mode === "matching" ? matchingPairs : questions;
+    return {
+      id: randomUUID(), token: "d".repeat(64), name: mode, course: "Prueba", mode, consent: true,
+      startedAt: Date.now() - 1000, finishedAt: Date.now(), grade: 0,
+      ids: bank.map(q => q.id), answers: Object.fromEntries(bank.map(q => [q.id, mode === "matching" ? q.id : q.answer])),
+    };
+  });
+  for (const payload of payloads) {
+    await assert.rejects(service.submit({ ...payload, consent: false }), { status: 400 });
+    await assert.rejects(service.submit({ ...payload, ids: payload.ids.slice(1) }), { status: 400 });
+    await assert.rejects(service.submit({ ...payload, finishedAt: payload.startedAt - 1 }), { status: 400 });
+  }
+  const results = await Promise.all(payloads.map(payload => service.submit(payload)));
+  assert.deepEqual(results.map(result => result.grade), [10, 10, 10]);
+  assert.equal(parseLog(mock.text).size, 3);
 });

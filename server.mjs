@@ -34,7 +34,7 @@ export function createApi(service, { origins, development = false, storage = "gi
       if (!limit || limit.resetAt < Date.now()) requests.set(ip, { count: 1, resetAt: Date.now() + 60000 });
       else if (++limit.count > 90) throw new HttpError(429, "Demasiadas peticiones. Espera un minuto.");
       if (req.method === "GET" && url.pathname === "/api/ranking") {
-        res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode")) })); return;
+        res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode")), storage: development ? "memory-development" : storage })); return;
       }
       const match = url.pathname.match(/^\/api\/exams\/([a-f0-9-]{36})(\/finish)?$/);
       if ((req.method === "POST" && (["/api/exams", "/api/results"].includes(url.pathname) || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {
@@ -54,7 +54,8 @@ export function createApi(service, { origins, development = false, storage = "gi
         }
         const result = url.pathname === "/api/results" ? await service.submit(input)
           : match ? await service.finish(match[1], input?.token, input?.answers) : await service.start(input);
-        res.writeHead(match ? 200 : 201); res.end(JSON.stringify(result)); return;
+        res.writeHead(match ? 200 : 201);
+        res.end(JSON.stringify({ ...result, storage: development ? "memory-development" : storage })); return;
       }
       throw new HttpError(404, "Ruta no encontrada.");
     } catch (error) {

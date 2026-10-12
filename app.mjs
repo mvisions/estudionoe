@@ -19,6 +19,7 @@ let storageFailed = false;
 let rankingMode = "easy";
 let rankingRequest = 0;
 let syncing = false;
+let resetting = false;
 const receiptKey = "noe-github-ranking-receipts-v1";
 const outboxKey = "noe-github-ranking-outbox-v1";
 
@@ -34,12 +35,14 @@ async function api(path, method = "GET", body) {
 
 function sharedStatus() {
   if (!state?.consent) return "Resultado guardado solo en este navegador.";
+  if (state.githubSaved && state.githubResult?.storage !== "github")
+    return "Resultado recibido por la API de pruebas. No se ha escrito en GitHub.";
   return state.githubSaved ? "Resultado guardado automáticamente en el log TXT de GitHub."
     : "Copia local guardada. Sincronización con GitHub pendiente; se reintentará automáticamente.";
 }
 
 async function syncResult() {
-  if (syncing) return;
+  if (syncing || resetting) return;
   syncing = true;
   try {
     const pending = JSON.parse(localStorage.getItem(outboxKey) ?? "[]");
@@ -60,7 +63,7 @@ async function syncResult() {
         if (status) status.textContent = sharedStatus();
       }
       loadRanking();
-      announce("Resultado guardado en GitHub.");
+      announce(result.storage === "github" ? "Resultado guardado en GitHub." : "Resultado recibido por la API de pruebas, sin escritura en GitHub.");
     }
   } catch (error) {
     console.error("No se pudo sincronizar el resultado con GitHub.", error);
@@ -119,6 +122,7 @@ function resetAll() {
     "Sí, borrar todo", async () => {
       try {
         if (syncing) throw new Error("Espera a que termine la sincronización del resultado.");
+        resetting = true;
         const receipts = JSON.parse(localStorage.getItem(receiptKey) ?? "[]");
         for (const receipt of receipts) await api(`/api/exams/${receipt.id}`, "DELETE", { token: receipt.token });
         localStorage.removeItem(receiptKey);
@@ -131,7 +135,7 @@ function resetAll() {
         console.error("No se pudieron borrar los datos del examen.", error);
         announce(`No se ha completado el borrado: ${error.message} Conservamos los datos para que puedas reintentarlo.`, true);
         return;
-      }
+      } finally { resetting = false; }
       state = null;
       results = [];
       selectedLeft = null;
@@ -396,7 +400,8 @@ async function loadRanking() {
       const response = await api(`/api/ranking?mode=${mode}`);
       if (request !== rankingRequest || !container.isConnected) return;
       entries = response.entries;
-      origin.textContent = "Ranking compartido calculado desde ranking.txt en GitHub.";
+      origin.textContent = response.storage === "github" ? "Ranking compartido calculado desde ranking.txt en GitHub."
+        : "Ranking de la API de pruebas; no está guardado en GitHub.";
     } catch (error) {
       console.error("No se pudo consultar el ranking compartido.", error);
       if (request !== rankingRequest || !container.isConnected) return;

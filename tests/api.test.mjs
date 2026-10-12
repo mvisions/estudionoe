@@ -73,4 +73,12 @@ test("HTTP: salud, CORS, inicio, entrega, ranking y borrado", async t => {
   assert.equal(ranked.entries.length, 1);
   assert.equal((await post(`/api/exams/${exam.id}`, { token: exam.token }, "DELETE")).status, 200);
   assert.equal((await (await fetch(`${url}/api/ranking?mode=easy`)).json()).entries.length, 0);
+  const automatic = await post("/api/results", {
+    ...profile, id: exam.id, token: exam.token, startedAt: Date.now() - 1000, finishedAt: Date.now(),
+    ids: questions.map(q => q.id), answers: Object.fromEntries(questions.map(q => [q.id, q.answer])),
+  });
+  assert.equal(automatic.status, 201);
+  const automaticResult = await automatic.json();
+  assert.equal(automaticResult.grade, 10);
+  assert.equal(automaticResult.storage, "memory-development");
 });
