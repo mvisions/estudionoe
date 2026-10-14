@@ -54,6 +54,7 @@ test("Rechaza perfiles inválidos, tokens, respuestas ajenas y parejas duplicada
 });
 
 test("HTTP: salud, CORS, inicio, entrega, ranking y borrado", async t => {
+  const petProfile = { petName: "Coco", animalType: "loro", consent: true, mode: "easy" };
   const service = createExamService(createMemoryStore());
   const server = createApi(service, { origins: ["http://localhost:8080"], development: true });
   await new Promise(resolve => server.listen(0, "127.0.0.1", resolve));
@@ -64,21 +65,27 @@ test("HTTP: salud, CORS, inicio, entrega, ranking y borrado", async t => {
   const post = (path, body, method = "POST") => fetch(`${url}${path}`, {
     method, headers: { "Content-Type": "application/json", Origin: "http://localhost:8080" }, body: JSON.stringify(body),
   });
-  const response = await post("/api/exams", profile);
+  const response = await post("/api/exams", petProfile);
   assert.equal(response.status, 201);
   const exam = await response.json();
   const finished = await post(`/api/exams/${exam.id}/finish`, { token: exam.token, answers: {} });
   assert.equal((await finished.json()).grade, 0);
   const ranked = await (await fetch(`${url}/api/ranking?mode=easy`)).json();
   assert.equal(ranked.entries.length, 1);
+  assert.equal(ranked.entries[0].petName, "Coco");
+  assert.equal(ranked.entries[0].animalType, "loro");
+  assert.equal(ranked.entries[0].name, undefined);
+  assert.equal(ranked.entries[0].course, undefined);
   assert.equal((await post(`/api/exams/${exam.id}`, { token: exam.token }, "DELETE")).status, 200);
   assert.equal((await (await fetch(`${url}/api/ranking?mode=easy`)).json()).entries.length, 0);
   const automatic = await post("/api/results", {
-    ...profile, id: exam.id, token: exam.token, startedAt: Date.now() - 1000, finishedAt: Date.now(),
+    ...petProfile, id: exam.id, token: exam.token, startedAt: Date.now() - 1000, finishedAt: Date.now(),
     ids: questions.map(q => q.id), answers: Object.fromEntries(questions.map(q => [q.id, q.answer])),
   });
   assert.equal(automatic.status, 201);
   const automaticResult = await automatic.json();
   assert.equal(automaticResult.grade, 10);
   assert.equal(automaticResult.storage, "memory-development");
+  assert.equal(automaticResult.petName, "Coco");
+  assert.equal(automaticResult.course, undefined);
 });

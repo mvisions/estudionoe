@@ -1,3 +1,5 @@
+import { isRankingProfile } from "./ranking-profile.mjs";
+
 export const rankingKey = "noe-local-ranking-v1";
 
 export function readRanking(storage, key = rankingKey) {
@@ -7,8 +9,8 @@ export function readRanking(storage, key = rankingKey) {
 
 function validateEntries(entries) {
   if (!Array.isArray(entries) || entries.some(entry =>
-    !entry || typeof entry.id !== "string" || typeof entry.name !== "string"
-    || typeof entry.course !== "string" || !["easy", "matching", "written"].includes(entry.mode)
+    !entry || typeof entry.id !== "string" || !isRankingProfile(entry)
+    || !["easy", "matching", "written"].includes(entry.mode)
     || !Number.isFinite(entry.grade) || entry.grade < 0 || entry.grade > 10
     || !Number.isFinite(entry.durationMs) || entry.durationMs < 0
     || !Number.isFinite(entry.finishedAt))) throw new Error("El ranking guardado no es válido.");
@@ -42,6 +44,7 @@ export function sortedRanking(entries, mode) {
 }
 
 export function saveResult(storage, entry, key = rankingKey) {
+  validateEntries([entry]);
   const entries = readRanking(storage, key);
   if (!entries.some(item => item.id === entry.id)) {
     entries.push(entry);

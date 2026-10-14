@@ -2,6 +2,8 @@ import { shuffle, summarize } from "./grading.mjs";
 import { rankingKey as historyRankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
 import { API_BASE } from "./config.mjs";
 import { getStudyTopic } from "./study-topics.mjs";
+import { initializeTheme } from "./theme.mjs";
+import { isPetProfile, isRankingProfile, rankingProfileFields, rankingIdentity } from "./ranking-profile.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
@@ -26,33 +28,7 @@ let syncing = false;
 let resetting = false;
 const receiptKey = topic === "history" ? "noe-github-ranking-receipts-v1" : `noe-${topic}-github-ranking-receipts-v1`;
 const outboxKey = topic === "history" ? "noe-github-ranking-outbox-v1" : `noe-${topic}-github-ranking-outbox-v1`;
-const themeKey = "noe-theme";
-const themeToggle = document.querySelector("#theme-toggle");
-
-function setTheme(dark) {
-  document.documentElement.dataset.theme = dark ? "dark" : "light";
-  themeToggle.textContent = dark ? "Modo claro" : "Modo oscuro";
-  themeToggle.setAttribute("aria-pressed", String(dark));
-  document.querySelector('meta[name="theme-color"]').content =
-    getComputedStyle(document.documentElement).getPropertyValue("--theme-color").trim();
-}
-
-try {
-  setTheme(localStorage.getItem(themeKey) === "dark");
-} catch (error) {
-  console.error("No se pudo recuperar el tema.", error);
-  announce("No se pudo recuperar el tema guardado.", true);
-}
-themeToggle.addEventListener("click", () => {
-  const dark = document.documentElement.dataset.theme !== "dark";
-  setTheme(dark);
-  try {
-    localStorage.setItem(themeKey, dark ? "dark" : "light");
-  } catch (error) {
-    console.error("No se pudo guardar el tema.", error);
-    announce("El tema ha cambiado, pero no se puede guardar la preferencia en este navegador.", true);
-  }
-});
+initializeTheme(announce);
 
 async function api(path, method = "GET", body) {
   const response = await fetch(`${API_BASE}${path}`, {
@@ -110,7 +86,7 @@ function queueResult() {
   const pending = JSON.parse(localStorage.getItem(outboxKey) ?? "[]");
   if (pending.some(item => item.id === state.id)) return;
   pending.push({
-    id: state.id, token: state.syncToken, consent: true, ...state.profile,
+    id: state.id, token: state.syncToken, consent: true, ...rankingProfileFields(state.profile),
     topic, mode: state.mode, ids: state.ids, answers: state.answers,
     startedAt: state.startedAt, finishedAt: state.finishedAt,
   });
@@ -124,6 +100,10 @@ const duration = milliseconds => {
 const elapsed = () => state?.durationMs ?? Math.max(0, Date.now() - (state?.startedAt ?? Date.now()));
 
 const escape = value => String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+const profileLabel = profile => {
+  const identity = rankingIdentity(profile);
+  return `${escape(identity.name)} · ${escape(identity.detail)}`;
+};
 const format = number => new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1 }).format(number);
 const bank = mode => mode === "matching" ? matchingPairs : questions;
 const examItems = () => state.ids.map(id => bank(state.mode).find(item => item.id === id));
@@ -197,7 +177,7 @@ function restore() {
       || !candidate.answers || typeof candidate.answers !== "object" || Array.isArray(candidate.answers)
       || !Number.isInteger(candidate.page) || candidate.page < 0
       || candidate.page >= Math.ceil(candidate.ids.length / (candidate.mode === "matching" ? 5 : 1))
-      || typeof candidate.finished !== "boolean"
+      || typeof candidate.finished !== "boolean" || !isRankingProfile(candidate.profile)
       || !candidate.options || typeof candidate.options !== "object") throw new Error("El progreso guardado no es válido.");
     for (const [id, value] of Object.entries(candidate.answers)) {
       if (!candidate.ids.some(itemId => String(itemId) === id) || typeof value !== "string") throw new Error("Respuesta guardada no válida.");
@@ -274,15 +254,16 @@ function home() {
 }
 
 function profileForm(mode, ids) {
-  const profile = state?.profile ?? { name: "", course: "" };
+  const profile = isPetProfile(state?.profile) ? state.profile : { petName: "", animalType: "" };
   const dialog = document.createElement("dialog");
   dialog.innerHTML = `<h2>Antes de empezar</h2><form id="student-form">
-    <label class="input-label" for="student-name">Nombre o alias (sin apellidos)</label>
-    <input id="student-name" name="name" maxlength="40" required autocomplete="off" value="${escape(profile.name)}">
-    <label class="input-label" for="student-course">Curso</label>
-    <input id="student-course" name="course" maxlength="30" required placeholder="Por ejemplo: 5.º A" value="${escape(profile.course)}">
-    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El resultado se guarda localmente. Si aceptas participar, se envía automáticamente a Render y se registra en un log TXT público de GitHub. Usa alias, no apellidos ni datos personales."}</p>
-    ${ids ? "" : `<label class="consent"><input type="checkbox" name="consent"> Acepto guardar públicamente mi alias, curso, nota y tiempo en GitHub. GitHub conserva el historial incluso si retiro el resultado del ranking. Si eres menor, pide permiso a tu responsable.</label>`}
+    <label class="input-label" for="pet-name">Nombre de tu mascota</label>
+    <input id="pet-name" name="petName" maxlength="40" required autocomplete="off" placeholder="Por ejemplo: Luna" value="${escape(profile.petName)}">
+    <label class="input-label" for="animal-type">Tipo de animal</label>
+    <input id="animal-type" name="animalType" maxlength="30" required autocomplete="off" placeholder="Por ejemplo: perro, gato o loro" value="${escape(profile.animalType)}">
+    <p class="muted">No pongas tu nombre, apellidos ni curso. Si no tienes mascota, puedes inventar una.</p>
+    <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El resultado se guarda localmente. Si aceptas participar, se envía automáticamente a Render y se registra en un log TXT público de GitHub."}</p>
+    ${ids ? "" : `<label class="consent"><input type="checkbox" name="consent"> Acepto guardar públicamente el nombre de mi mascota, tipo de animal, nota y tiempo en GitHub. GitHub conserva el historial incluso si retiro el resultado del ranking. Si eres menor, pide permiso a tu responsable.</label>`}
     <p class="form-error" role="alert"></p><div class="nav"><button type="button" class="secondary" data-cancel>Cancelar</button>
     <button type="submit" class="primary">Empezar ${ids ? "repaso" : "examen"}</button></div></form>`;
   document.body.append(dialog);
@@ -292,9 +273,9 @@ function profileForm(mode, ids) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    const profile = { name: String(data.get("name")).trim(), course: String(data.get("course")).trim() };
+    const profile = { petName: String(data.get("petName")).trim(), animalType: String(data.get("animalType")).trim() };
     const errorLabel = form.querySelector(".form-error");
-    if (!profile.name || !profile.course) { errorLabel.textContent = "Completa el nombre o alias y el curso."; return; }
+    if (!isPetProfile(profile)) { errorLabel.textContent = "Completa el nombre de tu mascota y el tipo de animal, sin símbolos < ni >."; return; }
     dialog.close();
     start(mode, ids, profile, !ids && data.get("consent") === "on");
   });
@@ -330,7 +311,7 @@ function renderExam(focus = true) {
   const question = items[state.page];
   app.innerHTML = `<div class="exam-top"><div><span class="eyebrow">Tu sesión de ${escape(study.subject)}</span><h1>${modes[state.mode].title}</h1></div>
     <button class="secondary" data-action="home">Guardar y salir</button></div>
-    <div class="student-strip"><span>${escape(state.profile?.name ?? "Estudiante")} · ${escape(state.profile?.course ?? "Sin curso")}</span>
+    <div class="student-strip"><span>${profileLabel(state.profile)}</span>
     <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.practice ? "Repaso sin ranking" : state.consent ? "Ranking automático en GitHub" : "Ranking local"}</span></div>
     <div class="progress"><div class="progress-label"><span>${matching ? "Bloque" : "Pregunta"} ${state.page + 1} de ${totalPages}</span>
     <span id="answered-count">${answered} de ${items.length} respondidas</span></div><progress id="exam-progress" value="${answered}" max="${items.length}" aria-label="Preguntas respondidas"></progress></div>
@@ -408,7 +389,7 @@ function renderResults(focus = true) {
   const mistakes = results.filter(result => result.score < 1);
   app.innerHTML = `<section class="result-hero"><span class="eyebrow">Examen terminado · ${modes[state.mode].title}</span>
     <h1>${summary.grade >= 9 ? "¡Lo tienes dominado!" : summary.grade >= 5 ? "¡Vas por buen camino!" : "Cada intento te ayuda a aprender."}</h1>
-    <p><strong>${escape(state.profile?.name ?? "Estudiante")}</strong> · ${escape(state.profile?.course ?? "Sin curso")} · Tiempo: ${duration(elapsed())}</p>
+    <p><strong>${profileLabel(state.profile)}</strong> · Tiempo: ${duration(elapsed())}</p>
     <div class="grade-circle"><strong>${format(summary.grade)}</strong><span>NOTA SOBRE 10</span></div>
     <p class="muted">${format(summary.points)} puntos de ${results.length} posibles. ${state.mode === "written" ? topic === "history" ? "Corrección automática orientativa por ideas clave." : "Corrección del valor y de la forma simplificada pedida." : "Cada acierto suma un punto."}</p>
     <div class="stats"><div class="stat"><strong>${summary.correct}</strong>Bien</div><div class="stat"><strong>${summary.partial}</strong>Regular</div><div class="stat"><strong>${summary.wrong}</strong>Mal / sin responder</div></div>
@@ -432,6 +413,7 @@ function rankingMarkup(mode = rankingMode) {
     <label for="ranking-mode" class="input-label">Modo de examen</label><select id="ranking-mode">${Object.entries(modes).map(([key, value]) =>
       `<option value="${key}" ${key === rankingMode ? "selected" : ""}>${value.title}</option>`).join("")}</select>
     <p class="muted">Los 50 mejores exámenes completos de cada modo. Mayor nota primero; en empate, menor tiempo. El tiempo se mide en el navegador e incluye pausas. Clasificación de práctica, no un examen vigilado.</p>
+    <p class="muted">Los nuevos resultados muestran mascotas, no nombres ni cursos de niños. Los registros anteriores se identifican como «Resultado antiguo» y conservan su alias y curso.</p>
     <p id="ranking-origin" class="muted"></p><div id="ranking-entries" aria-live="polite"><p class="muted">Cargando ranking…</p></div></section>`;
 }
 
@@ -458,9 +440,11 @@ async function loadRanking() {
       origin.textContent = `Ranking compartido no disponible (${error.message}). Mostramos únicamente los resultados locales de este navegador.`;
     }
     container.innerHTML = entries.length ? `<div class="table-scroll"><table><caption class="visually-hidden">Clasificación de ${modes[rankingMode].title}</caption>
-    <thead><tr><th>Puesto</th><th>Nombre o alias</th><th>Curso</th><th>Nota / 10</th><th>Tiempo</th><th>Fecha</th></tr></thead><tbody>${entries.map((entry, index) =>
-      `<tr><td>${index + 1}</td><td>${escape(entry.name)}</td><td>${escape(entry.course)}</td><td><strong>${format(entry.grade)}</strong></td><td>${duration(entry.durationMs)}</td>
-      <td>${escape(new Date(entry.finishedAt).toLocaleDateString("es-ES"))}</td></tr>`).join("")}</tbody></table></div>` :
+    <thead><tr><th>Puesto</th><th>Mascota / alias antiguo</th><th>Animal / registro antiguo</th><th>Nota / 10</th><th>Tiempo</th><th>Fecha</th></tr></thead><tbody>${entries.map((entry, index) => {
+      const identity = rankingIdentity(entry);
+      return `<tr><td>${index + 1}</td><td>${escape(identity.name)}</td><td>${escape(identity.detail)}</td><td><strong>${format(entry.grade)}</strong></td><td>${duration(entry.durationMs)}</td>
+      <td>${escape(new Date(entry.finishedAt).toLocaleDateString("es-ES"))}</td></tr>`;
+    }).join("")}</tbody></table></div>` :
       `<p class="muted">Todavía no hay resultados en este modo. ¡Puedes ser el primero!</p>`;
   } catch (error) {
     console.error("No se pudo cargar el ranking.", error);
@@ -479,7 +463,7 @@ function submitRanking() {
   try {
     const summary = summarize(calculateResults());
     saveResult(localStorage, {
-      id: exam.id, name: exam.profile.name, course: exam.profile.course, mode: exam.mode,
+      id: exam.id, ...rankingProfileFields(exam.profile), mode: exam.mode,
       grade: summary.grade, points: summary.points, durationMs: exam.durationMs,
       finishedAt: exam.finishedAt, total: exam.ids.length,
     }, rankingKey);

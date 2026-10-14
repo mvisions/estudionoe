@@ -1,0 +1,57 @@
+:root[data-subject="language"] {
+  color: #4e3036; background: #faf4f4;
+  --green: #923f48; --muted: #856b70; --border: #e8d5d8; --theme-color: #923f48;
+  --language-surface: #fff; --language-soft: #f5e5e7; --language-accent: #a65c66;
+  --language-button-text: #fff; --language-hover: #762e38; --language-text: #4e3036;
+}
+:root[data-subject="language"][data-theme="dark"] {
+  color: var(--language-text); background: #29191e;
+  --green: #f2b5bd; --muted: #cbb0b7; --border: #68434d; --theme-color: #29191e;
+  --language-surface: #3b252d; --language-soft: #51303a; --language-accent: #f2b5bd;
+  --language-button-text: #29191e; --language-hover: #fad1d6; --language-text: #f6e4e8;
+}
+[data-subject="language"] .brand-mark, [data-subject="language"] .primary { background: var(--green); color: var(--language-button-text); }
+[data-subject="language"] .primary:hover { background: var(--language-hover); }
+[data-subject="language"] .eyebrow, [data-subject="language"] .accent { color: var(--language-accent); }
+[data-subject="language"] .hero-art, [data-subject="language"] .info-strip,
+[data-subject="language"] .model-answer, [data-subject="language"] .grade-circle { background: var(--language-soft); }
+[data-subject="language"] .hero-art::before, [data-subject="language"] .hero-art::after { border-color: var(--border); }
+[data-subject="language"] .book { background: #923f48; color: #fff0f2; border-left-color: #762e38; box-shadow: 9px 9px 0 var(--border), 15px 18px 26px #923f4822; }
+[data-subject="language"] .question-card, [data-subject="language"] .review,
+[data-subject="language"] .stat, [data-subject="language"] .art-note,
+[data-subject="language"] .secondary, [data-subject="language"] select,
+[data-subject="language"] textarea { background: var(--language-surface); color: var(--language-text); }
+[data-subject="language"] textarea { border-color: var(--border); min-height: 240px; }
+[data-subject="language"] .art-note { box-shadow: 0 3px 12px #923f4810; }
+[data-subject="language"] footer { color: var(--muted); }
+[data-subject="language"] .notice:not(:empty) { background: #923f48; }
+[data-subject="language"] .danger, [data-subject="language"] .form-error { color: #a25045; }
+[data-subject="language"][data-theme="dark"] .danger,
+[data-subject="language"][data-theme="dark"] .form-error { color: #ffb4a7; }
+[data-subject="language"] .status.bien { color: var(--green); background: var(--language-soft); }
+[data-subject="language"] .mode-card, [data-subject="language"] .option,
+[data-subject="language"] .jump { background: var(--language-surface); color: var(--language-text); }
+[data-subject="language"] .mode-card .mode-icon,
+[data-subject="language"] .option-letter, [data-subject="language"] .option.selected,
+[data-subject="language"] .jump.answered { background: var(--language-soft); color: var(--green); }
+[data-subject="language"] .option.selected .option-letter { background: var(--green); color: var(--language-button-text); }
+[data-subject="language"] .mode-card:hover { box-shadow: 0 12px 30px #923f480c; }
+[data-subject="language"] .pill { color: var(--muted); }
+[data-subject="language"] .grade-circle { border-color: var(--border); }
+[data-subject="language"] progress,
+[data-subject="language"] progress::-webkit-progress-bar { background: var(--border); }
+[data-subject="language"] progress::-webkit-progress-value { background: var(--language-accent); }
+[data-subject="language"] progress::-moz-progress-bar { background: var(--language-accent); }
+.language-activities { grid-template-columns: repeat(2, 1fr); }
+.audio-controls { display: flex; flex-wrap: wrap; gap: 10px; }
+.voice-speed { max-width: 240px; }
+.adult-reader { margin-top: 26px; }
+.dictation-text { line-height: 1.9; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dictation-corrections { padding-left: 22px; }
+.dictation-corrections li { padding: 10px 4px; line-height: 1.7; overflow-wrap: anywhere; }
+.dictation-corrections .muted { display: block; }
+.dictation-error { background: #fbe9e5; color: #903c34; border-bottom: 2px solid #b55a50; padding: 1px 2px; }
+[data-theme="dark"] .dictation-error { background: #513028; color: #ffb4a7; }
+.dictation-context { font-size: 13px; }
+#dictation-results { margin-top: 32px; }
+@media (max-width: 760px) { .language-activities { grid-template-columns: 1fr; } }

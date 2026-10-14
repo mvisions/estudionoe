@@ -1,6 +1,7 @@
 import { createHash, randomBytes, randomUUID } from "node:crypto";
 import { shuffle, summarize } from "./grading.mjs";
 import { getStudyTopic, studyTopics } from "./study-topics.mjs";
+import { isRankingProfile, rankingProfileFields } from "./ranking-profile.mjs";
 
 export class HttpError extends Error {
   constructor(status, message) { super(message); this.status = status; }
@@ -13,10 +14,8 @@ export const getBank = (mode, topic = "history") => {
   const study = getStudyTopic(topic);
   return mode === "matching" ? study.matchingPairs : study.questions;
 };
-const text = (value, max) => typeof value === "string" && value.trim().length > 0
-  && value.trim().length <= max && !/[\u0000-\u001f\u007f<>]/.test(value);
 const publicFields = exam => ({
-  id: exam.id, name: exam.name, course: exam.course, mode: exam.mode, topic: exam.topic ?? "history",
+  id: exam.id, ...rankingProfileFields(exam), mode: exam.mode, topic: exam.topic ?? "history",
   grade: exam.summary.grade, points: exam.summary.points,
   total: exam.ids.length, durationMs: exam.durationMs, finishedAt: exam.finishedAt,
 });
@@ -24,7 +23,7 @@ const publicFields = exam => ({
 export function createExamService(store, now = Date.now) {
   return {
     async submit(input) {
-      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !text(input.name, 40) || !text(input.course, 30) || input.consent !== true
+      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true
         || typeof input.id !== "string" || !/^[a-f0-9-]{36}$/.test(input.id)
         || typeof input.token !== "string" || !/^[a-f0-9]{64}$/.test(input.token)
         || !Number.isFinite(input.startedAt) || !Number.isFinite(input.finishedAt) || input.startedAt < 0
@@ -36,19 +35,19 @@ export function createExamService(store, now = Date.now) {
       if (!Array.isArray(input.ids) || input.ids.length !== expected.length || new Set(input.ids).size !== expected.length
         || input.ids.some(id => !expected.includes(id))) throw new HttpError(400, "Solo los exámenes completos participan en el ranking.");
       await store.create({
-        id: input.id, name: input.name.trim(), course: input.course.trim(), mode: input.mode, topic,
+        id: input.id, ...rankingProfileFields(input), mode: input.mode, topic,
         tokenHash: hash(input.token), startedAt: input.startedAt, ids: input.ids,
       });
       // El tiempo de esta clasificación de práctica se mide en el navegador.
       return createExamService(store, () => input.finishedAt).finish(input.id, input.token, input.answers);
     },
     async start(input) {
-      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !text(input.name, 40) || !text(input.course, 30) || input.consent !== true)
-        throw new HttpError(400, "Indica nombre o alias, curso y acepta publicar el resultado.");
+      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true)
+        throw new HttpError(400, "Indica el nombre de tu mascota, el tipo de animal y acepta publicar el resultado.");
       const token = randomBytes(32).toString("hex");
       const topic = input.topic ?? "history";
       const exam = {
-        id: randomUUID(), mode: input.mode, topic, name: input.name.trim(), course: input.course.trim(),
+        id: randomUUID(), mode: input.mode, topic, ...rankingProfileFields(input),
         tokenHash: hash(token), startedAt: now(), ids: shuffle(getBank(input.mode, topic)).map(item => item.id),
       };
       await store.create(exam);

@@ -8,7 +8,8 @@ La nueva portada está en `aula/index.html`; una vez publicada, estará disponib
 en https://mvisions.github.io/estudionoe/aula/.
 Historia abre `aula/historia.html`, donde «La Edad Media · Estudio Noé» enlaza a
 la web original. Matemáticas abre `aula/matematicas.html` con el tema Potencias.
-Lenguaje aparece como «Próximamente», sin enlaces a actividades que todavía no existen.
+Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
+para 5.º de Primaria.
 
 La web original conserva su dirección, exámenes, preferencias y ranking.
 La portada es estática y reutiliza los estilos existentes. Matemáticas reutiliza
@@ -62,10 +63,59 @@ Hay que desplegar la nueva API en Render junto con la web. Si el servidor
 todavía no reconoce el tema, Matemáticas avisa y muestra el ranking local:
 no presenta el ranking de Historia como si fuera el de Potencias.
 
+## Lengua · Dictado de voz
+
+La portada `aula/lengua.html` y sus actividades usan una paleta roja en claro
+y oscuro. `aula/dictado.html` incluye el dictado
+original «Una aventura en la biblioteca», para 5.º de Primaria (10 años),
+dividido en 12 fragmentos. El audio WAV se incluye en `audio/biblioteca/`:
+no necesita voces instaladas, micrófono, claves ni servicios externos.
+Es voz sintética española generada localmente con eSpeak NG, a 135 palabras
+por minuto; la opción «Despacio» lo reproduce a velocidad 0,75.
+Se dicen los puntos y las comas, con cuatro segundos entre fragmentos.
+Play comienza desde el principio; Detener corta la reproducción; Repetir y
+Siguiente permiten avanzar manualmente. Los errores de audio se muestran
+explícitamente y también hay una opción de lectura por un adulto.
+
+El texto no se muestra hasta corregir o pulsar expresamente la opción de
+lectura por un adulto. No se trata de un examen seguro: el modelo y el audio
+son recursos públicos. La corrección compara con ese modelo, alineando
+palabras y signos para detectar letras, tildes, mayúsculas, omisiones,
+palabras de más y puntuación, sin penalizar espacios ni saltos de línea.
+La ñ no se trata como una n. No usa IA ni corrige redacciones libres.
+La revisión muestra las diferencias, su contexto y el modelo completo.
+La ayuda ortográfica del navegador está desactivada en el campo de escritura.
+
+El borrador y la revisión usan `noe-language-dictation-v1`, sin ranking ni
+envíos al servidor. Borrar Lengua no toca Historia ni Matemáticas. El tema
+claro/oscuro se comparte mediante `theme.mjs`.
+
+Para regenerar el audio en Linux con `libespeak-ng` disponible:
+`node --input-type=module -e "import {dictation} from './dictation-content.mjs'; console.log(JSON.stringify(dictation.chunks))" | python3 scripts/generate-dictation-audio.py`.
+El generador falla explícitamente si la voz o un fragmento no se pueden crear.
+GitHub Pages publica los WAV existentes; no necesita ejecutar el generador.
+
+## Lengua · Ejemplos de los temas 1 y 2
+
+`aula/repaso-lengua.html` ofrece 32 ejercicios originales con tres opciones:
+sinónimos, antónimos, mayúsculas, literatura y sus géneros, tipos de palabras
+según la sílaba tónica, reglas de acentuación, tipos de determinantes y artículos
+determinados e indeterminados. Las parejas de palabras incluyen casos positivos
+y negativos: no todas las palabras distintas son antónimos, ni todos los
+objetos del mismo grupo son sinónimos. Los ejemplos desarrollan las categorías
+indicadas por el usuario, sin reproducir ejercicios de un libro.
+
+Incluye un esquema de estudio, nota sobre 10, revisión con explicaciones de
+todos los ejercicios y opción de practicar solo los fallos. Las opciones se
+barajan, se pueden cambiar antes de corregir y las preguntas sin responder
+cuentan como cero. El estado usa `noe-language-review-v1`, separado del dictado
+y de las otras asignaturas, y no se envía al ranking ni a la API.
+El banco y las explicaciones están en `language-questions.mjs`.
+
 ## Estudio de la Edad Media
 
 30 preguntas, tres modos (test, flechas y respuesta escrita), formulario de
-alias y curso, cronómetro, nota sobre 10 y revisión de fallos.
+nombre de mascota y tipo de animal, cronómetro, nota sobre 10 y revisión de fallos.
 Bien suma 1, regular 0,5 y mal 0. La corrección escrita es orientativa por
 ideas clave, no IA. Los apuntes mantienen las respuestas aportadas.
 El botón «Modo oscuro / Modo claro» de la cabecera cambia el tema en todas
@@ -84,7 +134,14 @@ No hay exportación ni subida manual. Al finalizar un examen completo:
 
 El tiempo se mide en el navegador e incluye pausas: no es un examen vigilado
 ni una clasificación resistente a trampas. Las respuestas no se guardan en GitHub.
-El log conserva alias, curso, modo, nota, duración y metadatos del examen.
+Los nuevos resultados conservan nombre de mascota (`petName`), tipo de animal
+(`animalType`), modo, nota, duración y metadatos del examen, sin campos de nombre
+del niño ni curso. Por ejemplo: Luna · gato. Se puede inventar una mascota.
+El formulario no reutiliza nombres ni cursos de perfiles antiguos.
+Los resultados antiguos siguen visibles, marcados como «Resultado antiguo»,
+con su alias y curso originales. La API mantiene compatibilidad con clientes
+antiguos y envíos pendientes que usan `name` y `course`; no los convierte en mascotas.
+Actualizar este formato requiere publicar tanto la web como la API de Render.
 La prueba de autorización para retirar una entrada se almacena solo como hash
 SHA-256 de un valor aleatorio de 256 bits; nunca se registra el token del usuario
 ni el token de escritura de GitHub.
