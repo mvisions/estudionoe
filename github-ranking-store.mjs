@@ -46,7 +46,7 @@ export function createGitHubRankingStore({ token, repository, branch = "ranking-
       const response = await fetcher(endpoint, {
         method: "PUT", headers, signal: AbortSignal.timeout(20000),
         body: JSON.stringify({
-          message: "Record history quiz result", branch, sha: file.sha,
+          message: "Record study quiz result", branch, sha: file.sha,
           content: Buffer.from(text).toString("base64"),
         }),
       });
@@ -71,9 +71,9 @@ export function createGitHubRankingStore({ token, repository, branch = "ranking-
       active.delete(id);
       return response;
     },
-    async ranking(mode) {
+    async ranking(mode, topic = "history") {
       const { records } = await read();
-      return [...records.values()].filter(exam => exam.mode === mode)
+      return [...records.values()].filter(exam => exam.mode === mode && (exam.topic ?? "history") === topic)
         .sort((a, b) => b.summary.grade - a.summary.grade || a.durationMs - b.durationMs || a.finishedAt - b.finishedAt).slice(0, 50);
     },
     async remove(id, tokenHash) {

@@ -1,15 +1,19 @@
-import { questions, matchingPairs } from "./questions.mjs";
-import { gradeChoice, gradeWritten, shuffle, summarize } from "./grading.mjs";
-import { rankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
+import { shuffle, summarize } from "./grading.mjs";
+import { rankingKey as historyRankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
 import { API_BASE } from "./config.mjs";
+import { getStudyTopic } from "./study-topics.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
-const storageKey = "noe-history-exam-v2";
+const topic = document.body.dataset.topic ?? "history";
+const study = getStudyTopic(topic);
+const { questions, matchingPairs, gradeChoice, gradeWritten } = study;
+const storageKey = `noe-${topic}-exam-v2`;
+const rankingKey = topic === "history" ? historyRankingKey : `noe-${topic}-local-ranking-v1`;
 const modes = {
   easy: { title: "Test fácil", icon: "✓", tag: "El primer paso", description: "Una respuesta correcta y dos falsas. Lee con calma y elige la mejor opción." },
   matching: { title: "Unir con flechas", icon: "↔", tag: "Conecta las ideas", description: "Une cada concepto con su respuesta. Haz clic en ambos lados para dibujar una flecha." },
-  written: { title: "Respuesta escrita", icon: "✎", tag: "El reto de explicar", description: "Responde con tus palabras. Recibirás una valoración: bien, regular o mal." },
+  written: { title: "Respuesta escrita", icon: "✎", tag: topic === "history" ? "El reto de explicar" : "El reto de resolver", description: topic === "history" ? "Responde con tus palabras. Recibirás una valoración: bien, regular o mal." : "Escribe el resultado o la potencia simplificada. Recibirás una valoración: bien, regular o mal." },
 };
 let state = null;
 let selectedLeft = null;
@@ -20,8 +24,8 @@ let rankingMode = "easy";
 let rankingRequest = 0;
 let syncing = false;
 let resetting = false;
-const receiptKey = "noe-github-ranking-receipts-v1";
-const outboxKey = "noe-github-ranking-outbox-v1";
+const receiptKey = topic === "history" ? "noe-github-ranking-receipts-v1" : `noe-${topic}-github-ranking-receipts-v1`;
+const outboxKey = topic === "history" ? "noe-github-ranking-outbox-v1" : `noe-${topic}-github-ranking-outbox-v1`;
 const themeKey = "noe-theme";
 const themeToggle = document.querySelector("#theme-toggle");
 
@@ -29,7 +33,8 @@ function setTheme(dark) {
   document.documentElement.dataset.theme = dark ? "dark" : "light";
   themeToggle.textContent = dark ? "Modo claro" : "Modo oscuro";
   themeToggle.setAttribute("aria-pressed", String(dark));
-  document.querySelector('meta[name="theme-color"]').content = dark ? "#14211d" : "#244b42";
+  document.querySelector('meta[name="theme-color"]').content =
+    getComputedStyle(document.documentElement).getPropertyValue("--theme-color").trim();
 }
 
 try {
@@ -79,6 +84,7 @@ async function syncResult() {
         localStorage.setItem(receiptKey, JSON.stringify(receipts));
       }
       const result = await api("/api/results", "POST", payload);
+      if (topic !== "history" && result.topic !== topic) throw new Error("La API todavía no admite este tema. Es necesario actualizar el servidor.");
       const remaining = JSON.parse(localStorage.getItem(outboxKey) ?? "[]").filter(item => item.id !== payload.id);
       localStorage.setItem(outboxKey, JSON.stringify(remaining));
       if (state?.id === payload.id) {
@@ -105,7 +111,7 @@ function queueResult() {
   if (pending.some(item => item.id === state.id)) return;
   pending.push({
     id: state.id, token: state.syncToken, consent: true, ...state.profile,
-    mode: state.mode, ids: state.ids, answers: state.answers,
+    topic, mode: state.mode, ids: state.ids, answers: state.answers,
     startedAt: state.startedAt, finishedAt: state.finishedAt,
   });
   localStorage.setItem(outboxKey, JSON.stringify(pending));
@@ -154,9 +160,11 @@ function resetAll() {
         localStorage.removeItem(receiptKey);
         localStorage.removeItem(outboxKey);
         localStorage.removeItem(rankingKey);
-        localStorage.removeItem("noe-ranking-receipts-v1");
         localStorage.removeItem(storageKey);
-        localStorage.removeItem("noe-history-exam-v1");
+        if (topic === "history") {
+          localStorage.removeItem("noe-ranking-receipts-v1");
+          localStorage.removeItem("noe-history-exam-v1");
+        }
       } catch (error) {
         console.error("No se pudieron borrar los datos del examen.", error);
         announce(`No se ha completado el borrado: ${error.message} Conservamos los datos para que puedas reintentarlo.`, true);
@@ -181,7 +189,8 @@ function restore() {
     const raw = localStorage.getItem(storageKey);
     if (!raw) return;
     const candidate = JSON.parse(raw);
-    if (!candidate || candidate.version !== 2 || !Object.hasOwn(modes, candidate.mode)) throw new Error("Formato de examen desconocido.");
+    if (!candidate || candidate.version !== 2 || !Object.hasOwn(modes, candidate.mode)
+      || (candidate.topic ?? "history") !== topic) throw new Error("Formato de examen desconocido.");
     const items = bank(candidate.mode);
     if (!Array.isArray(candidate.ids) || !candidate.ids.length || new Set(candidate.ids).size !== candidate.ids.length
       || candidate.ids.some(id => !items.some(item => item.id === id))
@@ -227,6 +236,18 @@ function restore() {
 }
 
 function sourceNote() {
+  if (topic === "powers") return `<details class="source-note" open><summary>Guía rápida: reglas y corrección de potencias</summary>
+    <ul>
+      <li><strong>Entender:</strong> 2³ = 2 · 2 · 2 = 8. La base es 2 y el exponente es 3. Para una base distinta de cero, a⁰ = 1 y a¹ = a.</li>
+      <li><strong>Simplificar:</strong> en una potencia de una potencia se multiplican los exponentes: (2²)³ = 2⁶.</li>
+      <li><strong>Multiplicar, misma base:</strong> se suman los exponentes: 2³ · 2² = 2⁵.</li>
+      <li><strong>Dividir, misma base no nula:</strong> se restan los exponentes: 2⁶ ÷ 2² = 2⁴.</li>
+      <li><strong>Sumar y restar:</strong> primero se calculan las potencias: 2³ + 2² = 8 + 4 = 12; 2⁴ − 2² = 16 − 4 = 12. No se suman ni se restan exponentes en estas operaciones.</li>
+    </ul>
+    <p>${questions.length} preguntas y ${matchingPairs.length} parejas, con bases positivas y exponentes de 0 a 6.
+    En respuesta escrita, usa un número o una potencia como 2^5 o 2⁵. No se interpreta texto libre ni se evalúan operaciones pendientes.
+    Bien = 1 punto; regular = 0,5 cuando el valor es correcto pero no está en la forma simplificada pedida; mal o sin responder = 0.
+    La nota es puntos obtenidos ÷ preguntas del examen × 10. El progreso y el ranking están separados de Historia.</p></details>`;
   return `<details class="source-note"><summary>Sobre las preguntas y la corrección</summary>
     <p>Están incluidas las ${questions.length} preguntas de tus apuntes, con su numeración original del 1 al 30.
     Las respuestas se mantienen según tus apuntes, por tu elección; algunas fechas y explicaciones son simplificaciones o contienen imprecisiones históricas.</p>
@@ -237,9 +258,10 @@ function sourceNote() {
 
 function home() {
   app.innerHTML = `<section class="hero"><div><span class="eyebrow">Un poquito cada día, un gran avance</span>
-    <h1>La historia se aprende<br><span class="accent">practicando.</span></h1>
-    <p>Del Imperio Romano a los reinos cristianos. Elige cómo quieres estudiar y descubre todo lo que ya sabes.</p></div>
-    <div class="hero-art" aria-hidden="true"><div class="book"><span>MI CUADERNO</span><strong>La Edad<br>Media</strong><span>HISTORIA</span></div><span class="art-note">✓ Hoy es un buen día para aprender</span></div></section>
+    <h1>${escape(study.heroTitle)}<br><span class="accent">practicando.</span></h1>
+    <p>${escape(study.description)}</p></div>
+    <div class="hero-art" aria-hidden="true"><div class="book"><span>MI CUADERNO</span><strong>${study.bookTitle}</strong><span>${study.subjectLabel}</span></div><span class="art-note">✓ Hoy es un buen día para aprender</span></div></section>
+    ${topic === "powers" ? sourceNote() : ""}
     <section aria-labelledby="modes-title"><div class="section-heading"><h2 id="modes-title">Elige tu modo de estudio</h2><span class="muted">Tres formas de aprender</span></div>
     <div class="mode-grid">${Object.entries(modes).map(([key, mode]) => `<article class="mode-card">
     <span class="mode-icon" aria-hidden="true">${mode.icon}</span><span class="pill">${mode.tag}</span><h3>${mode.title}</h3><p>${mode.description}</p>
@@ -247,7 +269,7 @@ function home() {
     <div class="info-strip"><span>✓ Nota final sobre 10</span><span>✓ Revisión de todos los fallos</span><span>✓ Explicaciones para mejorar</span></div>
     ${state ? `<div class="review"><strong>${state.finished ? "Tu último resultado está guardado" : "Tienes un examen en curso"}</strong>
     <p>${modes[state.mode].title} · ${state.ids.length} preguntas</p><button class="secondary" data-action="resume">${state.finished ? "Ver resultado" : "Continuar examen"}</button></div>` : ""}
-    ${rankingMarkup()}<div class="reset-area">${resetButton()}</div>${sourceNote()}`;
+    ${rankingMarkup()}<div class="reset-area">${resetButton()}</div>${topic === "history" ? sourceNote() : ""}`;
   loadRanking();
 }
 
@@ -281,7 +303,7 @@ function profileForm(mode, ids) {
 
 function start(mode, ids, profile, consent) {
   const items = ids ? bank(mode).filter(item => ids.includes(item.id)) : bank(mode);
-  state = { version: 2, mode, ids: shuffle(items).map(item => item.id), answers: {}, options: {}, page: 0, finished: false,
+  state = { version: 2, topic, mode, ids: shuffle(items).map(item => item.id), answers: {}, options: {}, page: 0, finished: false,
     profile, id: crypto.randomUUID(), startedAt: Date.now(), practice: Boolean(ids), consent,
     syncToken: consent ? Array.from(crypto.getRandomValues(new Uint8Array(32)), byte => byte.toString(16).padStart(2, "0")).join("") : undefined };
   if (mode === "easy") for (const item of items) state.options[item.id] = shuffle([item.answer, ...item.wrong]);
@@ -306,18 +328,18 @@ function renderExam(focus = true) {
   const totalPages = Math.ceil(items.length / (matching ? 5 : 1));
   const answered = items.filter(isAnswered).length;
   const question = items[state.page];
-  app.innerHTML = `<div class="exam-top"><div><span class="eyebrow">Tu sesión de historia</span><h1>${modes[state.mode].title}</h1></div>
+  app.innerHTML = `<div class="exam-top"><div><span class="eyebrow">Tu sesión de ${escape(study.subject)}</span><h1>${modes[state.mode].title}</h1></div>
     <button class="secondary" data-action="home">Guardar y salir</button></div>
     <div class="student-strip"><span>${escape(state.profile?.name ?? "Estudiante")} · ${escape(state.profile?.course ?? "Sin curso")}</span>
     <span id="exam-timer" role="timer">Tiempo: ${duration(elapsed())}</span><span>${state.practice ? "Repaso sin ranking" : state.consent ? "Ranking automático en GitHub" : "Ranking local"}</span></div>
     <div class="progress"><div class="progress-label"><span>${matching ? "Bloque" : "Pregunta"} ${state.page + 1} de ${totalPages}</span>
     <span id="answered-count">${answered} de ${items.length} respondidas</span></div><progress id="exam-progress" value="${answered}" max="${items.length}" aria-label="Preguntas respondidas"></progress></div>
-    <section class="question-card">${matching ? matchingMarkup(items) : `<span class="eyebrow">Pregunta ${question.id} de tus apuntes</span><h2>${escape(question.title)}</h2>
+    <section class="question-card">${matching ? matchingMarkup(items) : `<span class="eyebrow">${topic === "history" ? `Pregunta ${question.id} de tus apuntes` : `${escape(question.category)} · Ejercicio ${question.id}`}</span><h2>${escape(question.title)}</h2>
       ${state.mode === "easy" ? `<div class="options" role="group" aria-label="Elige una respuesta">${state.options[question.id].map((option, index) =>
         `<button class="option ${state.answers[question.id] === option ? "selected" : ""}" aria-pressed="${state.answers[question.id] === option}" data-option="${index}">
         <span class="option-letter">${"ABC"[index]}</span><span>${escape(option)}</span></button>`).join("")}</div>` :
-        `<label class="input-label" for="written-answer">Tu respuesta</label><textarea id="written-answer" maxlength="4000" placeholder="Explica lo que recuerdas con tus palabras…">${escape(state.answers[question.id] ?? "")}</textarea>
-        <p class="muted">Incluye las fechas, nombres e ideas que pide la pregunta. Corrección orientativa por ideas clave: 1 / 0,5 / 0 puntos.</p>`}`}</section>
+        `<label class="input-label" for="written-answer">Tu respuesta</label><textarea id="written-answer" maxlength="4000" placeholder="${topic === "history" ? "Explica lo que recuerdas con tus palabras…" : "Escribe el resultado, por ejemplo 12 o 2^5…"}">${escape(state.answers[question.id] ?? "")}</textarea>
+        <p class="muted">${escape(study.writtenHint)}</p>`}`}</section>
     <div class="nav"><button class="secondary" data-action="previous" ${state.page === 0 ? "disabled" : ""}>← Anterior</button>
     <div class="nav-right">${state.page < totalPages - 1 ? `<button class="secondary" data-action="next">Siguiente →</button>` : ""}
     <button class="primary" data-action="finish">Finalizar examen</button></div></div>
@@ -335,7 +357,7 @@ function matchingMarkup(items) {
   const group = items.slice(state.page * 5, state.page * 5 + 5);
   return `<span class="eyebrow">Relaciona los conceptos</span><h2>Cada idea tiene su pareja.</h2>
     <p class="match-help" id="match-instructions">Selecciona un concepto a la izquierda y su respuesta a la derecha. La misma letra identifica ambos extremos. Para cambiar una unión, vuelve a elegir; para borrarla, usa «Borrar uniones».</p>
-    <div class="matching" aria-describedby="match-instructions"><svg class="arrows" aria-hidden="true"><defs><marker id="arrow-tip" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#78947a"/></marker></defs><g id="arrow-lines"></g></svg>
+    <div class="matching" aria-describedby="match-instructions"><svg class="arrows" aria-hidden="true"><defs><marker id="arrow-tip" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="currentColor"/></marker></defs><g id="arrow-lines"></g></svg>
     <div class="match-column">${group.map((item, index) => `<button class="match-item ${isAnswered(item) ? "connected" : ""}" data-left="${item.id}" aria-pressed="false">
     <span class="match-badge">${"ABCDE"[index]}</span><span>${escape(item.title)}</span></button>`).join("")}</div><div></div>
     <div class="match-column">${state.options[state.page].map(id => {
@@ -360,7 +382,7 @@ function drawArrows() {
     const a = left.getBoundingClientRect(), b = right.getBoundingClientRect();
     const x1 = a.right - bounds.left, y1 = a.top + a.height / 2 - bounds.top;
     const x2 = b.left - bounds.left, y2 = b.top + b.height / 2 - bounds.top;
-    paths.push(`<path d="M${x1},${y1} C${x1 + (x2 - x1) / 2},${y1} ${x1 + (x2 - x1) / 2},${y2} ${x2 - 3},${y2}" fill="none" stroke="#78947a" stroke-width="2" marker-end="url(#arrow-tip)"/>`);
+    paths.push(`<path d="M${x1},${y1} C${x1 + (x2 - x1) / 2},${y1} ${x1 + (x2 - x1) / 2},${y2} ${x2 - 3},${y2}" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow-tip)"/>`);
   }
   container.querySelector("#arrow-lines").innerHTML = paths.join("");
 }
@@ -388,7 +410,7 @@ function renderResults(focus = true) {
     <h1>${summary.grade >= 9 ? "¡Lo tienes dominado!" : summary.grade >= 5 ? "¡Vas por buen camino!" : "Cada intento te ayuda a aprender."}</h1>
     <p><strong>${escape(state.profile?.name ?? "Estudiante")}</strong> · ${escape(state.profile?.course ?? "Sin curso")} · Tiempo: ${duration(elapsed())}</p>
     <div class="grade-circle"><strong>${format(summary.grade)}</strong><span>NOTA SOBRE 10</span></div>
-    <p class="muted">${format(summary.points)} puntos de ${results.length} posibles. ${state.mode === "written" ? "Corrección automática orientativa por ideas clave." : "Cada acierto suma un punto."}</p>
+    <p class="muted">${format(summary.points)} puntos de ${results.length} posibles. ${state.mode === "written" ? topic === "history" ? "Corrección automática orientativa por ideas clave." : "Corrección del valor y de la forma simplificada pedida." : "Cada acierto suma un punto."}</p>
     <div class="stats"><div class="stat"><strong>${summary.correct}</strong>Bien</div><div class="stat"><strong>${summary.partial}</strong>Regular</div><div class="stat"><strong>${summary.wrong}</strong>Mal / sin responder</div></div>
     <div class="result-actions"><button class="primary" data-action="retry">Repetir examen</button>
     ${mistakes.length ? `<button class="secondary" data-action="retry-mistakes">Practicar solo los fallos</button>` : ""}
@@ -423,7 +445,8 @@ async function loadRanking() {
   try {
     let entries;
     try {
-      const response = await api(`/api/ranking?mode=${mode}`);
+      const response = await api(`/api/ranking?mode=${mode}${topic === "history" ? "" : `&topic=${topic}`}`);
+      if (topic !== "history" && response.topic !== topic) throw new Error("La API todavía no admite este tema. Es necesario actualizar el servidor.");
       if (request !== rankingRequest || !container.isConnected) return;
       entries = response.entries;
       origin.textContent = response.storage === "github" ? "Ranking compartido calculado desde ranking.txt en GitHub."
@@ -431,7 +454,7 @@ async function loadRanking() {
     } catch (error) {
       console.error("No se pudo consultar el ranking compartido.", error);
       if (request !== rankingRequest || !container.isConnected) return;
-      entries = sortedRanking(readRanking(localStorage), mode);
+      entries = sortedRanking(readRanking(localStorage, rankingKey), mode);
       origin.textContent = `Ranking compartido no disponible (${error.message}). Mostramos únicamente los resultados locales de este navegador.`;
     }
     container.innerHTML = entries.length ? `<div class="table-scroll"><table><caption class="visually-hidden">Clasificación de ${modes[rankingMode].title}</caption>
@@ -459,7 +482,7 @@ function submitRanking() {
       id: exam.id, name: exam.profile.name, course: exam.profile.course, mode: exam.mode,
       grade: summary.grade, points: summary.points, durationMs: exam.durationMs,
       finishedAt: exam.finishedAt, total: exam.ids.length,
-    });
+    }, rankingKey);
     state.localResult = true;
     save();
     queueResult();
@@ -477,8 +500,9 @@ function reviewMarkup(result) {
   return `<article class="review"><span class="status ${result.status}">${result.status} · ${format(result.score)} / 1</span>
     <h3>${state.mode === "matching" ? "" : `${result.item.id}. `}${escape(result.item.title)}</h3>
     <p><strong>Tu respuesta:</strong> ${escape(result.answer || "Sin responder")}</p>
-    <div class="model-answer"><p><strong>Respuesta de los apuntes:</strong> ${escape(result.item.answer)}</p></div>
+    <div class="model-answer"><p><strong>${topic === "history" ? "Respuesta de los apuntes:" : "Respuesta correcta:"}</strong> ${escape(result.item.answer)}</p></div>
     <p><strong>${result.score === 1 ? "Por qué está bien:" : "Por qué no está completa o correcta:"}</strong> ${escape(result.reason)}</p>
+    ${result.item.explanation ? `<p><strong>Cómo se resuelve:</strong> ${escape(result.item.explanation)}</p>` : ""}
     ${result.matched?.length ? `<p><strong>Ideas reconocidas:</strong> ${result.matched.map(escape).join("; ")}.</p>` : ""}
     ${result.missing?.length ? `<p><strong>Debes añadir o revisar:</strong></p><ul>${result.missing.map(label => `<li>${escape(label)}</li>`).join("")}</ul>` : ""}</article>`;
 }

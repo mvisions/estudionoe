@@ -29,6 +29,8 @@ jobs:
         run: |
           mkdir -p site
           cp index.html styles.css app.mjs questions.mjs grading.mjs local-ranking.mjs config.mjs site/
+          cp study-topics.mjs powers-questions.mjs powers-grading.mjs site/
+          cp -R aula site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

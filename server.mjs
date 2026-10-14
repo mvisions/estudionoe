@@ -34,7 +34,8 @@ export function createApi(service, { origins, development = false, storage = "gi
       if (!limit || limit.resetAt < Date.now()) requests.set(ip, { count: 1, resetAt: Date.now() + 60000 });
       else if (++limit.count > 90) throw new HttpError(429, "Demasiadas peticiones. Espera un minuto.");
       if (req.method === "GET" && url.pathname === "/api/ranking") {
-        res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode")), storage: development ? "memory-development" : storage })); return;
+        const topic = url.searchParams.get("topic") ?? "history";
+        res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode"), topic), topic, storage: development ? "memory-development" : storage })); return;
       }
       const match = url.pathname.match(/^\/api\/exams\/([a-f0-9-]{36})(\/finish)?$/);
       if ((req.method === "POST" && (["/api/exams", "/api/results"].includes(url.pathname) || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {

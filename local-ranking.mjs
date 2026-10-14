@@ -1,7 +1,7 @@
 export const rankingKey = "noe-local-ranking-v1";
 
-export function readRanking(storage) {
-  const entries = JSON.parse(storage.getItem(rankingKey) ?? "[]");
+export function readRanking(storage, key = rankingKey) {
+  const entries = JSON.parse(storage.getItem(key) ?? "[]");
   return validateEntries(entries);
 }
 
@@ -41,11 +41,11 @@ export function sortedRanking(entries, mode) {
     .slice(0, 50);
 }
 
-export function saveResult(storage, entry) {
-  const entries = readRanking(storage);
+export function saveResult(storage, entry, key = rankingKey) {
+  const entries = readRanking(storage, key);
   if (!entries.some(item => item.id === entry.id)) {
     entries.push(entry);
     const retained = ["easy", "matching", "written"].flatMap(mode => sortedRanking(entries, mode));
-    storage.setItem(rankingKey, JSON.stringify(retained));
+    storage.setItem(key, JSON.stringify(retained));
   }
 }

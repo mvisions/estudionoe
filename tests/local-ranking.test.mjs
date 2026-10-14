@@ -32,3 +32,15 @@ test("Expone los errores de almacenamiento y datos inválidos", () => {
   assert.throws(() => saveResult({ getItem: () => null, setItem: () => { throw new Error("Sin espacio"); } }, entry("a", 5, 100)), /Sin espacio/);
   assert.throws(() => readRanking({ getItem: () => "{}" }), /no es válido/);
 });
+
+test("Matemáticas tiene su propia clave y borrarla no toca el ranking histórico", () => {
+  const store = storage();
+  const powersKey = "noe-powers-local-ranking-v1";
+  saveResult(store, entry("history", 8, 1000));
+  saveResult(store, entry("powers", 10, 500), powersKey);
+  assert.deepEqual(readRanking(store).map(item => item.id), ["history"]);
+  assert.deepEqual(readRanking(store, powersKey).map(item => item.id), ["powers"]);
+  store.removeItem(powersKey);
+  assert.equal(readRanking(store).length, 1);
+  assert.equal(readRanking(store, powersKey).length, 0);
+});
