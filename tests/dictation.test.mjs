@@ -36,6 +36,9 @@ test("La velocidad predeterminada no ralentiza la voz y permite ajustar el ritmo
   assert.match(html, /<option value="1\.15">Más rápido<\/option>/);
   assert.ok(dictation.chunks.every(chunk => new URL(chunk.audio).searchParams.get("v") === "3"));
   assert.match(html, /voz neuronal en español/);
+  assert.match(html, /src="\.\.\/dictation\.mjs\?v=3"/);
+  const module = readFileSync(new URL("../dictation.mjs", import.meta.url), "utf8");
+  assert.match(module, /from "\.\/dictation-content\.mjs\?v=3"/);
   const attribution = readFileSync(new URL("../audio/VOICE-LICENSE.txt", import.meta.url), "utf8");
   assert.match(attribution, /CC BY 3\.0/);
   assert.match(attribution, /es_ES-sharvard-medium/);

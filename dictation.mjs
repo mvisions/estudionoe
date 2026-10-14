@@ -1,4 +1,4 @@
-import { dictation, dictationText } from "./dictation-content.mjs";
+import { dictation, dictationText } from "./dictation-content.mjs?v=3";
 import { gradeDictation, tokenizeDictation } from "./dictation-grading.mjs";
 import { createDictationPlayer } from "./dictation-audio.mjs";
 import { initializeTheme } from "./theme.mjs";
