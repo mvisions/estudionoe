@@ -24,8 +24,16 @@ test("Dictado original de quinto: longitud adecuada y doce audios PCM reales", (
     assert.ok(wav.subarray(44).some(sample => sample !== 0), "Audio no silencioso");
     totalDuration += duration;
   }
-  assert.ok(totalDuration > 30 && totalDuration < 90);
+  assert.ok(totalDuration > 30 && totalDuration < 45, "Lectura fluida, sin ralentización adicional");
   assert.equal(dictation.chunks.filter(chunk => /[,.]$/.test(chunk.text)).every(chunk => /coma|Punto/.test(chunk.spoken)), true);
+});
+
+test("La velocidad predeterminada no ralentiza la voz y permite ajustar el ritmo", () => {
+  const html = readFileSync(new URL("../aula/dictado.html", import.meta.url), "utf8");
+  assert.match(html, /<option value="1" selected>Normal<\/option>/);
+  assert.match(html, /<option value="0\.9">Despacio<\/option>/);
+  assert.match(html, /<option value="1\.15">Más rápido<\/option>/);
+  assert.ok(dictation.chunks.every(chunk => new URL(chunk.audio).searchParams.get("v") === "2"));
 });
 
 test("Modelo exacto, espacios, saltos de línea y Unicode descompuesto no generan faltas", () => {

@@ -28,5 +28,5 @@ export const dictation = {
 
 export const dictationText = dictation.chunks.map(chunk => chunk.text).join(" ");
 dictation.chunks.forEach((chunk, index) => {
-  chunk.audio = new URL(`./audio/biblioteca/${String(index + 1).padStart(2, "0")}.wav`, import.meta.url).href;
+  chunk.audio = new URL(`./audio/biblioteca/${String(index + 1).padStart(2, "0")}.wav?v=2`, import.meta.url).href;
 });

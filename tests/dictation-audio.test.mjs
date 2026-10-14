@@ -21,9 +21,9 @@ function setup(t, options = {}) {
 test("Play reproduce los fragmentos con pausa y conserva la velocidad", async t => {
   t.mock.timers.enable({ apis: ["setTimeout"] });
   const { player, audios, states, errors } = setup(t);
-  player.play(0.75);
+  player.play(1);
   assert.equal(audios[0].source, "01.wav");
-  assert.equal(audios[0].playbackRate, 0.75);
+  assert.equal(audios[0].playbackRate, 1);
   audios[0].onplaying();
   assert.equal(player.status, "speaking");
   audios[0].onended();
@@ -33,6 +33,7 @@ test("Play reproduce los fragmentos con pausa y conserva la velocidad", async t 
   t.mock.timers.tick(1);
   assert.equal(audios.length, 2);
   assert.equal(audios[1].source, "02.wav");
+  assert.equal(audios[1].playbackRate, 1);
   audios[1].onplaying();
   audios[1].onended();
   assert.equal(player.status, "finished");

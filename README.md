@@ -70,8 +70,9 @@ y oscuro. `aula/dictado.html` incluye el dictado
 original «Una aventura en la biblioteca», para 5.º de Primaria (10 años),
 dividido en 12 fragmentos. El audio WAV se incluye en `audio/biblioteca/`:
 no necesita voces instaladas, micrófono, claves ni servicios externos.
-Es voz sintética española generada localmente con eSpeak NG, a 135 palabras
-por minuto; la opción «Despacio» lo reproduce a velocidad 0,75.
+Es voz sintética española generada localmente con eSpeak NG, a 160 palabras
+por minuto. «Normal» es la opción predeterminada y reproduce el audio sin
+ralentizarlo (velocidad 1); «Despacio» usa 0,9 y «Más rápido» usa 1,15.
 Se dicen los puntos y las comas, con cuatro segundos entre fragmentos.
 Play comienza desde el principio; Detener corta la reproducción; Repetir y
 Siguiente permiten avanzar manualmente. Los errores de audio se muestran

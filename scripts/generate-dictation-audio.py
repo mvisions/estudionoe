@@ -24,7 +24,7 @@ def main():
         raise RuntimeError("No se pudo iniciar el sintetizador.")
     if engine.espeak_SetVoiceByName(b"es") != 0:
         raise RuntimeError("No se pudo cargar la voz espanola.")
-    if engine.espeak_SetParameter(1, 135, 0) != 0:
+    if engine.espeak_SetParameter(1, 160, 0) != 0:
         raise RuntimeError("No se pudo configurar la velocidad.")
 
     samples = bytearray()
