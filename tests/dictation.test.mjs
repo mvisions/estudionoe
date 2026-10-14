@@ -18,6 +18,7 @@ test("Dictado original de quinto: longitud adecuada y doce audios PCM reales", (
     assert.equal(wav.readUInt16LE(20), 1);
     assert.equal(wav.readUInt16LE(22), 1);
     assert.equal(wav.readUInt16LE(34), 16);
+    assert.equal(wav.readUInt32LE(24), 22050);
     assert.equal(wav.toString("ascii", 36, 40), "data");
     const duration = wav.readUInt32LE(40) / wav.readUInt32LE(28);
     assert.ok(duration > 1 && duration < 15);
@@ -33,7 +34,11 @@ test("La velocidad predeterminada no ralentiza la voz y permite ajustar el ritmo
   assert.match(html, /<option value="1" selected>Normal<\/option>/);
   assert.match(html, /<option value="0\.9">Despacio<\/option>/);
   assert.match(html, /<option value="1\.15">Más rápido<\/option>/);
-  assert.ok(dictation.chunks.every(chunk => new URL(chunk.audio).searchParams.get("v") === "2"));
+  assert.ok(dictation.chunks.every(chunk => new URL(chunk.audio).searchParams.get("v") === "3"));
+  assert.match(html, /voz neuronal en español/);
+  const attribution = readFileSync(new URL("../audio/VOICE-LICENSE.txt", import.meta.url), "utf8");
+  assert.match(attribution, /CC BY 3\.0/);
+  assert.match(attribution, /es_ES-sharvard-medium/);
 });
 
 test("Modelo exacto, espacios, saltos de línea y Unicode descompuesto no generan faltas", () => {

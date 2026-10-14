@@ -70,8 +70,11 @@ y oscuro. `aula/dictado.html` incluye el dictado
 original «Una aventura en la biblioteca», para 5.º de Primaria (10 años),
 dividido en 12 fragmentos. El audio WAV se incluye en `audio/biblioteca/`:
 no necesita voces instaladas, micrófono, claves ni servicios externos.
-Es voz sintética española generada localmente con eSpeak NG, a 160 palabras
-por minuto. «Normal» es la opción predeterminada y reproduce el audio sin
+Es voz neuronal española generada localmente con Piper y el modelo
+`es_ES-sharvard-medium`, voz F (speaker 1). Sustituye al sintetizador eSpeak
+para mejorar la naturalidad, sin enviar textos ni respuestas a servicios externos.
+El modelo se descarga solo para generar los WAV; no se incluye en la web.
+«Normal» es la opción predeterminada y reproduce el audio sin
 ralentizarlo (velocidad 1); «Despacio» usa 0,9 y «Más rápido» usa 1,15.
 Se dicen los puntos y las comas, con cuatro segundos entre fragmentos.
 Play comienza desde el principio; Detener corta la reproducción; Repetir y
@@ -92,7 +95,17 @@ envíos al servidor. Borrar Lengua no toca Historia ni Matemáticas. El tema
 claro/oscuro se comparte mediante `theme.mjs`.
 
 Para regenerar el audio en Linux con `libespeak-ng` disponible:
-`node --input-type=module -e "import {dictation} from './dictation-content.mjs'; console.log(JSON.stringify(dictation.chunks))" | python3 scripts/generate-dictation-audio.py`.
+Descarga [Piper 2023.11.14-2](https://github.com/rhasspy/piper/releases/tag/2023.11.14-2)
+y el [modelo y su configuración `.onnx.json`](https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_ES/sharvard/medium)
+fuera del repositorio. Para regenerar los fragmentos:
+
+```sh
+node --input-type=module -e "import {dictation} from './dictation-content.mjs'; console.log(JSON.stringify(dictation.chunks))" | python3 scripts/generate-dictation-audio.py --piper /ruta/piper/piper --model /ruta/es_ES-sharvard-medium.onnx
+```
+
+El generador valida los WAV antes de reemplazarlos. Los audios y su atribución
+CC BY 3.0 están en [audio/VOICE-LICENSE.txt](audio/VOICE-LICENSE.txt), accesible
+desde la actividad. El motor Piper de esta versión tiene licencia MIT.
 El generador falla explícitamente si la voz o un fragmento no se pueden crear.
 GitHub Pages publica los WAV existentes; no necesita ejecutar el generador.
 
