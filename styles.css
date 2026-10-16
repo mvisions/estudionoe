@@ -229,6 +229,11 @@ dialog .nav { justify-content: flex-end; }
 [data-subject="language"].mode-card .primary:hover { background: #762e38; }
 [data-subject="language"].mode-card .mode-icon { background: #f5e5e7; color: var(--green); }
 
+[data-subject="english"].mode-card { --green: #946800; }
+[data-subject="english"].mode-card .primary { background: var(--green); color: white; }
+[data-subject="english"].mode-card .primary:hover { background: #775300; }
+[data-subject="english"].mode-card .mode-icon { background: #fff1bf; color: var(--green); }
+
 @media (max-width: 760px) {
   .site-header { padding: 20px; }
   .site-header { gap: 12px; flex-wrap: wrap; }

@@ -9,7 +9,8 @@ en https://mvisions.github.io/estudionoe/aula/.
 Historia abre `aula/historia.html`, donde «La Edad Media · Estudio Noé» enlaza a
 la web original. Matemáticas abre `aula/matematicas.html` con el tema Potencias.
 Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
-para 5.º de Primaria.
+para 5.º de Primaria. Inglés abre `aula/ingles.html`, con vocabulario de los
+temas 3 (Carnival) y 4 (Wild animals).
 
 La web original conserva su dirección, exámenes, preferencias y ranking.
 La portada es estática y reutiliza los estilos existentes. Matemáticas reutiliza
@@ -18,8 +19,8 @@ publica el portal y todos los módulos necesarios.
 
 Para añadir otro tema de Historia, incorpora una tarjeta en `aula/historia.html`
 con su título, descripción y enlace, y actualiza el número de temas disponibles.
-Cuando una nueva asignatura tenga contenido, crea su página en `aula/` y
-sustituye el aviso «Próximamente» de la portada por un enlace a esa página.
+Para una nueva asignatura, crea su página en `aula/` y añade su tarjeta a la
+portada.
 Prueba la navegación localmente en http://localhost:8080/aula/ con el servidor
 de desarrollo indicado más abajo.
 
