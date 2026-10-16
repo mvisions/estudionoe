@@ -9,14 +9,14 @@ en https://mvisions.github.io/estudionoe/aula/.
 Historia abre `aula/historia.html`, donde «La Edad Media · Estudio Noé» enlaza a
 la web original. Matemáticas abre `aula/matematicas.html` con el tema Potencias.
 Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
-para 5.º de Primaria. Inglés abre `aula/ingles.html`, con vocabulario de los
-temas 3 (Carnival) y 4 (Wild animals).
-Cada tema permite practicar del español al inglés: se oculta el vocabulario,
-se escriben las traducciones y se obtiene una nota sobre 10 con soluciones y
-repaso de fallos. No se distinguen mayúsculas ni espacios adicionales, pero sí
-la ortografía y el singular/plural. Se aceptan hippo/hippopotamus y
-rhino/rhinoceros. Las respuestas vacías cuentan como fallo; los ejercicios no
-se guardan al recargar o cerrar la página y no participan en el ranking.
+para 5.º de Primaria. Inglés abre `aula/ingles.html`, con guía y lista de
+ordinales, reglas para escribir y decir fechas, meses, vocabulario escolar y
+expresiones útiles del aula. Ofrece rondas aleatorias de ordinales, fechas y
+vocabulario/expresiones, con nota sobre 10, soluciones y repaso de fallos.
+No se distinguen mayúsculas ni espacios adicionales; la ortografía y el guion
+en ordinales compuestos sí cuentan. Las respuestas vacías cuentan como fallo;
+los ejercicios no se guardan al recargar o cerrar la página y no participan
+en el ranking.
 
 La web original conserva su dirección, exámenes, preferencias y ranking.
 La portada es estática y reutiliza los estilos existentes. Matemáticas reutiliza
