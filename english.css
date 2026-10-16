@@ -41,4 +41,7 @@
 .english-words > div { padding: 16px 18px; background: var(--english-surface); border: 1px solid var(--border); border-radius: 12px; }
 .english-words dt { color: var(--english-accent); font-size: 17px; font-weight: 800; }
 .english-words dd { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+.english-practice { margin: 26px 0; }
+.english-exercise { padding: 18px; margin-bottom: 12px; background: var(--english-surface); border: 1px solid var(--border); border-radius: 12px; }
+.english-exercise input { margin-bottom: 0; background: var(--english-surface); color: var(--english-text); }
 @media (max-width: 760px) { .english-words { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
