@@ -21,3 +21,9 @@ services:
         value: ranking-data
       - key: GITHUB_TOKEN
         sync: false
+      - key: VISITOR_FIRESTORE_PROJECT_ID
+        sync: false
+      - key: VISITOR_FIRESTORE_CREDENTIALS_JSON
+        sync: false
+      - key: VISITOR_ADMIN_PIN
+        sync: false

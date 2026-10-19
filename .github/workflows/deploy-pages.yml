@@ -32,9 +32,10 @@ jobs:
           cp study-topics.mjs powers-questions.mjs powers-grading.mjs site/
           cp ranking-profile.mjs site/
           cp theme.mjs dictation.mjs dictation-content.mjs dictation-grading.mjs dictation-audio.mjs language.css site/
-          cp language-home.mjs language-quiz.mjs language-questions.mjs site/
+          cp language-home.mjs language-quiz.mjs language-questions.mjs language-vowels.mjs site/
           cp english.css english-home.mjs site/
           cp english-exercises.mjs english-grading.mjs english-classroom.mjs ordinal-numbers.mjs site/
+          cp visitor-tracker.mjs visitor-admin.mjs site/
           cp -R aula site/
           cp -R audio site/
       - uses: actions/upload-pages-artifact@v3

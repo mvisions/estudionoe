@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { createExamService, createMemoryStore } from "../exam-service.mjs";
 import { createApi } from "../server.mjs";
+import { createMemoryVisitorStore } from "../visitor-store.mjs";
 import { questions, matchingPairs } from "../questions.mjs";
 
 const profile = { name: "Prueba", course: "5.º A", consent: true, mode: "easy" };
@@ -56,7 +57,14 @@ test("Rechaza perfiles inválidos, tokens, respuestas ajenas y parejas duplicada
 test("HTTP: salud, CORS, inicio, entrega, ranking y borrado", async t => {
   const petProfile = { petName: "Coco", animalType: "loro", consent: true, mode: "easy" };
   const service = createExamService(createMemoryStore());
-  const server = createApi(service, { origins: ["http://localhost:8080"], development: true });
+  const visitorStore = createMemoryVisitorStore();
+  const adminPin = "3113";
+  const today = "2026-10-16";
+  let requestTime = new Date("2026-10-16T20:30:00.000Z");
+  const server = createApi(service, {
+    origins: ["http://localhost:8080"], development: true, visitorStore, adminPin,
+    now: () => requestTime,
+  });
   await new Promise(resolve => server.listen(0, "127.0.0.1", resolve));
   t.after(() => server.close());
   const url = `http://127.0.0.1:${server.address().port}`;
@@ -88,4 +96,20 @@ test("HTTP: salud, CORS, inicio, entrega, ranking y borrado", async t => {
   assert.equal(automaticResult.storage, "memory-development");
   assert.equal(automaticResult.petName, "Coco");
   assert.equal(automaticResult.course, undefined);
+  const visitorId = "dc2acdd4-908b-4feb-83fb-447ca620bb41";
+  assert.equal((await post("/api/visitors", { visitorId })).status, 200);
+  assert.equal((await post("/api/visitors", { visitorId })).status, 200);
+  assert.equal((await post("/api/visitors", { visitorId: "e1ce8d4c-6839-4af8-a92e-cb983b416d2b" })).status, 200);
+  assert.equal((await post("/api/visitors", { visitorId: "not-a-uuid" })).status, 400);
+  assert.equal((await post("/api/admin/visitors", { pin: "0000" })).status, 401);
+  const visitorCount = await post("/api/admin/visitors", { pin: adminPin });
+  assert.equal(visitorCount.status, 200);
+  assert.deepEqual(await visitorCount.json(), { uniqueVisitors: 2, date: today });
+  assert.equal(await visitorStore.count("2026-10-17"), 0);
+  requestTime = new Date("2026-10-16T22:30:00.000Z");
+  const nextDayCount = await post("/api/admin/visitors", { pin: adminPin });
+  assert.deepEqual(await nextDayCount.json(), { uniqueVisitors: 0, date: "2026-10-17" });
+  for (let attempt = 0; attempt < 5; attempt++)
+    assert.equal((await post("/api/admin/visitors", { pin: "0000" })).status, 401);
+  assert.equal((await post("/api/admin/visitors", { pin: adminPin })).status, 429);
 });

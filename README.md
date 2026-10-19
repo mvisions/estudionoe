@@ -208,6 +208,17 @@ pueden demorar la sincronización.
 Web: `python3 -m http.server 8080`.
 API sin credenciales para pruebas: `RANKING_STORAGE=memory npm start`.
 Pruebas: `npm test`.
+El contador privado de visitantes necesita configurar en Render
+`VISITOR_FIRESTORE_PROJECT_ID`, `VISITOR_FIRESTORE_CREDENTIALS_JSON` (JSON de
+una cuenta de servicio con acceso a Firestore) y `VISITOR_ADMIN_PIN` (PIN de
+cuatro cifras; se valida solo en el servidor). Usa un proyecto y una base de datos
+Firestore existentes o créalos en Google Cloud; concede a la cuenta de servicio
+permiso para leer y escribir Firestore. Estos ajustes son independientes del
+almacenamiento GitHub del ranking. Firestore guarda un hash del ID aleatorio del
+navegador por día; el panel muestra visitantes únicos del día en la zona horaria
+de Madrid y no guarda la IP. El ID solo se crea y envía si el visitante acepta
+el aviso. Borrar los datos del navegador o cambiar de navegador puede hacer que
+se cuente otra vez. El botón «Panel de control» pide el PIN y limita los intentos.
 Para probar el ranking desde la web local, añade su origen a `ALLOWED_ORIGINS`
 si utilizas un puerto distinto de 8080. Por ejemplo:
 `RANKING_STORAGE=memory ALLOWED_ORIGINS=http://127.0.0.1:8087 npm start`.

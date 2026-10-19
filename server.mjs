@@ -1,11 +1,25 @@
 import { createServer } from "node:http";
+import { createHash, timingSafeEqual } from "node:crypto";
 import { createExamService, createFirestoreStore, createMemoryStore, HttpError } from "./exam-service.mjs";
 import { createGitHubRankingStore } from "./github-ranking-store.mjs";
+import { createFirestoreVisitorStore, createMemoryVisitorStore } from "./visitor-store.mjs";
 
-export function createApi(service, { origins, development = false, storage = "github" }) {
+function madridDate(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit",
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+export function createApi(service, {
+  origins, development = false, storage = "github", visitorStore, adminPin, now = () => new Date(),
+}) {
   const requests = new Map();
+  const pinAttempts = new Map();
   const sweep = setInterval(() => {
     for (const [key, value] of requests) if (value.resetAt < Date.now()) requests.delete(key);
+    for (const [key, value] of pinAttempts) if (value.resetAt < Date.now()) pinAttempts.delete(key);
   }, 60000);
   sweep.unref();
   const server = createServer(async (req, res) => {
@@ -33,6 +47,54 @@ export function createApi(service, { origins, development = false, storage = "gi
       const limit = requests.get(ip);
       if (!limit || limit.resetAt < Date.now()) requests.set(ip, { count: 1, resetAt: Date.now() + 60000 });
       else if (++limit.count > 90) throw new HttpError(429, "Demasiadas peticiones. Espera un minuto.");
+      if (req.method === "POST" && url.pathname === "/api/admin/visitors") {
+        if (!visitorStore || !adminPin) throw new HttpError(503, "El panel todavía no está configurado.");
+        const attempts = pinAttempts.get(ip);
+        if (attempts?.resetAt > Date.now() && attempts.count >= 5)
+          throw new HttpError(429, "Demasiados intentos de PIN. Espera diez minutos.");
+        if (!req.headers["content-type"]?.startsWith("application/json")) throw new HttpError(415, "Envía JSON.");
+        const chunks = [];
+        let size = 0;
+        for await (const chunk of req) {
+          size += chunk.length;
+          if (size > 1024) throw new HttpError(413, "La solicitud es demasiado grande.");
+          chunks.push(chunk);
+        }
+        let input;
+        try { input = JSON.parse(Buffer.concat(chunks).toString("utf8")); } catch { throw new HttpError(400, "JSON no válido."); }
+        const expectedHash = createHash("sha256").update(adminPin).digest();
+        const suppliedHash = createHash("sha256").update(typeof input?.pin === "string" ? input.pin : "").digest();
+        if (!timingSafeEqual(expectedHash, suppliedHash)) {
+          pinAttempts.set(ip, {
+            count: attempts?.resetAt > Date.now() ? attempts.count + 1 : 1,
+            resetAt: attempts?.resetAt > Date.now() ? attempts.resetAt : Date.now() + 600000,
+          });
+          throw new HttpError(401, "PIN incorrecto.");
+        }
+        pinAttempts.delete(ip);
+        const date = madridDate(now());
+        res.end(JSON.stringify({ uniqueVisitors: await visitorStore.count(date), date })); return;
+      }
+      if (req.method === "POST" && url.pathname === "/api/visitors") {
+        if (!visitorStore) throw new HttpError(503, "El contador todavía no está configurado.");
+        if (!req.headers["content-type"]?.startsWith("application/json")) throw new HttpError(415, "Envía JSON.");
+        const chunks = [];
+        let size = 0;
+        for await (const chunk of req) {
+          size += chunk.length;
+          if (size > 1024) throw new HttpError(413, "La solicitud es demasiado grande.");
+          chunks.push(chunk);
+        }
+        let input;
+        try { input = JSON.parse(Buffer.concat(chunks).toString("utf8")); } catch { throw new HttpError(400, "JSON no válido."); }
+        if (typeof input?.visitorId !== "string"
+          || !/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(input.visitorId))
+          throw new HttpError(400, "Identificador de visitante no válido.");
+        const visitorHash = createHash("sha256").update(input.visitorId).digest("hex");
+        const date = madridDate(now());
+        const counted = await visitorStore.record(visitorHash, date);
+        res.end(JSON.stringify({ counted })); return;
+      }
       if (req.method === "GET" && url.pathname === "/api/ranking") {
         const topic = url.searchParams.get("topic") ?? "history";
         res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode"), topic), topic, storage: development ? "memory-development" : storage })); return;
@@ -87,8 +149,22 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
       branch: process.env.GITHUB_DATA_BRANCH ?? "ranking-data",
     });
   }
+  let visitorStore;
+  if (development) visitorStore = createMemoryVisitorStore();
+  else if (process.env.VISITOR_FIRESTORE_PROJECT_ID && process.env.VISITOR_FIRESTORE_CREDENTIALS_JSON) {
+    const credentials = JSON.parse(process.env.VISITOR_FIRESTORE_CREDENTIALS_JSON);
+    const { Firestore } = await import("@google-cloud/firestore");
+    visitorStore = createFirestoreVisitorStore(new Firestore({
+      projectId: process.env.VISITOR_FIRESTORE_PROJECT_ID,
+      credentials: { client_email: credentials.client_email, private_key: credentials.private_key },
+    }));
+  }
+  const adminPin = process.env.VISITOR_ADMIN_PIN;
+  if (adminPin && !/^\d{4}$/.test(adminPin)) throw new Error("VISITOR_ADMIN_PIN debe contener exactamente cuatro cifras.");
   const origins = (process.env.ALLOWED_ORIGINS ?? "http://127.0.0.1:8080,http://localhost:8080").split(",").map(value => value.trim());
-  createApi(createExamService(store), { origins, development, storage: process.env.RANKING_STORAGE ?? "github" }).listen(Number(process.env.PORT ?? 8081), "0.0.0.0", () => {
+  createApi(createExamService(store), {
+    origins, development, storage: process.env.RANKING_STORAGE ?? "github", visitorStore, adminPin,
+  }).listen(Number(process.env.PORT ?? 8081), "0.0.0.0", () => {
     console.log("API de estudio lista.");
   });
 }
