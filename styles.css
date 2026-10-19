@@ -41,11 +41,13 @@ p { line-height: 1.65; }
 .exam-alert-compact .exam-alert-title { margin: 0; font-size: 16px; letter-spacing: .3px; }
 .exam-alert-compact > p:not(.exam-alert-kicker) { margin: 0; font-size: 12px; }
 .exam-alert-compact a { padding: 8px 12px; font-size: 11px; }
-.exam-alert-language { border-color: #d89aa2; background: linear-gradient(115deg, #f9e8ea, #fffafa 52%, #f3dadd); color: #4e3036; box-shadow: 0 8px 24px #923f4820; }
-.exam-alert-language .exam-alert-kicker { color: #923f48; }
-.exam-alert-language .exam-alert-title { color: #762e38; }
-.exam-alert-language a { background: #923f48; }
-.exam-alert-language a:hover { background: #762e38; }
+.exam-alert.exam-alert-language { border-color: #d89aa2; background: linear-gradient(115deg, #f9e8ea, #fffafa 52%, #f3dadd); color: #4e3036; box-shadow: 0 8px 24px #923f4820; }
+.exam-alert.exam-alert-language::before, .exam-alert.exam-alert-language::after { color: #d88893; }
+.exam-alert.exam-alert-language .exam-alert-kicker { color: #923f48; }
+.exam-alert.exam-alert-language .exam-alert-title { color: #762e38; animation-name: exam-flash-language; }
+.exam-alert.exam-alert-language a { background: #923f48; }
+.exam-alert.exam-alert-language a:hover { background: #762e38; }
+@keyframes exam-flash-language { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #f2b5bd; } 50% { opacity: .78; text-shadow: 0 0 12px #e9a3ad, 0 0 20px #f7c6cc; } }
 @keyframes exam-flash { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #ffc94d; } 50% { opacity: .72; text-shadow: 0 0 13px #f2ae20, 0 0 22px #ffd870; } }
 @keyframes exam-sparkle { 0%, 100% { opacity: .45; transform: scale(.8) rotate(0deg); } 50% { opacity: 1; transform: scale(1.25) rotate(25deg); } }
 .book { position: relative; z-index: 1; transform: rotate(-9deg); background: var(--green); color: #e8efdf; border-radius: 5px 14px 14px 5px; padding: 27px 25px; width: 137px; box-shadow: 9px 9px 0 #c5d2b9, 15px 18px 26px #244b4222; border-left: 7px solid #183c34; text-align: center; }
