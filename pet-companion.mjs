@@ -1,8 +1,14 @@
 const storageKey = "noe-pet-companion-v1";
 const pets = Object.freeze({
-  loro: { label: "Loro", image: new URL("./pets/parrot.svg?v=2", import.meta.url).href },
-  gato: { label: "Gato", image: new URL("./pets/cat.svg?v=2", import.meta.url).href },
-  perro: { label: "Perro", image: new URL("./pets/dog.svg?v=2", import.meta.url).href },
+  loro: { label: "Loro", image: new URL("./pets/parrot.svg?v=2d2", import.meta.url).href },
+  gato: {
+    label: "Gato",
+    image: new URL("./pets/cat-preview.jpg?v=2", import.meta.url).href,
+  },
+  perro: {
+    label: "Perro",
+    image: new URL("./pets/dog-preview.jpg?v=1", import.meta.url).href,
+  },
 });
 let companion;
 let dock;
@@ -76,9 +82,16 @@ function createDialog() {
     <div class="pet-picker-options" role="radiogroup" aria-label="Elige entre loro, gato y perro">
       ${Object.entries(pets).map(([type, pet]) => `<label class="pet-choice">
         <input type="radio" name="animalType" value="${type}" required>
-        <img src="${pet.image}" alt="" aria-hidden="true"><span>${pet.label}</span>
+        <img src="${pet.image}" alt="" aria-hidden="true"><span>${pet.label}${type === "loro" ? " · 2D" : " · 3D"}</span>
       </label>`).join("")}
     </div>
+    <p class="pet-picker-credits">
+      Modelos 3D: <a href="https://sketchfab.com/3d-models/sitting-cat-48ff148440734e4b99465d899cf80506" target="_blank" rel="noopener noreferrer">Sitting Cat</a>
+      de Weiting Ke y <a href="https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c" target="_blank" rel="noopener noreferrer">Shiba</a>
+      de zixisun02, con licencia <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.
+      Loro 2D: <a href="https://openmoji.org/library/emoji-1F99C/" target="_blank" rel="noopener noreferrer">OpenMoji</a>,
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+    </p>
     <label class="input-label" for="pet-companion-name">¿Cómo se llamará?</label>
     <input id="pet-companion-name" name="petName" maxlength="30" required autocomplete="off" placeholder="Por ejemplo: Luna">
     <p class="pet-picker-error" role="alert"></p>
@@ -191,7 +204,7 @@ function initializeCompanion() {
   dock.className = "pet-companion";
   dock.dataset.petCompanion = "";
   dock.setAttribute("aria-label", "Tu mascota de estudio");
-  dock.innerHTML = `<div class="pet-companion-stage" aria-hidden="true"><img></div>
+  dock.innerHTML = `<div class="pet-companion-stage"><img alt=""></div>
     <div class="pet-companion-info"><span class="pet-companion-kicker">TU COMPAÑERO</span>
       <strong data-pet-name></strong><button class="secondary" type="button" data-pet-change></button></div>
     <p class="pet-companion-status" role="status" aria-live="polite"></p>`;

@@ -329,7 +329,7 @@ dialog .nav { justify-content: flex-end; }
 .pet-companion-stage { position: relative; display: grid; place-items: center; width: 104px; height: 104px; perspective: 320px; border-radius: 50%; background: radial-gradient(ellipse at 45% 74%, #b4d6b151 0, #e9f3df 48%, #f8fbf5 72%); }
 .pet-companion-stage::before { content: ""; position: absolute; bottom: 9px; width: 68px; height: 26px; border: 1px solid #fff9; border-radius: 50%; background: linear-gradient(145deg, #fff9, #8db99855 55%, #64866c44); box-shadow: inset 0 -5px 9px #58805c25, 0 5px 8px #294d3424; transform: rotateX(65deg); }
 .pet-companion-stage::after { content: ""; position: absolute; bottom: 7px; width: 49px; height: 9px; border-radius: 50%; background: #294d3423; filter: blur(4px); }
-.pet-companion-stage img { position: relative; z-index: 1; display: block; width: 101px; height: 106px; object-fit: contain; transform: rotateY(-13deg) rotateX(5deg); transform-style: preserve-3d; filter: drop-shadow(0 10px 7px #40301f36) drop-shadow(0 1px 0 #fff9); animation: pet-idle 3s ease-in-out infinite; }
+.pet-companion-stage img { position: relative; z-index: 1; display: block; width: 101px; height: 106px; border-radius: 18px; object-fit: cover; transform: rotateY(-13deg) rotateX(5deg); transform-style: preserve-3d; filter: drop-shadow(0 10px 7px #40301f36) drop-shadow(0 1px 0 #fff9); animation: pet-idle 3s ease-in-out infinite; }
 .pet-companion-info { min-width: 0; display: grid; align-content: center; gap: 5px; }
 .pet-companion-kicker { color: #738479; font-size: 8px; font-weight: 900; letter-spacing: 1.2px; }
 .pet-companion-info strong { overflow: hidden; color: #244b42; font-size: 17px; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
@@ -342,10 +342,12 @@ dialog .nav { justify-content: flex-end; }
 .pet-picker h2 { margin: 4px 0; font-size: 27px; }
 .pet-picker > form > p:not(.pet-picker-error) { margin: 6px 0 18px; color: var(--muted); font-size: 13px; }
 .pet-picker-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; margin: 18px 0 22px; }
+.pet-picker .pet-picker-credits { margin: -9px 0 19px; font-size: 10px; line-height: 1.5; }
+.pet-picker-credits a { color: #386a4d; text-decoration: underline; text-underline-offset: 2px; }
 .pet-choice { position: relative; display: grid; justify-items: center; gap: 4px; padding: 10px 5px 8px; border: 2px solid #e2e8de; border-radius: 16px; background: #f8faf5; color: #355c47; font-size: 12px; font-weight: 800; cursor: pointer; }
 .pet-choice:has(input:checked) { border-color: #60896e; background: #edf5e9; box-shadow: 0 0 0 3px #60896e22; }
 .pet-choice input { position: absolute; top: 8px; left: 8px; accent-color: #244b42; }
-.pet-choice img { width: 104px; height: 112px; object-fit: contain; filter: drop-shadow(0 10px 7px #40301f30) drop-shadow(0 1px 0 #fff9); transition: transform .25s ease; }
+.pet-choice img { width: 104px; height: 112px; object-fit: cover; border-radius: 11px; background: #e8eee3; filter: drop-shadow(0 10px 7px #40301f30) drop-shadow(0 1px 0 #fff9); transition: transform .25s ease; }
 .pet-choice:hover img, .pet-choice:has(input:checked) img { transform: translateY(-3px) rotateY(-8deg); }
 .pet-picker .input-label { display: block; margin-bottom: 7px; }
 .pet-picker input[name="petName"] { width: 100%; padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; background: #fff; }
@@ -373,6 +375,7 @@ dialog .nav { justify-content: flex-end; }
 [data-theme="dark"] .pet-companion-info strong { color: #e4f0df; }
 [data-theme="dark"] .pet-companion-kicker, [data-theme="dark"] .pet-companion-status { color: #c1d4c3; }
 [data-theme="dark"] .pet-picker { background: #243a30; color: #edf6e9; }
+[data-theme="dark"] .pet-picker-credits a { color: #b7e2c3; }
 [data-theme="dark"] .pet-choice { border-color: #526b5e; background: #30473b; color: #e4f0df; }
 [data-theme="dark"] .pet-choice:has(input:checked) { background: #3d5948; }
 [data-theme="dark"] .pet-picker input[name="petName"] { border-color: #526b5e; background: #1b2d25; color: #edf6e9; }

@@ -20,8 +20,18 @@ test("La mascota elegida y los efectos aparecen en todas las páginas de estudio
   for (const page of pages)
     assert.match(readFileSync(new URL(`../${page}`, import.meta.url), "utf8"), /pet-companion\.mjs/);
 
-  for (const pet of ["parrot.svg", "cat.svg", "dog.svg"])
-    assert.match(readFileSync(new URL(`../pets/${pet}`, import.meta.url), "utf8"), /<svg/);
+  assert.match(readFileSync(new URL("../pets/parrot.svg", import.meta.url), "utf8"), /<svg/);
+  for (const pet of ["cat-preview.jpg", "dog-preview.jpg"]) {
+    const image = readFileSync(new URL(`../pets/${pet}`, import.meta.url));
+    assert.deepEqual([...image.subarray(0, 3)], [0xff, 0xd8, 0xff]);
+  }
+
+  const companion = readFileSync(new URL("../pet-companion.mjs", import.meta.url), "utf8");
+  assert.match(companion, /Sitting Cat/);
+  assert.match(companion, /Shiba/);
+  assert.match(companion, /OpenMoji/);
+  assert.match(companion, /creativecommons\.org\/licenses\/by\/4\.0/);
+  assert.match(companion, /creativecommons\.org\/licenses\/by-sa\/4\.0/);
 
   const workflow = readFileSync(new URL("../.github/workflows/deploy-pages.yml", import.meta.url), "utf8");
   assert.match(workflow, /cp pet-companion\.mjs site\//);
