@@ -2,6 +2,7 @@ import { dictation, dictationText } from "./dictation-content.mjs?v=3";
 import { gradeDictation, tokenizeDictation } from "./dictation-grading.mjs";
 import { createDictationPlayer } from "./dictation-audio.mjs";
 import { initializeTheme } from "./theme.mjs";
+import { offerActivityRanking } from "./activity-ranking.mjs";
 
 const answer = document.querySelector("#dictation-answer");
 const results = document.querySelector("#dictation-results");
@@ -15,6 +16,7 @@ const repeat = document.querySelector("#repeat-chunk");
 const next = document.querySelector("#next-chunk");
 const key = "noe-language-dictation-v1";
 let heard = false;
+let startedAt = 0;
 let storageFailed = false;
 let noticeTimer;
 
@@ -59,7 +61,10 @@ function playback(action) {
   audioError.hidden = true;
   action(rate());
 }
-play.addEventListener("click", () => playback(value => player.play(value)));
+play.addEventListener("click", () => {
+  if (!startedAt) startedAt = Date.now();
+  playback(value => player.play(value));
+});
 repeat.addEventListener("click", () => playback(value => player.repeat(value)));
 next.addEventListener("click", () => playback(value => player.next(value)));
 stop.addEventListener("click", () => player.stop());
@@ -76,6 +81,7 @@ function save(reviewed) {
   }
 }
 answer.addEventListener("input", () => {
+  if (!startedAt) startedAt = Date.now();
   results.hidden = true;
   results.replaceChildren();
   writingError.hidden = true;
@@ -93,7 +99,7 @@ const hints = {
   punctuation: "Escucha las indicaciones de coma y punto. Revisa este signo.",
 };
 
-function renderReview() {
+function renderReview(offerRanking = true) {
   const review = gradeDictation(dictationText, answer.value);
   const tokens = tokenizeDictation(answer.value);
   const errors = new Set(review.issues.filter(issue => issue.actual).map(issue => issue.actualIndex));
@@ -117,6 +123,13 @@ function renderReview() {
     }).join("")}</ol></article>` : `<div class="info-strip">Has cuidado las letras, las tildes, las mayúsculas y los signos. ¡Muy bien!</div>`}
     <article class="review"><h3>El dictado correcto</h3><div class="model-answer"><p class="dictation-text">${escape(dictationText)}</p></div></article>
     <article class="review"><h3>Trucos para la próxima vez</h3><ul>${dictation.tips.map(tip => `<li>${escape(tip)}</li>`).join("")}</ul><p>Puedes editar tu texto de arriba y volver a corregir, o empezar de nuevo para escucharlo otra vez.</p></article>`;
+  if (offerRanking) {
+    offerActivityRanking(results, {
+      activity: "language-dictation", ids: ["dictation-biblioteca"],
+      answers: { "dictation-biblioteca": answer.value },
+      startedAt: startedAt || Date.now(), finishedAt: Date.now(),
+    });
+  }
   results.hidden = false;
 }
 document.querySelector("#dictation-form").addEventListener("submit", event => {
@@ -144,6 +157,7 @@ document.querySelector("#reset-dictation").addEventListener("click", () => {
   }
   player.stop();
   heard = false;
+  startedAt = 0;
   repeat.disabled = true;
   next.disabled = true;
   audioStatus.textContent = "Pulsa Play para empezar.";
@@ -170,7 +184,7 @@ try {
     if (!draft || draft.version !== 1 || draft.id !== dictation.id || typeof draft.text !== "string"
       || draft.text.length > 4000 || typeof draft.reviewed !== "boolean") throw new Error("El borrador tiene un formato no válido.");
     answer.value = draft.text;
-    if (draft.reviewed) renderReview();
+    if (draft.reviewed) renderReview(false);
   }
 } catch (error) {
   console.error("No se pudo recuperar el dictado.", error);

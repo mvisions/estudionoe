@@ -26,6 +26,9 @@ test("Los tres modos de potencias reciben 10 y se separan de Historia", async ()
   }
   assert.equal((await service.ranking("easy")).length, 1);
   assert.equal((await service.ranking("easy"))[0].id, history.id);
+  const general = await service.rankingAll();
+  assert.equal(general.length, 4);
+  assert.deepEqual(new Set(general.map(item => item.topic)), new Set(["history", "powers"]));
 });
 
 test("La API recalcula la nota escrita, admite parciales y rechaza repasos y temas inválidos", async () => {
@@ -65,6 +68,9 @@ test("HTTP: entrega automática, ranking por tema y retirada de Matemáticas sin
   assert.equal(ranked.topic, "powers");
   assert.equal(ranked.entries[0].id, input.id);
   assert.equal((await (await fetch(`${base}/api/ranking?mode=easy`)).json()).entries.length, 0);
+  const general = await (await fetch(`${base}/api/ranking?mode=all`)).json();
+  assert.equal(general.entries.length, 1);
+  assert.equal(general.entries[0].topic, "powers");
   assert.equal((await fetch(`${base}/api/ranking?mode=easy&topic=unknown`)).status, 400);
   const removed = await fetch(`${base}/api/exams/${input.id}`, {
     method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token: input.token }),
@@ -90,4 +96,6 @@ test("Los resultados antiguos sin tema siguen siendo de Historia y el límite es
   const firestore = createFirestoreStore({ collection: () => query });
   assert.equal((await firestore.ranking("easy", "powers")).length, 50);
   assert.ok((await firestore.ranking("easy")).every(item => item.id.startsWith("history")));
+  query.limit = function () { return this; };
+  assert.equal((await firestore.rankingAll()).length, 100);
 });

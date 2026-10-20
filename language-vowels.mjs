@@ -1,3 +1,5 @@
+import { offerActivityRanking } from "./activity-ranking.mjs";
+
 export const vowelQuestions = [
   { word: "cielo", answer: "Diptongo", explanation: "ie se pronuncia en una misma sílaba: cie-lo." },
   { word: "ciudad", answer: "Diptongo", explanation: "iu son dos vocales cerradas distintas en una misma sílaba: ciu-dad." },
@@ -13,6 +15,7 @@ const categories = ["Diptongo", "Triptongo", "Ninguno"];
 const form = globalThis.document?.querySelector("#vowel-quiz");
 const questionsContainer = globalThis.document?.querySelector("#vowel-questions");
 const result = globalThis.document?.querySelector("#vowel-quiz-result");
+let startedAt = Date.now();
 
 if (form && questionsContainer && result) {
   questionsContainer.innerHTML = vowelQuestions.map((question, index) => `
@@ -50,9 +53,23 @@ if (form && questionsContainer && result) {
     result.textContent = unanswered
       ? `Has acertado ${score} de ${vowelQuestions.length}. Te faltan ${unanswered} por responder; puedes completarlas y corregir de nuevo.`
       : `Resultado: ${score} de ${vowelQuestions.length}. ${score === vowelQuestions.length ? "¡Excelente, ya dominas la clasificación!" : "Revisa las explicaciones y vuelve a intentarlo."}`;
+    const section = form.closest(".language-practice");
+    section.querySelector(".activity-ranking-invite")?.remove();
+    if (!unanswered) {
+      offerActivityRanking(section, {
+        activity: "language-vowels",
+        ids: vowelQuestions.map(question => `vowel-${question.word}`),
+        answers: Object.fromEntries(vowelQuestions.map((question, index) => [
+          `vowel-${question.word}`, form.querySelector(`input[name="word-${index}"]:checked`).value,
+        ])),
+        startedAt, finishedAt: Date.now(),
+      });
+    }
   });
 
   form.addEventListener("reset", () => {
+    startedAt = Date.now();
+    form.closest(".language-practice").querySelector(".activity-ranking-invite")?.remove();
     for (const fieldset of questionsContainer.querySelectorAll(".vowel-question")) {
       delete fieldset.dataset.correct;
       const feedback = fieldset.querySelector(".vowel-feedback");

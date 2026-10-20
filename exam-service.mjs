@@ -2,6 +2,7 @@ import { createHash, randomBytes, randomUUID } from "node:crypto";
 import { shuffle, summarize } from "./grading.mjs";
 import { getStudyTopic, studyTopics } from "./study-topics.mjs";
 import { isRankingProfile, rankingProfileFields } from "./ranking-profile.mjs";
+import { activityDefinitions, gradeActivity } from "./activity-definitions.mjs";
 
 export class HttpError extends Error {
   constructor(status, message) { super(message); this.status = status; }
@@ -9,7 +10,9 @@ export class HttpError extends Error {
 
 const hash = value => createHash("sha256").update(value).digest("hex");
 const validModes = ["easy", "matching", "written"];
-const validTopic = topic => topic === undefined || (typeof topic === "string" && Object.hasOwn(studyTopics, topic));
+const rankingModes = [...validModes, "activity"];
+const validStudyTopic = topic => topic === undefined || (typeof topic === "string" && Object.hasOwn(studyTopics, topic));
+const validTopic = topic => validStudyTopic(topic) || (typeof topic === "string" && Object.hasOwn(activityDefinitions, topic));
 export const getBank = (mode, topic = "history") => {
   const study = getStudyTopic(topic);
   return mode === "matching" ? study.matchingPairs : study.questions;
@@ -17,13 +20,13 @@ export const getBank = (mode, topic = "history") => {
 const publicFields = exam => ({
   id: exam.id, ...rankingProfileFields(exam), mode: exam.mode, topic: exam.topic ?? "history",
   grade: exam.summary.grade, points: exam.summary.points,
-  total: exam.ids.length, durationMs: exam.durationMs, finishedAt: exam.finishedAt,
+  total: exam.summary.total ?? exam.ids.length, durationMs: exam.durationMs, finishedAt: exam.finishedAt,
 });
 
 export function createExamService(store, now = Date.now) {
   return {
     async submit(input) {
-      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true
+      if (!input || !validStudyTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true
         || typeof input.id !== "string" || !/^[a-f0-9-]{36}$/.test(input.id)
         || typeof input.token !== "string" || !/^[a-f0-9]{64}$/.test(input.token)
         || !Number.isFinite(input.startedAt) || !Number.isFinite(input.finishedAt) || input.startedAt < 0
@@ -41,8 +44,33 @@ export function createExamService(store, now = Date.now) {
       // El tiempo de esta clasificación de práctica se mide en el navegador.
       return createExamService(store, () => input.finishedAt).finish(input.id, input.token, input.answers);
     },
+    async submitActivity(input) {
+      if (!input || !Object.hasOwn(activityDefinitions, input.activity) || !isRankingProfile(input) || input.consent !== true
+        || !Number.isFinite(input.startedAt) || !Number.isFinite(input.finishedAt) || input.startedAt < 0
+        || input.startedAt > input.finishedAt || input.finishedAt > now() + 60000
+        || input.finishedAt - input.startedAt > 86400000)
+        throw new HttpError(400, "El resultado de la actividad no tiene un formato válido.");
+      let score;
+      try { score = gradeActivity(input.activity, input.ids, input.answers); }
+      catch (error) { throw new HttpError(400, error.message); }
+      const id = randomUUID();
+      const token = randomBytes(32).toString("hex");
+      const finishedAt = input.finishedAt;
+      const exam = {
+        id, ...rankingProfileFields(input), mode: "activity", topic: input.activity,
+        tokenHash: hash(token), startedAt: input.startedAt, ids: input.ids,
+        finishedAt, durationMs: finishedAt - input.startedAt,
+        summary: {
+          points: score.points, total: score.total,
+          grade: Math.round(score.points / score.total * 100) / 10,
+        },
+      };
+      await store.create(exam);
+      const result = await store.update(id, () => ({ exam, response: publicFields(exam) }));
+      return { ...result, token };
+    },
     async start(input) {
-      if (!input || !validTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true)
+      if (!input || !validStudyTopic(input.topic) || !validModes.includes(input.mode) || !isRankingProfile(input) || input.consent !== true)
         throw new HttpError(400, "Indica el nombre de tu mascota, el tipo de animal y acepta publicar el resultado.");
       const token = randomBytes(32).toString("hex");
       const topic = input.topic ?? "history";
@@ -88,8 +116,11 @@ export function createExamService(store, now = Date.now) {
       });
     },
     async ranking(mode, topic = "history") {
-      if (!validModes.includes(mode) || !validTopic(topic)) throw new HttpError(400, "Modo o tema de examen no válido.");
+      if (!rankingModes.includes(mode) || !validTopic(topic)) throw new HttpError(400, "Modo o tema de examen no válido.");
       return (await store.ranking(mode, topic)).map(publicFields);
+    },
+    async rankingAll() {
+      return (await store.rankingAll()).map(publicFields);
     },
     async remove(id, token) {
       if (typeof id !== "string" || !/^[a-f0-9-]{36}$/.test(id) || typeof token !== "string" || !/^[a-f0-9]{64}$/.test(token))
@@ -110,6 +141,10 @@ export function createMemoryStore() {
     },
     async ranking(mode, topic = "history") {
       return [...exams.values()].filter(exam => exam.mode === mode && (exam.topic ?? "history") === topic && exam.finishedAt !== undefined)
+        .sort((a, b) => b.summary.grade - a.summary.grade || a.durationMs - b.durationMs || a.finishedAt - b.finishedAt).slice(0, 50);
+    },
+    async rankingAll() {
+      return [...exams.values()].filter(exam => exam.finishedAt !== undefined)
         .sort((a, b) => b.summary.grade - a.summary.grade || a.durationMs - b.durationMs || a.finishedAt - b.finishedAt).slice(0, 50);
     },
     async remove(id, tokenHash) {
@@ -137,6 +172,11 @@ export function createFirestoreStore(database) {
       const snapshot = await collection.where("mode", "==", mode).orderBy("summary.grade", "desc")
         .orderBy("durationMs", "asc").orderBy("finishedAt", "asc").get();
       return snapshot.docs.map(doc => doc.data()).filter(exam => (exam.topic ?? "history") === topic).slice(0, 50);
+    },
+    async rankingAll() {
+      const snapshot = await collection.orderBy("summary.grade", "desc")
+        .orderBy("durationMs", "asc").orderBy("finishedAt", "asc").limit(50).get();
+      return snapshot.docs.map(doc => doc.data());
     },
     async remove(id, tokenHash) {
       await database.runTransaction(async transaction => {

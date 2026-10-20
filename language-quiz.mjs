@@ -1,6 +1,7 @@
 import { languageQuestions, languageGuide, gradeLanguageSelection } from "./language-questions.mjs";
 import { shuffle, summarize } from "./grading.mjs";
 import { initializeTheme } from "./theme.mjs";
+import { offerActivityRanking } from "./activity-ranking.mjs";
 
 const app = document.querySelector("#language-quiz");
 const key = "noe-language-review-v1";
@@ -21,7 +22,7 @@ function save() {
   }
 }
 function start(ids = languageQuestions.map(item => item.id)) {
-  state = { version: 1, ids: shuffle(ids), answers: {}, options: {}, page: 0, finished: false };
+  state = { version: 1, ids: shuffle(ids), answers: {}, options: {}, page: 0, finished: false, startedAt: Date.now() };
   for (const item of languageQuestions.filter(item => ids.includes(item.id))) state.options[item.id] = shuffle([item.answer, ...item.wrong]);
   save();
   render();
@@ -31,7 +32,7 @@ function render(focus = true) {
   if (!state) {
     app.innerHTML = `<section class="question-card"><h2>Reconoce los ejemplos</h2>
       <p>${languageQuestions.length} ejercicios originales sobre los temas 1 y 2. Algunas parejas son sinónimos, otras antónimos y otras no son ninguna de las dos cosas.</p>
-      <p class="muted">Tres opciones por ejercicio. Cada acierto suma un punto. Puedes cambiar tus respuestas antes de corregir; las preguntas sin responder cuentan como cero. Sin ranking público.</p>
+      <p class="muted">Tres opciones por ejercicio. Cada acierto suma un punto. Puedes cambiar tus respuestas antes de corregir; las preguntas sin responder cuentan como cero. Participar en el ranking general es opcional.</p>
       <button class="primary" data-action="start">Empezar repaso</button></section>`;
     return;
   }
@@ -110,7 +111,18 @@ app.addEventListener("click", event => {
   if (action === "finish") {
     const unanswered = state.ids.length - Object.keys(state.answers).length;
     if (!window.confirm(unanswered ? `Quedan ${unanswered} ejercicios sin responder y contarán como cero. ¿Corregir el repaso?` : "¿Corregir el repaso y ver las explicaciones?")) return;
+    state.finishedAt = Date.now();
     state.finished = true;
+    save();
+    render();
+    if (state.ids.length === languageQuestions.length) {
+      offerActivityRanking(app, {
+        activity: "language-review", ids: state.ids.map(String),
+        answers: Object.fromEntries(Object.entries(state.answers).map(([id, answer]) => [String(id), answer])),
+        startedAt: state.startedAt, finishedAt: state.finishedAt,
+      });
+    }
+    return;
   } else if (action === "previous" || action === "next" || button.dataset.page !== undefined) {
     state.page = button.dataset.page !== undefined ? Number(button.dataset.page) : state.page + (action === "next" ? 1 : -1);
   } else return;
@@ -121,11 +133,14 @@ try {
   const raw = localStorage.getItem(key);
   if (raw) {
     const candidate = JSON.parse(raw);
-    if (!candidate || candidate.version !== 1 || !Array.isArray(candidate.ids) || !candidate.ids.length
+    if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) throw new Error("El formato del repaso no es válido.");
+    candidate.startedAt ??= Date.now();
+    if (candidate.version !== 1 || !Array.isArray(candidate.ids) || !candidate.ids.length
       || new Set(candidate.ids).size !== candidate.ids.length || candidate.ids.some(id => !languageQuestions.some(item => item.id === id))
       || !Number.isInteger(candidate.page) || candidate.page < 0 || candidate.page >= candidate.ids.length
       || typeof candidate.finished !== "boolean" || !candidate.answers || typeof candidate.answers !== "object"
-      || Array.isArray(candidate.answers) || !candidate.options || typeof candidate.options !== "object") throw new Error("El formato del repaso no es válido.");
+      || Array.isArray(candidate.answers) || !candidate.options || typeof candidate.options !== "object"
+      || !Number.isFinite(candidate.startedAt) || candidate.startedAt < 0) throw new Error("El formato del repaso no es válido.");
     for (const [id, response] of Object.entries(candidate.answers)) {
       if (!candidate.ids.some(itemId => String(itemId) === id)) throw new Error("Hay respuestas ajenas al repaso.");
       gradeLanguageSelection(languageQuestions.find(item => String(item.id) === id), response);

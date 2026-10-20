@@ -95,6 +95,9 @@ test("El log conserva rankings por tema, resultados históricos y potencias tras
   }
   service = createExamService(createGitHubRankingStore(options));
   assert.equal((await service.ranking("easy"))[0].name, "Historia");
+  assert.equal((await service.rankingAll()).length, 4);
+  assert.equal((await service.rankingAll()).filter(item => item.topic === "history").length, 1);
+  assert.equal((await service.rankingAll()).filter(item => item.topic === "powers").length, 3);
   for (const mode of ["easy", "written", "matching"]) {
     const ranked = await service.ranking(mode, "powers");
     assert.equal(ranked.length, 1);
@@ -103,6 +106,7 @@ test("El log conserva rankings por tema, resultados históricos y potencias tras
   await service.remove(history.id, history.token);
   assert.equal((await service.ranking("easy")).length, 0);
   assert.equal((await service.ranking("easy", "powers")).length, 1);
+  assert.equal((await service.rankingAll()).length, 3);
   const legacy = { id: "legacy", mode: "easy", tokenHash: "hash", ids: [1], summary: { grade: 10 }, finishedAt: 1, durationMs: 100 };
   assert.equal(parseLog(JSON.stringify({ type: "result", id: "legacy", exam: legacy })).get("legacy").topic, undefined);
 });

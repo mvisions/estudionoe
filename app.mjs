@@ -1,9 +1,10 @@
 import { shuffle, summarize } from "./grading.mjs";
-import { rankingKey as historyRankingKey, readRanking, sortedRanking, saveResult } from "./local-ranking.mjs";
+import { rankingKey as historyRankingKey, readRanking, saveResult } from "./local-ranking.mjs";
 import { API_BASE } from "./config.mjs";
 import { getStudyTopic } from "./study-topics.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { isPetProfile, isRankingProfile, rankingProfileFields, rankingIdentity } from "./ranking-profile.mjs";
+import { mountActivityRankings } from "./activity-ranking.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
@@ -22,8 +23,7 @@ let selectedLeft = null;
 let results = [];
 let noticeTimer;
 let storageFailed = false;
-let rankingMode = "easy";
-let rankingRequest = 0;
+let rankingRefresh;
 let syncing = false;
 let resetting = false;
 const receiptKey = topic === "history" ? "noe-github-ranking-receipts-v1" : `noe-${topic}-github-ranking-receipts-v1`;
@@ -70,7 +70,7 @@ async function syncResult() {
         const status = app.querySelector("#submission-status");
         if (status) status.textContent = sharedStatus();
       }
-      loadRanking();
+      rankingRefresh?.();
       announce(result.storage === "github" ? "Resultado guardado en GitHub." : "Resultado recibido por la API de pruebas, sin escritura en GitHub.");
     }
   } catch (error) {
@@ -227,7 +227,7 @@ function sourceNote() {
     <p>${questions.length} preguntas y ${matchingPairs.length} parejas, con bases positivas y exponentes de 0 a 6.
     En respuesta escrita, usa un número o una potencia como 2^5 o 2⁵. No se interpreta texto libre ni se evalúan operaciones pendientes.
     Bien = 1 punto; regular = 0,5 cuando el valor es correcto pero no está en la forma simplificada pedida; mal o sin responder = 0.
-    La nota es puntos obtenidos ÷ preguntas del examen × 10. El progreso y el ranking están separados de Historia.</p></details>`;
+    La nota es puntos obtenidos ÷ preguntas del examen × 10. El progreso local está separado de Historia; los resultados consentidos aparecen en el ranking general con su asignatura.</p></details>`;
   return `<details class="source-note"><summary>Sobre las preguntas y la corrección</summary>
     <p>Están incluidas las ${questions.length} preguntas de tus apuntes, con su numeración original del 1 al 30.
     Las respuestas se mantienen según tus apuntes, por tu elección; algunas fechas y explicaciones son simplificaciones o contienen imprecisiones históricas.</p>
@@ -250,7 +250,7 @@ function home() {
     ${state ? `<div class="review"><strong>${state.finished ? "Tu último resultado está guardado" : "Tienes un examen en curso"}</strong>
     <p>${modes[state.mode].title} · ${state.ids.length} preguntas</p><button class="secondary" data-action="resume">${state.finished ? "Ver resultado" : "Continuar examen"}</button></div>` : ""}
     ${rankingMarkup()}<div class="reset-area">${resetButton()}</div>${topic === "history" ? sourceNote() : ""}`;
-  loadRanking();
+  mountRanking();
 }
 
 function profileForm(mode, ids) {
@@ -398,57 +398,28 @@ function renderResults(focus = true) {
     <button class="secondary" data-action="home">Elegir otro modo</button>${resetButton()}</div>
     <p id="submission-status" class="muted">${state.localResult ? sharedStatus() : !state.practice && state.id ? "Resultado pendiente de guardar en el ranking local." : "Repaso: este resultado no participa en el ranking."}</p>
     </section>
-    ${rankingMarkup(state.mode)}
+    ${rankingMarkup()}
     <div class="section-heading"><h2>Lo que puedes mejorar</h2><span class="muted">${mistakes.length} para repasar</span></div>
     ${mistakes.length ? mistakes.map(reviewMarkup).join("") : `<div class="review"><span class="status bien">Todo bien</span><p>No hay fallos. ¡Prueba otro modo para seguir practicando!</p></div>`}
     <details class="source-note"><summary>Ver las respuestas correctas (${summary.correct})</summary>${results.filter(result => result.score === 1).map(reviewMarkup).join("")}</details>
     <div style="margin-top:25px">${sourceNote()}</div>`;
   if (focus) focusHeading();
-  loadRanking();
+  mountRanking();
 }
 
-function rankingMarkup(mode = rankingMode) {
-  rankingMode = mode;
-  return `<section class="ranking"><div class="section-heading"><h2>Ranking</h2><button class="secondary" data-action="refresh-ranking">Actualizar</button></div>
-    <label for="ranking-mode" class="input-label">Modo de examen</label><select id="ranking-mode">${Object.entries(modes).map(([key, value]) =>
-      `<option value="${key}" ${key === rankingMode ? "selected" : ""}>${value.title}</option>`).join("")}</select>
-    <p class="muted">Los 50 mejores exámenes completos de cada modo. Mayor nota primero; en empate, menor tiempo. El tiempo se mide en el navegador e incluye pausas. Clasificación de práctica, no un examen vigilado.</p>
-    <p class="muted">Los nuevos resultados muestran mascotas, no nombres ni cursos de niños. Los registros anteriores se identifican como «Resultado antiguo» y conservan su alias y curso.</p>
-    <p id="ranking-origin" class="muted"></p><div id="ranking-entries" aria-live="polite"><p class="muted">Cargando ranking…</p></div></section>`;
+function rankingMarkup() {
+  return `<div data-activity-rankings></div>`;
 }
 
-async function loadRanking() {
-  const request = ++rankingRequest;
-  const mode = rankingMode;
-  const container = app.querySelector("#ranking-entries");
+function mountRanking() {
+  const container = app.querySelector("[data-activity-rankings]");
   if (!container) return;
-  const origin = app.querySelector("#ranking-origin");
-  container.innerHTML = `<p class="muted">Cargando ranking…</p>`;
   try {
-    let entries;
-    try {
-      const response = await api(`/api/ranking?mode=${mode}${topic === "history" ? "" : `&topic=${topic}`}`);
-      if (topic !== "history" && response.topic !== topic) throw new Error("La API todavía no admite este tema. Es necesario actualizar el servidor.");
-      if (request !== rankingRequest || !container.isConnected) return;
-      entries = response.entries;
-      origin.textContent = response.storage === "github" ? "Ranking compartido calculado desde ranking.txt en GitHub."
-        : "Ranking de la API de pruebas; no está guardado en GitHub.";
-    } catch (error) {
-      console.error("No se pudo consultar el ranking compartido.", error);
-      if (request !== rankingRequest || !container.isConnected) return;
-      entries = sortedRanking(readRanking(localStorage, rankingKey), mode);
-      origin.textContent = `Ranking compartido no disponible (${error.message}). Mostramos únicamente los resultados locales de este navegador.`;
-    }
-    container.innerHTML = entries.length ? `<div class="table-scroll"><table><caption class="visually-hidden">Clasificación de ${modes[rankingMode].title}</caption>
-    <thead><tr><th>Puesto</th><th>Mascota / alias antiguo</th><th>Animal / registro antiguo</th><th>Nota / 10</th><th>Tiempo</th><th>Fecha</th></tr></thead><tbody>${entries.map((entry, index) => {
-      const identity = rankingIdentity(entry);
-      return `<tr><td>${index + 1}</td><td>${escape(identity.name)}</td><td>${escape(identity.detail)}</td><td><strong>${format(entry.grade)}</strong></td><td>${duration(entry.durationMs)}</td>
-      <td>${escape(new Date(entry.finishedAt).toLocaleDateString("es-ES"))}</td></tr>`;
-    }).join("")}</tbody></table></div>` :
-      `<p class="muted">Todavía no hay resultados en este modo. ¡Puedes ser el primero!</p>`;
+    const fallbackEntries = readRanking(localStorage, rankingKey).map(entry => ({ ...entry, topic }));
+    rankingRefresh = mountActivityRankings(container, { fallbackEntries });
   } catch (error) {
-    console.error("No se pudo cargar el ranking.", error);
-    container.innerHTML = `<p class="form-error">Ranking no disponible: ${escape(error.message)}. Usa «Actualizar» para reintentar.</p>`;
+    console.error("No se pudo preparar el ranking general.", error);
+    rankingRefresh = mountActivityRankings(container);
   }
 }
 
@@ -522,7 +493,6 @@ app.addEventListener("click", event => {
     return;
   }
   const action = button.dataset.action;
-  if (action === "refresh-ranking") { loadRanking(); return; }
   if (action === "reset-all") { resetAll(); return; }
   if (action === "home") { save(); home(); focusHeading(); return; }
   if (!state) return;
@@ -576,9 +546,6 @@ app.addEventListener("click", event => {
 });
 
 window.addEventListener("resize", drawArrows);
-app.addEventListener("change", event => {
-  if (event.target.id === "ranking-mode") { rankingMode = event.target.value; loadRanking(); }
-});
 setInterval(() => {
   const timer = app.querySelector("#exam-timer");
   if (timer && state && !state.finished) timer.textContent = `Tiempo: ${duration(elapsed())}`;

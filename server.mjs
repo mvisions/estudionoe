@@ -97,11 +97,14 @@ export function createApi(service, {
         res.end(JSON.stringify({ counted })); return;
       }
       if (req.method === "GET" && url.pathname === "/api/ranking") {
+        if (url.searchParams.get("mode") === "all") {
+          res.end(JSON.stringify({ entries: await service.rankingAll(), storage: development ? "memory-development" : storage })); return;
+        }
         const topic = url.searchParams.get("topic") ?? "history";
         res.end(JSON.stringify({ entries: await service.ranking(url.searchParams.get("mode"), topic), topic, storage: development ? "memory-development" : storage })); return;
       }
       const match = url.pathname.match(/^\/api\/exams\/([a-f0-9-]{36})(\/finish)?$/);
-      if ((req.method === "POST" && (["/api/exams", "/api/results"].includes(url.pathname) || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {
+      if ((req.method === "POST" && (["/api/exams", "/api/results", "/api/activity-results"].includes(url.pathname) || match?.[2])) || (req.method === "DELETE" && match && !match[2])) {
         if (!req.headers["content-type"]?.startsWith("application/json")) throw new HttpError(415, "Envía JSON.");
         const chunks = [];
         let size = 0;
@@ -116,7 +119,8 @@ export function createApi(service, {
           await service.remove(match[1], input?.token);
           res.end(JSON.stringify({ deleted: true })); return;
         }
-        const result = url.pathname === "/api/results" ? await service.submit(input)
+        const result = url.pathname === "/api/activity-results" ? await service.submitActivity(input)
+          : url.pathname === "/api/results" ? await service.submit(input)
           : match ? await service.finish(match[1], input?.token, input?.answers) : await service.start(input);
         res.writeHead(match ? 200 : 201);
         res.end(JSON.stringify({ ...result, storage: development ? "memory-development" : storage })); return;
