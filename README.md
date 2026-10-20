@@ -26,6 +26,7 @@ Las cuatro tarjetas de asignaturas aparecen en una fila en pantallas de
 1000 px o más, en dos columnas en tablet y en una columna en móvil.
 Los anuncios de exámenes de Inglés y Lengua comparten un formato compacto,
 con igual altura y anchura; cada uno conserva el color de su asignatura.
+Sus botones tienen el mismo ancho y se alinean a la derecha.
 
 La portada incluye «Notas de la profesora» con los avisos del martes 20.
 El módulo `teacher-notes.mjs` genera una franja horizontal continua a partir
