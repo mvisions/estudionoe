@@ -1,4 +1,5 @@
 import { offerActivityRanking } from "./activity-ranking.mjs";
+import { celebratePet } from "./pet-companion.mjs";
 
 export const vowelQuestions = [
   { word: "cielo", answer: "Diptongo", explanation: "ie se pronuncia en una misma sílaba: cie-lo." },
@@ -16,6 +17,7 @@ const form = globalThis.document?.querySelector("#vowel-quiz");
 const questionsContainer = globalThis.document?.querySelector("#vowel-questions");
 const result = globalThis.document?.querySelector("#vowel-quiz-result");
 let startedAt = Date.now();
+let celebratedStart = 0;
 
 if (form && questionsContainer && result) {
   questionsContainer.innerHTML = vowelQuestions.map((question, index) => `
@@ -56,6 +58,10 @@ if (form && questionsContainer && result) {
     const section = form.closest(".language-practice");
     section.querySelector(".activity-ranking-invite")?.remove();
     if (!unanswered) {
+      if (celebratedStart !== startedAt) {
+        celebratePet(score / vowelQuestions.length * 10);
+        celebratedStart = startedAt;
+      }
       offerActivityRanking(section, {
         activity: "language-vowels",
         ids: vowelQuestions.map(question => `vowel-${question.word}`),
