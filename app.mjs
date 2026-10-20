@@ -5,6 +5,7 @@ import { getStudyTopic } from "./study-topics.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { isPetProfile, isRankingProfile, rankingProfileFields, rankingIdentity } from "./ranking-profile.mjs";
 import { mountActivityRankings } from "./activity-ranking.mjs";
+import { celebratePet, getPetProfile, openPetPicker } from "./pet-companion.mjs";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");
@@ -254,14 +255,15 @@ function home() {
 }
 
 function profileForm(mode, ids) {
-  const profile = isPetProfile(state?.profile) ? state.profile : { petName: "", animalType: "" };
+  const profile = getPetProfile();
+  if (!profile) {
+    announce("Elige primero a tu mascota para empezar el examen.");
+    openPetPicker();
+    return;
+  }
   const dialog = document.createElement("dialog");
   dialog.innerHTML = `<h2>Antes de empezar</h2><form id="student-form">
-    <label class="input-label" for="pet-name">Nombre de tu mascota</label>
-    <input id="pet-name" name="petName" maxlength="40" required autocomplete="off" placeholder="Por ejemplo: Luna" value="${escape(profile.petName)}">
-    <label class="input-label" for="animal-type">Tipo de animal</label>
-    <input id="animal-type" name="animalType" maxlength="30" required autocomplete="off" placeholder="Por ejemplo: perro, gato o loro" value="${escape(profile.animalType)}">
-    <p class="muted">No pongas tu nombre, apellidos ni curso. Si no tienes mascota, puedes inventar una.</p>
+    <p class="pet-exam-companion">Tu compañero será <strong>${escape(profile.petName)}</strong>, tu <strong>${escape(profile.animalType)}</strong>. Puedes cambiarlo desde su tarjeta en cualquier momento.</p>
     <p class="muted">Tu resultado mostrará la nota final y el tiempo, incluyendo pausas. ${ids ? "Este repaso no entra en el ranking." : "El resultado se guarda localmente. Si aceptas participar, se envía automáticamente a Render y se registra en un log TXT público de GitHub."}</p>
     ${ids ? "" : `<label class="consent"><input type="checkbox" name="consent"> Acepto guardar públicamente el nombre de mi mascota, tipo de animal, nota y tiempo en GitHub. GitHub conserva el historial incluso si retiro el resultado del ranking. Si eres menor, pide permiso a tu responsable.</label>`}
     <p class="form-error" role="alert"></p><div class="nav"><button type="button" class="secondary" data-cancel>Cancelar</button>
@@ -273,7 +275,6 @@ function profileForm(mode, ids) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    const profile = { petName: String(data.get("petName")).trim(), animalType: String(data.get("animalType")).trim() };
     const errorLabel = form.querySelector(".form-error");
     if (!isPetProfile(profile)) { errorLabel.textContent = "Completa el nombre de tu mascota y el tipo de animal, sin símbolos < ni >."; return; }
     dialog.close();
@@ -541,7 +542,16 @@ app.addEventListener("click", event => {
     confirmAction("¿Entregar el examen?", unanswered
       ? `Quedan ${unanswered} preguntas sin responder; contarán como 0 puntos. Al entregar verás la nota y las explicaciones.`
       : "Al entregar verás tu nota y la revisión. Después podrás practicar los fallos.", "Entregar y corregir",
-    () => { state.durationMs = elapsed(); state.finishedAt = Date.now(); state.finished = true; save(); renderResults(); submitRanking(); });
+    () => {
+      state.durationMs = elapsed();
+      state.finishedAt = Date.now();
+      state.finished = true;
+      const grade = summarize(calculateResults()).grade;
+      if (!state.practice) celebratePet(grade);
+      save();
+      renderResults();
+      submitRanking();
+    });
   }
 });
 

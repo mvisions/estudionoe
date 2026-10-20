@@ -3,6 +3,7 @@ import { gradeDictation, tokenizeDictation } from "./dictation-grading.mjs";
 import { createDictationPlayer } from "./dictation-audio.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
+import { celebratePet } from "./pet-companion.mjs";
 
 const answer = document.querySelector("#dictation-answer");
 const results = document.querySelector("#dictation-results");
@@ -98,9 +99,14 @@ const hints = {
   extra: "Esta palabra no aparece aquí en el dictado. Puede haberse repetido o añadido.",
   punctuation: "Escucha las indicaciones de coma y punto. Revisa este signo.",
 };
+let celebratedStart = 0;
 
 function renderReview(offerRanking = true) {
   const review = gradeDictation(dictationText, answer.value);
+  if (celebratedStart !== startedAt) {
+    celebratePet(review.correctWords / review.totalWords * 10);
+    celebratedStart = startedAt;
+  }
   const tokens = tokenizeDictation(answer.value);
   const errors = new Set(review.issues.filter(issue => issue.actual).map(issue => issue.actualIndex));
   const normalized = answer.value.normalize("NFC");

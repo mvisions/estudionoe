@@ -2,6 +2,7 @@ import { languageQuestions, languageGuide, gradeLanguageSelection } from "./lang
 import { shuffle, summarize } from "./grading.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
+import { celebratePet } from "./pet-companion.mjs";
 
 const app = document.querySelector("#language-quiz");
 const key = "noe-language-review-v1";
@@ -116,6 +117,8 @@ app.addEventListener("click", event => {
     save();
     render();
     if (state.ids.length === languageQuestions.length) {
+      const graded = items().map(item => ({ ...gradeLanguageSelection(item, state.answers[item.id]) }));
+      celebratePet(summarize(graded).grade);
       offerActivityRanking(app, {
         activity: "language-review", ids: state.ids.map(String),
         answers: Object.fromEntries(Object.entries(state.answers).map(([id, answer]) => [String(id), answer])),

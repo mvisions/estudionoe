@@ -4,6 +4,7 @@ import { shuffle } from "./grading.mjs";
 import { monthNames, ordinalNumbers, spokenDate, writtenDate } from "./ordinal-numbers.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "./english-classroom.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
+import { celebratePet } from "./pet-companion.mjs";
 
 const app = document.querySelector("#english-exercises");
 const reference = document.querySelector("#ordinal-words");
@@ -117,8 +118,10 @@ app.addEventListener("submit", event => {
   });
   mistakes = results.filter(question => !question.correct);
   const correct = results.length - mistakes.length;
+  const numericGrade = correct / results.length * 10;
   const grade = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1 })
-    .format(correct / results.length * 10);
+    .format(numericGrade);
+  if (rankingEligible) celebratePet(numericGrade);
   app.innerHTML = `<section class="result-hero"><h2 tabindex="-1">¡Buen trabajo!</h2>
     <div class="grade-circle"><strong>${grade}</strong><span>NOTA SOBRE 10</span></div>
     <p>${formatEnglishResultSummary(correct, results.length)}</p>
