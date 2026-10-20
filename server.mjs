@@ -3,6 +3,7 @@ import { createHash, timingSafeEqual } from "node:crypto";
 import { createExamService, createFirestoreStore, createMemoryStore, HttpError } from "./exam-service.mjs";
 import { createGitHubRankingStore } from "./github-ranking-store.mjs";
 import { createFirestoreVisitorStore, createMemoryVisitorStore } from "./visitor-store.mjs";
+import { createGitHubVisitorStore } from "./github-visitor-store.mjs";
 
 function madridDate(date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-CA", {
@@ -158,6 +159,12 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
       projectId: process.env.VISITOR_FIRESTORE_PROJECT_ID,
       credentials: { client_email: credentials.client_email, private_key: credentials.private_key },
     }));
+  } else {
+    visitorStore = createGitHubVisitorStore({
+      token: process.env.GITHUB_TOKEN,
+      repository: process.env.GITHUB_REPOSITORY ?? "mvisions/estudionoe",
+      branch: process.env.GITHUB_DATA_BRANCH ?? "ranking-data",
+    });
   }
   const adminPin = process.env.VISITOR_ADMIN_PIN;
   if (adminPin && !/^\d{4}$/.test(adminPin)) throw new Error("VISITOR_ADMIN_PIN debe contener exactamente cuatro cifras.");
