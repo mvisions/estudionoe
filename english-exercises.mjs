@@ -1,4 +1,5 @@
 import { gradeEnglishAnswer } from "./english-grading.mjs";
+import { formatEnglishResultSummary } from "./english-result-summary.mjs";
 import { shuffle } from "./grading.mjs";
 import { monthNames, ordinalNumbers, spokenDate, writtenDate } from "./ordinal-numbers.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "./english-classroom.mjs";
@@ -115,7 +116,7 @@ app.addEventListener("submit", event => {
     .format(correct / results.length * 10);
   app.innerHTML = `<section class="result-hero"><h2 tabindex="-1">¡Buen trabajo!</h2>
     <div class="grade-circle"><strong>${grade}</strong><span>NOTA SOBRE 10</span></div>
-    <p>${correct} aciertos de ${results.length}. ${mistakes.length} respuestas para repasar.</p>
+    <p>${formatEnglishResultSummary(correct, results.length)}</p>
     <div class="result-actions"><button class="primary" data-action="retry">Repetir esta práctica</button>
     ${mistakes.length ? '<button class="secondary" data-action="mistakes">Practicar solo los fallos</button>' : ""}
     <button class="secondary" data-action="study">Elegir otra práctica</button></div></section>

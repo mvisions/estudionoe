@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { gradeEnglishAnswer } from "../english-grading.mjs";
+import { formatEnglishResultSummary } from "../english-result-summary.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "../english-classroom.mjs";
 import {
   monthNames, ordinalNumbers, ordinalSuffix, ordinalWords, spokenDate, writtenDate,
@@ -83,7 +84,7 @@ test("La página de Inglés reúne ordinales, fechas y expresiones del aula", ()
   assert.match(homepage, /Empezar a estudiar Inglés/);
   assert.match(styles, /prefers-reduced-motion: reduce/);
   assert.match(html, /src="\.\.\/english-exercises\.mjs"/);
-  assert.match(workflow, /english-exercises\.mjs english-grading\.mjs english-classroom\.mjs ordinal-numbers\.mjs site\//);
+  assert.match(workflow, /english-exercises\.mjs english-grading\.mjs english-result-summary\.mjs english-classroom\.mjs ordinal-numbers\.mjs site\//);
   assert.match(exercises, /Practicar solo los fallos/);
   assert.match(exercises, /gradeEnglishAnswer/);
   assert.match(exercises, /data-mode="date"/);
@@ -106,4 +107,19 @@ test("El corrector ignora mayúsculas y espacios, pero exige la ortografía corr
   assert.equal(gradeEnglishAnswer("first", ""), false);
   assert.throws(() => gradeEnglishAnswer("first", null), TypeError);
   assert.throws(() => gradeEnglishAnswer("", "first"), TypeError);
+});
+
+test("El resumen de resultados usa puntuación y singular/plural correctos", () => {
+  assert.equal(
+    formatEnglishResultSummary(0, 1),
+    "0 aciertos de 1; 1 respuesta para repasar.",
+  );
+  assert.equal(
+    formatEnglishResultSummary(1, 1),
+    "1 acierto de 1; 0 respuestas para repasar.",
+  );
+  assert.equal(
+    formatEnglishResultSummary(8, 10),
+    "8 aciertos de 10; 2 respuestas para repasar.",
+  );
 });
