@@ -76,6 +76,12 @@ export function createGitHubRankingStore({ token, repository, branch = "ranking-
       return [...records.values()].filter(exam => exam.mode === mode && (exam.topic ?? "history") === topic)
         .sort((a, b) => b.summary.grade - a.summary.grade || a.durationMs - b.durationMs || a.finishedAt - b.finishedAt).slice(0, 50);
     },
+    async rankingAll() {
+      const { records } = await read();
+      return [...records.values()]
+        .sort((a, b) => b.summary.grade - a.summary.grade || a.durationMs - b.durationMs || a.finishedAt - b.finishedAt)
+        .slice(0, 50);
+    },
     async remove(id, tokenHash) {
       await mutate(records => {
         const exam = records.get(id) ?? active.get(id);

@@ -3,6 +3,7 @@ import { formatEnglishResultSummary } from "./english-result-summary.mjs";
 import { shuffle } from "./grading.mjs";
 import { monthNames, ordinalNumbers, spokenDate, writtenDate } from "./ordinal-numbers.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "./english-classroom.mjs";
+import { offerActivityRanking } from "./activity-ranking.mjs";
 
 const app = document.querySelector("#english-exercises");
 const reference = document.querySelector("#ordinal-words");
@@ -20,6 +21,8 @@ const escape = text => String(text).replace(/[&<>"']/g, char => ({
 let questions = [];
 let mistakes = [];
 let currentMode = "ordinal";
+let startedAt = 0;
+let rankingEligible = false;
 
 const dateQuestions = monthNames.flatMap((month, monthIndex) =>
   Array.from({ length: daysInMonth[monthIndex] }, (_, index) => {
@@ -58,6 +61,8 @@ function showPracticeOptions() {
 
 function start(mode, pool) {
   currentMode = mode;
+  startedAt = Date.now();
+  rankingEligible = !pool;
   const source = pool ?? ({
     ordinal: ordinalNumbers.map(question => ({
       id: `ordinal-${question.number}`,
@@ -85,7 +90,7 @@ function start(mode, pool) {
   app.innerHTML = `<form id="english-form" autocomplete="off">
     <h2 tabindex="-1">${title}</h2>
     <p>${directions} Cada acierto vale un punto; las respuestas vacías cuentan como fallo.</p>
-    <p class="muted">Los ejercicios no se guardan al cerrar o recargar la página. Sin ranking público.</p>
+    <p class="muted">Los ejercicios no se guardan al cerrar o recargar la página.</p>
     ${questions.map(({ id, display }) => `<div class="english-exercise">
       <label class="input-label" for="${id}">${escape(display)}</label>
       <input id="${id}" name="${id}" type="text" lang="en"
@@ -127,6 +132,14 @@ app.addEventListener("submit", event => {
       <p>Tu respuesta: <span lang="en">${escape(question.answer.trim() || "Sin responder")}</span></p>
       <div class="model-answer">Respuesta: <strong lang="en">${escape(question.expected)}</strong></div>
     </article>`).join("")}`;
+  if (rankingEligible && questions.length === 10) {
+    const activity = { ordinal: "english-ordinal", date: "english-date", classroom: "english-classroom" }[currentMode];
+    offerActivityRanking(app, {
+      activity, ids: questions.map(question => question.id),
+      answers: Object.fromEntries(results.map(question => [question.id, question.answer])),
+      startedAt, finishedAt: Date.now(),
+    });
+  }
   app.querySelector("h2").focus();
   app.scrollIntoView({ block: "start" });
 });

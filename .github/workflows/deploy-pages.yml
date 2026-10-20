@@ -31,6 +31,7 @@ jobs:
           cp index.html styles.css app.mjs questions.mjs grading.mjs local-ranking.mjs config.mjs site/
           cp study-topics.mjs powers-questions.mjs powers-grading.mjs site/
           cp ranking-profile.mjs site/
+          cp activity-ranking.mjs site/
           cp teacher-notes.mjs site/
           cp theme.mjs dictation.mjs dictation-content.mjs dictation-grading.mjs dictation-audio.mjs language.css site/
           cp language-home.mjs language-quiz.mjs language-questions.mjs language-vowels.mjs site/
