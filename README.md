@@ -23,6 +23,14 @@ La portada es estática y reutiliza los estilos existentes. Matemáticas reutili
 la aplicación de exámenes con un banco y un corrector propios. GitHub Actions
 publica el portal y todos los módulos necesarios.
 
+La portada incluye «Notas de la profesora» con los avisos del martes 20.
+El módulo `teacher-notes.mjs` genera una franja horizontal continua a partir
+de las notas escritas en `aula/index.html`: para cambiarlas, edita esa lista.
+Se puede pausar con el botón, al pasar el puntero o al enfocar sus controles.
+«Leer todas las notas sin movimiento» permite consultar el texto completo.
+Si se prefiere movimiento reducido, no se anima la franja y se muestran las
+notas completas. Sin JavaScript, siguen disponibles en el desplegable.
+
 Para añadir otro tema de Historia, incorpora una tarjeta en `aula/historia.html`
 con su título, descripción y enlace, y actualiza el número de temas disponibles.
 Para una nueva asignatura, crea su página en `aula/` y añade su tarjeta a la

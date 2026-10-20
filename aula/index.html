@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#244b42">
     <meta name="description" content="Tu espacio de estudio de Historia, Matemáticas, Lengua e Inglés. Nuevos temas para aprender poco a poco.">
     <title>Noé · Mi espacio de estudio</title>
-    <link rel="stylesheet" href="../styles.css?v=20261019-language-pink">
+    <link rel="stylesheet" href="../styles.css?v=20261020-teacher-notes">
   </head>
   <body>
     <header class="site-header">
@@ -14,6 +14,33 @@
       <span class="header-tag">Un poquito cada día</span>
     </header>
     <main>
+      <section class="teacher-notes" aria-labelledby="teacher-notes-title">
+        <div class="teacher-notes-heading">
+          <h2 id="teacher-notes-title">Notas de la profesora</h2>
+          <span class="muted">Martes 20</span>
+          <button class="secondary" id="teacher-notes-toggle" type="button" aria-controls="teacher-notes-ticker" hidden>Pausar movimiento</button>
+        </div>
+        <div class="teacher-notes-ticker" id="teacher-notes-ticker" aria-hidden="true" hidden>
+          <div class="teacher-notes-track"></div>
+        </div>
+        <details class="teacher-notes-details">
+          <summary>Leer todas las notas sin movimiento</summary>
+          <ul class="teacher-notes-list">
+            <li>
+              <h3>Matemáticas</h3>
+              <p>Corregimos. Pregunta tus dudas.</p>
+              <p>Recuerda: en este tema se trabajan varios conceptos: distributiva, potencias, estimaciones y combinadas. ¿Sabes qué es cada cosa? Si no puedes contestar o explicar cada una de ellas, es que debes repasar más cada tarde en casa.</p>
+              <p>Continuamos en clase con la página 39, ejercicios 6, 7 y 8.</p>
+            </li>
+            <li>
+              <h3>Conocimiento del Medio</h3>
+              <p>Elaborando el trabajo sobre la Edad Media. Entregarás el trabajo el jueves.</p>
+              <p>Al terminar, comienza a leer el capítulo 5 de Mitos Griegos. Tienes toda la semana para leerlo y realizar sus actividades.</p>
+              <p>Recuerda que se entregarán al finalizarlas. Así que ordena las páginas para no perderlas.</p>
+            </li>
+          </ul>
+        </details>
+      </section>
       <section class="hero" aria-labelledby="welcome-title">
         <div>
           <span class="eyebrow">Un espacio para seguir creciendo</span>
@@ -73,6 +100,7 @@
       <aside class="info-strip" aria-label="Sobre este espacio">Este espacio irá creciendo con más temas de Historia y nuevas asignaturas.</aside>
     </main>
     <footer>Hecho para aprender, no solo para acertar.</footer>
+    <script type="module" src="../teacher-notes.mjs"></script>
     <script type="module" src="../visitor-tracker.mjs"></script>
   </body>
 </html>

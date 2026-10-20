@@ -24,6 +24,24 @@ p { line-height: 1.65; }
 .hero-art { position: relative; min-height: 220px; border-radius: 28px; background: #e7eee0; display: grid; place-items: center; overflow: hidden; }
 .hero-art::before, .hero-art::after { content: ""; position: absolute; border: 1px solid #c8d8be; width: 280px; height: 280px; border-radius: 50%; }
 .hero-art::after { width: 190px; height: 190px; }
+.teacher-notes { min-width: 0; margin-bottom: 32px; border: 1px solid var(--border); border-radius: 18px; overflow: hidden; background: #e7eee0; }
+.teacher-notes-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; padding: 16px 20px; }
+.teacher-notes-heading h2 { margin: 0; font-size: 20px; }
+.teacher-notes-heading button { margin-left: auto; padding: 8px 12px; font-size: 12px; }
+.teacher-notes-ticker { overflow: hidden; padding: 14px 0; border-block: 1px solid var(--border); }
+.teacher-notes-track { display: flex; width: max-content; animation: teacher-notes-scroll var(--notes-duration, 240s) linear infinite; }
+.teacher-notes-group { display: flex; flex: none; align-items: center; gap: 48px; padding-right: 48px; }
+.teacher-notes-group > span { white-space: nowrap; font-size: 14px; line-height: 1.7; }
+.teacher-notes-group > span::before { content: "✦"; margin-right: 16px; color: var(--green); }
+.teacher-notes:hover .teacher-notes-track, .teacher-notes:focus-within .teacher-notes-track,
+.teacher-notes.is-paused .teacher-notes-track { animation-play-state: paused; }
+.teacher-notes-details { padding: 14px 20px; font-size: 14px; }
+.teacher-notes-details summary { cursor: pointer; font-weight: 600; }
+.teacher-notes-list { margin: 16px 0 0; padding-left: 20px; }
+.teacher-notes-list li + li { margin-top: 20px; }
+.teacher-notes-list h3 { font-size: 16px; margin: 0; }
+.teacher-notes-list p { margin: 8px 0; }
+@keyframes teacher-notes-scroll { to { transform: translateX(-50%); } }
 .exam-alert { position: relative; overflow: hidden; margin: 0 0 42px; padding: 25px 30px; border: 2px solid #e6ad31; border-radius: 18px; background: linear-gradient(115deg, #fff4cf, #fffdf5 52%, #ffe6a3); color: #493b1e; text-align: center; box-shadow: 0 8px 24px #b47b1b24; }
 .exam-alert::before, .exam-alert::after { content: "✦"; position: absolute; color: #e0a323; font-size: 27px; animation: exam-sparkle 2.2s ease-in-out infinite; }
 .exam-alert::before { top: 15px; left: 6%; }
@@ -147,6 +165,7 @@ dialog::backdrop { background: #173d3355; }
 dialog h2 { margin-top: 0; }
 dialog .nav { justify-content: flex-end; }
 :root[data-theme="dark"] { color-scheme: dark; color: #e0ece5; background: #14211d; --green: #b3dbc6; --muted: #a9bdb1; --border: #41564b; --theme-color: #14211d; }
+[data-theme="dark"] .teacher-notes { background: #2c4436; }
 [data-theme="dark"] .mode-card, [data-theme="dark"] .ranking, [data-theme="dark"] .question-card,
 [data-theme="dark"] .stat, [data-theme="dark"] .review, [data-theme="dark"] dialog,
 [data-theme="dark"] .secondary, [data-theme="dark"] .option, [data-theme="dark"] .jump,
@@ -283,4 +302,6 @@ dialog .nav { justify-content: flex-end; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
   .exam-alert::before, .exam-alert::after, .exam-alert-title { animation: none; }
+  .teacher-notes-track { animation: none; }
+  .teacher-notes-ticker, #teacher-notes-toggle { display: none; }
 }
