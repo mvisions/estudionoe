@@ -76,6 +76,12 @@ p { line-height: 1.65; }
 .section-heading h2 { font-size: 21px; margin: 0; }
 .muted { color: var(--muted); font-size: 13px; }
 .mode-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.subject-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.subject-grid .mode-card { min-width: 0; }
+.subject-grid .primary { width: 100%; }
+@media (min-width: 1000px) {
+  .subject-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
 .mode-card { border: 1px solid var(--border); background: white; border-radius: 20px; padding: 25px; display: flex; flex-direction: column; align-items: flex-start; transition: transform .2s, box-shadow .2s; }
 .mode-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px #244b420c; }
 .mode-icon { width: 47px; height: 47px; border-radius: 14px; display: grid; place-items: center; font-size: 23px; background: #e9f0e5; color: #416b4c; }

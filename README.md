@@ -22,6 +22,8 @@ La web original conserva su dirección, exámenes, preferencias y ranking.
 La portada es estática y reutiliza los estilos existentes. Matemáticas reutiliza
 la aplicación de exámenes con un banco y un corrector propios. GitHub Actions
 publica el portal y todos los módulos necesarios.
+Las cuatro tarjetas de asignaturas aparecen en una fila en pantallas de
+1000 px o más, en dos columnas en tablet y en una columna en móvil.
 
 La portada incluye «Notas de la profesora» con los avisos del martes 20.
 El módulo `teacher-notes.mjs` genera una franja horizontal continua a partir
