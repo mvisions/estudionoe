@@ -43,7 +43,7 @@ test("Cada actividad calificada usa los umbrales compartidos de baile y cohetes"
     ["app.mjs", /celebratePet\(grade\)/],
     ["english-exercises.mjs", /celebratePet\(numericGrade\)/],
     ["language-quiz.mjs", /celebratePet\(summarize\(graded\)\.grade\)/],
-    ["language-vowels.mjs", /celebratePet\(score \/ vowelQuestions\.length \* 10\)/],
+    ["language-vowels.mjs", /celebratePet\(score \/ questions\.length \* 10\)/],
     ["dictation.mjs", /celebratePet\(review\.correctWords \/ review\.totalWords \* 10\)/],
   ];
   for (const [file, pattern] of checks)
