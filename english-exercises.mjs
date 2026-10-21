@@ -1,7 +1,7 @@
 import { gradeEnglishAnswer } from "./english-grading.mjs";
 import { formatEnglishResultSummary } from "./english-result-summary.mjs";
 import { shuffle } from "./grading.mjs";
-import { monthNames, ordinalNumbers, spokenDate, writtenDate } from "./ordinal-numbers.mjs";
+import { monthNames, ordinalNumbers, ordinalExplanation, spokenDate, writtenDate } from "./ordinal-numbers.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "./english-classroom.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
 import { celebratePet } from "./pet-companion.mjs";
@@ -33,6 +33,7 @@ const dateQuestions = monthNames.flatMap((month, monthIndex) =>
       id: `date-${monthIndex + 1}-${day}`,
       display: `¿Cuándo es ${event}? · ${writtenDate(day, month)}`,
       answer: spokenDate(day, month),
+      explanation: `Las fechas habladas siguen el orden the + día ordinal + of + mes: ${spokenDate(day, month)}. ${ordinalExplanation(day)}`,
     };
   }),
 );
@@ -69,6 +70,7 @@ function start(mode, pool) {
       id: `ordinal-${question.number}`,
       display: `${question.numeral} se escribe en inglés…`,
       answer: question.words,
+      explanation: ordinalExplanation(question.number),
     })),
     date: dateQuestions,
     classroom: classroomPractice,
@@ -86,7 +88,8 @@ function start(mode, pool) {
   const placeholder = mode === "date"
     ? "the twenty-first of October"
     : mode === "classroom" ? "Escribe la traducción en inglés" : "Escribe el ordinal con palabras";
-  questions = shuffle(source).slice(0, Math.min(10, source.length));
+  questions = pool ? shuffle(source) : shuffle(source).slice(0, 10);
+  mistakes = [];
   document.querySelector(".ordinal-reference").hidden = true;
   app.innerHTML = `<form id="english-form" autocomplete="off">
     <h2 tabindex="-1">${title}</h2>
@@ -134,6 +137,7 @@ app.addEventListener("submit", event => {
       <h3>${escape(question.display)}</h3>
       <p>Tu respuesta: <span lang="en">${escape(question.answer.trim() || "Sin responder")}</span></p>
       <div class="model-answer">Respuesta: <strong lang="en">${escape(question.expected)}</strong></div>
+      <p><strong>Por qué:</strong> ${escape(question.explanation)}</p>
     </article>`).join("")}`;
   if (rankingEligible && questions.length === 10) {
     const activity = { ordinal: "english-ordinal", date: "english-date", classroom: "english-classroom" }[currentMode];

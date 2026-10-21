@@ -10,7 +10,12 @@ test("Las 30 preguntas recibidas están incluidas y cubiertas por parejas", () =
   for (const question of questions) {
     assert.equal(question.wrong.length, 2);
     assert.equal(new Set([question.answer, ...question.wrong]).size, 3);
+    assert.ok(question.explanation.length > 50, `Explicación de Historia ${question.id}`);
+    assert.notEqual(question.explanation, question.answer);
     assert.ok(matchingPairs.some(pair => pair.source === question.id));
+  }
+  for (const pair of matchingPairs) {
+    assert.equal(pair.explanation, questions.find(question => question.id === pair.source).explanation);
   }
   assert.equal(new Set(matchingPairs.map(p => p.answer)).size, matchingPairs.length);
 });

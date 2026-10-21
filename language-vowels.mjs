@@ -46,11 +46,15 @@ export function shuffleVowelQuestions(questions, random = Math.random, previousO
 }
 
 if (form && questionsContainer && result) {
+  const retryMistakes = form.querySelector('[data-action="mistakes"]');
   const previousOrder = globalThis.localStorage.getItem("language-vowels-question-order")?.split("|") ?? [];
-  const questions = shuffleVowelQuestions(vowelQuestions, Math.random, previousOrder);
+  let questions = shuffleVowelQuestions(vowelQuestions, Math.random, previousOrder);
+  let mistakes = [];
+  let practice = false;
   globalThis.localStorage.setItem("language-vowels-question-order", questions.map(question => question.word).join("|"));
 
-  questionsContainer.innerHTML = questions.map((question, index) => `
+  function renderQuestions() {
+    questionsContainer.innerHTML = questions.map((question, index) => `
     <fieldset class="vowel-question" data-question="${index}">
       <legend><span class="vowel-question-number">${index + 1}</span> ¿Qué hay en <strong>${question.word}</strong>?</legend>
       <div class="vowel-options">
@@ -63,12 +67,20 @@ if (form && questionsContainer && result) {
       </div>
       <p class="vowel-feedback" hidden></p>
     </fieldset>
-  `).join("");
+    `).join("");
+    mistakes = [];
+    retryMistakes.hidden = true;
+    result.textContent = "";
+    startedAt = Date.now();
+    form.closest(".language-practice").querySelector(".activity-ranking-invite")?.remove();
+  }
+  renderQuestions();
 
   form.addEventListener("submit", event => {
     event.preventDefault();
     let score = 0;
     let unanswered = 0;
+    mistakes = [];
 
     questions.forEach((question, index) => {
       const fieldset = questionsContainer.querySelector(`[data-question="${index}"]`);
@@ -77,17 +89,19 @@ if (form && questionsContainer && result) {
       if (!selected) unanswered += 1;
       const correct = selected?.value === question.answer;
       if (correct) score += 1;
+      else mistakes.push(question);
       fieldset.dataset.correct = String(correct);
       feedback.hidden = false;
-      feedback.textContent = `${correct ? "¡Correcto!" : `Respuesta: ${question.answer}.`} ${question.explanation}`;
+      feedback.textContent = `${correct ? "¡Correcto!" : `Respuesta correcta: ${question.answer}.`} Por qué: ${question.explanation}`;
     });
+    retryMistakes.hidden = mistakes.length === 0;
 
     result.textContent = unanswered
       ? `Has acertado ${score} de ${questions.length}. Te faltan ${unanswered} por responder; puedes completarlas y corregir de nuevo.`
       : `Resultado: ${score} de ${questions.length}. ${score === questions.length ? "¡Excelente, ya dominas la clasificación!" : "Revisa las explicaciones y vuelve a intentarlo."}`;
     const section = form.closest(".language-practice");
     section.querySelector(".activity-ranking-invite")?.remove();
-    if (!unanswered) {
+    if (!unanswered && !practice) {
       if (celebratedStart !== startedAt) {
         celebratePet(score / questions.length * 10);
         celebratedStart = startedAt;
@@ -103,15 +117,29 @@ if (form && questionsContainer && result) {
     }
   });
 
-  form.addEventListener("reset", () => {
-    startedAt = Date.now();
-    form.closest(".language-practice").querySelector(".activity-ranking-invite")?.remove();
-    for (const fieldset of questionsContainer.querySelectorAll(".vowel-question")) {
-      delete fieldset.dataset.correct;
-      const feedback = fieldset.querySelector(".vowel-feedback");
-      feedback.hidden = true;
-      feedback.textContent = "";
-    }
+  retryMistakes.addEventListener("click", () => {
+    if (!mistakes.length) return;
+    practice = true;
+    questions = shuffleVowelQuestions(mistakes);
+    renderQuestions();
+    result.textContent = `Repaso de ${questions.length} preguntas erróneas o sin responder. Este repaso no participa en el ranking.`;
+    questionsContainer.querySelector("input").focus();
+  });
+
+  form.addEventListener("change", event => {
+    retryMistakes.hidden = true;
     result.textContent = "";
+    const fieldset = event.target.closest(".vowel-question");
+    delete fieldset.dataset.correct;
+    fieldset.querySelector(".vowel-feedback").hidden = true;
+    form.closest(".language-practice").querySelector(".activity-ranking-invite")?.remove();
+  });
+
+  form.addEventListener("reset", event => {
+    event.preventDefault();
+    practice = false;
+    questions = shuffleVowelQuestions(vowelQuestions, Math.random, questions.map(question => question.word));
+    renderQuestions();
+    questionsContainer.querySelector("input").focus();
   });
 }

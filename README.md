@@ -41,6 +41,29 @@ portada.
 Prueba la navegación localmente en http://localhost:8080/aula/ con el servidor
 de desarrollo indicado más abajo.
 
+## Corrección y repaso de fallos en todas las asignaturas
+
+Al corregir, cada pregunta muestra tu respuesta, la respuesta esperada y una
+explicación de por qué es la adecuada. Está disponible en Historia y Potencias
+(test, flechas y respuesta escrita), repaso de Lengua, diptongos/triptongos y
+las tres prácticas de Inglés (ordinales, fechas y vocabulario/frases).
+Las explicaciones pertenecen a los bancos de preguntas; las parejas de Historia
+reutilizan la explicación de su pregunta de origen. Se conservan las respuestas
+de los apuntes, pero las explicaciones advierten de sus imprecisiones históricas.
+
+«Practicar solo los fallos» inicia un intento con respuestas vacías que incluye
+únicamente las preguntas incorrectas o sin responder, también las parcialmente
+correctas en respuesta escrita. Al corregir ese intento, se pueden repetir de
+nuevo solo los fallos restantes. Si todo está correcto, no aparece la opción.
+«Repetir todos» o «Repetir examen/práctica» permite volver al banco completo.
+Los repasos de fallos no participan en el ranking.
+
+En el dictado, cada diferencia incluye su aclaración ortográfica, de mayúscula,
+tilde, omisión o puntuación. El repaso permite escuchar y escribir únicamente
+los fragmentos con errores, corregirlos y volver a practicar los que aún fallan,
+sin modificar el borrador original. Este repaso no se guarda al recargar ni
+se envía al ranking.
+
 ## Matemáticas · Potencias
 
 Nivel inicial: bases positivas y exponentes enteros de 0 a 6, sin fracciones,

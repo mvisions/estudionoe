@@ -22,8 +22,10 @@ function save() {
     storageFailed = true;
   }
 }
-function start(ids = languageQuestions.map(item => item.id)) {
-  state = { version: 1, ids: shuffle(ids), answers: {}, options: {}, page: 0, finished: false, startedAt: Date.now() };
+function start(ids) {
+  const practice = Boolean(ids);
+  ids ??= languageQuestions.map(item => item.id);
+  state = { version: 1, ids: shuffle(ids), answers: {}, options: {}, page: 0, finished: false, startedAt: Date.now(), practice };
   for (const item of languageQuestions.filter(item => ids.includes(item.id))) state.options[item.id] = shuffle([item.answer, ...item.wrong]);
   save();
   render();
@@ -49,6 +51,7 @@ function render(focus = true) {
     app.innerHTML = `<section class="result-hero"><h2 tabindex="-1">¡Cada ejemplo te ayuda a aprender!</h2>
       <div class="grade-circle"><strong>${new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1 }).format(summary.grade)}</strong><span>NOTA SOBRE 10</span></div>
       <p>${summary.correct} ${summary.correct === 1 ? "acierto" : "aciertos"} de ${graded.length}. ${summary.wrong} ${summary.wrong === 1 ? "ejercicio" : "ejercicios"} para repasar.</p>
+      ${state.practice ? "<p class=\"muted\">Repaso de fallos: este intento no participa en el ranking.</p>" : ""}
       <div class="result-actions"><button class="primary" data-action="start">Repetir todos</button>
       ${mistakes.length ? `<button class="secondary" data-action="mistakes">Practicar solo los fallos</button>` : ""}
       <button class="secondary danger" data-action="reset">Borrar este repaso</button></div></section>
@@ -116,7 +119,7 @@ app.addEventListener("click", event => {
     state.finished = true;
     save();
     render();
-    if (state.ids.length === languageQuestions.length) {
+    if (!state.practice && state.ids.length === languageQuestions.length) {
       const graded = items().map(item => ({ ...gradeLanguageSelection(item, state.answers[item.id]) }));
       celebratePet(summarize(graded).grade);
       offerActivityRanking(app, {
@@ -142,6 +145,7 @@ try {
       || new Set(candidate.ids).size !== candidate.ids.length || candidate.ids.some(id => !languageQuestions.some(item => item.id === id))
       || !Number.isInteger(candidate.page) || candidate.page < 0 || candidate.page >= candidate.ids.length
       || typeof candidate.finished !== "boolean" || !candidate.answers || typeof candidate.answers !== "object"
+      || (candidate.practice !== undefined && typeof candidate.practice !== "boolean")
       || Array.isArray(candidate.answers) || !candidate.options || typeof candidate.options !== "object"
       || !Number.isFinite(candidate.startedAt) || candidate.startedAt < 0) throw new Error("El formato del repaso no es válido.");
     for (const [id, response] of Object.entries(candidate.answers)) {

@@ -22,12 +22,13 @@
       <section class="language-practice" aria-labelledby="practice-title">
         <span class="eyebrow">Herramienta de trabajo</span>
         <h1 id="practice-title">¿Diptongo, triptongo o ninguno?</h1>
-        <p class="muted">Clasifica cada palabra. Si no tiene diptongo ni triptongo, elige «Ninguno». Al corregir, aparecerá una explicación.</p>
+        <p class="muted">Clasifica cada palabra. Si no tiene diptongo ni triptongo, elige «Ninguno». Al corregir, aparecerá una explicación de cada respuesta y podrás practicar solo los fallos, incluidas las preguntas sin responder.</p>
         <form id="vowel-quiz" class="vowel-quiz">
           <div id="vowel-questions" class="vowel-question-list"></div>
           <div class="vowel-quiz-actions">
             <button class="primary" type="submit">Corregir el test</button>
-            <button class="secondary" type="reset">Empezar de nuevo</button>
+            <button class="secondary" type="button" data-action="mistakes" hidden>Practicar solo los fallos</button>
+            <button class="secondary" type="reset">Repetir todos</button>
           </div>
         </form>
         <p id="vowel-quiz-result" class="vowel-quiz-result" role="status" aria-live="polite"></p>

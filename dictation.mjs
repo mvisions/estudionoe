@@ -1,5 +1,5 @@
 import { dictation, dictationText } from "./dictation-content.mjs?v=3";
-import { gradeDictation, tokenizeDictation } from "./dictation-grading.mjs";
+import { dictationMistakeChunks, explainDictationIssue, gradeDictation, tokenizeDictation } from "./dictation-grading.mjs";
 import { createDictationPlayer } from "./dictation-audio.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
@@ -91,15 +91,90 @@ answer.addEventListener("input", () => {
 
 const escape = text => String(text).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 const labels = { spelling: "Ortografía", accent: "Tilde (y mayúscula, si cambia)", capitalization: "Mayúscula o minúscula", missing: "Palabra que falta", extra: "Palabra de más", punctuation: "Puntuación" };
-const hints = {
-  spelling: "Fíjate en todas las letras de la palabra correcta. La ñ y la ü también son importantes.",
-  accent: "Revisa dónde lleva tilde la palabra y cómo empieza.",
-  capitalization: "Revisa los nombres propios y el comienzo de cada oración.",
-  missing: "Escucha de nuevo esta parte: falta una palabra del texto.",
-  extra: "Esta palabra no aparece aquí en el dictado. Puede haberse repetido o añadido.",
-  punctuation: "Escucha las indicaciones de coma y punto. Revisa este signo.",
-};
 let celebratedStart = 0;
+let practiceChunks = [];
+let practiceMistakes = [];
+
+function correctionMarkup(issues, referenceTokens) {
+  return issues.map(issue => {
+    const context = referenceTokens.slice(Math.max(0, issue.expectedIndex - 3), issue.expectedIndex + 4).map(token => token.text).join(" ");
+    return `<li><strong>${labels[issue.kind]}:</strong> ${issue.actual ? `escribiste «${escape(issue.actual)}»` : "no escribiste esta parte"}.
+      ${issue.expected ? `Debe ser <strong>«${escape(issue.expected)}»</strong>.` : "No hay que añadirlo en este lugar."}
+      <span class="muted"><strong>Por qué:</strong> ${escape(explainDictationIssue(issue))}</span><span class="dictation-context">En el modelo: «${escape(context)}».</span></li>`;
+  }).join("");
+}
+
+function renderPractice() {
+  const container = results.querySelector("#dictation-practice");
+  player.stop();
+  container.innerHTML = `<form id="dictation-practice-form">
+    <h3 tabindex="-1">Practicar solo los fragmentos con fallos (${practiceChunks.length})</h3>
+    <p>Escucha y escribe de nuevo solo estos fragmentos, con sus signos. Las respuestas se vacían en cada intento; tu dictado original no cambia. Este repaso no se guarda al recargar ni participa en el ranking.</p>
+    ${practiceChunks.map(chunk => `<article class="review">
+      <label class="input-label" for="practice-${chunk.index}">Fragmento ${chunk.index + 1}</label>
+      <button class="secondary" type="button" data-listen="${chunk.index}">Escuchar fragmento ${chunk.index + 1}</button>
+      <textarea id="practice-${chunk.index}" name="practice-${chunk.index}" rows="2" maxlength="4000" spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off"></textarea>
+      <div data-feedback="${chunk.index}" aria-live="polite"></div>
+    </article>`).join("")}
+    <p class="form-error" role="alert" id="practice-error"></p>
+    <p id="practice-summary" role="status"></p>
+    <div class="result-actions"><button class="primary" type="submit">Corregir los fragmentos</button>
+    <button class="secondary" type="button" data-action="practice-mistakes" hidden>Practicar solo los fallos restantes</button></div>
+  </form>`;
+  practiceMistakes = [];
+  container.querySelector("h3").focus();
+  container.scrollIntoView({ block: "start" });
+}
+
+results.addEventListener("click", event => {
+  const button = event.target.closest("button");
+  if (!button) return;
+  if (button.dataset.listen !== undefined) playback(value => player.playChunk(Number(button.dataset.listen), value));
+  if (button.dataset.action === "mistakes") {
+    practiceChunks = dictationMistakeChunks(dictation.chunks, answer.value);
+    renderPractice();
+  }
+  if (button.dataset.action === "practice-mistakes" && practiceMistakes.length) {
+    practiceChunks = practiceMistakes;
+    renderPractice();
+  }
+});
+
+results.addEventListener("input", event => {
+  if (!event.target.closest("#dictation-practice-form")) return;
+  results.querySelector('[data-action="practice-mistakes"]').hidden = true;
+  results.querySelector("#practice-summary").textContent = "";
+  event.target.closest("article").querySelector("[data-feedback]").replaceChildren();
+});
+
+results.addEventListener("submit", event => {
+  if (event.target.id !== "dictation-practice-form") return;
+  event.preventDefault();
+  player.stop();
+  const form = event.target;
+  const errorLabel = form.querySelector("#practice-error");
+  errorLabel.textContent = "";
+  practiceMistakes = [];
+  form.querySelector('[data-action="practice-mistakes"]').hidden = true;
+  try {
+    const reviews = practiceChunks.map(chunk => {
+      const response = form.elements.namedItem(`practice-${chunk.index}`).value;
+      return { chunk, review: response.trim() ? gradeDictation(chunk.text, response) : null };
+    });
+    for (const { chunk, review } of reviews) {
+      if (!review || review.issues.length) practiceMistakes.push(chunk);
+      form.querySelector(`[data-feedback="${chunk.index}"]`).innerHTML = `
+        <p class="status ${review && !review.issues.length ? "bien" : "mal"}">${review && !review.issues.length ? "¡Correcto!" : "Para repasar"}</p>
+        <div class="model-answer"><strong>Respuesta correcta:</strong> ${escape(chunk.text)}</div>
+        ${review ? `<ol class="dictation-corrections">${correctionMarkup(review.issues, tokenizeDictation(chunk.text))}</ol>` : "<p>Sin responder. Debes escribir todas las palabras y signos del fragmento que se escucha.</p>"}`;
+    }
+    form.querySelector("#practice-summary").textContent = `${practiceChunks.length - practiceMistakes.length} fragmentos correctos de ${practiceChunks.length}. ${practiceMistakes.length} para repasar.`;
+    form.querySelector('[data-action="practice-mistakes"]').hidden = practiceMistakes.length === 0;
+  } catch (error) {
+    console.error("No se pudo corregir el repaso del dictado.", error);
+    errorLabel.textContent = error.message;
+  }
+});
 
 function renderReview(offerRanking = true) {
   const review = gradeDictation(dictationText, answer.value);
@@ -121,12 +196,9 @@ function renderReview(offerRanking = true) {
     <p>Has escrito correctamente <strong>${review.correctWords} de ${review.totalWords} palabras</strong>. Hay ${review.issues.length} diferencias con el modelo, ${review.punctuationErrors} de puntuación.</p>
     <p class="muted">Es una comparación con este dictado, no un corrector de cualquier texto. Si has escrito algo distinto de lo que dice, aparecerá como una diferencia. Los espacios y saltos de línea no cuentan como faltas.</p>
     <article class="review"><h3>Tu texto revisado</h3><p class="muted">Las partes subrayadas tienen diferencias. Las palabras que faltan se indican en la lista de abajo.</p><p class="dictation-text">${marked}</p></article>
-    ${review.issues.length ? `<article class="review"><h3>Revisa estas diferencias</h3><ol class="dictation-corrections">${review.issues.map(issue => {
-      const context = referenceTokens.slice(Math.max(0, issue.expectedIndex - 3), issue.expectedIndex + 4).map(token => token.text).join(" ");
-      return `<li><strong>${labels[issue.kind]}:</strong> ${issue.actual ? `escribiste «${escape(issue.actual)}»` : "no escribiste esta parte"}.
-        ${issue.expected ? `Debe ser <strong>«${escape(issue.expected)}»</strong>.` : "No hay que añadirlo en este lugar."}
-        <span class="muted">${hints[issue.kind]}</span><span class="dictation-context">En el modelo: «${escape(context)}».</span></li>`;
-    }).join("")}</ol></article>` : `<div class="info-strip">Has cuidado las letras, las tildes, las mayúsculas y los signos. ¡Muy bien!</div>`}
+    ${review.issues.length ? `<div class="result-actions"><button class="secondary" type="button" data-action="mistakes">Practicar solo los fallos</button></div>
+    <section id="dictation-practice"></section>
+    <article class="review"><h3>Revisa estas diferencias</h3><ol class="dictation-corrections">${correctionMarkup(review.issues, referenceTokens)}</ol></article>` : `<div class="info-strip">Has cuidado las letras, las tildes, las mayúsculas y los signos. ¡Muy bien!</div>`}
     <article class="review"><h3>El dictado correcto</h3><div class="model-answer"><p class="dictation-text">${escape(dictationText)}</p></div></article>
     <article class="review"><h3>Trucos para la próxima vez</h3><ul>${dictation.tips.map(tip => `<li>${escape(tip)}</li>`).join("")}</ul><p>Puedes editar tu texto de arriba y volver a corregir, o empezar de nuevo para escucharlo otra vez.</p></article>`;
   if (offerRanking) {

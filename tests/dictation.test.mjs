@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { dictation, dictationText } from "../dictation-content.mjs";
-import { gradeDictation, tokenizeDictation } from "../dictation-grading.mjs";
+import { dictationMistakeChunks, explainDictationIssue, gradeDictation, tokenizeDictation } from "../dictation-grading.mjs";
 
 test("Dictado original de quinto: longitud adecuada y doce audios PCM reales", () => {
   const words = tokenizeDictation(dictationText).filter(token => token.word);
@@ -110,4 +110,41 @@ test("Los índices permiten marcar la respuesta y contextualizar omisiones", () 
     if (issue.expected) assert.equal(reference[issue.expectedIndex].text, issue.expected);
   }
   assert.equal(review.issues.length, 3);
+});
+
+test("El repaso incluye todos y solo los fragmentos erróneos, sin duplicarlos", () => {
+  assert.deepEqual(dictationMistakeChunks(dictation.chunks, dictationText), []);
+  const response = dictationText.replace("sábado", "sabado").replace("mañana,", "manana")
+    .replace("hermana", "ermana").replace(" el lunes.", " el martes.");
+  const mistakes = dictationMistakeChunks(dictation.chunks, response);
+  assert.deepEqual(mistakes.map(chunk => chunk.index), [0, 1, 11]);
+  assert.equal(mistakes[0].text, dictation.chunks[0].text);
+  assert.equal(mistakes[1].audio, dictation.chunks[1].audio);
+  assert.deepEqual(dictationMistakeChunks(dictation.chunks, `${dictationText} sobra`).map(chunk => chunk.index), [11]);
+  assert.deepEqual(dictationMistakeChunks(dictation.chunks, `Sobra ${dictationText}`).map(chunk => chunk.index), [0]);
+  const omitted = dictation.chunks.slice(1).map(chunk => chunk.text).join(" ");
+  assert.deepEqual(dictationMistakeChunks(dictation.chunks, omitted).map(chunk => chunk.index), [0]);
+  assert.throws(() => dictationMistakeChunks(dictation.chunks, ""), /Escribe/);
+});
+
+test("Cada tipo de falta tiene una aclaración y las tildes explican su regla concreta", () => {
+  const responses = [
+    dictationText.replace("sábado", "sabado").replace("dragón", "dragon").replace("río", "rio"),
+    dictationText.replace("Hugo", "hugo").replace("hermana", "ermana").replace("ayudaba", "ayudava"),
+    dictationText.replace("su hermana ", "").replace("un pequeño", "un enorme pequeño").replace("mañana,", "mañana"),
+    dictationText.replace("el lunes.", "el lunes!"),
+  ];
+  const kinds = new Set();
+  for (const response of responses) {
+    for (const issue of gradeDictation(dictationText, response).issues) {
+      kinds.add(issue.kind);
+      assert.ok(explainDictationIssue(issue).length > 45, JSON.stringify(issue));
+    }
+  }
+  assert.equal(kinds.size, 6);
+  assert.match(explainDictationIssue({ kind: "accent", expected: "sábado" }), /esdrújula/);
+  assert.match(explainDictationIssue({ kind: "accent", expected: "río" }), /hiato/);
+  assert.match(explainDictationIssue({ kind: "accent", expected: "guardó" }), /aguda.*vocal/);
+  assert.match(explainDictationIssue({ kind: "spelling", expected: "ayudaba" }), /-aba.*b/);
+  assert.match(explainDictationIssue({ kind: "capitalization", expected: "Hugo" }), /nombre propio/);
 });

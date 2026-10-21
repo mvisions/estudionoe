@@ -5,7 +5,7 @@ import { gradeEnglishAnswer } from "../english-grading.mjs";
 import { formatEnglishResultSummary } from "../english-result-summary.mjs";
 import { classroomPractice, classroomPhrases, classroomVocabulary } from "../english-classroom.mjs";
 import {
-  monthNames, ordinalNumbers, ordinalSuffix, ordinalWords, spokenDate, writtenDate,
+  monthNames, ordinalNumbers, ordinalExplanation, ordinalSuffix, ordinalWords, spokenDate, writtenDate,
 } from "../ordinal-numbers.mjs";
 
 test("Se generan los 100 ordinales en inglés sin duplicados", () => {
@@ -37,6 +37,18 @@ test("Se escriben correctamente las excepciones, decenas y números compuestos",
   assert.throws(() => ordinalSuffix(1.5), RangeError);
 });
 
+test("Cada ordinal tiene una explicación de su regla y sus excepciones", () => {
+  for (const { number, words } of ordinalNumbers) {
+    const explanation = ordinalExplanation(number);
+    assert.ok(explanation.length > 50);
+    assert.ok(explanation.includes(words), `Explicación del ordinal ${number}`);
+  }
+  assert.match(ordinalExplanation(12), /twelve.*twelfth/);
+  assert.match(ordinalExplanation(40), /y.*ie.*forty.*fortieth/);
+  assert.match(ordinalExplanation(21), /guion.*twenty-first/);
+  for (const invalid of [0, 101, 1.5, null, "1"]) assert.throws(() => ordinalExplanation(invalid), RangeError);
+});
+
 test("Las fechas se escriben y se dicen con ordinales y el orden británico", () => {
   assert.deepEqual(monthNames, [
     "January", "February", "March", "April", "May", "June",
@@ -60,6 +72,8 @@ test("El vocabulario del aula tiene consulta y práctica de traducción", () => 
   assert.ok(classroomPractice.some(question => question.answer === "Can you speak more slowly?"));
   for (const question of classroomPractice) {
     assert.ok(question.display);
+    assert.ok(question.explanation.length > 50, question.display);
+    assert.notEqual(question.explanation, question.answer);
     assert.equal(gradeEnglishAnswer(question.answer, question.answer), true);
   }
 });

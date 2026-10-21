@@ -458,7 +458,7 @@ function reviewMarkup(result) {
     <p><strong>Tu respuesta:</strong> ${escape(result.answer || "Sin responder")}</p>
     <div class="model-answer"><p><strong>${topic === "history" ? "Respuesta de los apuntes:" : "Respuesta correcta:"}</strong> ${escape(result.item.answer)}</p></div>
     <p><strong>${result.score === 1 ? "Por qué está bien:" : "Por qué no está completa o correcta:"}</strong> ${escape(result.reason)}</p>
-    ${result.item.explanation ? `<p><strong>Cómo se resuelve:</strong> ${escape(result.item.explanation)}</p>` : ""}
+    <p><strong>Por qué esta es la respuesta:</strong> ${escape(result.item.explanation)}</p>
     ${result.matched?.length ? `<p><strong>Ideas reconocidas:</strong> ${result.matched.map(escape).join("; ")}.</p>` : ""}
     ${result.missing?.length ? `<p><strong>Debes añadir o revisar:</strong></p><ul>${result.missing.map(label => `<li>${escape(label)}</li>`).join("")}</ul>` : ""}</article>`;
 }

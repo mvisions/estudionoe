@@ -66,6 +66,10 @@ export function createDictationPlayer({ chunks, onState, onError, createAudio = 
   }
   return {
     play(rate) { speak(0, rate, true); },
+    playChunk(index, rate) {
+      if (!Number.isInteger(index) || index < 0 || index >= chunks.length) throw new RangeError("El fragmento del dictado no existe.");
+      speak(index, rate, false);
+    },
     repeat(rate) { speak(index, rate, false); },
     next(rate) { speak(Math.min(index + 1, chunks.length - 1), rate, false); },
     stop,

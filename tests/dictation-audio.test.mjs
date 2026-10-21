@@ -87,3 +87,17 @@ test("Errores de carga, bloqueo de reproducción y tiempos de espera se muestran
   assert.equal(blocked.player.status, "idle");
   assert.match(blocked.errors[0], /NotAllowedError/);
 });
+
+test("El repaso reproduce únicamente el fragmento elegido y rechaza índices inexistentes", t => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  const { player, audios } = setup(t);
+  player.playChunk(1, 0.9);
+  assert.equal(audios[0].source, "02.wav");
+  assert.equal(audios[0].playbackRate, 0.9);
+  audios[0].onplaying();
+  audios[0].onended();
+  t.mock.timers.tick(4000);
+  assert.equal(audios.length, 1);
+  assert.equal(player.status, "finished");
+  for (const invalid of [-1, 2, 0.5, "1"]) assert.throws(() => player.playChunk(invalid, 1), RangeError);
+});

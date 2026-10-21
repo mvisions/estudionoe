@@ -52,3 +52,67 @@ export function gradeDictation(reference, response) {
   const totalWords = expected.filter(token => token.word).length;
   return { issues: issues.reverse(), correctWords, totalWords, punctuationErrors: issues.filter(issue => issue.kind === "punctuation").length };
 }
+
+export function dictationMistakeChunks(chunks, response) {
+  const reference = chunks.map(chunk => chunk.text).join(" ");
+  const { issues } = gradeDictation(reference, response);
+  const totalTokens = tokenizeDictation(reference).length;
+  let offset = 0;
+  return chunks.flatMap((chunk, index) => {
+    const start = offset;
+    offset += tokenizeDictation(chunk.text).length;
+    const incorrect = issues.some(issue => {
+      const position = Math.min(issue.expectedIndex, totalTokens - 1);
+      return position >= start && position < offset;
+    });
+    return incorrect ? [{ ...chunk, index }] : [];
+  });
+}
+
+export function explainDictationIssue(issue) {
+  const word = issue.expected.toLocaleLowerCase("es");
+  if (issue.kind === "accent") {
+    const rules = {
+      sábado: "Sábado es esdrújula (sá-ba-do); todas las esdrújulas llevan tilde.",
+      mostró: "Mostró es aguda y termina en vocal, por eso lleva tilde en ó.",
+      dragón: "Dragón es aguda y termina en n, por eso lleva tilde en ó.",
+      vivía: "Vivía lleva tilde en la vocal cerrada tónica í para marcar el hiato: vi-ví-a.",
+      río: "Río lleva tilde en la vocal cerrada tónica í para marcar el hiato: rí-o.",
+      parecía: "Parecía lleva tilde en la vocal cerrada tónica í para marcar el hiato: pa-re-cí-a.",
+      después: "Después es aguda y termina en s, por eso lleva tilde en é.",
+      niños: "Niños conserva la ñ: no se sustituye por n.",
+      descripción: "Descripción es aguda y termina en n, por eso lleva tilde en ó.",
+      guardó: "Guardó es aguda y termina en vocal, por eso lleva tilde en ó.",
+      enseñárselo: "Enseñárselo es esdrújula (en-se-ñár-se-lo); todas las esdrújulas llevan tilde.",
+    };
+    return `${rules[word] ?? `La forma «${issue.expected}» del modelo debe conservar sus tildes; cambiarlas puede alterar la pronunciación o el significado.`} Revisa también la mayúscula si ha cambiado.`;
+  }
+  if (issue.kind === "capitalization") {
+    return issue.expected === "Hugo"
+      ? "Hugo es un nombre propio de persona y siempre comienza con mayúscula."
+      : /^[A-ZÁÉÍÓÚÜÑ]/u.test(issue.expected)
+        ? `«${issue.expected}» comienza una oración y por eso lleva mayúscula inicial.`
+        : `«${issue.expected}» no es un nombre propio ni comienza aquí una oración; se escribe con minúscula.`;
+  }
+  if (issue.kind === "punctuation") {
+    if (issue.expected === ".") return "El punto cierra la oración y marca una pausa. No se sustituye por otro signo ni se omite.";
+    if (issue.expected === ",") return "La coma separa esta parte de la oración y marca la pausa indicada en el audio; la oración continúa después.";
+    return "El modelo no lleva un signo en este lugar; añadirlo cambia la puntuación del dictado.";
+  }
+  if (issue.kind === "missing") return `Falta «${issue.expected}»: forma parte de la frase que se escucha y es necesaria para reproducir el modelo completo.`;
+  if (issue.kind === "extra") return `«${issue.actual}» no aparece en este punto del audio; hay que quitarla para no añadir ni repetir palabras.`;
+  const spelling = {
+    hugo: "Hugo es un nombre propio que se escribe con H inicial, aunque esa h no suene.",
+    hermana: "Hermana se escribe con h inicial muda: no se oye, pero no se puede omitir.",
+    ayudaba: "Ayudaba es una forma verbal en -aba; estas terminaciones se escriben con b.",
+    biblioteca: "Biblioteca empieza por b y conserva el grupo bl.",
+    bibliotecaria: "Bibliotecaria pertenece a la familia de biblioteca y conserva b y bl.",
+    aventuras: "Aventuras se escribe con v, aunque en español b y v suelen sonar igual.",
+    vecinos: "Vecinos se escribe con v inicial y c delante de i.",
+    breve: "Breve conserva b en el grupo br y v en su segunda sílaba.",
+    pequeño: "Pequeño conserva la ñ y el grupo qu delante de e; la ñ no es una n.",
+    niños: "Niños se escribe con ñ; cambiarla por n cambia la palabra.",
+    descripción: "Descripción conserva el grupo -pc- y la tilde en ó.",
+  };
+  return spelling[word] ?? `La palabra del audio es «${issue.expected}». Su escritura completa es ${Array.from(issue.expected).join(" · ")}; compara las letras con «${issue.actual}» para localizar el cambio.`;
+}

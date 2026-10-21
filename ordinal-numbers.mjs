@@ -39,6 +39,20 @@ export function ordinalWords(number) {
   return "one hundredth";
 }
 
+export function ordinalExplanation(number) {
+  const words = ordinalWords(number);
+  const exceptions = {
+    1: "one cambia a first", 2: "two cambia a second", 3: "three cambia a third",
+    5: "five pierde ve y añade fth: fifth", 8: "eight añade h: eighth",
+    9: "nine pierde la e antes de añadir th: ninth", 12: "twelve cambia ve por f antes de añadir th: twelfth",
+  };
+  if (exceptions[number]) return `Es un ordinal con escritura especial: ${exceptions[number]}. Indica una posición, no una cantidad.`;
+  if (number === 100) return "En one hundredth, hundred recibe la terminación -th para indicar la posición centésima.";
+  if (number >= 20 && number % 10 === 0) return `En las decenas, la y del cardinal cambia a ie antes de añadir th: ${cardinalTens[number / 10]} → ${words}.`;
+  if (number > 20) return `Se conserva la decena ${cardinalTens[Math.floor(number / 10)]}, se añade un guion y solo la unidad se vuelve ordinal: ${words}. ${ordinalExplanation(number % 10)}`;
+  return `Se añade -th al cardinal para expresar una posición: ${words}. No se escribe solo el número cardinal, que indica cantidad.`;
+}
+
 export function spokenDate(day, month) {
   validateDate(day, month);
   return `the ${ordinalWords(day)} of ${month}`;

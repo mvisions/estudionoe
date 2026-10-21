@@ -34,4 +34,6 @@ test("El formulario autocorregible se encuentra en su propia página", () => {
   assert.match(html, /id="vowel-quiz"/);
   assert.match(html, /id="vowel-questions"/);
   assert.match(html, /src="\.\.\/language-vowels\.mjs"/);
+  assert.match(html, /type="button" data-action="mistakes" hidden>Practicar solo los fallos/);
+  assert.match(html, /type="reset">Repetir todos/);
 });
