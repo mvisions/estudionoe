@@ -136,11 +136,15 @@ progress::-moz-progress-bar { background: #78947a; }
 .question-card h2 { font-size: 23px; margin: 12px 0 26px; }
 .options { display: grid; gap: 12px; }
 .science-questions { display: grid; gap: 20px; }
-.science-questions fieldset { min-width: 0; margin: 0; }
-.science-questions legend { max-width: 100%; padding: 0 8px; font-weight: 700; line-height: 1.5; }
-.science-questions label { display: flex; align-items: baseline; gap: 8px; line-height: 1.6; cursor: pointer; }
-.science-questions input { flex-shrink: 0; }
-.science-feedback { border-top: 1px solid var(--border); padding-top: 14px; }
+.science-questions fieldset { min-width: 0; margin: 0; padding: 24px 28px; }
+.science-questions legend { float: left; width: 100%; margin: 0 0 16px; padding: 0; font-family: Manrope, system-ui, sans-serif; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.science-questions .options { clear: both; gap: 10px; }
+.science-questions label { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border: 1px solid var(--border); border-radius: 12px; line-height: 1.5; cursor: pointer; transition: background .15s, border-color .15s; }
+.science-questions label:hover { background: #f3f7ef; }
+.science-questions label:has(input:checked) { background: #e7eee0; border-color: var(--green); }
+.science-questions input[type="radio"] { flex-shrink: 0; width: 18px; height: 18px; margin: 0; padding: 0; accent-color: var(--green); }
+.science-feedback { clear: both; margin: 16px 0 0; border-top: 1px solid var(--border); padding-top: 14px; }
+@media (max-width: 600px) { .science-questions fieldset { padding: 18px 16px; } }
 .video-frame { max-width: 820px; margin: 40px auto; padding: 28px; text-align: center; border: 2px solid #c8d8be; border-radius: 26px; background: linear-gradient(135deg, #e7eee0, #fffdf5 55%, #e7eee0); box-shadow: 0 14px 34px #244b421a; }
 .video-frame h2 { margin-top: 0; }
 .video-frame p { max-width: 640px; margin-inline: auto; }
