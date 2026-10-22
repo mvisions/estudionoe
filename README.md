@@ -28,7 +28,7 @@ Francés aparece en naranja con un botón «Próximamente» desactivado; todaví
 no abre una actividad. La tarjeta adapta sus colores al modo claro y oscuro.
 La portada muestra un anuncio compacto del próximo control de Lengua.
 
-La portada incluye «Notas de la profesora» con los avisos del martes 20.
+La portada incluye «Notas de la profesora» con los avisos actuales.
 El módulo `teacher-notes.mjs` genera una franja horizontal continua a partir
 de las notas escritas en `aula/index.html`: para cambiarlas, edita esa lista.
 Se puede pausar con el botón, al pasar el puntero o al enfocar sus controles.
