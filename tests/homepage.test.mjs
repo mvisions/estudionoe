@@ -26,3 +26,17 @@ test("La portada incluye Francés en naranja con un botón Próximamente desacti
   assert.match(styles, /\[data-subject="french"\]\.mode-card \.mode-icon \{ background: #fff0df; color: #a84c0a; \}/);
   assert.match(styles, /\[data-theme="dark"\] \[data-subject="french"\]/);
 });
+
+test("La asignatura Conocimiento del Medio abre la nueva guía y conserva Historia como página anterior", () => {
+  const home = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
+  const newPage = readFileSync(new URL("../aula/conocimiento-medio.html", import.meta.url), "utf8");
+  const previousPage = readFileSync(new URL("../aula/historia.html", import.meta.url), "utf8");
+
+  assert.match(home, /<h3>Conocimiento del Medio<\/h3>[\s\S]*href="\.\/conocimiento-medio\.html">Explorar Conocimiento del Medio/);
+  assert.match(newPage, /Taller de Historia de la Ciencia/);
+  assert.match(newPage, /¿Qué es la mecánica\?/);
+  assert.match(newPage, /¿Quién fue Aristóteles\?/);
+  assert.match(newPage, /¿Qué pensaba sobre las esferas\?/);
+  assert.match(newPage, /href="\.\/historia\.html">← Página anterior: Historia y la Edad Media/);
+  assert.match(previousPage, /<title>Historia · Noé<\/title>/);
+});

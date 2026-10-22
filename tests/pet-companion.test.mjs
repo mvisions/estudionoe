@@ -13,7 +13,7 @@ test("La mascota baila solo por encima de 5 y los cohetes solo por encima de 7",
 
 test("La mascota elegida y los efectos aparecen en todas las páginas de estudio", () => {
   const pages = [
-    "index.html", "aula/index.html", "aula/historia.html", "aula/matematicas.html",
+    "index.html", "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/matematicas.html",
     "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
     "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html",
   ];

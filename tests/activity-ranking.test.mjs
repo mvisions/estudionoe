@@ -52,7 +52,7 @@ test("Las actividades solo aceptan bancos y cantidades completos válidos", () =
 test("La página principal y todas las prácticas independientes muestran acceso a los rankings", () => {
   const root = fileURLToPath(new URL("..", import.meta.url));
   const pages = [
-    "aula/index.html", "aula/historia.html", "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
+    "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
     "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html",
   ];
   for (const path of pages)

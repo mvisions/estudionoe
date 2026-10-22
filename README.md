@@ -6,8 +6,10 @@ Web: https://mvisions.github.io/estudionoe/
 
 La nueva portada está en `aula/index.html`; una vez publicada, estará disponible
 en https://mvisions.github.io/estudionoe/aula/.
-Historia abre `aula/historia.html`, donde «La Edad Media · Estudio Noé» enlaza a
-la web original. Matemáticas abre `aula/matematicas.html` con el tema Potencias.
+Conocimiento del Medio abre `aula/conocimiento-medio.html`, con una guía de
+5.º de Primaria para el taller «Jugando con las fuerzas». La antigua página
+`aula/historia.html` se conserva como página anterior sobre la Edad Media.
+Matemáticas abre `aula/matematicas.html` con el tema Potencias.
 Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
 para 5.º de Primaria. Inglés abre `aula/ingles.html`, con guía y lista de
 ordinales, reglas para escribir y decir fechas, meses, vocabulario escolar y
