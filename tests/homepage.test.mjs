@@ -27,6 +27,11 @@ test("La portada incluye Francés en naranja con un botón Próximamente desacti
   assert.match(styles, /\[data-theme="dark"\] \[data-subject="french"\]/);
 });
 
+test("La portada destaca la actualización importante de Conocimiento del Medio", () => {
+  const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
+  assert.match(html, /class="exam-alert exam-alert-compact exam-alert-science"[\s\S]*¡IMPORTANTE![\s\S]*CONOCIMIENTO DEL MEDIO · ACTUALIZADO[\s\S]*href="\.\/conocimiento-medio\.html">Ir a Conocimiento del Medio/);
+});
+
 test("La asignatura Conocimiento del Medio abre la nueva guía y conserva Historia como página anterior", () => {
   const home = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
   const newPage = readFileSync(new URL("../aula/conocimiento-medio.html", import.meta.url), "utf8");
