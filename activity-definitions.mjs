@@ -5,6 +5,7 @@ import { gradeDictation } from "./dictation-grading.mjs";
 import { monthNames, ordinalNumbers, spokenDate } from "./ordinal-numbers.mjs";
 import { languageQuestions, gradeLanguageSelection } from "./language-questions.mjs";
 import { vowelQuestions } from "./language-vowels.mjs";
+import { scienceQuestions } from "./science-quiz.mjs";
 
 const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -41,6 +42,11 @@ function scoreActivity(activity, ids, answers) {
     const bank = new Map(vowelQuestions.map(question => [`vowel-${question.word}`, question.answer]));
     return scoreChoices(ids, answers, bank);
   }
+  if (activity === "science-forces") {
+    const bank = new Map(scienceQuestions.map(question => [`science-${question.id}`, String(question.answer)]));
+    const points = ids.reduce((score, id) => score + Number(answers[id] === bank.get(id)), 0);
+    return { points, total: ids.length };
+  }
   if (activity === "language-dictation") {
     const review = gradeDictation(dictationText, answers["dictation-biblioteca"] ?? "");
     return { points: review.correctWords, total: review.totalWords };
@@ -56,6 +62,7 @@ const questionIds = {
   "language-review": new Set(languageQuestions.map(question => String(question.id))),
   "language-vowels": new Set(vowelQuestions.map(question => `vowel-${question.word}`)),
   "language-dictation": new Set(["dictation-biblioteca"]),
+  "science-forces": new Set(scienceQuestions.map(question => `science-${question.id}`)),
 };
 
 export const activityDefinitions = Object.freeze({
@@ -65,6 +72,7 @@ export const activityDefinitions = Object.freeze({
   "language-review": { label: "Lengua · Repaso", minQuestions: languageQuestions.length, maxQuestions: languageQuestions.length },
   "language-vowels": { label: "Lengua · Diptongos y triptongos", minQuestions: vowelQuestions.length, maxQuestions: vowelQuestions.length },
   "language-dictation": { label: "Lengua · Dictado", minQuestions: 1, maxQuestions: 1 },
+  "science-forces": { label: "Conocimiento del Medio · Las fuerzas", minQuestions: scienceQuestions.length, maxQuestions: scienceQuestions.length },
 });
 
 export function gradeActivity(activity, ids, answers) {

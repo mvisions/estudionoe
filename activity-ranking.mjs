@@ -13,6 +13,7 @@ export const activityRankings = [
   { label: "Lengua · Repaso", mode: "activity", topic: "language-review" },
   { label: "Lengua · Diptongos y triptongos", mode: "activity", topic: "language-vowels" },
   { label: "Lengua · Dictado", mode: "activity", topic: "language-dictation" },
+  { label: "Conocimiento del Medio · Las fuerzas", mode: "activity", topic: "science-forces" },
 ];
 
 const receiptKey = "noe-activity-ranking-receipts-v1";

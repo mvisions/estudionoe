@@ -11,7 +11,8 @@ Conocimiento del Medio abre `aula/conocimiento-medio.html`, con una guía de
 `aula/historia.html` se conserva como página anterior sobre la Edad Media.
 La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
 esferas, con nota sobre 10, explicaciones y repaso de errores o preguntas sin
-responder. No guarda respuestas ni participa en el ranking. El enlace
+responder. Al completar las nueve preguntas se puede participar en el ranking
+(`science-forces`); el repaso de fallos no cuenta. El enlace
 «Página anterior», en el pie de página, vuelve a Historia.
 Antes del test aparece la biografía infantil de Aristóteles de Quonomy
 (4:05), ya visible en la página. El reproductor usa `youtube-nocookie.com`;

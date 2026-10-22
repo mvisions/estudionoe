@@ -50,3 +50,9 @@ test("El vídeo aparece incrustado directamente y ofrece un enlace alternativo",
   assert.match(html, /<div class="science-video">\s*<iframe src="https:\/\/www.youtube-nocookie.com\/embed\/Wr3p0U2_nqU"[^>]*referrerpolicy="strict-origin-when-cross-origin"/);
   assert.doesNotMatch(html, /load-aristotle-video|science-video\.mjs/);
 });
+
+test("El test completo de Conocimiento del Medio ofrece participar en el ranking", () => {
+  const source = readFileSync(new URL("../science-quiz.mjs", import.meta.url), "utf8");
+  assert.match(source, /offerActivityRanking\(section, \{\s*activity: "science-forces"/);
+  assert.match(source, /if \(!unanswered && !practice\)/);
+});

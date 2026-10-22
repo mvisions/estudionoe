@@ -1,3 +1,6 @@
+import { offerActivityRanking } from "./activity-ranking.mjs";
+import { celebratePet } from "./pet-companion.mjs";
+
 export const scienceQuestions = [
   {
     id: "mecanica", topic: "mecanica",
@@ -81,6 +84,10 @@ if (form) {
   const retry = form.querySelector('[data-action="mistakes"]');
   let questions = scienceQuestions;
   let mistakes = [];
+  let practice = false;
+  let startedAt = Date.now();
+  let celebratedStart = 0;
+  const section = form.closest("section");
 
   function render() {
     container.innerHTML = questions.map((question, index) => `
@@ -97,6 +104,8 @@ if (form) {
     mistakes = [];
     retry.hidden = true;
     result.textContent = "";
+    startedAt = Date.now();
+    section.querySelector(".activity-ranking-invite")?.remove();
   }
 
   render();
@@ -113,13 +122,28 @@ if (form) {
       feedback.textContent = `${item.correct ? "¡Correcto!" : "Revisa esta pregunta."} Tu respuesta: ${item.question.options[item.selected] ?? "Sin responder"}. Respuesta correcta: ${item.question.options[item.question.answer]} Por qué: ${item.question.explanation}`;
     }
     retry.hidden = mistakes.length === 0;
-    result.textContent = `Has acertado ${graded.score} de ${graded.total}. Nota: ${graded.grade.toLocaleString("es", { maximumFractionDigits: 1 })}/10. ${mistakes.length ? "Revisa las explicaciones o practica solo los fallos." : "¡Muy bien, has acertado todas!"}`;
+    const unanswered = graded.results.filter(item => item.selected === undefined).length;
+    result.textContent = `Has acertado ${graded.score} de ${graded.total}. Nota: ${graded.grade.toLocaleString("es", { maximumFractionDigits: 1 })}/10. ${unanswered ? `Te faltan ${unanswered} por responder; complétalas para poder entrar en el ranking.` : mistakes.length ? "Revisa las explicaciones o practica solo los fallos." : "¡Muy bien, has acertado todas!"}`;
+    section.querySelector(".activity-ranking-invite")?.remove();
+    if (!unanswered && !practice) {
+      if (celebratedStart !== startedAt) {
+        celebratePet(graded.grade);
+        celebratedStart = startedAt;
+      }
+      offerActivityRanking(section, {
+        activity: "science-forces",
+        ids: questions.map(question => `science-${question.id}`),
+        answers: Object.fromEntries(questions.map(question => [`science-${question.id}`, String(answers[question.id])])),
+        startedAt, finishedAt: Date.now(),
+      });
+    }
   });
 
   retry.addEventListener("click", () => {
+    practice = true;
     questions = mistakes;
     render();
-    result.textContent = `Repaso de ${questions.length} preguntas erróneas o sin responder.`;
+    result.textContent = `Repaso de ${questions.length} preguntas erróneas o sin responder. Este repaso no participa en el ranking.`;
     container.querySelector("input").focus();
   });
 
@@ -127,10 +151,12 @@ if (form) {
     retry.hidden = true;
     result.textContent = "";
     for (const feedback of container.querySelectorAll(".science-feedback")) feedback.hidden = true;
+    section.querySelector(".activity-ranking-invite")?.remove();
   });
 
   form.addEventListener("reset", event => {
     event.preventDefault();
+    practice = false;
     questions = scienceQuestions;
     render();
     container.querySelector("input").focus();

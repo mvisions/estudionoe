@@ -15,6 +15,7 @@ test("La portada muestra las notas nuevas de las tres asignaturas", () => {
   assert.match(html, /¿Qué es la mecánica\?/);
   assert.match(html, /¿Quién fue Aristóteles\?/);
   assert.match(html, /¿Qué teoría tenía sobre «las esferas»\?/);
+  assert.match(html, /<h3>Inglés<\/h3>[\s\S]*hoja de vocabulario de la libreta[\s\S]*tabla de los posesivos[\s\S]*Activity Book, página 7/);
   assert.match(html, /Paula Corrales: 2 camisetas talla 11-12/);
   assert.match(html, /Verónica Kovalchuk: sudadera \(S\) y camiseta \(S\)/);
   assert.doesNotMatch(html, /Martes 20|22\/10\/2026|María Madre/);

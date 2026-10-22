@@ -8,6 +8,7 @@ import { dictationText } from "../dictation-content.mjs";
 import { languageQuestions } from "../language-questions.mjs";
 import { ordinalNumbers, monthNames, spokenDate } from "../ordinal-numbers.mjs";
 import { vowelQuestions } from "../language-vowels.mjs";
+import { scienceQuestions } from "../science-quiz.mjs";
 import { createExamService, createMemoryStore } from "../exam-service.mjs";
 import { createApi } from "../server.mjs";
 
@@ -39,10 +40,18 @@ test("Las actividades con nota calculan sus puntos desde los bancos oficiales", 
 
   assert.deepEqual(gradeActivity("language-dictation", ["dictation-biblioteca"],
     { "dictation-biblioteca": dictationText }), { points: 75, total: 75 });
+
+  const scienceIds = scienceQuestions.map(item => `science-${item.id}`);
+  assert.deepEqual(gradeActivity("science-forces", scienceIds,
+    Object.fromEntries(scienceQuestions.map(item => [`science-${item.id}`, String(item.answer)]))),
+  { points: scienceQuestions.length, total: scienceQuestions.length });
+  assert.deepEqual(gradeActivity("science-forces", scienceIds,
+    Object.fromEntries(scienceQuestions.map(item => [`science-${item.id}`, String((item.answer + 1) % item.options.length)]))),
+  { points: 0, total: scienceQuestions.length });
 });
 
 test("Las actividades solo aceptan bancos y cantidades completos válidos", () => {
-  assert.equal(Object.keys(activityDefinitions).length, 6);
+  assert.equal(Object.keys(activityDefinitions).length, 7);
   assert.throws(() => gradeActivity("english-ordinal", ["ordinal-1"], { "ordinal-1": "first" }), /formato válido/);
   assert.throws(() => gradeActivity("english-ordinal", Array(10).fill("ordinal-1"), {}), /formato válido/);
   assert.throws(() => gradeActivity("language-review", ["1"], { "1": "respuesta ajena" }), /formato válido/);
