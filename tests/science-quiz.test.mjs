@@ -42,15 +42,11 @@ test("El enlace Página anterior está al final y el test se publica con la pág
   assert.match(read("../.github/workflows/deploy-pages.yml"), /cp science-quiz\.mjs site\//);
 });
 
-test("El vídeo se carga bajo demanda y ofrece un enlace alternativo", () => {
+test("El vídeo aparece incrustado directamente y ofrece un enlace alternativo", () => {
   const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
   const html = read("../aula/conocimiento-medio.html");
-  const script = read("../science-video.mjs");
   assert.match(html, /4 minutos y 5 segundos/);
   assert.match(html, /href="https:\/\/www.youtube.com\/watch\?v=Wr3p0U2_nqU"/);
-  assert.doesNotMatch(html, /<iframe/);
-  assert.match(html, /src="\.\.\/science-video\.mjs"/);
-  assert.match(script, /button.addEventListener\("click", \(\) => \{[\s\S]*player.src = "https:\/\/www.youtube-nocookie.com\/embed\/Wr3p0U2_nqU"/);
-  assert.match(script, /player.referrerPolicy = "strict-origin-when-cross-origin"/);
-  assert.match(read("../.github/workflows/deploy-pages.yml"), /cp science-video\.mjs site\//);
+  assert.match(html, /<div class="science-video">\s*<iframe src="https:\/\/www.youtube-nocookie.com\/embed\/Wr3p0U2_nqU"[^>]*referrerpolicy="strict-origin-when-cross-origin"/);
+  assert.doesNotMatch(html, /load-aristotle-video|science-video\.mjs/);
 });
