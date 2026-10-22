@@ -34,6 +34,8 @@ jobs:
           cp activity-ranking.mjs site/
           cp pet-companion.mjs site/
           cp teacher-notes.mjs site/
+          cp science-quiz.mjs site/
+          cp science-video.mjs site/
           cp theme.mjs dictation.mjs dictation-content.mjs dictation-grading.mjs dictation-audio.mjs language.css site/
           cp language-home.mjs language-quiz.mjs language-questions.mjs language-vowels.mjs site/
           cp english.css english-home.mjs site/

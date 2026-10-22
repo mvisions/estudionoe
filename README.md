@@ -9,6 +9,13 @@ en https://mvisions.github.io/estudionoe/aula/.
 Conocimiento del Medio abre `aula/conocimiento-medio.html`, con una guía de
 5.º de Primaria para el taller «Jugando con las fuerzas». La antigua página
 `aula/historia.html` se conserva como página anterior sobre la Edad Media.
+La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
+esferas, con nota sobre 10, explicaciones y repaso de errores o preguntas sin
+responder. No guarda respuestas ni participa en el ranking. El enlace
+«Página anterior», en el pie de página, vuelve a Historia.
+Antes del test aparece la biografía infantil de Aristóteles de Quonomy
+(4:05). El reproductor usa `youtube-nocookie.com` y solo se carga al pulsar
+el botón; también hay un enlace directo a YouTube.
 Matemáticas abre `aula/matematicas.html` con el tema Potencias.
 Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
 para 5.º de Primaria. Inglés abre `aula/ingles.html`, con guía y lista de

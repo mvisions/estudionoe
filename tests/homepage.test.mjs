@@ -37,6 +37,6 @@ test("La asignatura Conocimiento del Medio abre la nueva guía y conserva Histor
   assert.match(newPage, /¿Qué es la mecánica\?/);
   assert.match(newPage, /¿Quién fue Aristóteles\?/);
   assert.match(newPage, /¿Qué pensaba sobre las esferas\?/);
-  assert.match(newPage, /href="\.\/historia\.html">← Página anterior: Historia y la Edad Media/);
+  assert.match(newPage, /<footer>[\s\S]*href="\.\/historia\.html">Página anterior<\/a>/);
   assert.match(previousPage, /<title>Historia · Noé<\/title>/);
 });

@@ -135,6 +135,14 @@ progress::-moz-progress-bar { background: #78947a; }
 .question-card { background: white; border: 1px solid var(--border); padding: 35px; border-radius: 22px; }
 .question-card h2 { font-size: 23px; margin: 12px 0 26px; }
 .options { display: grid; gap: 12px; }
+.science-questions { display: grid; gap: 20px; }
+.science-questions fieldset { min-width: 0; margin: 0; }
+.science-questions legend { max-width: 100%; padding: 0 8px; font-weight: 700; line-height: 1.5; }
+.science-questions label { display: flex; align-items: baseline; gap: 8px; line-height: 1.6; cursor: pointer; }
+.science-questions input { flex-shrink: 0; }
+.science-feedback { border-top: 1px solid var(--border); padding-top: 14px; }
+.science-video { aspect-ratio: 16 / 9; margin-bottom: 16px; }
+.science-video iframe { display: block; width: 100%; height: 100%; border: 0; border-radius: 14px; }
 .option { text-align: left; background: white; border: 1px solid var(--border); padding: 18px; border-radius: 12px; display: flex; gap: 15px; align-items: center; color: #3f514a; line-height: 1.5; font-size: 14px; }
 .option-letter { display: grid; place-items: center; border-radius: 8px; background: #f2f4ef; min-width: 31px; height: 31px; font-weight: 700; }
 .option.selected { border-color: var(--green); background: #edf3e9; box-shadow: inset 0 0 0 1px var(--green); }

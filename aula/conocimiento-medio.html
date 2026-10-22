@@ -21,7 +21,6 @@
         <span class="eyebrow">Taller de Historia de la Ciencia</span>
         <h1 id="science-title">Jugando con las fuerzas</h1>
         <p>Guía para investigar en equipo cómo explicaban el movimiento las personas de la Antigüedad y qué ideas tenemos hoy.</p>
-        <p><a class="secondary" href="./historia.html">← Página anterior: Historia y la Edad Media</a></p>
       </section>
 
       <section aria-labelledby="questions-title">
@@ -86,10 +85,43 @@
         </div>
       </section>
 
+      <section aria-labelledby="aristotle-video-title">
+        <h2 id="aristotle-video-title">¿Quién fue Aristóteles? En vídeo</h2>
+        <p>«ARISTÓTELES para niños | BIOGRAFÍA corta», de Quonomy. Duración: 4 minutos y 5 segundos.</p>
+        <p>Fíjate en quién fue, dónde vivió y qué le interesaba estudiar. Para repasar la mecánica y las esferas, vuelve también a las explicaciones de esta guía.</p>
+        <div id="aristotle-video" class="science-video" hidden></div>
+        <button id="load-aristotle-video" class="primary" type="button" aria-controls="aristotle-video" hidden>Cargar vídeo de YouTube</button>
+        <p class="muted">El reproductor solo se conecta con YouTube cuando pulsas el botón. Al cargarlo se aplican las condiciones y la política de privacidad de YouTube.</p>
+        <p><a class="secondary" href="https://www.youtube.com/watch?v=Wr3p0U2_nqU" target="_blank" rel="noopener noreferrer">Ver el vídeo en YouTube (nueva pestaña)</a></p>
+      </section>
+
+      <section aria-labelledby="science-quiz-title">
+        <h2 id="science-quiz-title">Comprueba lo que sabes</h2>
+        <p>Responde a las nueve preguntas sobre mecánica, Aristóteles y las esferas. Al corregir verás tu respuesta, la solución y una explicación. Las preguntas sin responder cuentan como fallo.</p>
+        <p class="muted">Este repaso no guarda tus respuestas ni participa en el ranking.</p>
+        <noscript><p>Activa JavaScript para hacer el test. Puedes seguir leyendo la guía sin activarlo.</p></noscript>
+        <form id="science-quiz" hidden>
+          <div id="science-questions" class="science-questions"></div>
+          <div class="result-actions">
+            <button class="primary" type="submit">Corregir el test</button>
+            <button class="secondary" type="button" data-action="mistakes" hidden>Practicar solo los fallos</button>
+            <button class="secondary" type="reset">Repetir todos</button>
+          </div>
+        </form>
+        <p id="science-result" role="status" aria-live="polite"></p>
+      </section>
+
       <div data-activity-rankings></div>
     </main>
-    <footer>Hecho para aprender, no solo para acertar.</footer>
+    <footer>
+      <nav aria-label="Contenido anterior">
+        <a class="secondary" href="./historia.html">Página anterior</a>
+      </nav>
+      <p>Hecho para aprender, no solo para acertar.</p>
+    </footer>
     <script type="module" src="../activity-ranking.mjs"></script>
+    <script type="module" src="../science-quiz.mjs"></script>
+    <script type="module" src="../science-video.mjs"></script>
     <script type="module" src="../pet-companion.mjs"></script>
     <script type="module" src="../visitor-tracker.mjs"></script>
   </body>
