@@ -10,6 +10,7 @@ export const activityRankings = [
   { label: "Inglés · Ordinales", mode: "activity", topic: "english-ordinal" },
   { label: "Inglés · Fechas", mode: "activity", topic: "english-date" },
   { label: "Inglés · Aula", mode: "activity", topic: "english-classroom" },
+  { label: "Inglés · To be, to have y posesivos", mode: "activity", topic: "english-grammar" },
   { label: "Lengua · Repaso", mode: "activity", topic: "language-review" },
   { label: "Lengua · Diptongos y triptongos", mode: "activity", topic: "language-vowels" },
   { label: "Lengua · Dictado", mode: "activity", topic: "language-dictation" },

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es" data-subject="notes">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#754399">
+    <meta name="description" content="Índice de las notas de la profesora, tareas y recordatorios de clase.">
+    <title>Índice · Notas de la profesora · Noé</title>
+    <link rel="stylesheet" href="../../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">N</span><span>Noé<span class="brand-subtitle">MI ESPACIO DE ESTUDIO</span></span></a>
+      <div class="header-actions"><span class="header-tag">Notas de la profesora</span>
+        <button id="theme-toggle" class="secondary" type="button" aria-pressed="false">Modo oscuro</button>
+      </div>
+    </header>
+    <main class="subject-index">
+      <nav class="subject-page-nav" aria-label="Ruta de navegación"><a class="secondary" href="../">← Volver a la portada</a></nav>
+      <h1>Notas de la profesora</h1>
+      <p>Consulta las tareas y los recordatorios, de las notas anteriores a las más recientes.</p>
+      <ol class="subject-index-list">
+        <li>
+          <a href="./anteriores.html">Notas anteriores</a>
+          <p>Las notas que estaban en la portada: Matemáticas, Lengua, Conocimiento del Medio, Inglés y recordatorios.</p>
+        </li>
+        <li>
+          <a href="./2026-10-26.html">Lunes 26 de octubre</a>
+          <time datetime="2026-10-26">26 de octubre de 2026</time>
+          <p>Control de Matemáticas, repaso de Lengua, materiales del taller de Ciencias, Halloween y Mitos Griegos.</p>
+        </li>
+      </ol>
+    </main>
+    <div id="notice" class="notice" role="status" aria-live="polite"></div>
+    <footer>Hecho para aprender, no solo para acertar.</footer>
+    <script type="module" src="../subject-index.mjs"></script>
+    <script type="module" src="../../pet-companion.mjs"></script>
+    <script type="module" src="../../visitor-tracker.mjs"></script>
+  </body>
+</html>

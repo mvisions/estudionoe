@@ -89,12 +89,37 @@ p { line-height: 1.65; }
 .section-heading h2 { font-size: 21px; margin: 0; }
 .muted { color: var(--muted); font-size: 13px; }
 .mode-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.subject-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.subject-grid .mode-card { min-width: 0; }
-.subject-grid .primary { width: 100%; }
-@media (min-width: 1000px) {
-  .subject-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.subject-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.subject-grid .mode-card {
+  --subject-accent: #78947a;
+  min-width: 0;
+  min-height: 310px;
+  padding: 27px;
+  border-top: 4px solid var(--subject-accent);
+  border-radius: 22px;
+  box-shadow: 0 8px 22px #244b4209;
 }
+.subject-grid .mode-card:hover,
+.subject-grid .mode-card:focus-within {
+  border-color: var(--subject-accent);
+  box-shadow: 0 14px 30px #244b4217;
+}
+.subject-grid .mode-icon { width: 54px; height: 54px; border-radius: 17px; }
+.subject-grid .pill { margin-top: 17px; }
+.subject-grid .mode-card h3 { font-size: 22px; }
+.subject-grid .mode-card p { font-size: 14px; line-height: 1.6; }
+.subject-grid .primary { width: 100%; }
+.subject-index > .subject-page-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
+.subject-index > section + section { margin-top: 42px; }
+.subject-index-list { max-width: 820px; margin: 0; padding-left: 34px; }
+.subject-index-list > li { padding: 15px 12px; border-bottom: 1px solid var(--border); }
+.subject-index-list > li::marker { color: var(--green); font-weight: 700; }
+.subject-index-list a { color: var(--green); font-size: 18px; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.subject-index-list time { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.subject-index-list p { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+.teacher-notes-page { max-width: 900px; }
+.teacher-notes-page > section { margin-block: 32px; }
+.teacher-notes-page li { line-height: 1.7; }
 .mode-card { border: 1px solid var(--border); background: white; border-radius: 20px; padding: 25px; display: flex; flex-direction: column; align-items: flex-start; transition: transform .2s, box-shadow .2s; }
 .mode-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px #244b420c; }
 .mode-icon { width: 47px; height: 47px; border-radius: 14px; display: grid; place-items: center; font-size: 23px; background: #e9f0e5; color: #416b4c; }
@@ -304,19 +329,56 @@ dialog .nav { justify-content: flex-end; }
 :root[data-subject="math"] .match-item.active { background: #fff6e8; }
 :root[data-subject="math"][data-theme="dark"] .match-item.active { background: #4a3c26; color: #f8d39b; }
 
+:root[data-subject="notes"] {
+  --green: #754399;
+  --muted: #796b83;
+  --border: #e2d6eb;
+  --theme-color: #754399;
+  color: #3e3049;
+  background: #f8f5fb;
+}
+:root[data-subject="notes"] main h1,
+:root[data-subject="notes"] main h2,
+:root[data-subject="notes"] main h3 { color: var(--green); }
+:root[data-subject="notes"][data-theme="dark"] {
+  --green: #dbc0f0;
+  --muted: #c0aecb;
+  --border: #5b466b;
+  --theme-color: #241b2d;
+  color: #eee3f6;
+  background: #241b2d;
+}
+:root[data-subject="notes"][data-theme="dark"] .secondary { background: #34263f; color: var(--green); }
+:root[data-subject="notes"][data-theme="dark"] .brand-mark { background: var(--green); color: #241b2d; }
+[data-subject="notes"].mode-card { --green: #754399; }
+.subject-grid [data-subject="notes"].mode-card { --subject-accent: #9465b5; }
+[data-subject="notes"].mode-card .primary { background: var(--green); color: white; }
+[data-subject="notes"].mode-card .primary:hover { background: #5c327b; }
+[data-subject="notes"].mode-card .mode-icon { background: #f0e6f7; color: var(--green); }
 [data-subject="language"].mode-card { --green: #923f48; }
+.subject-grid [data-subject="math"].mode-card { --subject-accent: #527ba5; }
+.subject-grid [data-subject="language"].mode-card { --subject-accent: #b76f78; }
 [data-subject="language"].mode-card .primary { background: var(--green); color: white; }
 [data-subject="language"].mode-card .primary:hover { background: #762e38; }
 [data-subject="language"].mode-card .mode-icon { background: #f5e5e7; color: var(--green); }
 
 [data-subject="english"].mode-card { --green: #946800; }
+.subject-grid [data-subject="english"].mode-card { --subject-accent: #ae7e0d; }
 [data-subject="english"].mode-card .primary { background: var(--green); color: white; }
 [data-subject="english"].mode-card .primary:hover { background: #775300; }
 [data-subject="english"].mode-card .mode-icon { background: #fff1bf; color: var(--green); }
 [data-subject="french"].mode-card { border-color: #e9b98d; }
+.subject-grid [data-subject="french"].mode-card { --subject-accent: #d7803d; }
 [data-subject="french"].mode-card .mode-icon { background: #fff0df; color: #a84c0a; }
 [data-subject="french"].mode-card .primary:disabled { background: #a84c0a; border-color: #a84c0a; color: white; opacity: 1; }
 [data-theme="dark"] [data-subject="french"].mode-card { border-color: #ad6a37; }
+[data-theme="dark"] .subject-grid .mode-card { --subject-accent: #8fb99a; }
+[data-theme="dark"] .subject-grid [data-subject="notes"].mode-card { --subject-accent: #c5a0e3; }
+[data-theme="dark"] [data-subject="notes"].mode-card .mode-icon { background: #423050; color: #dbc0f0; }
+[data-theme="dark"] .subject-grid [data-subject="math"].mode-card { --subject-accent: #8fb2d6; }
+[data-theme="dark"] .subject-grid [data-subject="language"].mode-card { --subject-accent: #d28e96; }
+[data-theme="dark"] .subject-grid [data-subject="english"].mode-card { --subject-accent: #e0bd67; }
+[data-theme="dark"] .subject-grid [data-subject="french"].mode-card { --subject-accent: #ffc18a; }
 [data-theme="dark"] [data-subject="french"].mode-card .mode-icon { background: #50311e; color: #ffc18a; }
 [data-theme="dark"] [data-subject="french"].mode-card .primary:disabled { background: #ffc18a; border-color: #ffc18a; color: #382214; }
 

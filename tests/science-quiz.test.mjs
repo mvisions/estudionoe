@@ -32,11 +32,11 @@ test("La corrección puntúa aciertos, errores y respuestas vacías y permite re
   assert.equal(gradeScienceQuiz(mistakes, Object.fromEntries(mistakes.map(question => [question.id, question.answer]))).grade, 10);
 });
 
-test("El enlace Página anterior está al final y el test se publica con la página", () => {
+test("El enlace al índice está al final y el test se publica con la página", () => {
   const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
   const html = read("../aula/conocimiento-medio.html");
-  assert.match(html, /<footer>[\s\S]*href="\.\/historia\.html">Página anterior<\/a>[\s\S]*<\/footer>/);
-  assert.equal((html.match(/href="\.\/historia\.html"/g) ?? []).length, 1);
+  assert.match(html, /<footer>[\s\S]*href="\.\/conocimiento-medio\/">Índice de Conocimiento del Medio<\/a>[\s\S]*<\/footer>/);
+  assert.equal((html.match(/href="\.\/conocimiento-medio\/"/g) ?? []).length, 2);
   assert.match(html, /id="science-quiz" hidden/);
   assert.match(html, /src="\.\.\/science-quiz\.mjs"/);
   assert.match(read("../.github/workflows/deploy-pages.yml"), /cp science-quiz\.mjs site\//);

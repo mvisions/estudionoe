@@ -14,57 +14,6 @@
       <span class="header-tag">Un poquito cada día</span>
     </header>
     <main>
-      <section class="teacher-notes" aria-labelledby="teacher-notes-title">
-        <div class="teacher-notes-heading">
-          <h2 id="teacher-notes-title">Notas de la profesora</h2>
-          <button class="secondary" id="teacher-notes-toggle" type="button" aria-controls="teacher-notes-ticker" hidden>Pausar movimiento</button>
-        </div>
-        <div class="teacher-notes-ticker" id="teacher-notes-ticker" aria-hidden="true" hidden>
-          <div class="teacher-notes-track"></div>
-        </div>
-        <details class="teacher-notes-details">
-          <summary>Leer todas las notas sin movimiento</summary>
-          <ul class="teacher-notes-list">
-            <li>
-              <h3>Matemáticas</h3>
-              <p>Repaso general de ejercicios de todo el tema. Preparando el control con ejercicios variados de todas las partes: se entrega en fotocopias y se pega en la libreta.</p>
-            </li>
-            <li>
-              <h3>Lengua</h3>
-              <p>Página 46: el sustantivo y el adjetivo. Realizamos un esquema en la libreta que nos sirve para estudiar. Ejercicios 1, 2, 5 y 6.</p>
-              <p>Antes de estudiar, debes tener claro un esquema en tu mente y después en tu libreta:</p>
-              <p>1. Definición de cada uno: ¿qué es?</p>
-              <p>2. Tipos: en un análisis de la palabra, debes distinguir sus características. En tu esquema, organiza los sustantivos y los adjetivos en forma de llaves o flechas, con las definiciones resumidas y ejemplos.</p>
-            </li>
-            <li>
-              <h3>Conocimiento del Medio</h3>
-              <p>Hoy se entrega el trabajo de la Edad Media.</p>
-              <p>Primera sesión de ordenadores en clase. Será fundamental saber tu correo del cole y tu contraseña. Tenla siempre escrita en la agenda.</p>
-              <p>Este primer taller será sencillo y servirá como ejemplo de trabajo en grupo de dos componentes. Aprenderemos a compartir un documento de Drive entre dos compañeros/as. En él escribiremos los resultados de nuestra investigación.</p>
-              <p>Hoy formaremos los equipos y explicaremos los pasos para realizar el Taller de Historia de la Ciencia: «Jugando con las fuerzas». Investigaremos una teoría que estuvo vigente en el pensamiento de la humanidad hasta el siglo XVIII. Trabajaremos en el taller con ordenadores y materiales que pediremos traer desde casa.</p>
-              <p>En la sesión de hoy buscaremos información sobre estas tres preguntas:</p>
-              <p>¿Qué es la mecánica?</p>
-              <p>¿Quién fue Aristóteles?</p>
-              <p>¿Qué teoría tenía sobre «las esferas»?</p>
-              <p>Podemos insertar fotos en las respuestas. Estas tareas se irán guardando en nuestro Drive, dentro del correo del cole.</p>
-            </li>
-            <li>
-              <h3>Inglés</h3>
-              <p>Repasamos el nuevo vocabulario y trabajamos en la hoja de vocabulario de la libreta.</p>
-              <p>Activity Book, página 6: corregida ✅</p>
-              <p>Lesson 2:</p>
-              <p>Student's Book, página 9: ejercicios orales e interactivos.</p>
-              <p>Libreta: copiamos la tabla de los posesivos.</p>
-              <p>Activity Book, página 7.</p>
-            </li>
-            <li>
-              <h3>Recordatorio</h3>
-              <p>Paula Corrales: 2 camisetas talla 11-12.</p>
-              <p>Verónica Kovalchuk: sudadera (S) y camiseta (S).</p>
-            </li>
-          </ul>
-        </details>
-      </section>
       <section class="hero" aria-labelledby="welcome-title">
         <div>
           <span class="eyebrow">Un espacio para seguir creciendo</span>
@@ -81,45 +30,52 @@
           <p class="exam-alert-kicker">¡IMPORTANTE!</p>
           <h2 id="science-alert-title" class="exam-alert-title">CONOCIMIENTO DEL MEDIO · ACTUALIZADO · 22 DE OCTUBRE</h2>
           <p>Taller «Jugando con las fuerzas»: mecánica, Aristóteles y las esferas, con vídeo y test.</p>
-          <a href="./conocimiento-medio.html">Ir a Conocimiento del Medio <span aria-hidden="true">→</span></a>
+          <a href="./conocimiento-medio/">Ir a Conocimiento del Medio <span aria-hidden="true">→</span></a>
         </section>
         <section class="exam-alert exam-alert-compact exam-alert-language" aria-labelledby="language-exam-alert-title">
           <p class="exam-alert-kicker">¡PRÓXIMO EXAMEN!</p>
           <h2 id="language-exam-alert-title" class="exam-alert-title">CONTROL DE LENGUA · 4 DE NOVIEMBRE (ACTUALIZADO · 21 DE OCTUBRE)</h2>
           <p>Repasa las definiciones de diptongo y triptongo y aprende dos ejemplos de cada uno.</p>
-          <a href="./lengua-actual.html">Preparar control de Lengua <span aria-hidden="true">→</span></a>
+          <a href="./lengua/">Preparar control de Lengua <span aria-hidden="true">→</span></a>
         </section>
       </div>
       <section aria-labelledby="subjects-title">
         <div class="section-heading"><h2 id="subjects-title">Elige tu asignatura</h2><span class="muted">Aprende a tu ritmo</span></div>
         <div class="mode-grid subject-grid">
+          <article class="mode-card" data-subject="notes">
+            <span class="mode-icon" aria-hidden="true">N</span>
+            <span class="pill">Tareas y recordatorios</span>
+            <h3>Notas de la profesora</h3>
+            <p>Consulta las notas anteriores y las del lunes 26 de octubre, con las tareas y los avisos de clase.</p>
+            <a class="primary" href="./notas/">Ver índice de notas <span aria-hidden="true">→</span></a>
+          </article>
           <article class="mode-card">
             <span class="mode-icon" aria-hidden="true">CM</span>
             <span class="pill">Ya puedes empezar</span>
             <h3>Conocimiento del Medio</h3>
             <p>Investiga la mecánica, las ideas de Aristóteles y la antigua teoría de las esferas en el taller de Historia de la Ciencia.</p>
-            <a class="primary" href="./conocimiento-medio.html">Explorar Conocimiento del Medio <span aria-hidden="true">→</span></a>
+            <a class="primary" href="./conocimiento-medio/">Ver índice de Conocimiento del Medio <span aria-hidden="true">→</span></a>
           </article>
           <article class="mode-card" data-subject="math">
             <span class="mode-icon" aria-hidden="true">+</span>
             <span class="pill">Ya puedes empezar</span>
             <h3>Matemáticas</h3>
             <p>Aprende a simplificar, sumar, restar, multiplicar y dividir potencias con tres modos de práctica.</p>
-            <a class="primary" href="./matematicas.html">Practicar potencias <span aria-hidden="true">→</span></a>
+            <a class="primary" href="./matematicas/">Ver índice de Matemáticas <span aria-hidden="true">→</span></a>
           </article>
           <article class="mode-card" data-subject="language">
             <span class="mode-icon" aria-hidden="true">Aa</span>
             <span class="pill">Ya puedes empezar</span>
             <h3>Lengua</h3>
             <p>Prepara el control de diptongos y triptongos del miércoles 4 de noviembre.</p>
-            <a class="primary" href="./lengua-actual.html">Explorar Lengua <span aria-hidden="true">→</span></a>
+            <a class="primary" href="./lengua/">Ver índice de Lengua <span aria-hidden="true">→</span></a>
           </article>
           <article class="mode-card" data-subject="english">
             <span class="mode-icon" aria-hidden="true">1st</span>
             <span class="pill">Números ordinales</span>
             <h3>Inglés</h3>
             <p>Aprende y practica los números ordinales del primero al centésimo.</p>
-            <a class="primary" href="./ingles.html">Practicar ordinales <span aria-hidden="true">→</span></a>
+            <a class="primary" href="./ingles/">Ver índice de Inglés <span aria-hidden="true">→</span></a>
           </article>
           <article class="mode-card" data-subject="french">
             <span class="mode-icon" aria-hidden="true">Fr</span>
@@ -134,7 +90,6 @@
       <aside class="info-strip" aria-label="Sobre este espacio">Este espacio irá creciendo con nuevos temas y asignaturas.</aside>
     </main>
     <footer>Hecho para aprender, no solo para acertar.</footer>
-    <script type="module" src="../teacher-notes.mjs"></script>
     <script type="module" src="../activity-ranking.mjs"></script>
     <script type="module" src="../pet-companion.mjs"></script>
     <script type="module" src="../visitor-tracker.mjs"></script>

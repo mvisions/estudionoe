@@ -6,6 +6,7 @@ import { monthNames, ordinalNumbers, spokenDate } from "./ordinal-numbers.mjs";
 import { languageQuestions, gradeLanguageSelection } from "./language-questions.mjs";
 import { vowelQuestions } from "./language-vowels.mjs";
 import { scienceQuestions } from "./science-quiz.mjs";
+import { grammarQuestions, gradeGrammarQuiz } from "./aula/ingles-gramatica-questions.mjs";
 
 const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -17,6 +18,13 @@ function scoreChoices(ids, answers, bank) {
 }
 
 function scoreActivity(activity, ids, answers) {
+  if (activity === "english-grammar") {
+    const selected = Object.fromEntries(Object.entries(answers).map(([id, value]) => [
+      id, /^[0-2]$/.test(value) ? Number(value) : undefined,
+    ]));
+    const graded = gradeGrammarQuiz(grammarQuestions, selected);
+    return { points: graded.points, total: grammarQuestions.length };
+  }
   if (activity === "english-ordinal") {
     const bank = new Map(ordinalNumbers.map(({ number, words }) => [`ordinal-${number}`, words]));
     return scoreChoices(ids, answers, bank);
@@ -55,6 +63,7 @@ function scoreActivity(activity, ids, answers) {
 }
 
 const questionIds = {
+  "english-grammar": new Set(grammarQuestions.map(question => question.id)),
   "english-ordinal": new Set(ordinalNumbers.map(({ number }) => `ordinal-${number}`)),
   "english-date": new Set(monthNames.flatMap((_, monthIndex) =>
     Array.from({ length: daysInMonth[monthIndex] }, (_, day) => `date-${monthIndex + 1}-${day + 1}`))),
@@ -66,6 +75,7 @@ const questionIds = {
 };
 
 export const activityDefinitions = Object.freeze({
+  "english-grammar": { label: "Inglés · To be, to have y posesivos", minQuestions: grammarQuestions.length, maxQuestions: grammarQuestions.length },
   "english-ordinal": { label: "Inglés · Ordinales", minQuestions: 10, maxQuestions: 10 },
   "english-date": { label: "Inglés · Fechas", minQuestions: 10, maxQuestions: 10 },
   "english-classroom": { label: "Inglés · Aula", minQuestions: 10, maxQuestions: 10 },

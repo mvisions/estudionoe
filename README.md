@@ -6,20 +6,22 @@ Web: https://mvisions.github.io/estudionoe/
 
 La nueva portada está en `aula/index.html`; una vez publicada, estará disponible
 en https://mvisions.github.io/estudionoe/aula/.
-Conocimiento del Medio abre `aula/conocimiento-medio.html`, con una guía de
-5.º de Primaria para el taller «Jugando con las fuerzas». La antigua página
-`aula/historia.html` se conserva como página anterior sobre la Edad Media.
+Conocimiento del Medio tiene un índice en `aula/conocimiento-medio/` que
+ordena sus páginas de Historia/Edad Media y el taller «Jugando con las fuerzas».
+Tanto la tarjeta como el aviso de la portada abren este índice de dos entradas.
+El taller está en `aula/conocimiento-medio.html`; la antigua página
+`aula/historia.html` se conserva como acceso al tema de la Edad Media.
 La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
 esferas, con nota sobre 10, explicaciones y repaso de errores o preguntas sin
 responder. Al completar las nueve preguntas se puede participar en el ranking
-(`science-forces`); el repaso de fallos no cuenta. El enlace
-«Página anterior», en el pie de página, vuelve a Historia.
+(`science-forces`); el repaso de fallos no cuenta.
 Antes del test aparece la biografía infantil de Aristóteles de Quonomy
 (4:05), ya visible en la página. El reproductor usa `youtube-nocookie.com`;
 también hay un enlace directo a YouTube.
-Matemáticas abre `aula/matematicas.html` con el tema Potencias.
-Lengua abre `aula/lengua.html`, con dictado de voz y repaso de los temas 1 y 2
-para 5.º de Primaria. Inglés abre `aula/ingles.html`, con guía y lista de
+Matemáticas abre `aula/matematicas/`, cuyo índice enlaza al tema Potencias.
+Lengua abre `aula/lengua/`, con dictado de voz y repaso de los temas 1 y 2
+para 5.º de Primaria, además de los temas actuales. Inglés abre
+`aula/ingles/`, cuyo índice enlaza a la guía y lista de
 ordinales, reglas para escribir y decir fechas, meses, vocabulario escolar y
 expresiones útiles del aula. Ofrece rondas aleatorias de ordinales, fechas y
 vocabulario/expresiones, con nota sobre 10, soluciones y repaso de fallos.
@@ -28,28 +30,46 @@ en ordinales compuestos sí cuentan. Las respuestas vacías cuentan como fallo;
 los ejercicios no se guardan al recargar o cerrar la página y no participan
 en el ranking.
 
+La lección `aula/ingles-gramatica.html`, enlazada desde el índice de Inglés,
+explica `to be` y `to have` en afirmativa, negativa e interrogativa, la variante
+`have got` y la diferencia entre adjetivos y pronombres posesivos. Incluye tres
+vídeos incrustados de YouTube con enlaces alternativos y un test de 24 preguntas
+con nota sobre 10, soluciones explicadas y repaso de errores o respuestas vacías.
+Al completar el test se ofrece participar con consentimiento en el ranking
+general como «Inglés · To be, to have y posesivos» (`english-grammar`).
+El servidor recalcula la nota con el mismo banco de preguntas. Los repasos de
+fallos no participan; las respuestas no se conservan al recargar. Para publicar
+resultados es necesario desplegar tanto la web como la API actualizada.
+
 La web original conserva su dirección, exámenes, preferencias y ranking.
 La portada es estática y reutiliza los estilos existentes. Matemáticas reutiliza
 la aplicación de exámenes con un banco y un corrector propios. GitHub Actions
 publica el portal y todos los módulos necesarios.
-Las cinco tarjetas de asignaturas aparecen en una fila en pantallas de
-1000 px o más, en dos columnas en tablet y en una columna en móvil.
+Las tarjetas de asignaturas usan columnas adaptables según el espacio
+disponible, con un ancho mínimo para que los títulos y las descripciones sean
+fáciles de leer; en móvil se muestran en una sola columna. Cada asignatura
+tiene un acento de color propio, también en modo oscuro.
 Francés aparece en naranja con un botón «Próximamente» desactivado; todavía
 no abre una actividad. La tarjeta adapta sus colores al modo claro y oscuro.
 La portada muestra un anuncio compacto del próximo control de Lengua.
+El anuncio y la tarjeta de Lengua abren el índice de la asignatura, desde el
+que se elige el tema o la actividad.
 
-La portada incluye «Notas de la profesora» con los avisos actuales.
-El módulo `teacher-notes.mjs` genera una franja horizontal continua a partir
-de las notas escritas en `aula/index.html`: para cambiarlas, edita esa lista.
-Se puede pausar con el botón, al pasar el puntero o al enfocar sus controles.
-«Leer todas las notas sin movimiento» permite consultar el texto completo.
-Si se prefiere movimiento reducido, no se anima la franja y se muestran las
-notas completas. Sin JavaScript, siguen disponibles en el desplegable.
+La portada incluye una tarjeta «Notas de la profesora» junto a las asignaturas,
+en lugar de la antigua franja en movimiento. Abre el índice numerado de
+`aula/notas/`: primero las notas que estaban en la portada (`anteriores.html`,
+sin inventar una fecha) y después las del lunes 26 de octubre de 2026
+(`2026-10-26.html`). Ambas páginas permiten volver al índice y a la portada.
+Su contenido se puede leer sin JavaScript. Para añadir nuevas notas, crea una
+página en esa carpeta y añade un enlace al final de la lista del índice.
 
-Para añadir otro tema de Historia, incorpora una tarjeta en `aula/historia.html`
-con su título, descripción y enlace, y actualiza el número de temas disponibles.
-Para una nueva asignatura, crea su página en `aula/` y añade su tarjeta a la
-portada.
+Para añadir un tema, crea su página, enlázala desde el índice correspondiente
+en `aula/<asignatura>/index.html` y actualiza el número de páginas. Para una
+nueva asignatura, crea su índice y añade la tarjeta a la portada.
+Cada asignatura tiene un índice en `aula/<asignatura>/` con sus páginas
+ordenadas de más antiguas a más recientes. Lengua incluye sus páginas de temas
+y actividades; las antiguas rutas de Inglés que solo redirigen no se duplican
+en el índice.
 Prueba la navegación localmente en http://localhost:8080/aula/ con el servidor
 de desarrollo indicado más abajo.
 

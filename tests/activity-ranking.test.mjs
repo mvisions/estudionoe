@@ -51,7 +51,7 @@ test("Las actividades con nota calculan sus puntos desde los bancos oficiales", 
 });
 
 test("Las actividades solo aceptan bancos y cantidades completos válidos", () => {
-  assert.equal(Object.keys(activityDefinitions).length, 7);
+  assert.equal(Object.keys(activityDefinitions).length, 8);
   assert.throws(() => gradeActivity("english-ordinal", ["ordinal-1"], { "ordinal-1": "first" }), /formato válido/);
   assert.throws(() => gradeActivity("english-ordinal", Array(10).fill("ordinal-1"), {}), /formato válido/);
   assert.throws(() => gradeActivity("language-review", ["1"], { "1": "respuesta ajena" }), /formato válido/);
@@ -62,7 +62,7 @@ test("La página principal y todas las prácticas independientes muestran acceso
   const root = fileURLToPath(new URL("..", import.meta.url));
   const pages = [
     "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
-    "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html",
+    "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html", "aula/ingles-gramatica.html",
   ];
   for (const path of pages)
     assert.match(readFileSync(`${root}/${path}`, "utf8"), /data-activity-rankings/);
