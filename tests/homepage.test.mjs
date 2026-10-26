@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 
-test("La portada solo anuncia Lengua y conserva el enlace al control", () => {
+test("La portada conserva el aviso de examen de Lengua y su enlace al índice", () => {
   const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
   assert.match(html, /class="exam-alert exam-alert-compact exam-alert-language" aria-labelledby="language-exam-alert-title"/);
   assert.match(html, /class="exam-announcements"/);
@@ -11,6 +11,17 @@ test("La portada solo anuncia Lengua y conserva el enlace al control", () => {
   assert.match(html, /CONTROL DE LENGUA · 4 DE NOVIEMBRE \(ACTUALIZADO · 21 DE OCTUBRE\)/);
   assert.match(html, /href="\.\/lengua\/">Preparar control de Lengua/);
   assert.doesNotMatch(html, /href="\.\/lengua-actual\.html"/);
+});
+
+test("La portada anuncia la gramática de Inglés con la fecha y el enlace directo", () => {
+  const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
+  const announcement = html.match(/<section class="exam-alert exam-alert-compact exam-alert-english"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(announcement);
+  assert.match(announcement, /aria-labelledby="english-grammar-alert-title"/);
+  assert.match(announcement, /id="english-grammar-alert-title"[^>]*>INGLÉS · ACTUALIZADO · <time datetime="2026-10-26">26 DE OCTUBRE<\/time>/);
+  assert.match(announcement, /To be, to have y pronombres posesivos/);
+  assert.match(announcement, /vídeos y test con ranking/);
+  assert.match(announcement, /href="\.\/ingles-gramatica\.html">Repasar gramática de Inglés/);
 });
 
 test("La portada incluye Francés en naranja con un botón Próximamente desactivado", () => {

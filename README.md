@@ -52,6 +52,9 @@ tiene un acento de color propio, también en modo oscuro.
 Francés aparece en naranja con un botón «Próximamente» desactivado; todavía
 no abre una actividad. La tarjeta adapta sus colores al modo claro y oscuro.
 La portada muestra un anuncio compacto del próximo control de Lengua.
+También anuncia la nueva lección de gramática de Inglés, con la fecha de
+actualización del 26 de octubre de 2026 y un enlace directo a la lección,
+sus vídeos y el test con ranking.
 El anuncio y la tarjeta de Lengua abren el índice de la asignatura, desde el
 que se elige el tema o la actividad.
 
