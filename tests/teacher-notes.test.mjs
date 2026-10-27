@@ -22,14 +22,14 @@ test("Las notas anteriores conservan el contenido que estaba en la portada", () 
   assert.doesNotMatch(html, /distributiva, potencias, estimaciones y combinadas|página 39, ejercicios 6, 7 y 8|capítulo 5 de Mitos Griegos/);
 });
 
-test("La portada abre un índice numerado con las notas anteriores y las del lunes 26", () => {
+test("La portada abre un índice numerado con las notas anteriores, las del lunes 26 y las del martes 27", () => {
   const home = read("../aula/index.html");
   const index = read("../aula/notas/index.html");
   assert.match(home, /<article class="mode-card" data-subject="notes">[\s\S]*<h3>Notas de la profesora<\/h3>[\s\S]*href="\.\/notas\/"/);
   assert.doesNotMatch(home, /teacher-notes-ticker|teacher-notes\.mjs|class="teacher-notes"/);
   assert.match(index, /<ol class="subject-index-list">/);
   const links = [...index.matchAll(/<li>\s*<a href="([^"]+)"/g)].map(([, href]) => href);
-  assert.deepEqual(links, ["./anteriores.html", "./2026-10-26.html"]);
+  assert.deepEqual(links, ["./anteriores.html", "./2026-10-26.html", "./2026-10-27.html"]);
   assert.doesNotMatch(index, /class="mode-card"/);
 });
 
@@ -51,13 +51,33 @@ test("Las notas del lunes 26 incluyen todas las tareas, materiales y recordatori
   assert.equal((monday.match(/<li>/g) ?? []).length, 7);
 });
 
+test("Las notas del martes 27 incluyen las actividades y todos los materiales del taller", () => {
+  const tuesday = read("../aula/notas/2026-10-27.html");
+  for (const content of [
+    'datetime="2026-10-27"', "AGENDA 5ºC", "Control tema 2.",
+    "Cono", "Tema 10.", "Actividad de inicio.",
+    "los tres vídeos de Classroom Sociales", "los cambios de la Edad Moderna en el mundo",
+    "la conquista de las Américas", "los pueblos que vivían allí al llegar Colón",
+    "Practicaremos la escucha activa", "extraer información relevante",
+    "realizar en libreta un esquema de ese contenido",
+    "polímeros de la tela de araña", "100 ml de cola blanca escolar (PVA)",
+    "35 ml de agua templada", "la seño la calentará en el cole",
+    "1 cucharada de almidón de maíz (Maizena)",
+    "1 cucharadita de jabón líquido para platos",
+    "1 biberón de cocina de plástico blando (o jeringa de 50 ml sin aguja)",
+    "1 cartulina negra o bandeja de plástico", "1 palito de madera para mezclar",
+    "ESTOS MATERIALES COMPLETAN LA BASE DEL TALLER DE OCTUBRE.",
+  ]) assert.ok(tuesday.includes(content), content);
+  assert.equal((tuesday.match(/<li>/g) ?? []).length, 7);
+});
+
 test("Las páginas de notas son estáticas, permiten volver al índice y se publican", () => {
-  for (const page of ["index.html", "anteriores.html", "2026-10-26.html"]) {
+  for (const page of ["index.html", "anteriores.html", "2026-10-26.html", "2026-10-27.html"]) {
     const notes = read(`../aula/notas/${page}`);
     assert.match(notes, /<html lang="es" data-subject="notes">/);
     assert.match(notes, /name="theme-color" content="#754399"/);
   }
-  for (const page of ["anteriores.html", "2026-10-26.html"]) {
+  for (const page of ["anteriores.html", "2026-10-26.html", "2026-10-27.html"]) {
     const notes = read(`../aula/notas/${page}`);
     assert.match(notes, /href="\.\/">Índice de notas<\/a>/);
     assert.match(notes, /src="\.\.\/subject-index\.mjs"/);

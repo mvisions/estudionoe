@@ -61,8 +61,8 @@ que se elige el tema o la actividad.
 La portada incluye una tarjeta «Notas de la profesora» junto a las asignaturas,
 en lugar de la antigua franja en movimiento. Abre el índice numerado de
 `aula/notas/`: primero las notas que estaban en la portada (`anteriores.html`,
-sin inventar una fecha) y después las del lunes 26 de octubre de 2026
-(`2026-10-26.html`). Ambas páginas permiten volver al índice y a la portada.
+sin inventar una fecha) y después las del lunes 26 y martes 27 de octubre de 2026
+(`2026-10-26.html` y `2026-10-27.html`). Todas las páginas permiten volver al índice y a la portada.
 Su contenido se puede leer sin JavaScript. Para añadir nuevas notas, crea una
 página en esa carpeta y añade un enlace al final de la lista del índice.
 
