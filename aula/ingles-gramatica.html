@@ -7,7 +7,7 @@
     <meta name="description" content="Aprende to be, to have y los pronombres posesivos con explicaciones, vídeos y un test con corrección.">
     <title>Inglés · To be, to have y posesivos · Noé</title>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../english.css">
+    <link rel="stylesheet" href="../english.css?v=2">
   </head>
   <body>
     <header class="site-header">
@@ -28,7 +28,7 @@
           <li><a href="#to-be">To be: ser o estar</a></li>
           <li><a href="#to-have">To have: tener</a></li>
           <li><a href="#possessives">Los posesivos</a></li>
-          <li><a href="#grammar-test">Test de repaso</a></li>
+          <li><a href="#grammar-test">Tests de repaso</a></li>
         </ol>
       </nav>
 
@@ -137,23 +137,41 @@
       </section>
 
       <section id="grammar-test" aria-labelledby="test-title">
-        <h2 id="test-title">4. Test de todo lo aprendido</h2>
-        <p>24 preguntas: to be, to have / have got y posesivos. Cada acierto vale un punto; los errores y las preguntas sin responder valen cero. Al corregir verás tu respuesta, la solución y su explicación.</p>
+        <h2 id="test-title">4. Practica todo lo aprendido</h2>
+        <p>Elige una de las dos pruebas. Se abre en su propia pantalla, a tamaño completo, y cuando termines pulsa <strong>«Terminar y volver»</strong> para regresar aquí mismo.</p>
+        <p>Cada vez que abras el test salen <strong>24 preguntas al azar de un banco de 72</strong>, así que no siempre son las mismas.</p>
+        <noscript>Activa JavaScript para hacer los tests. Las explicaciones y las tablas siguen disponibles.</noscript>
+        <div class="test-launcher">
+          <button class="test-launch" type="button" data-open-test="test">
+            <span class="test-launch-icon" aria-hidden="true">✎</span>
+            <span class="test-launch-title">Test de 24 preguntas</span>
+            <span class="test-launch-text">24 preguntas al azar de un banco de 72: to be, to have / have got y posesivos. Al corregir ves tu respuesta, la solución y el porqué de cada una.</span>
+            <span class="test-launch-meta">24 de 72 al azar · elegir opción · unos 5 minutos</span>
+            <span class="test-launch-cta">Abrir el test →</span>
+          </button>
+          <button class="test-launch" type="button" data-open-test="flechas">
+            <span class="test-launch-icon" aria-hidden="true">↔</span>
+            <span class="test-launch-title">Unir con flechas: has y have</span>
+            <span class="test-launch-text">Une cada frase con el verbo que le toca y aprende cuándo va has, have, has got y haven’t got.</span>
+            <span class="test-launch-meta">6 parejas · flechas · unos 3 minutos</span>
+            <span class="test-launch-cta">Abrir las flechas →</span>
+          </button>
+        </div>
         <p class="muted">Al completar las 24 preguntas puedes participar en el ranking general con consentimiento. El repaso de fallos no participa. Tus respuestas no se guardan al cerrar o recargar.</p>
-        <noscript>Activa JavaScript para hacer el test. Las explicaciones y las tablas siguen disponibles.</noscript>
-        <form id="grammar-quiz" hidden>
-          <div id="grammar-questions" class="grammar-questions"></div>
-          <div class="nav">
-            <button class="primary" type="submit">Corregir test</button>
-            <button class="secondary" type="button" data-action="mistakes" hidden>Practicar solo los fallos</button>
-            <button class="secondary" type="reset">Repetir todo el test</button>
-          </div>
-        </form>
-        <p id="grammar-result" role="status" aria-live="polite" tabindex="-1"></p>
       </section>
       <div data-activity-rankings></div>
       <p><a class="secondary" href="./ingles/">Volver al índice de Inglés</a></p>
     </main>
+    <section id="test-screen" class="test-screen" role="dialog" aria-modal="true" aria-labelledby="test-screen-title" hidden>
+      <div class="test-screen-bar">
+        <button class="secondary" type="button" data-action="back">← Volver</button>
+        <p class="test-screen-title" id="test-screen-title" tabindex="-1">Test</p>
+        <p class="test-screen-progress" id="test-screen-progress"></p>
+      </div>
+      <div class="test-screen-body">
+        <div class="test-screen-inner" id="test-screen-content"></div>
+      </div>
+    </section>
     <div id="notice" class="notice" role="status" aria-live="polite"></div>
     <footer>Hecho para aprender, no solo para acertar.</footer>
     <script type="module" src="./subject-index.mjs"></script>

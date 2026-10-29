@@ -6,7 +6,7 @@ import { monthNames, ordinalNumbers, spokenDate } from "./ordinal-numbers.mjs";
 import { languageQuestions, gradeLanguageSelection } from "./language-questions.mjs";
 import { vowelQuestions } from "./language-vowels.mjs";
 import { scienceQuestions } from "./science-quiz.mjs";
-import { grammarQuestions, gradeGrammarQuiz } from "./aula/ingles-gramatica-questions.mjs";
+import { grammarQuestions, gradeGrammarQuiz, GRAMMAR_QUIZ_SIZE } from "./aula/ingles-gramatica-questions.mjs";
 
 const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -19,11 +19,13 @@ function scoreChoices(ids, answers, bank) {
 
 function scoreActivity(activity, ids, answers) {
   if (activity === "english-grammar") {
-    const selected = Object.fromEntries(Object.entries(answers).map(([id, value]) => [
-      id, /^[0-2]$/.test(value) ? Number(value) : undefined,
+    // Cada intento trae 24 preguntas distintas elegidas al azar del banco de 72.
+    const bank = new Map(grammarQuestions.map(question => [question.id, question]));
+    const selected = Object.fromEntries(ids.map(id => [
+      id, /^[0-2]$/.test(String(answers[id] ?? "")) ? Number(answers[id]) : undefined,
     ]));
-    const graded = gradeGrammarQuiz(grammarQuestions, selected);
-    return { points: graded.points, total: grammarQuestions.length };
+    const graded = gradeGrammarQuiz(ids.map(id => bank.get(id)), selected);
+    return { points: graded.points, total: ids.length };
   }
   if (activity === "english-ordinal") {
     const bank = new Map(ordinalNumbers.map(({ number, words }) => [`ordinal-${number}`, words]));
@@ -75,7 +77,7 @@ const questionIds = {
 };
 
 export const activityDefinitions = Object.freeze({
-  "english-grammar": { label: "Inglés · To be, to have y posesivos", minQuestions: grammarQuestions.length, maxQuestions: grammarQuestions.length },
+  "english-grammar": { label: "Inglés · To be, to have y posesivos", minQuestions: GRAMMAR_QUIZ_SIZE, maxQuestions: GRAMMAR_QUIZ_SIZE },
   "english-ordinal": { label: "Inglés · Ordinales", minQuestions: 10, maxQuestions: 10 },
   "english-date": { label: "Inglés · Fechas", minQuestions: 10, maxQuestions: 10 },
   "english-classroom": { label: "Inglés · Aula", minQuestions: 10, maxQuestions: 10 },

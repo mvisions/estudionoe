@@ -3,12 +3,14 @@
   --green: #946800; --muted: #81734f; --border: #eee0b8; --theme-color: #d49a00;
   --english-surface: #fff; --english-soft: #fff1bf; --english-accent: #946800;
   --english-button-text: #fff; --english-hover: #775300; --english-text: #493b1e;
+  --english-page: #fffaf0;
 }
 :root[data-subject="english"][data-theme="dark"] {
   color: var(--english-text); background: #292313;
   --green: #f3ce62; --muted: #c8b982; --border: #594a27; --theme-color: #292313;
   --english-surface: #39311d; --english-soft: #4c401f; --english-accent: #f3ce62;
   --english-button-text: #292313; --english-hover: #ffe69a; --english-text: #f4edda;
+  --english-page: #292313;
 }
 [data-subject="english"] .brand-mark, [data-subject="english"] .primary { background: var(--green); color: var(--english-button-text); }
 [data-subject="english"] .primary:hover { background: var(--english-hover); }
@@ -82,3 +84,44 @@
 }
 @media (max-width: 760px) { .classroom-phrases { grid-template-columns: 1fr; } }
 @media (max-width: 420px) { .ordinal-word { padding: 10px; font-size: 13px; } }
+
+/* --- Lanzador de los tests y pantalla completa --- */
+.test-launcher { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 22px 0 18px; }
+.test-launch { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; height: 100%; margin: 0; padding: 24px; text-align: left; background: var(--english-surface); color: var(--english-text); border: 1px solid var(--border); border-radius: 20px; box-shadow: 0 3px 12px #94680010; transition: transform .2s, box-shadow .2s; }
+.test-launch:hover { transform: translateY(-3px); box-shadow: 0 14px 30px #94680018; }
+.test-launch-icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 13px; background: var(--english-soft); color: var(--english-accent); font-size: 22px; font-weight: 800; }
+.test-launch-title { font-family: Manrope, system-ui, sans-serif; font-size: 21px; font-weight: 800; line-height: 1.25; }
+.test-launch-text { color: var(--muted); font-size: 14px; line-height: 1.55; }
+.test-launch-meta { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.test-launch-cta { margin-top: auto; padding: 11px 18px; border-radius: 11px; background: var(--green); color: var(--english-button-text); font-size: 14px; font-weight: 800; }
+.test-launch:hover .test-launch-cta { background: var(--english-hover); }
+
+body.test-screen-open { overflow: hidden; }
+.test-screen { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; background: var(--english-page); color: var(--english-text); }
+.test-screen[hidden] { display: none; }
+.test-screen-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding: 13px 22px; background: var(--english-surface); border-bottom: 1px solid var(--border); }
+.test-screen-title { flex: 1; min-width: 200px; margin: 0; font-family: Manrope, system-ui, sans-serif; font-size: 17px; font-weight: 800; }
+.test-screen-title:focus { outline: none; }
+.test-screen-title:focus-visible { outline: 3px solid #d88a42; outline-offset: 4px; }
+.test-screen-progress { margin: 0; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.test-screen-body { flex: 1; overflow-y: auto; padding: 26px 22px 70px; overscroll-behavior: contain; }
+.test-screen-inner { max-width: 900px; margin: 0 auto; }
+.test-screen-end { display: flex; justify-content: flex-end; margin-top: 22px; }
+.quiz-result { margin-top: 20px; padding: 18px 20px; background: var(--english-soft); border: 1px solid var(--border); border-radius: 14px; line-height: 1.7; }
+.quiz-result:empty { display: none; }
+.quiz-result:focus { outline: none; }
+.flechas-review { display: grid; gap: 10px; margin: 16px 0 0; padding: 0; list-style: none; }
+.flechas-review li { padding: 12px 16px; background: var(--english-surface); border: 1px solid var(--border); border-radius: 12px; font-size: 14px; line-height: 1.6; }
+.flechas-review li.bien { border-color: #88a18a; }
+.flechas-review li.mal { border-color: #d8a49c; }
+.match-item.is-ok { border-color: #88a18a; }
+.match-item.is-bad { border-color: #d8a49c; background: #fdf1ee; }
+[data-theme="dark"] .match-item.is-bad { background: #4a2c26; }
+[data-theme="dark"] .quiz-result { background: #4c401f; }
+@media (max-width: 760px) {
+  .test-launcher { grid-template-columns: 1fr; }
+  .test-screen-bar { padding: 11px 14px; gap: 10px; }
+  .test-screen-title { font-size: 15px; min-width: 140px; }
+  .test-screen-body { padding: 20px 14px 60px; }
+}
+
