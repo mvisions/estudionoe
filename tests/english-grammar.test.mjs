@@ -151,6 +151,42 @@ test("Las flechas de has y have tienen una única respuesta posible", () => {
   assert.equal(graded.results[0].correct, false);
 });
 
+test("El test de flechas también entra en el ranking general", () => {
+  const ids = flechasPairs.map(pair => pair.id);
+  const answers = Object.fromEntries(flechasPairs.map(pair => [pair.id, pair.id]));
+  assert.deepEqual(gradeActivity("english-flechas", ids, answers), { points: 6, total: 6 });
+  assert.deepEqual(
+    gradeActivity("english-flechas", ids, { ...answers, [ids[0]]: ids[1] }),
+    { points: 5, total: 6 },
+  );
+  assert.throws(() => gradeActivity("english-flechas", ids.slice(1), {}), /formato válido/);
+  assert.throws(() => gradeActivity("english-flechas", [...ids.slice(1), ids[1]], {}), /formato válido/);
+  assert.throws(() => gradeActivity("english-flechas", ["otra", ...ids.slice(1)], {}), /formato válido/);
+  assert.throws(() => gradeActivity("english-flechas", ids, { ...answers, extra: "has" }), /formato válido/);
+  assert.ok(activityRankings.some(item => item.topic === "english-flechas" && item.mode === "activity"));
+  const script = read("../aula/ingles-gramatica.mjs");
+  assert.match(script, /activity: "english-flechas"/, "las flechas ofrecen el ranking");
+  assert.match(script, /data-ranking-slot/, "hay un hueco para el ranking en la pantalla de flechas");
+});
+
+test("El resultado de las flechas se publica y se retira como cualquier actividad", async () => {
+  const service = createExamService(createMemoryStore());
+  const ids = flechasPairs.map(pair => pair.id);
+  const answers = Object.fromEntries(flechasPairs.map(pair => [pair.id, pair.id]));
+  const result = await service.submitActivity({
+    activity: "english-flechas", ids, answers,
+    startedAt: Date.now() - 20000, finishedAt: Date.now(),
+    petName: "Luna", animalType: "gata", consent: true,
+  });
+  assert.equal(result.grade, 10);
+  assert.equal(result.topic, "english-flechas");
+  assert.equal(result.answers, undefined);
+  const ranking = await service.rankingAll();
+  assert.ok(ranking.some(entry => entry.topic === "english-flechas" && entry.grade === 10));
+  await service.remove(result.id, result.token);
+  assert.ok(!(await service.rankingAll()).some(entry => entry.topic === "english-flechas"));
+});
+
 test("La lección incluye tablas, tres vídeos incrustados y el acceso al ranking", () => {
   const html = read("../aula/ingles-gramatica.html");
   for (const section of ["to-be", "to-have", "possessives", "grammar-test"])

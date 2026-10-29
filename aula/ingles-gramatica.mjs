@@ -211,7 +211,10 @@ function renderQuiz() {
  * ------------------------------------------------------------------ */
 
 function renderFlechas() {
-  flechas = { answers: {}, selected: null, order: shuffle(flechasPairs.map(pair => pair.id)), checked: null };
+  flechas = {
+    answers: {}, selected: null, order: shuffle(flechasPairs.map(pair => pair.id)),
+    checked: null, startedAt: Date.now(), offered: false,
+  };
   content.innerHTML = `
     <p class="match-help" id="flechas-help">Selecciona una frase de la izquierda (A, B, C…) y después el verbo que le corresponde. La misma letra marca las dos puntas de la flecha. Para cambiar una unión, vuelve a elegir la frase.</p>
     <div class="matching" id="flechas-board" aria-describedby="flechas-help"></div>
@@ -221,11 +224,20 @@ function renderFlechas() {
       <button class="secondary" type="button" data-action="shuffle">Otra ronda</button>
       <button class="primary" type="button" data-action="check">Comprobar uniones</button>
       <button class="primary" type="button" data-action="finish" hidden>Terminar y volver</button>
-    </div>`;
+    </div>
+    <div data-ranking-slot></div>`;
 
   const board = content.querySelector("#flechas-board");
   const result = content.querySelector("#flechas-result");
   const finish = content.querySelector('[data-action="finish"]');
+  const rankingSlot = content.querySelector("[data-ranking-slot]");
+
+  // Cada intento (ronda nueva o cambio de flechas) cuenta como una prueba distinta.
+  const restartAttempt = () => {
+    flechas.startedAt = Date.now();
+    flechas.offered = false;
+    rankingSlot.replaceChildren();
+  };
 
   const paint = focusSelector => {
     board.innerHTML = `
@@ -268,6 +280,7 @@ function renderFlechas() {
       }
       flechas.checked = null;
       result.textContent = "";
+      restartAttempt();
       paint(`[data-left="${id}"]`);
       return;
     }
@@ -281,6 +294,7 @@ function renderFlechas() {
       delete flechas.answers[owner.id];
       flechas.checked = null;
       result.textContent = "";
+      restartAttempt();
       paint(`[data-left="${owner.id}"]`);
       return;
     }
@@ -289,6 +303,7 @@ function renderFlechas() {
     flechas.selected = null;
     flechas.checked = null;
     result.textContent = "";
+    restartAttempt();
     paint(`[data-right="${id}"]`);
   });
 
@@ -298,6 +313,7 @@ function renderFlechas() {
     flechas.checked = null;
     result.textContent = "";
     finish.hidden = true;
+    restartAttempt();
     paint();
   });
 
@@ -308,6 +324,7 @@ function renderFlechas() {
     flechas.order = shuffle(flechasPairs.map(pair => pair.id));
     result.textContent = "";
     finish.hidden = true;
+    restartAttempt();
     paint();
   });
 
@@ -327,6 +344,15 @@ function renderFlechas() {
       ${item.correct ? "" : `— la flecha correcta es <strong>${item.pair.right}</strong>`}
       <br><span class="muted">${item.pair.explanation}</span></li>`).join("");
     result.innerHTML = `<strong>Has unido bien ${graded.correct} de ${flechasPairs.length}.</strong> ${graded.correct === flechasPairs.length ? "¡Perfecto, todas las flechas están en su sitio!" : "Revisa las que están en rojo y vuelve a intentarlo."}<ul class="flechas-review">${review}</ul>`;
+    if (!flechas.offered) {
+      flechas.offered = true;
+      offerActivityRanking(rankingSlot, {
+        activity: "english-flechas",
+        ids: flechasPairs.map(pair => pair.id),
+        answers: Object.fromEntries(flechasPairs.map(pair => [pair.id, String(flechas.answers[pair.id])])),
+        startedAt: flechas.startedAt, finishedAt: Date.now(),
+      });
+    }
     result.focus();
   });
 

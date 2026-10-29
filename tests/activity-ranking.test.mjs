@@ -11,6 +11,7 @@ import { vowelQuestions } from "../language-vowels.mjs";
 import { scienceQuestions } from "../science-quiz.mjs";
 import { createExamService, createMemoryStore } from "../exam-service.mjs";
 import { createApi } from "../server.mjs";
+import { flechasPairs } from "../aula/ingles-flechas-questions.mjs";
 
 test("Las actividades con nota calculan sus puntos desde los bancos oficiales", () => {
   const ordinals = ordinalNumbers.slice(0, 10);
@@ -29,6 +30,10 @@ test("Las actividades con nota calculan sus puntos desde los bancos oficiales", 
   const classroom = classroomPractice.slice(0, 10);
   assert.deepEqual(gradeActivity("english-classroom", classroom.map(item => item.id),
     Object.fromEntries(classroom.map(item => [item.id, item.answer.toUpperCase()]))), { points: 10, total: 10 });
+
+  assert.deepEqual(gradeActivity("english-flechas", flechasPairs.map(pair => pair.id),
+    Object.fromEntries(flechasPairs.map(pair => [pair.id, pair.id]))),
+  { points: flechasPairs.length, total: flechasPairs.length });
 
   assert.deepEqual(gradeActivity("language-review", languageQuestions.map(item => String(item.id)),
     Object.fromEntries(languageQuestions.map(item => [String(item.id), item.answer]))),
@@ -51,7 +56,7 @@ test("Las actividades con nota calculan sus puntos desde los bancos oficiales", 
 });
 
 test("Las actividades solo aceptan bancos y cantidades completos válidos", () => {
-  assert.equal(Object.keys(activityDefinitions).length, 8);
+  assert.equal(Object.keys(activityDefinitions).length, 9);
   assert.throws(() => gradeActivity("english-ordinal", ["ordinal-1"], { "ordinal-1": "first" }), /formato válido/);
   assert.throws(() => gradeActivity("english-ordinal", Array(10).fill("ordinal-1"), {}), /formato válido/);
   assert.throws(() => gradeActivity("language-review", ["1"], { "1": "respuesta ajena" }), /formato válido/);
