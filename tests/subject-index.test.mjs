@@ -42,8 +42,11 @@ test("La portada abre cada índice y las páginas activas ofrecen volver al suyo
     assert.match(homepage, new RegExp(`href="./${subject}/"`));
   assert.doesNotMatch(homepage, /href="\.\/(?:conocimiento-medio|matematicas|lengua(?:-actual)?|ingles)\.html"/);
 
+  const legacyHistoryPage = read("../index.html");
   const subjectPages = [
-    ["../aula/conocimiento-medio/edad-media.html", "./"],
+    legacyHistoryPage.includes("pet-companion.mjs")
+      ? ["../index.html", "./aula/conocimiento-medio/"]
+      : ["../aula/conocimiento-medio/edad-media.html", "./"],
     ["../aula/historia.html", "./conocimiento-medio/"],
     ["../aula/conocimiento-medio.html", "./conocimiento-medio/"],
     ["../aula/conocimiento-medio-copernico.html", "./conocimiento-medio/"],

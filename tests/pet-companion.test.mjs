@@ -12,8 +12,10 @@ test("La mascota baila solo por encima de 5 y los cohetes solo por encima de 7",
 });
 
 test("La mascota elegida y los efectos aparecen en todas las páginas de estudio", () => {
+  const historyHome = readFileSync(new URL("../index.html", import.meta.url), "utf8");
   const pages = [
-    "aula/conocimiento-medio/edad-media.html", "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/matematicas.html",
+    historyHome.includes("pet-companion.mjs") ? "index.html" : "aula/conocimiento-medio/edad-media.html",
+    "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/matematicas.html",
     "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
     "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html",
     "aula/matematicas-multiplos.html", "aula/conocimiento-medio-copernico.html",
