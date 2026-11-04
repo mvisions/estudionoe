@@ -9,7 +9,8 @@ en https://mvisions.github.io/estudionoe/aula/.
 Conocimiento del Medio tiene un índice en `aula/conocimiento-medio/` que
 ordena sus páginas de Historia/Edad Media, el taller «Jugando con las fuerzas»
 y el taller «De Aristóteles a Copérnico».
-Tanto la tarjeta como el aviso de la portada abren este índice de tres entradas.
+Desde la portada, la tarjeta abre este índice de tres entradas y el aviso superior
+lleva directamente a la última página publicada, «De Aristóteles a Copérnico».
 El taller está en `aula/conocimiento-medio.html`; la antigua página
 `aula/historia.html` se conserva como acceso al tema de la Edad Media.
 La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
@@ -55,7 +56,10 @@ Francés aparece en naranja con un botón «Próximamente» desactivado; todaví
 no abre una actividad. La tarjeta adapta sus colores al modo claro y oscuro.
 La portada muestra un anuncio compacto del próximo control de Lengua.
 El 3 de noviembre se añadió un aviso azul de Matemáticas que anuncia la hoja de
-múltiplos y abre el índice de la asignatura.
+múltiplos y abre directamente esa hoja; la tarjeta de Matemáticas sigue abriendo
+el índice de la asignatura.
+Regla general: los avisos de arriba llevan a lo último publicado y las tarjetas de
+abajo llevan al índice de cada asignatura.
 También anuncia la nueva lección de gramática de Inglés, con la fecha de
 actualización del 26 de octubre de 2026 y un enlace directo a la lección,
 sus vídeos y el test con ranking.

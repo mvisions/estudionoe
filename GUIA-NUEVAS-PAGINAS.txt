@@ -42,11 +42,14 @@ d) Portada aula/index.html
          <p class="exam-alert-kicker">¡NUEVA HOJA!</p>
          <h2 id="math-alert-title" class="exam-alert-title">MATEMÁTICAS · MÚLTIPLOS · <time datetime="2026-11-03">3 DE NOVIEMBRE</time></h2>
          <p>Texto corto.</p>
-         <a href="./matematicas/">Ir a Matemáticas <span aria-hidden="true">→</span></a>
+         <a href="./matematicas-multiplos.html">Ir a la hoja de múltiplos <span aria-hidden="true">→</span></a>
        </section>
-     Los avisos enlazan SIEMPRE al índice de la asignatura (./matematicas/, ./conocimiento-medio/),
-     nunca a la página directamente.
-   - Tarjetas (article.mode-card): solo actualizar la descripción. Debe haber EXACTAMENTE 6.
+     Los avisos de arriba enlazan SIEMPRE DIRECTAMENTE a la última página publicada
+     (p. ej. ./matematicas-multiplos.html, ./conocimiento-medio-copernico.html). Al publicar una
+     página nueva, cambiar el href y el texto del enlace del aviso de esa asignatura.
+   - Tarjetas (article.mode-card, abajo): enlazan SIEMPRE al índice de la asignatura
+     (./matematicas/, ./conocimiento-medio/) para quien quiera hacer otra actividad. Solo
+     actualizar la descripción. Debe haber EXACTAMENTE 6.
    - Si se cambia styles.css, subir la versión en el <link> de la portada y de las páginas nuevas:
        ../styles.css?v=AAAAMMDD-algo     (la actual es ?v=20261104-video)
 
