@@ -63,8 +63,9 @@ abajo llevan al índice de cada asignatura.
 También anuncia la nueva lección de gramática de Inglés, con la fecha de
 actualización del 26 de octubre de 2026 y un enlace directo a la lección,
 sus vídeos y el test con ranking.
-El anuncio y la tarjeta de Lengua abren el índice de la asignatura, desde el
-que se elige el tema o la actividad.
+El anuncio de Lengua abre directamente `aula/test-diptongos.html`, la última
+actividad publicada. La tarjeta inferior conserva el acceso al índice de Lengua
+para elegir cualquier tema o actividad.
 
 La portada incluye una tarjeta «Notas de la profesora» junto a las asignaturas,
 en lugar de la antigua franja en movimiento. Abre el índice numerado de

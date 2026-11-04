@@ -2,15 +2,41 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 
-test("La portada conserva el aviso de examen de Lengua y su enlace al índice", () => {
+test("La portada conserva el aviso de examen de Lengua y enlaza directamente al último test", () => {
   const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
-  assert.match(html, /class="exam-alert exam-alert-compact exam-alert-language" aria-labelledby="language-exam-alert-title"/);
+  const announcement = html.match(/<section class="exam-alert exam-alert-compact exam-alert-language"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(announcement);
+  assert.match(announcement, /aria-labelledby="language-exam-alert-title"/);
   assert.match(html, /class="exam-announcements"/);
   assert.equal((html.match(/class="exam-alert-kicker">¡PRÓXIMO EXAMEN!/g) ?? []).length, 1);
   assert.doesNotMatch(html, /english-exam-alert-title|INGLÉS ACTUALIZADO/);
   assert.match(html, /CONTROL DE LENGUA · 4 DE NOVIEMBRE \(ACTUALIZADO · 21 DE OCTUBRE\)/);
-  assert.match(html, /href="\.\/lengua\/">Preparar control de Lengua/);
+  assert.match(announcement, /href="\.\/test-diptongos\.html">Preparar control de Lengua/);
   assert.doesNotMatch(html, /href="\.\/lengua-actual\.html"/);
+});
+
+test("Los avisos abren la última página de cada asignatura y las tarjetas conservan los índices", () => {
+  const homeUrl = new URL("../aula/index.html", import.meta.url);
+  const html = readFileSync(homeUrl, "utf8");
+  const cards = html.match(/<article class="mode-card"[\s\S]*?<\/article>/g) ?? [];
+  for (const [alert, subject] of [
+    ["science", "conocimiento-medio"],
+    ["math", "matematicas"],
+    ["language", "lengua"],
+    ["english", "ingles"],
+  ]) {
+    const announcement = html.match(new RegExp(`<section class="exam-alert exam-alert-compact exam-alert-${alert}"[\\s\\S]*?<\\/section>`))?.[0];
+    const announcementLink = announcement?.match(/<a href="([^"]+)"/)?.[1];
+    const indexUrl = new URL(`./${subject}/index.html`, homeUrl);
+    const index = readFileSync(indexUrl, "utf8");
+    const list = index.match(/<ol class="subject-index-list">[\s\S]*?<\/ol>/)?.[0];
+    assert.ok(list, `${subject}: debe tener una lista cronológica`);
+    const latestLink = [...list.matchAll(/<a href="([^"]+)"/g)].at(-1)?.[1];
+    assert.ok(latestLink, `${subject}: debe tener una página publicada`);
+    assert.ok(announcementLink, `${subject}: debe tener un enlace en el aviso`);
+    assert.equal(new URL(announcementLink, homeUrl).href, new URL(latestLink, indexUrl).href, `${subject}: el aviso debe abrir la última página`);
+    assert.ok(cards.some(card => card.includes(`href="./${subject}/"`)), `${subject}: la tarjeta debe abrir el índice`);
+  }
 });
 
 test("La portada anuncia la gramática de Inglés con la fecha y el enlace directo", () => {
