@@ -18,6 +18,10 @@ a) La nota (texto literal de la profesora)
          <time datetime="2026-11-03">3 de noviembre de 2026</time>
          ...
        </li>
+   - Actualizar la fecha de la nota más reciente en la tarjeta «Notas de la profesora»
+     de aula/index.html, manteniendo el enlace al índice ./notas/.
+   - Si solo se pide añadir una nota, no crear hojas de ejercicios: los apartados b) y c)
+     se aplican cuando también se solicita material de una asignatura.
 
 b) Una página por asignatura (cada hoja en su propia página)
    - Matemáticas  -> aula/matematicas-<tema>.html          (ejemplo: aula/matematicas-multiplos.html)
@@ -51,7 +55,7 @@ d) Portada aula/index.html
      (./matematicas/, ./conocimiento-medio/) para quien quiera hacer otra actividad. Solo
      actualizar la descripción. Debe haber EXACTAMENTE 6.
    - Si se cambia styles.css, subir la versión en el <link> de la portada y de las páginas nuevas:
-       ../styles.css?v=AAAAMMDD-algo     (la actual es ?v=20261104-pets)
+       ../styles.css?v=AAAAMMDD-algo     (la actual es ?v=20261104-pets2)
 
 
 2. ESTRUCTURA DE LAS PÁGINAS (copiar, no inventar)
@@ -65,7 +69,7 @@ Matemáticas (aula/matematicas-multiplos.html)
    - (Opcional) herramienta interactiva propia (en Múltiplos: tablero 1-100).
    - Ideas clave, formulario de ejercicios con hidden (lo muestra el JS), ranking general y footer.
    - Scripts al final: ./subject-index.mjs, ../activity-ranking.mjs, ./<pagina>.mjs,
-     ../pet-companion.mjs?v=20261104-pets, ../visitor-tracker.mjs (copiar el bloque tal cual).
+     ../pet-companion.mjs?v=20261104-pets2, ../visitor-tracker.mjs (copiar el bloque tal cual).
      Mantener la misma versión de pet-companion.mjs en los scripts HTML y los imports
      de las actividades para compartir la mascota y sus celebraciones.
 
@@ -136,6 +140,8 @@ hay que añadirlo a la lista «cp ... site/» de .github/workflows/deploy-pages.
    - tests/activity-ranking.test.mjs  -> añadir la página a la lista (debe mostrar el ranking).
    - tests/teacher-notes.test.mjs     -> añadir la nota nueva a la lista de enlaces y a los dos bucles;
                                          añadir un test con las frases de la profesora.
+                                         Las notas sin ejercicios se comprueban aquí, no en las listas
+                                         de actividades o rankings de las asignaturas.
    - tests/homepage.test.mjs          -> si cambia un aviso, ajustar/añadir su test.
                                          Restricciones: 6 tarjetas, un solo «¡PRÓXIMO EXAMEN!».
    - tests/worksheets.test.mjs        -> comprobar las soluciones del banco nuevo con cálculo

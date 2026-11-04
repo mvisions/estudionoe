@@ -82,7 +82,7 @@ test("La portada muestra la ardilla 3D con fondo transparente", () => {
   const styles = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
   const mascot = readFileSync(new URL("../aula/ardilla-3d.png", import.meta.url));
 
-  assert.match(html, /styles\.css\?v=20261104-pets/);
+  assert.match(html, /styles\.css\?v=20261104-pets2/);
   assert.match(html, /<img class="hero-mascot" src="\.\/ardilla-3d\.png" alt="">/);
   assert.equal(mascot.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
   assert.match(styles, /\.hero-mascot \{[^}]*max-height: 340px/);
@@ -113,5 +113,5 @@ test("La portada anuncia la hoja de múltiplos del 3 de noviembre en azul", () =
   assert.match(html, /<h3>Matemáticas<\/h3>[\s\S]*href="\.\/matematicas\/">Ver índice de Matemáticas/);
   assert.match(html, /id="science-alert-title"[^>]*>CONOCIMIENTO DEL MEDIO · ACTUALIZADO · <time datetime="2026-11-03">/);
   assert.match(styles, /\.exam-alert\.exam-alert-math \{/);
-  assert.match(html, /styles\.css\?v=20261104-pets/);
+  assert.match(html, /styles\.css\?v=20261104-pets2/);
 });

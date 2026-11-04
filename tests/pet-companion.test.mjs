@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { getPetProfile, petCelebrationForGrade, setPetProfile } from "../pet-companion.mjs";
 
 test("La mascota baila solo por encima de 5 y los cohetes solo por encima de 7", () => {
@@ -22,13 +22,10 @@ test("La mascota elegida y los efectos aparecen en todas las páginas de estudio
   ];
   for (const page of pages)
     assert.match(readFileSync(new URL(`../${page}`, import.meta.url), "utf8"),
-      /pet-companion\.mjs\?v=20261104-pets/);
+      /pet-companion\.mjs\?v=20261104-pets2/);
 
-  assert.match(readFileSync(new URL("../pets/parrot.svg", import.meta.url), "utf8"), /<svg/);
-  for (const pet of ["cat-preview.jpg", "dog-preview.jpg"]) {
-    const image = readFileSync(new URL(`../pets/${pet}`, import.meta.url));
-    assert.deepEqual([...image.subarray(0, 3)], [0xff, 0xd8, 0xff]);
-  }
+  for (const legacy of ["parrot.svg", "cat-preview.jpg", "dog-preview.jpg"])
+    assert.equal(existsSync(new URL(`../pets/${legacy}`, import.meta.url)), false, `${legacy} ya no se usa`);
   const squirrel = readFileSync(new URL("../aula/ardilla-3d.png", import.meta.url));
   assert.deepEqual([...squirrel.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
   assert.equal(squirrel[25], 6, "la imagen de la ardilla debe conservar la transparencia");
@@ -39,19 +36,18 @@ test("La mascota elegida y los efectos aparecen en todas las páginas de estudio
   const companion = readFileSync(new URL("../pet-companion.mjs", import.meta.url), "utf8");
   assert.match(companion, /ardilla: \{\s*label: "Ardilla",\s*image: new URL\("\.\/aula\/ardilla-3d\.png\?v=20261104-squirrel"/);
   assert.match(companion, /abeja: \{\s*label: "Abeja",\s*image: new URL\("\.\/aula\/abeja-3d\.png\?v=20261104-bee"/);
-  for (const [type, label] of [["oso", "Oso"], ["mono", "Mono"], ["cocodrilo", "Cocodrilo"]]) {
+  for (const [type, label] of [
+    ["delfin", "Delfín"], ["gato", "Gato"], ["perro", "Perro"],
+    ["oso", "Oso"], ["mono", "Mono"], ["cocodrilo", "Cocodrilo"],
+  ]) {
     const png = readFileSync(new URL(`../pets/${type}-3d.png`, import.meta.url));
     assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
     assert.equal(png[25], 6, `${type}: debe conservar el canal alfa`);
-    assert.match(companion, new RegExp(`${type}: \\{\\s*label: "${label}",\\s*image: new URL\\("\\./pets/${type}-3d\\.png\\?v=20261104-pets"`));
+    assert.match(companion, new RegExp(`${type}: \\{\\s*label: "${label}",\\s*image: new URL\\("\\./pets/${type}-3d\\.png\\?v=20261104-pets2",[^}]*cutout: true`));
   }
+  assert.doesNotMatch(companion, /loro: \{|parrot|cat-preview|dog-preview|· 2D/);
   assert.match(companion, /aria-label="Tipo de mascota"/);
   assert.match(companion, /elige una mascota\./);
-  assert.match(companion, /Sitting Cat/);
-  assert.match(companion, /Shiba/);
-  assert.match(companion, /OpenMoji/);
-  assert.match(companion, /creativecommons\.org\/licenses\/by\/4\.0/);
-  assert.match(companion, /creativecommons\.org\/licenses\/by-sa\/4\.0/);
 
   const workflow = readFileSync(new URL("../.github/workflows/deploy-pages.yml", import.meta.url), "utf8");
   assert.match(workflow, /cp pet-companion\.mjs site\//);
@@ -74,7 +70,7 @@ test("Las ocho mascotas se pueden elegir, guardar y recuperar sin cambiar las an
   });
 
   assert.equal(getPetProfile(), null);
-  for (const animalType of ["loro", "gato", "perro", "ardilla", "abeja", "oso", "mono", "cocodrilo"]) {
+  for (const animalType of ["delfin", "gato", "perro", "ardilla", "abeja", "oso", "mono", "cocodrilo"]) {
     const expected = { petName: "Luna", animalType };
     assert.deepEqual(setPetProfile({ petName: " Luna ", animalType }), expected);
     assert.deepEqual(getPetProfile(), expected);
@@ -82,10 +78,15 @@ test("Las ocho mascotas se pueden elegir, guardar y recuperar sin cambiar las an
   assert.throws(() => setPetProfile({ petName: "Luna", animalType: "desconocido" }), /válidos/);
   assert.throws(() => setPetProfile({ petName: "", animalType: "oso" }), /válidos/);
   assert.deepEqual(getPetProfile(), { petName: "Luna", animalType: "cocodrilo" });
+
+  values.set("noe-pet-companion-v1", JSON.stringify({ petName: "Piolín", animalType: "loro" }));
+  assert.deepEqual(getPetProfile(), { petName: "Piolín", animalType: "delfin" },
+    "quien tenía el loro conserva su nombre con el delfín");
+  assert.throws(() => setPetProfile({ petName: "Piolín", animalType: "loro" }), /válidos/);
 });
 
 test("Páginas y actividades comparten la versión de mascotas sin módulos duplicados", () => {
-  const version = "20261104-pets";
+  const version = "20261104-pets2";
   const consumers = [
     "app.mjs", "science-quiz.mjs", "language-vowels.mjs", "language-quiz.mjs",
     "english-exercises.mjs", "dictation.mjs", "aula/worksheet-quiz.mjs", "aula/ingles-gramatica.mjs",
@@ -113,7 +114,7 @@ test("Páginas y actividades comparten la versión de mascotas sin módulos dupl
   }
   for (const file of ["aula/copernico.mjs", "aula/multiplos.mjs"]) {
     assert.match(readFileSync(new URL(`../${file}`, import.meta.url), "utf8"),
-      /from "\.\/worksheet-quiz\.mjs\?v=20261104-pets"/);
+      /from "\.\/worksheet-quiz\.mjs\?v=20261104-pets2"/);
   }
 });
 

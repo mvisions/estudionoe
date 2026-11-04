@@ -1,5 +1,5 @@
 import { multiplesOf, multiplesQuestions } from "./multiplos-questions.mjs";
-import { formatNumbers, mountWorksheetQuiz } from "./worksheet-quiz.mjs?v=20261104-pets";
+import { formatNumbers, mountWorksheetQuiz } from "./worksheet-quiz.mjs?v=20261104-pets2";
 
 const explorer = document.querySelector("#multiples-explorer");
 if (explorer) {

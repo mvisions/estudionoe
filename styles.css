@@ -479,8 +479,6 @@ dialog .nav { justify-content: flex-end; }
 .pet-picker h2 { margin: 4px 0; font-size: 27px; }
 .pet-picker > form > p:not(.pet-picker-error) { margin: 6px 0 18px; color: var(--muted); font-size: 13px; }
 .pet-picker-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 18px 0 22px; }
-.pet-picker .pet-picker-credits { margin: -9px 0 19px; font-size: 10px; line-height: 1.5; }
-.pet-picker-credits a { color: #386a4d; text-decoration: underline; text-underline-offset: 2px; }
 .pet-choice { position: relative; display: grid; justify-items: center; gap: 4px; padding: 10px 5px 8px; border: 2px solid #e2e8de; border-radius: 16px; background: #f8faf5; color: #355c47; font-size: 12px; font-weight: 800; cursor: pointer; }
 .pet-choice:has(input:checked) { border-color: #60896e; background: #edf5e9; box-shadow: 0 0 0 3px #60896e22; }
 .pet-choice input { position: absolute; z-index: 2; top: 8px; left: 8px; width: 16px; height: 16px; margin: 0; padding: 0; accent-color: #244b42; cursor: pointer; }
@@ -512,7 +510,6 @@ dialog .nav { justify-content: flex-end; }
 [data-theme="dark"] .pet-companion-info strong { color: #e4f0df; }
 [data-theme="dark"] .pet-companion-kicker, [data-theme="dark"] .pet-companion-status { color: #c1d4c3; }
 [data-theme="dark"] .pet-picker { background: #243a30; color: #edf6e9; }
-[data-theme="dark"] .pet-picker-credits a { color: #b7e2c3; }
 [data-theme="dark"] .pet-choice { border-color: #526b5e; background: #30473b; color: #e4f0df; }
 [data-theme="dark"] .pet-choice:has(input:checked) { background: #3d5948; }
 [data-theme="dark"] .pet-picker input[name="petName"] { border-color: #526b5e; background: #1b2d25; color: #edf6e9; }

@@ -70,11 +70,16 @@ para elegir cualquier tema o actividad.
 La portada incluye una tarjeta «Notas de la profesora» junto a las asignaturas,
 en lugar de la antigua franja en movimiento. Abre el índice numerado de
 `aula/notas/`: primero las notas que estaban en la portada (`anteriores.html`,
-sin inventar una fecha) y después las del lunes 26 y martes 27 de octubre y
-martes 3 de noviembre de 2026 (`2026-10-26.html`, `2026-10-27.html` y
-`2026-11-03.html`). Todas las páginas permiten volver al índice y a la portada.
+sin inventar una fecha) y después las del lunes 26 y martes 27 de octubre,
+martes 3 y miércoles 4 de noviembre de 2026 (`2026-10-26.html`, `2026-10-27.html`,
+`2026-11-03.html` y `2026-11-04.html`). La nota del miércoles incluye el control
+de Lengua, la lectura de Mitos Griegos hasta Edipo y el enigma de la Esfinge,
+la entrega conjunta de las actividades al terminar el libro y las tareas de
+Plástica sobre el Taller de Ciencias, Copérnico y Galileo.
+Todas las páginas permiten volver al índice y a la portada.
 Su contenido se puede leer sin JavaScript. Para añadir nuevas notas, crea una
-página en esa carpeta y añade un enlace al final de la lista del índice.
+página en esa carpeta, añade un enlace al final de la lista del índice y actualiza
+la fecha de la nota más reciente en la tarjeta de la portada.
 
 Para añadir un tema, crea su página, enlázala desde el índice correspondiente
 en `aula/<asignatura>/index.html` y actualiza el número de páginas. Para una
@@ -240,15 +245,18 @@ El banco y las explicaciones están en `language-questions.mjs`.
 
 ## Mascotas de estudio
 
-El selector permite elegir loro, gato, perro, ardilla, abeja, oso, mono o
+El selector permite elegir delfín, gato, perro, ardilla, abeja, oso, mono o
 cocodrilo y ponerles un nombre. La elección se conserva en este navegador.
-Las nuevas ilustraciones tienen fondo transparente: oso con libro y corbata,
-mono con lápiz y plátano, y cocodrilo con libro y gorro. La abeja conserva su
-libro y su panal. Todas usan las mismas celebraciones: baile con nota mayor
-que 5 y cohetes con nota mayor que 7.
+Todas las ilustraciones son 3D con fondo transparente: delfín con gafas de sol
+y libro, gato con lazo rosa, goma y sacapuntas, perro Yorkshire con una pila de
+libros y un lápiz en la oreja, ardilla con libro y bellota, abeja con libro y
+panal, oso con libro y corbata, mono con lápiz y plátano, y cocodrilo con
+libro y gorro. Todas usan las mismas celebraciones: baile con nota mayor
+que 5 y cohetes con nota mayor que 7. El loro se retiró: si alguien lo tenía
+guardado, conserva el nombre y pasa a tener el delfín.
 
-El catálogo está en `pet-companion.mjs`; las tres imágenes nuevas están en
-`pets/` y se publican con esa carpeta. El selector muestra cuatro columnas
+El catálogo está en `pet-companion.mjs`; las imágenes están en `pets/`
+(la ardilla y la abeja, en `aula/`) y se publican con esas carpetas. El selector muestra cuatro columnas
 en escritorio y dos en móvil, con desplazamiento si falta altura.
 Al actualizarlo, hay que mantener la misma versión de `pet-companion.mjs`
 en sus etiquetas de script y en los imports de las actividades, y actualizar

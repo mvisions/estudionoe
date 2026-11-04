@@ -1,4 +1,4 @@
-import { celebratePet } from "../pet-companion.mjs?v=20261104-pets";
+import { celebratePet } from "../pet-companion.mjs?v=20261104-pets2";
 
 const listFormat = new Intl.ListFormat("es", { style: "long", type: "conjunction" });
 
