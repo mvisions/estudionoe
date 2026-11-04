@@ -5,7 +5,7 @@ import { getStudyTopic } from "./study-topics.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { isPetProfile, isRankingProfile, rankingProfileFields, rankingIdentity } from "./ranking-profile.mjs";
 import { mountActivityRankings } from "./activity-ranking.mjs";
-import { celebratePet, getPetProfile, openPetPicker } from "./pet-companion.mjs";
+import { celebratePet, getPetProfile, openPetPicker } from "./pet-companion.mjs?v=20261104-pets";
 
 const app = document.querySelector("#app");
 const notice = document.querySelector("#notice");

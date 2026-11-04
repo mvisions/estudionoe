@@ -33,7 +33,7 @@ test("El formulario autocorregible se encuentra en su propia página", () => {
   const html = readFileSync(new URL("../aula/test-diptongos.html", import.meta.url), "utf8");
   assert.match(html, /id="vowel-quiz"/);
   assert.match(html, /id="vowel-questions"/);
-  assert.match(html, /src="\.\.\/language-vowels\.mjs"/);
+  assert.match(html, /src="\.\.\/language-vowels\.mjs(?:\?v=[^"]+)?"/);
   assert.match(html, /type="button" data-action="mistakes" hidden>Practicar solo los fallos/);
   assert.match(html, /type="reset">Repetir todos/);
 });

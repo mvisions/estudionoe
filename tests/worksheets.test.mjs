@@ -109,7 +109,7 @@ test("Las nuevas páginas siguen la estructura de sus asignaturas y se publican"
   assert.match(math, /id="multiples-explorer" class="multiples-explorer" hidden/);
   assert.match(math, /id="multiples-quiz" hidden/);
   assert.match(math, /<footer>[\s\S]*href="\.\/matematicas\/">Índice de Matemáticas<\/a>[\s\S]*<\/footer>/);
-  assert.match(math, /src="\.\/subject-index\.mjs"[\s\S]*src="\.\/multiplos\.mjs"/);
+  assert.match(math, /src="\.\/subject-index\.mjs"[\s\S]*src="\.\/multiplos\.mjs(?:\?v=[^"]+)?"/);
   assert.match(math, /youtube-nocookie\.com\/embed\/xHdoCI-lz44/);
   assert.match(math, /href="https:\/\/www\.youtube\.com\/watch\?v=xHdoCI-lz44"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
   assert.match(math, /id="multiples-video-title">Los múltiplos, explicados en vídeo<\/h2>/);
@@ -120,7 +120,7 @@ test("Las nuevas páginas siguen la estructura de sus asignaturas y se publican"
   assert.equal((science.match(/<article class="mode-card">/g) ?? []).length, 3);
   assert.match(science, /id="copernicus-quiz" hidden/);
   assert.match(science, /<footer>[\s\S]*href="\.\/conocimiento-medio\/">Índice de Conocimiento del Medio<\/a>[\s\S]*<\/footer>/);
-  assert.match(science, /src="\.\/copernico\.mjs"/);
+  assert.match(science, /src="\.\/copernico\.mjs(?:\?v=[^"]+)?"/);
   assert.match(science, /youtube-nocookie\.com\/embed\/dwigKvjyPoM/);
   assert.match(science, /href="https:\/\/www\.youtube\.com\/watch\?v=dwigKvjyPoM"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
   assert.match(science, /id="copernicus-video-title">Copérnico y la idea del Sol en el centro<\/h2>/);

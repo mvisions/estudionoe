@@ -238,6 +238,22 @@ cuentan como cero. El estado usa `noe-language-review-v1`, separado del dictado
 y de las otras asignaturas, y no se envía al ranking ni a la API.
 El banco y las explicaciones están en `language-questions.mjs`.
 
+## Mascotas de estudio
+
+El selector permite elegir loro, gato, perro, ardilla, abeja, oso, mono o
+cocodrilo y ponerles un nombre. La elección se conserva en este navegador.
+Las nuevas ilustraciones tienen fondo transparente: oso con libro y corbata,
+mono con lápiz y plátano, y cocodrilo con libro y gorro. La abeja conserva su
+libro y su panal. Todas usan las mismas celebraciones: baile con nota mayor
+que 5 y cohetes con nota mayor que 7.
+
+El catálogo está en `pet-companion.mjs`; las tres imágenes nuevas están en
+`pets/` y se publican con esa carpeta. El selector muestra cuatro columnas
+en escritorio y dos en móvil, con desplazamiento si falta altura.
+Al actualizarlo, hay que mantener la misma versión de `pet-companion.mjs`
+en sus etiquetas de script y en los imports de las actividades, y actualizar
+también la versión de sus módulos de entrada y de `styles.css`.
+
 ## Estudio de la Edad Media
 
 30 preguntas, tres modos (test, flechas y respuesta escrita), formulario de

@@ -2,7 +2,7 @@ import { languageQuestions, languageGuide, gradeLanguageSelection } from "./lang
 import { shuffle, summarize } from "./grading.mjs";
 import { initializeTheme } from "./theme.mjs";
 import { offerActivityRanking } from "./activity-ranking.mjs";
-import { celebratePet } from "./pet-companion.mjs";
+import { celebratePet } from "./pet-companion.mjs?v=20261104-pets";
 
 const app = document.querySelector("#language-quiz");
 const key = "noe-language-review-v1";

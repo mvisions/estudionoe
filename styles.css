@@ -21,9 +21,10 @@ p { line-height: 1.65; }
 .hero { display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 42px; margin-bottom: 45px; }
 .hero p { color: var(--muted); max-width: 500px; font-size: 16px; }
 .accent { color: #78947a; }
-.hero-art { position: relative; min-height: 220px; border-radius: 28px; background: #e7eee0; display: grid; place-items: center; overflow: hidden; }
+.hero-art { position: relative; min-height: 300px; border-radius: 28px; background: #e7eee0; display: grid; place-items: center; overflow: hidden; }
 .hero-art::before, .hero-art::after { content: ""; position: absolute; border: 1px solid #c8d8be; width: 280px; height: 280px; border-radius: 50%; }
 .hero-art::after { width: 190px; height: 190px; }
+.hero-mascot { position: relative; z-index: 1; display: block; width: min(100%, 290px); max-height: 340px; object-fit: contain; filter: drop-shadow(0 10px 12px #244b4218); }
 .teacher-notes { min-width: 0; margin-bottom: 32px; border: 1px solid var(--border); border-radius: 18px; overflow: hidden; background: #e7eee0; }
 .teacher-notes-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; padding: 16px 20px; }
 .teacher-notes-heading h2 { margin: 0; font-size: 20px; }
@@ -431,7 +432,8 @@ dialog .nav { justify-content: flex-end; }
   .site-header { gap: 12px; flex-wrap: wrap; }
   main { padding: 30px 20px; }
   .hero { gap: 20px; grid-template-columns: 1fr; margin-bottom: 30px; }
-  .hero-art { min-height: 180px; }
+  .hero-art { min-height: 260px; }
+  .hero-mascot { width: min(100%, 235px); max-height: 285px; }
   .book { padding: 14px 20px; width: 120px; }
   .mode-grid { grid-template-columns: 1fr; }
   .mode-card { padding: 23px; }
@@ -464,6 +466,7 @@ dialog .nav { justify-content: flex-end; }
 .pet-companion-stage::before { content: ""; position: absolute; bottom: 9px; width: 68px; height: 26px; border: 1px solid #fff9; border-radius: 50%; background: linear-gradient(145deg, #fff9, #8db99855 55%, #64866c44); box-shadow: inset 0 -5px 9px #58805c25, 0 5px 8px #294d3424; transform: rotateX(65deg); }
 .pet-companion-stage::after { content: ""; position: absolute; bottom: 7px; width: 49px; height: 9px; border-radius: 50%; background: #294d3423; filter: blur(4px); }
 .pet-companion-stage img { position: relative; z-index: 1; display: block; width: 101px; height: 106px; border-radius: 18px; object-fit: cover; transform: rotateY(-13deg) rotateX(5deg); transform-style: preserve-3d; filter: drop-shadow(0 10px 7px #40301f36) drop-shadow(0 1px 0 #fff9); animation: pet-idle 3s ease-in-out infinite; }
+.pet-companion-stage img.pet-cutout, .pet-choice img.pet-cutout { border-radius: 0; object-fit: contain; background: transparent; }
 .pet-companion-info { min-width: 0; display: grid; align-content: center; gap: 5px; }
 .pet-companion-kicker { color: #738479; font-size: 8px; font-weight: 900; letter-spacing: 1.2px; }
 .pet-companion-info strong { overflow: hidden; color: #244b42; font-size: 17px; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
@@ -471,17 +474,17 @@ dialog .nav { justify-content: flex-end; }
 .pet-companion-status { grid-column: 1 / -1; margin: -1px 2px 0; color: #526d5c; font-size: 10px; line-height: 1.35; text-align: center; }
 .pet-companion-empty { border-color: #e6c879; background: linear-gradient(145deg, #fffef7, #f8f1d9); }
 .pet-companion-empty .pet-companion-stage { background: radial-gradient(ellipse at 45% 74%, #f5dfa151 0, #f9f1d9 50%, #fffdf5 75%); }
-.pet-picker { width: min(520px, calc(100vw - 28px)); max-height: min(90vh, 730px); overflow-y: auto; border: 1px solid var(--border); border-radius: 24px; padding: 27px; color: #243e38; box-shadow: 0 25px 90px #142a2360; }
+.pet-picker { width: min(620px, calc(100vw - 28px)); max-width: calc(100vw - 28px); max-height: min(90vh, 730px); overflow-y: auto; border: 1px solid var(--border); border-radius: 24px; padding: 27px; color: #243e38; box-shadow: 0 25px 90px #142a2360; }
 .pet-picker::backdrop { background: #17251f99; backdrop-filter: blur(5px); }
 .pet-picker h2 { margin: 4px 0; font-size: 27px; }
 .pet-picker > form > p:not(.pet-picker-error) { margin: 6px 0 18px; color: var(--muted); font-size: 13px; }
-.pet-picker-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 11px; margin: 18px 0 22px; }
+.pet-picker-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 18px 0 22px; }
 .pet-picker .pet-picker-credits { margin: -9px 0 19px; font-size: 10px; line-height: 1.5; }
 .pet-picker-credits a { color: #386a4d; text-decoration: underline; text-underline-offset: 2px; }
 .pet-choice { position: relative; display: grid; justify-items: center; gap: 4px; padding: 10px 5px 8px; border: 2px solid #e2e8de; border-radius: 16px; background: #f8faf5; color: #355c47; font-size: 12px; font-weight: 800; cursor: pointer; }
 .pet-choice:has(input:checked) { border-color: #60896e; background: #edf5e9; box-shadow: 0 0 0 3px #60896e22; }
-.pet-choice input { position: absolute; top: 8px; left: 8px; accent-color: #244b42; }
-.pet-choice img { width: 104px; height: 112px; object-fit: cover; border-radius: 11px; background: #e8eee3; filter: drop-shadow(0 10px 7px #40301f30) drop-shadow(0 1px 0 #fff9); transition: transform .25s ease; }
+.pet-choice input { position: absolute; z-index: 2; top: 8px; left: 8px; width: 16px; height: 16px; margin: 0; padding: 0; accent-color: #244b42; cursor: pointer; }
+.pet-choice img { width: min(100%, 104px); height: 112px; object-fit: cover; border-radius: 11px; background: #e8eee3; filter: drop-shadow(0 10px 7px #40301f30) drop-shadow(0 1px 0 #fff9); transition: transform .25s ease; pointer-events: none; }
 .pet-choice:hover img, .pet-choice:has(input:checked) img { transform: translateY(-3px) rotateY(-8deg); }
 .pet-picker .input-label { display: block; margin-bottom: 7px; }
 .pet-picker input[name="petName"] { width: 100%; padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; background: #fff; }
@@ -524,7 +527,8 @@ dialog .nav { justify-content: flex-end; }
   .pet-companion-info button { padding: 4px 8px; font-size: 9px; }
   .pet-companion-status { font-size: 9px; }
   .pet-picker { padding: 21px 17px; }
-  .pet-choice img { width: 82px; height: 92px; }
+  .pet-picker-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pet-choice img { width: min(100%, 82px); height: 92px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .pet-companion-stage img, .pet-dancing .pet-companion-stage img, .pet-dancing .pet-companion-stage::after,

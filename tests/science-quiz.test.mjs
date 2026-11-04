@@ -38,7 +38,7 @@ test("El enlace al índice está al final y el test se publica con la página", 
   assert.match(html, /<footer>[\s\S]*href="\.\/conocimiento-medio\/">Índice de Conocimiento del Medio<\/a>[\s\S]*<\/footer>/);
   assert.equal((html.match(/href="\.\/conocimiento-medio\/"/g) ?? []).length, 2);
   assert.match(html, /id="science-quiz" hidden/);
-  assert.match(html, /src="\.\.\/science-quiz\.mjs"/);
+  assert.match(html, /src="\.\.\/science-quiz\.mjs(?:\?v=[^"]+)?"/);
   assert.match(read("../.github/workflows/deploy-pages.yml"), /cp science-quiz\.mjs site\//);
 });
 

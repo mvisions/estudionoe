@@ -1,7 +1,7 @@
 import { gradeGrammarQuiz, pickGrammarQuestions, GRAMMAR_QUIZ_SIZE } from "./ingles-gramatica-questions.mjs";
 import { flechasPairs, gradeFlechas } from "./ingles-flechas-questions.mjs";
 import { offerActivityRanking } from "../activity-ranking.mjs";
-import { celebratePet } from "../pet-companion.mjs";
+import { celebratePet } from "../pet-companion.mjs?v=20261104-pets";
 import { shuffle } from "../grading.mjs";
 
 const screen = document.querySelector("#test-screen");

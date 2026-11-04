@@ -9,6 +9,31 @@ const pets = Object.freeze({
     label: "Perro",
     image: new URL("./pets/dog-preview.jpg?v=1", import.meta.url).href,
   },
+  ardilla: {
+    label: "Ardilla",
+    image: new URL("./aula/ardilla-3d.png?v=20261104-squirrel", import.meta.url).href,
+    cutout: true,
+  },
+  abeja: {
+    label: "Abeja",
+    image: new URL("./aula/abeja-3d.png?v=20261104-bee", import.meta.url).href,
+    cutout: true,
+  },
+  oso: {
+    label: "Oso",
+    image: new URL("./pets/oso-3d.png?v=20261104-pets", import.meta.url).href,
+    cutout: true,
+  },
+  mono: {
+    label: "Mono",
+    image: new URL("./pets/mono-3d.png?v=20261104-pets", import.meta.url).href,
+    cutout: true,
+  },
+  cocodrilo: {
+    label: "Cocodrilo",
+    image: new URL("./pets/cocodrilo-3d.png?v=20261104-pets", import.meta.url).href,
+    cutout: true,
+  },
 });
 let companion;
 let dock;
@@ -63,9 +88,12 @@ function renderCompanion() {
   if (!dock) return;
   const profile = companion ?? getPetProfile();
   companion = profile;
+  const pet = profile ? pets[profile.animalType] : pets.loro;
   dock.classList.toggle("pet-companion-empty", !profile);
   nameLabel.textContent = profile?.petName ?? "Tu compañero de estudio";
-  image.src = profile ? pets[profile.animalType].image : pets.loro.image;
+  image.src = pet.image;
+  image.classList.toggle("pet-cutout", Boolean(pet.cutout));
+  image.dataset.animalType = profile?.animalType ?? "loro";
   image.alt = profile ? `${profile.petName}, tu ${petDescription(profile)}` : "Mascotas para elegir";
   dock.querySelector("[data-pet-change]").textContent = profile ? "Cambiar" : "Elegir mascota";
   dock.querySelector("[data-pet-change]").setAttribute("aria-label",
@@ -79,10 +107,10 @@ function createDialog() {
     <span class="eyebrow">Tu compañero de estudio</span>
     <h2>Elige tu mascota</h2>
     <p>Estará contigo por la web y celebrará tus buenos resultados.</p>
-    <div class="pet-picker-options" role="radiogroup" aria-label="Elige entre loro, gato y perro">
+    <div class="pet-picker-options" role="radiogroup" aria-label="Tipo de mascota">
       ${Object.entries(pets).map(([type, pet]) => `<label class="pet-choice">
         <input type="radio" name="animalType" value="${type}" required>
-        <img src="${pet.image}" alt="" aria-hidden="true"><span>${pet.label}${type === "loro" ? " · 2D" : " · 3D"}</span>
+        <img class="${pet.cutout ? "pet-cutout" : ""}" data-animal-type="${type}" src="${pet.image}" alt="" aria-hidden="true"><span>${pet.label}${type === "loro" ? " · 2D" : " · 3D"}</span>
       </label>`).join("")}
     </div>
     <p class="pet-picker-credits">
@@ -118,7 +146,7 @@ function createDialog() {
       animalType: String(data.get("animalType") ?? ""),
     };
     if (!validProfile(profile)) {
-      error.textContent = "Escribe un nombre de hasta 30 caracteres y elige loro, gato o perro.";
+      error.textContent = "Escribe un nombre de hasta 30 caracteres y elige una mascota.";
       return;
     }
     try {
@@ -143,7 +171,9 @@ export function openPetPicker() {
   name.value = current?.petName ?? "";
   error.textContent = "";
   dialog.showModal();
-  name.focus();
+  const selected = dialog.querySelector('input[name="animalType"]:checked')
+    ?? dialog.querySelector('input[name="animalType"]');
+  selected.focus();
 }
 
 export function celebratePet(grade) {
