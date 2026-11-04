@@ -61,3 +61,15 @@ test("El índice de Conocimiento del Medio enlaza la nueva guía y conserva Hist
   assert.match(newPage, /<footer>[\s\S]*href="\.\/conocimiento-medio\/">Índice de Conocimiento del Medio<\/a>/);
   assert.match(previousPage, /<title>Historia · Noé<\/title>/);
 });
+
+test("La portada anuncia la hoja de múltiplos del 3 de noviembre en azul", () => {
+  const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
+  const styles = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
+  const announcement = html.match(/<section class="exam-alert exam-alert-compact exam-alert-math"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(announcement);
+  assert.match(announcement, /id="math-alert-title"[^>]*>MATEMÁTICAS · MÚLTIPLOS · <time datetime="2026-11-03">3 DE NOVIEMBRE<\/time>/);
+  assert.match(announcement, /href="\.\/matematicas\/">Ir a Matemáticas/);
+  assert.match(html, /id="science-alert-title"[^>]*>CONOCIMIENTO DEL MEDIO · ACTUALIZADO · <time datetime="2026-11-03">/);
+  assert.match(styles, /\.exam-alert\.exam-alert-math \{/);
+  assert.match(html, /styles\.css\?v=20261103-worksheets/);
+});

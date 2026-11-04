@@ -7,8 +7,9 @@ Web: https://mvisions.github.io/estudionoe/
 La nueva portada está en `aula/index.html`; una vez publicada, estará disponible
 en https://mvisions.github.io/estudionoe/aula/.
 Conocimiento del Medio tiene un índice en `aula/conocimiento-medio/` que
-ordena sus páginas de Historia/Edad Media y el taller «Jugando con las fuerzas».
-Tanto la tarjeta como el aviso de la portada abren este índice de dos entradas.
+ordena sus páginas de Historia/Edad Media, el taller «Jugando con las fuerzas»
+y el taller «De Aristóteles a Copérnico».
+Tanto la tarjeta como el aviso de la portada abren este índice de tres entradas.
 El taller está en `aula/conocimiento-medio.html`; la antigua página
 `aula/historia.html` se conserva como acceso al tema de la Edad Media.
 La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
@@ -18,7 +19,8 @@ responder. Al completar las nueve preguntas se puede participar en el ranking
 Antes del test aparece la biografía infantil de Aristóteles de Quonomy
 (4:05), ya visible en la página. El reproductor usa `youtube-nocookie.com`;
 también hay un enlace directo a YouTube.
-Matemáticas abre `aula/matematicas/`, cuyo índice enlaza al tema Potencias.
+Matemáticas abre `aula/matematicas/`, cuyo índice enlaza a los temas Potencias
+y Múltiplos.
 Lengua abre `aula/lengua/`, con dictado de voz y repaso de los temas 1 y 2
 para 5.º de Primaria, además de los temas actuales. Inglés abre
 `aula/ingles/`, cuyo índice enlaza a la guía y lista de
@@ -52,6 +54,8 @@ tiene un acento de color propio, también en modo oscuro.
 Francés aparece en naranja con un botón «Próximamente» desactivado; todavía
 no abre una actividad. La tarjeta adapta sus colores al modo claro y oscuro.
 La portada muestra un anuncio compacto del próximo control de Lengua.
+El 3 de noviembre se añadió un aviso azul de Matemáticas que anuncia la hoja de
+múltiplos y abre el índice de la asignatura.
 También anuncia la nueva lección de gramática de Inglés, con la fecha de
 actualización del 26 de octubre de 2026 y un enlace directo a la lección,
 sus vídeos y el test con ranking.
@@ -61,8 +65,9 @@ que se elige el tema o la actividad.
 La portada incluye una tarjeta «Notas de la profesora» junto a las asignaturas,
 en lugar de la antigua franja en movimiento. Abre el índice numerado de
 `aula/notas/`: primero las notas que estaban en la portada (`anteriores.html`,
-sin inventar una fecha) y después las del lunes 26 y martes 27 de octubre de 2026
-(`2026-10-26.html` y `2026-10-27.html`). Todas las páginas permiten volver al índice y a la portada.
+sin inventar una fecha) y después las del lunes 26 y martes 27 de octubre y
+martes 3 de noviembre de 2026 (`2026-10-26.html`, `2026-10-27.html` y
+`2026-11-03.html`). Todas las páginas permiten volver al índice y a la portada.
 Su contenido se puede leer sin JavaScript. Para añadir nuevas notas, crea una
 página en esa carpeta y añade un enlace al final de la lista del índice.
 
@@ -98,6 +103,32 @@ tilde, omisión o puntuación. El repaso permite escuchar y escribir únicamente
 los fragmentos con errores, corregirlos y volver a practicar los que aún fallan,
 sin modificar el borrador original. Este repaso no se guarda al recargar ni
 se envía al ranking.
+
+## Hojas de ejercicios (Múltiplos y Copérnico)
+
+`aula/worksheet-quiz.mjs` es un motor común para hojas de ejercicios sin
+ranking. Admite cuatro tipos de pregunta: `choice` (una opción), `number`
+(un número escrito), `list` (varios números separados por comas, en cualquier
+orden) y `mark` (marcar varias casillas). Corrige con nota sobre 10, muestra
+tu respuesta, lo que falta o sobra, la solución y la explicación, y ofrece
+«Practicar solo los fallos» y «Repetir todos». Las respuestas vacías cuentan
+como fallo y la mascota celebra la nota solo con la hoja completa.
+
+`aula/matematicas-multiplos.html` («Los múltiplos», notas del 3 de noviembre:
+pág. 42 ej. 3 y pág. 44 ej. 1) explica qué es un múltiplo, incluye un tablero
+del 1 al 100 para las tablas del 2 al 10 y una hoja de 15 ejercicios
+(`aula/multiplos-questions.mjs`, página `aula/multiplos.mjs`).
+
+`aula/conocimiento-medio-copernico.html` («De Aristóteles a Copérnico») recoge
+el Taller de Ciencias: el experimento de Aristóteles sobre la caída de los
+objetos, la Edad Moderna y sus descubrimientos y quién fue Nicolás Copérnico,
+con un test de 9 preguntas (`aula/copernico-questions.mjs`, página
+`aula/copernico.mjs`). `tests/worksheets.test.mjs` comprueba las soluciones
+con aritmética independiente. Ambas páginas incluyen un vídeo explicativo de
+YouTube en español: Smartick explica qué son los múltiplos (6:55) y GeoyMas
+presenta a Copérnico y la teoría heliocéntrica (3:05). La página de Cono indica
+que ese vídeo se centra en Copérnico; para la Edad Moderna y el experimento de
+Aristóteles se mantienen las explicaciones escritas.
 
 ## Matemáticas · Potencias
 

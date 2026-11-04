@@ -68,6 +68,7 @@ test("La página principal y todas las prácticas independientes muestran acceso
   const pages = [
     "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
     "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html", "aula/ingles-gramatica.html",
+    "aula/matematicas-multiplos.html", "aula/conocimiento-medio-copernico.html",
   ];
   for (const path of pages)
     assert.match(readFileSync(`${root}/${path}`, "utf8"), /data-activity-rankings/);

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es" data-subject="math">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#245681">
+    <meta name="description" content="Hoja de ejercicios de 5.º de Primaria: los múltiplos son los resultados de las tablas de multiplicar. Tablero del 1 al 100 y 15 ejercicios corregidos.">
+    <title>Matemáticas · Múltiplos · Noé</title>
+    <link rel="stylesheet" href="../styles.css?v=20261104-video">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">N</span><span>Noé<span class="brand-subtitle">MI ESPACIO DE ESTUDIO</span></span></a>
+      <div class="header-actions"><span class="header-tag">Matemáticas · Múltiplos</span>
+        <button id="theme-toggle" class="secondary" type="button" aria-pressed="false">Modo oscuro</button>
+      </div>
+    </header>
+    <main>
+      <nav class="subject-page-nav" aria-label="Ruta de navegación">
+        <a class="secondary" href="./">← Todas las asignaturas</a>
+        <a class="secondary" href="./matematicas/">Índice de Matemáticas</a>
+      </nav>
+      <section aria-labelledby="multiples-title">
+        <span class="eyebrow">Hoja de ejercicios</span>
+        <h1 id="multiples-title">Los múltiplos</h1>
+        <p>Los múltiplos de un número son los «resultados» de su tabla de multiplicar. Repasa la idea, búscalos en el tablero y practica con 15 ejercicios corregidos.</p>
+        <p class="muted class-note">En clase: página 42, ejercicio 3, y página 44, ejercicio 1. <a href="./notas/2026-11-03.html">Ver las notas del martes 3 de noviembre</a>.</p>
+      </section>
+
+      <section aria-labelledby="learn-title">
+        <div class="section-heading">
+          <h2 id="learn-title">Lo que tienes que saber</h2>
+          <span class="muted">Lee y compruébalo en el tablero</span>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card">
+            <span class="mode-icon" aria-hidden="true">1</span>
+            <h3>¿Qué es un múltiplo?</h3>
+            <p>Es el resultado de multiplicar un número por 0, 1, 2, 3, 4… Por eso los múltiplos de un número son los resultados de su tabla.</p>
+            <p>Los múltiplos de 4 son 0, 4, 8, 12, 16, 20, 24… porque 4 × 0 = 0, 4 × 1 = 4, 4 × 2 = 8, 4 × 3 = 12, y así sigue.</p>
+          </article>
+          <article class="mode-card">
+            <span class="mode-icon" aria-hidden="true">2</span>
+            <h3>¿Cómo sé si es múltiplo?</h3>
+            <p>Busca el número en la tabla. Si no lo recuerdas, haz la división: si el resto es 0, es múltiplo.</p>
+            <p>48 : 6 = 8 y el resto es 0, así que 48 es múltiplo de 6. 34 : 4 = 8 y sobran 2, así que 34 no es múltiplo de 4.</p>
+          </article>
+          <article class="mode-card">
+            <span class="mode-icon" aria-hidden="true">3</span>
+            <h3>Tres reglas que no fallan</h3>
+            <p>El 0 es múltiplo de todos los números, porque cualquier número por 0 da 0.</p>
+            <p>Todo número es múltiplo de sí mismo (7 × 1 = 7). Y cada número tiene infinitos múltiplos: su tabla nunca se acaba.</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="example-title">
+        <div class="section-heading">
+          <h2 id="example-title">Un ejemplo paso a paso</h2>
+        </div>
+        <aside class="info-strip">
+          ¿Es 63 múltiplo de 9? Busca en la tabla del 9: 9 × 7 = 63. ¡Sí, lo es! ¿Y el 40? En la tabla del 9 están el 36 (9 × 4) y el 45 (9 × 5), pero no el 40. Si divides 40 : 9, el cociente es 4 y sobran 4. El 40 no es múltiplo de 9.
+        </aside>
+      </section>
+
+      <section class="video-frame video-frame-math" aria-labelledby="multiples-video-title">
+        <h2 id="multiples-video-title">Los múltiplos, explicados en vídeo</h2>
+        <p>«¿Qué son los múltiplos? [PARA NIÑOS]», de Smartick. Dura 6 minutos y 55 segundos.</p>
+        <p>Fíjate en cómo usa la tabla del 100 y la división para encontrar múltiplos. Después, prueba con la tabla del 4 en el tablero.</p>
+        <div class="science-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/xHdoCI-lz44" title="¿Qué son los múltiplos? [PARA NIÑOS] · Smartick" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <p class="muted">Vídeo en español. Al reproducirlo, se aplican las condiciones y la política de privacidad de YouTube.</p>
+        <p><a class="secondary" href="https://www.youtube.com/watch?v=xHdoCI-lz44" target="_blank" rel="noopener noreferrer">Ver el vídeo en YouTube (nueva pestaña)</a></p>
+      </section>
+
+      <section aria-labelledby="board-title">
+        <div class="section-heading">
+          <h2 id="board-title">Busca los múltiplos en el tablero</h2>
+          <span class="muted">Del 1 al 100</span>
+        </div>
+        <p>Elige una tabla de multiplicar. Sus resultados se marcan en el tablero: son los múltiplos de ese número.</p>
+        <noscript><p>Activa JavaScript para usar el tablero. Puedes seguir leyendo la explicación sin activarlo.</p></noscript>
+        <div id="multiples-explorer" class="multiples-explorer" hidden>
+          <fieldset class="table-picker">
+            <legend>Tabla del…</legend>
+            <div class="table-picker-options">
+              <label><input type="radio" name="times-table" value="2"> 2</label>
+              <label><input type="radio" name="times-table" value="3"> 3</label>
+              <label><input type="radio" name="times-table" value="4" checked> 4</label>
+              <label><input type="radio" name="times-table" value="5"> 5</label>
+              <label><input type="radio" name="times-table" value="6"> 6</label>
+              <label><input type="radio" name="times-table" value="7"> 7</label>
+              <label><input type="radio" name="times-table" value="8"> 8</label>
+              <label><input type="radio" name="times-table" value="9"> 9</label>
+              <label><input type="radio" name="times-table" value="10"> 10</label>
+            </div>
+          </fieldset>
+          <ol id="times-table" class="times-table"></ol>
+          <div>
+            <div id="multiples-board" class="multiples-board" aria-hidden="true"></div>
+            <ul class="multiples-legend" aria-hidden="true">
+              <li><span class="swatch-table"></span>Resultados de la tabla (× 1 a × 10)</li>
+              <li><span class="swatch-beyond"></span>La tabla sigue (× 11, × 12…)</li>
+            </ul>
+            <p id="multiples-list" class="visually-hidden"></p>
+          </div>
+          <p id="multiples-summary" class="multiples-summary" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section aria-labelledby="summary-title">
+        <div class="section-heading">
+          <h2 id="summary-title">Ideas clave para recordar</h2>
+        </div>
+        <div class="student-strip">
+          <span><strong>Múltiplo:</strong> resultado de la tabla de un número.</span>
+          <span><strong>Comprobar:</strong> divide; si el resto es 0, es múltiplo.</span>
+          <span><strong>El 0:</strong> es múltiplo de todos los números.</span>
+          <span><strong>Infinitos:</strong> la tabla nunca se acaba.</span>
+        </div>
+      </section>
+
+      <section aria-labelledby="multiples-quiz-title">
+        <h2 id="multiples-quiz-title">Hoja de ejercicios</h2>
+        <p>Haz los 15 ejercicios. Al corregir verás tu respuesta, la solución y una explicación. Los ejercicios sin responder cuentan como fallo.</p>
+        <p class="muted">Cuando escribas varios números, sepáralos con comas; el orden no importa. Esta hoja no participa en el ranking.</p>
+        <noscript><p>Activa JavaScript para hacer los ejercicios. Puedes seguir leyendo la explicación sin activarlo.</p></noscript>
+        <form id="multiples-quiz" hidden>
+          <div id="multiples-questions" class="science-questions"></div>
+          <div class="result-actions">
+            <button class="primary" type="submit">Corregir la hoja</button>
+            <button class="secondary" type="button" data-action="mistakes" hidden>Practicar solo los fallos</button>
+            <button class="secondary" type="reset">Repetir todos</button>
+          </div>
+        </form>
+        <p id="multiples-result" role="status" aria-live="polite"></p>
+      </section>
+
+      <div data-activity-rankings></div>
+    </main>
+    <div id="notice" class="notice" role="status" aria-live="polite"></div>
+    <footer>
+      <nav aria-label="Contenido anterior">
+        <a class="secondary" href="./matematicas/">Índice de Matemáticas</a>
+      </nav>
+      <p>Hecho para aprender, no solo para acertar.</p>
+    </footer>
+    <script type="module" src="./subject-index.mjs"></script>
+    <script type="module" src="../activity-ranking.mjs"></script>
+    <script type="module" src="./multiplos.mjs"></script>
+    <script type="module" src="../pet-companion.mjs"></script>
+    <script type="module" src="../visitor-tracker.mjs"></script>
+  </body>
+</html>

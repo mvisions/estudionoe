@@ -22,14 +22,14 @@ test("Las notas anteriores conservan el contenido que estaba en la portada", () 
   assert.doesNotMatch(html, /distributiva, potencias, estimaciones y combinadas|página 39, ejercicios 6, 7 y 8|capítulo 5 de Mitos Griegos/);
 });
 
-test("La portada abre un índice numerado con las notas anteriores, las del lunes 26 y las del martes 27", () => {
+test("La portada abre un índice numerado con las notas anteriores y las de cada día", () => {
   const home = read("../aula/index.html");
   const index = read("../aula/notas/index.html");
   assert.match(home, /<article class="mode-card" data-subject="notes">[\s\S]*<h3>Notas de la profesora<\/h3>[\s\S]*href="\.\/notas\/"/);
   assert.doesNotMatch(home, /teacher-notes-ticker|teacher-notes\.mjs|class="teacher-notes"/);
   assert.match(index, /<ol class="subject-index-list">/);
   const links = [...index.matchAll(/<li>\s*<a href="([^"]+)"/g)].map(([, href]) => href);
-  assert.deepEqual(links, ["./anteriores.html", "./2026-10-26.html", "./2026-10-27.html"]);
+  assert.deepEqual(links, ["./anteriores.html", "./2026-10-26.html", "./2026-10-27.html", "./2026-11-03.html"]);
   assert.doesNotMatch(index, /class="mode-card"/);
 });
 
@@ -71,13 +71,25 @@ test("Las notas del martes 27 incluyen las actividades y todos los materiales de
   assert.equal((tuesday.match(/<li>/g) ?? []).length, 7);
 });
 
+test("Las notas del martes 3 recogen el texto de la profesora y enlazan las nuevas hojas", () => {
+  const tuesday = read("../aula/notas/2026-11-03.html");
+  for (const content of [
+    'datetime="2026-11-03"', "Mates", "Corregimos ejercicios del jueves pasado.",
+    "los múltiplos son los «resultados» de las tablas de multiplicar",
+    "Hoy en clase pág 42 ej 3.", "Pág 44. Ej 1.", "Cono",
+    "Taller de Ciencias: experimentamos con Aristóteles.",
+    "La Edad moderna y sus descubrimientos.", "¿Quién fue Nicolás Copérnico?",
+    'href="../matematicas-multiplos.html"', 'href="../conocimiento-medio-copernico.html"',
+  ]) assert.ok(tuesday.includes(content), content);
+});
+
 test("Las páginas de notas son estáticas, permiten volver al índice y se publican", () => {
-  for (const page of ["index.html", "anteriores.html", "2026-10-26.html", "2026-10-27.html"]) {
+  for (const page of ["index.html", "anteriores.html", "2026-10-26.html", "2026-10-27.html", "2026-11-03.html"]) {
     const notes = read(`../aula/notas/${page}`);
     assert.match(notes, /<html lang="es" data-subject="notes">/);
     assert.match(notes, /name="theme-color" content="#754399"/);
   }
-  for (const page of ["anteriores.html", "2026-10-26.html", "2026-10-27.html"]) {
+  for (const page of ["anteriores.html", "2026-10-26.html", "2026-10-27.html", "2026-11-03.html"]) {
     const notes = read(`../aula/notas/${page}`);
     assert.match(notes, /href="\.\/">Índice de notas<\/a>/);
     assert.match(notes, /src="\.\.\/subject-index\.mjs"/);

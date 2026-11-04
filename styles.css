@@ -78,6 +78,12 @@ p { line-height: 1.65; }
 .exam-alert.exam-alert-science a { background: #244b42; }
 .exam-alert.exam-alert-science a:hover { background: #173d33; }
 @keyframes exam-flash-science { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #b7d6a8; } 50% { opacity: .78; text-shadow: 0 0 12px #9fcf8c, 0 0 20px #cde6c2; } }
+.exam-alert.exam-alert-math { border-color: #9dbbd9; background: linear-gradient(115deg, #e3edf8, #fbfdff 52%, #d6e5f4); color: #253f56; box-shadow: 0 8px 24px #24568120; }
+.exam-alert.exam-alert-math .exam-alert-kicker { color: #245681; }
+.exam-alert.exam-alert-math .exam-alert-title { color: #193f64; animation-name: exam-flash-math; }
+.exam-alert.exam-alert-math a { background: #245681; }
+.exam-alert.exam-alert-math a:hover { background: #193f64; }
+@keyframes exam-flash-math { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #b3d3f2; } 50% { opacity: .78; text-shadow: 0 0 12px #8fb2d6, 0 0 20px #cce2f8; } }
 @keyframes exam-flash-language { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #f2b5bd; } 50% { opacity: .78; text-shadow: 0 0 12px #e9a3ad, 0 0 20px #f7c6cc; } }
 @keyframes exam-flash { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #ffc94d; } 50% { opacity: .72; text-shadow: 0 0 13px #f2ae20, 0 0 22px #ffd870; } }
 @keyframes exam-sparkle { 0%, 100% { opacity: .45; transform: scale(.8) rotate(0deg); } 50% { opacity: 1; transform: scale(1.25) rotate(25deg); } }
@@ -176,9 +182,47 @@ progress::-moz-progress-bar { background: #78947a; }
 .science-questions input[type="radio"] { flex-shrink: 0; width: 18px; height: 18px; margin: 0; padding: 0; accent-color: var(--green); }
 .science-feedback { clear: both; margin: 16px 0 0; border-top: 1px solid var(--border); padding-top: 14px; }
 @media (max-width: 600px) { .science-questions fieldset { padding: 18px 16px; } }
+.science-questions .worksheet-group { margin: 14px 0 -6px; font-size: 18px; }
+.science-questions .worksheet-group:first-child { margin-top: 0; }
+.science-questions .options-inline { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+.science-questions input[type="checkbox"] { flex-shrink: 0; width: 18px; height: 18px; margin: 0; accent-color: var(--green); }
+.science-questions .written-answer, .science-questions .written-answer:hover { clear: both; display: grid; gap: 8px; padding: 0; border: 0; background: none; cursor: default; }
+.science-questions .written-answer span { color: var(--muted); font-size: 13px; }
+.science-questions .written-answer input { max-width: 420px; margin: 0; font-size: 16px; }
+.science-feedback strong { margin-right: 2px; }
+.class-note a { color: var(--green); font-weight: 700; text-underline-offset: 3px; }
+:root[data-subject="math"] .science-questions .options label:hover,
+:root[data-subject="math"] .science-questions .options label:has(input:checked) { background: var(--math-soft); }
+.multiples-explorer { display: grid; grid-template-columns: minmax(160px, 200px) minmax(0, 1fr); gap: 20px 28px; align-items: start; padding: 24px; border: 1px solid var(--border); border-radius: 20px; background: var(--math-surface, white); }
+.table-picker { grid-column: 1 / -1; min-width: 0; margin: 0; padding: 0; border: 0; }
+.table-picker legend { margin-bottom: 10px; padding: 0; font-weight: 700; }
+.table-picker-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.table-picker label { position: relative; display: grid; place-items: center; min-width: 46px; min-height: 46px; padding: 0 10px; border: 1px solid var(--border); border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; }
+.table-picker label:hover { background: var(--math-soft); }
+.table-picker label:has(input:checked) { background: var(--green); border-color: var(--green); color: var(--math-button-text); }
+.table-picker label:has(input:focus-visible) { outline: 3px solid #d88a42; outline-offset: 2px; }
+.table-picker input[type="radio"] { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; opacity: 0; cursor: pointer; }
+.times-table { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; font-variant-numeric: tabular-nums; }
+.times-table li { padding: 7px 12px; border-radius: 9px; background: var(--math-soft); font-size: 15px; }
+.multiples-board { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 4px; font-variant-numeric: tabular-nums; }
+.multiples-board span { display: grid; place-items: center; aspect-ratio: 1; border: 1px solid var(--border); border-radius: 8px; color: var(--muted); font-size: 13px; transition: background .2s, color .2s; }
+.multiples-board .is-multiple, .multiples-legend .swatch-table { background: var(--green); border-color: var(--green); color: var(--math-button-text); font-weight: 800; }
+.multiples-board .is-beyond, .multiples-legend .swatch-beyond { background: var(--math-soft); border: 2px solid var(--math-accent); color: var(--green); font-weight: 800; }
+.multiples-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 12px 0 0; padding: 0; list-style: none; color: var(--muted); font-size: 12px; }
+.multiples-legend span { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -2px; border: 1px solid; border-radius: 4px; }
+.multiples-summary { grid-column: 1 / -1; margin: 0; }
+@media (max-width: 760px) {
+  .multiples-explorer { grid-template-columns: minmax(0, 1fr); padding: 18px 14px; }
+  .times-table { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .multiples-board { gap: 3px; }
+  .multiples-board span { border-radius: 6px; font-size: 11px; }
+}
 .video-frame { max-width: 820px; margin: 40px auto; padding: 28px; text-align: center; border: 2px solid #c8d8be; border-radius: 26px; background: linear-gradient(135deg, #e7eee0, #fffdf5 55%, #e7eee0); box-shadow: 0 14px 34px #244b421a; }
 .video-frame h2 { margin-top: 0; }
 .video-frame p { max-width: 640px; margin-inline: auto; }
+.video-frame .muted { color: currentColor; }
+.video-frame-math { border-color: var(--border); background: var(--math-surface); box-shadow: 0 14px 34px #2456811a; }
+.video-frame-math .science-video { background: var(--green); box-shadow: 0 10px 26px #24568140, inset 0 0 0 3px var(--math-accent); }
 .science-video { aspect-ratio: 16 / 9; margin: 8px auto 18px; padding: 10px; border-radius: 20px; background: var(--green); box-shadow: 0 10px 26px #244b4240, inset 0 0 0 3px #78947a; }
 .science-video iframe { display: block; width: 100%; height: 100%; border: 0; border-radius: 12px; }
 @media (max-width: 600px) { .video-frame { padding: 18px 14px; } .science-video { padding: 6px; } }

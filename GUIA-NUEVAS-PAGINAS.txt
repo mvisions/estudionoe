@@ -1,0 +1,191 @@
+GUÍA RÁPIDA · AÑADIR NOTAS Y HOJAS DE TRABAJO A ESTUDIO NOÉ
+============================================================
+Última actualización: 4 de noviembre de 2026 (vídeos en las hojas «Múltiplos» y «De Aristóteles a Copérnico»).
+Este archivo NO se publica en la web (el workflow solo copia archivos concretos y la carpeta aula/).
+
+Objetivo: cuando la profesora mande una nota nueva, no volver a investigar la web.
+Sigue los pasos en orden y copia las páginas de ejemplo.
+
+
+1. QUÉ HAY QUE CREAR POR CADA NOTA DE LA PROFESORA
+--------------------------------------------------
+a) La nota (texto literal de la profesora)
+   - Crear aula/notas/AAAA-MM-DD.html copiando aula/notas/2026-11-03.html.
+   - Respetar el texto tal como lo escribe la profesora; solo se añaden enlaces a las páginas nuevas.
+   - Añadir un <li> AL FINAL de aula/notas/index.html:
+       <li>
+         <a href="./2026-11-03.html">Martes 3 de noviembre</a>
+         <time datetime="2026-11-03">3 de noviembre de 2026</time>
+         ...
+       </li>
+
+b) Una página por asignatura (cada hoja en su propia página)
+   - Matemáticas  -> aula/matematicas-<tema>.html          (ejemplo: aula/matematicas-multiplos.html)
+   - Cono. Medio  -> aula/conocimiento-medio-<tema>.html   (ejemplo: aula/conocimiento-medio-copernico.html)
+   - Lengua/Inglés: copiar la página más reciente de esa asignatura que haya en aula/.
+
+c) Enlazar la página en el índice de su asignatura
+   - aula/<asignatura>/index.html: añadir un <li> AL FINAL (orden de más antigua a más reciente):
+       <li>
+         <a href="../conocimiento-medio-copernico.html">De Aristóteles a Copérnico</a>
+         <time datetime="2026-11-03">3 de noviembre de 2026</time>
+         <p>Descripción corta.</p>
+       </li>
+   - Actualizar el contador de la cabecera: <span class="muted">3 páginas</span>
+     (los tests comprueban que coincide con el número de <li> y que las fechas van en orden).
+
+d) Portada aula/index.html
+   - Avisos (sección .exam-alert, arriba): hay uno por asignatura. Cambiar fecha/texto del existente
+     o añadir uno nuevo. Colores disponibles: exam-alert-science (verde), exam-alert-math (azul),
+     exam-alert-language (granate) y exam-alert-english (amarillo). Ejemplo del de Mates:
+       <section class="exam-alert exam-alert-compact exam-alert-math" aria-labelledby="math-alert-title">
+         <p class="exam-alert-kicker">¡NUEVA HOJA!</p>
+         <h2 id="math-alert-title" class="exam-alert-title">MATEMÁTICAS · MÚLTIPLOS · <time datetime="2026-11-03">3 DE NOVIEMBRE</time></h2>
+         <p>Texto corto.</p>
+         <a href="./matematicas/">Ir a Matemáticas <span aria-hidden="true">→</span></a>
+       </section>
+     Los avisos enlazan SIEMPRE al índice de la asignatura (./matematicas/, ./conocimiento-medio/),
+     nunca a la página directamente.
+   - Tarjetas (article.mode-card): solo actualizar la descripción. Debe haber EXACTAMENTE 6.
+   - Si se cambia styles.css, subir la versión en el <link> de la portada y de las páginas nuevas:
+       ../styles.css?v=AAAAMMDD-algo     (la actual es ?v=20261104-video)
+
+
+2. ESTRUCTURA DE LAS PÁGINAS (copiar, no inventar)
+--------------------------------------------------
+Matemáticas (aula/matematicas-multiplos.html)
+   - <html lang="es" data-subject="math">, theme-color #245681, botón #theme-toggle (modo oscuro).
+   - Cabecera .site-header + nav .subject-page-nav (← Todas las asignaturas / Índice de Matemáticas).
+   - Intro: .eyebrow, h1, párrafo y <p class="muted class-note"> con enlace a la nota del día.
+   - «Lo que tienes que saber»: 3 article.mode-card numerados.
+   - aside.info-strip con un ejemplo paso a paso.
+   - (Opcional) herramienta interactiva propia (en Múltiplos: tablero 1-100).
+   - Ideas clave, formulario de ejercicios con hidden (lo muestra el JS), ranking general y footer.
+   - Scripts al final: ./subject-index.mjs, ../activity-ranking.mjs, ./<pagina>.mjs,
+     ../pet-companion.mjs, ../visitor-tracker.mjs (copiar el bloque tal cual).
+
+Conocimiento del Medio (aula/conocimiento-medio-copernico.html)
+   - Igual que aula/conocimiento-medio.html: SIN botón de modo oscuro, theme-color #244b42.
+   - eyebrow «Taller de Ciencias», 3 mode-card con las preguntas de la profesora,
+     info-strip, pasos del experimento, Ideas clave, test, ranking y footer.
+
+Vídeos: solo incrustar si se ha comprobado el contenido. Usar youtube-nocookie.com y añadir
+un enlace directo a YouTube (ver aula/conocimiento-medio.html).
+
+
+3. HOJAS DE EJERCICIOS: MOTOR COMÚN aula/worksheet-quiz.mjs
+-----------------------------------------------------------
+No hay que programar nada nuevo: se crean 2 archivos pequeños.
+
+a) Banco de preguntas aula/<tema>-questions.mjs (ver aula/multiplos-questions.mjs):
+     export const temaQuestions = [
+       { id: "unico-id", group: "Título del bloque", type: "list",
+         question: "Escribe los múltiplos de 4 entre 10 y 30.",
+         answer: [12, 16, 20, 24, 28],
+         explanation: "Por qué es así (más de 40 caracteres)." },
+     ];
+   Tipos:
+     choice -> options: ["a","b","c"], answer: índice de la correcta (0, 1, 2)
+     number -> answer: 9                    (el alumno escribe solo el número)
+     list   -> answer: [7, 14, 21]          (separados por comas, cualquier orden; dice qué falta/sobra)
+     mark   -> options: [12, 17, 21], answer: [12, 21]   (casillas; marcar todas las correctas)
+   «group» es opcional: pinta un subtítulo cada vez que cambia.
+
+b) Script de página aula/<tema>.mjs (ver aula/copernico.mjs):
+     import { temaQuestions } from "./tema-questions.mjs";
+     import { mountWorksheetQuiz } from "./worksheet-quiz.mjs";
+     const form = document.querySelector("#tema-quiz");
+     if (form) mountWorksheetQuiz({ form,
+       container: document.querySelector("#tema-questions"),
+       result: document.querySelector("#tema-result"),
+       questions: temaQuestions, itemName: "preguntas" });   // o "ejercicios"
+
+c) En el HTML, copiar el bloque <form id="...-quiz" hidden> de una página existente
+   y cambiar los id (form, contenedor de preguntas, resultado).
+
+Qué hace el motor: nota sobre 10, «Tu respuesta / Respuesta correcta / Por qué»,
+«Practicar solo los fallos», «Repetir todos», las vacías cuentan como fallo,
+la mascota celebra solo si se responde todo. NO envía al ranking.
+(El ranking necesita cambios en server.mjs y desplegar la API en Render; no hacerlo sin pedirlo.)
+
+Vídeos en las páginas existentes (ejemplo para futuras hojas):
+   - Usa <section class="video-frame">, un iframe de youtube-nocookie.com/embed/ID
+     con title, loading="lazy", referrerpolicy y allowfullscreen, y un enlace directo
+     a youtube.com/watch?v=ID con target="_blank" y rel="noopener noreferrer".
+   - Añade el nombre del canal, duración, una indicación de qué escuchar/observar y
+     aclara el alcance del vídeo. Ver aula/conocimiento-medio.html y las dos hojas nuevas.
+   - Comprueba el título, descripción y que playableInEmbed sea true antes de insertarlo.
+     No inventes que hay subtítulos; el vídeo de Copérnico se centra en su biografía y
+     teoría heliocéntrica, no en todo el experimento de Aristóteles ni en la Edad Moderna.
+   - Para Matemáticas, añade la clase video-frame-math: adopta el azul y el fondo de
+     la asignatura, también en modo oscuro.
+
+Los archivos dentro de aula/ se publican solos. Si se crea un módulo en la RAÍZ del repo,
+hay que añadirlo a la lista «cp ... site/» de .github/workflows/deploy-pages.yml.
+
+
+4. TESTS QUE HAY QUE TOCAR AL AÑADIR PÁGINAS
+--------------------------------------------
+   - tests/subject-index.test.mjs     -> añadir la página a la lista de su índice y a subjectPages.
+   - tests/pet-companion.test.mjs     -> añadir la página a la lista (debe cargar la mascota).
+   - tests/activity-ranking.test.mjs  -> añadir la página a la lista (debe mostrar el ranking).
+   - tests/teacher-notes.test.mjs     -> añadir la nota nueva a la lista de enlaces y a los dos bucles;
+                                         añadir un test con las frases de la profesora.
+   - tests/homepage.test.mjs          -> si cambia un aviso, ajustar/añadir su test.
+                                         Restricciones: 6 tarjetas, un solo «¡PRÓXIMO EXAMEN!».
+   - tests/worksheets.test.mjs        -> comprobar las soluciones del banco nuevo con cálculo
+                                         independiente (por ejemplo, % para múltiplos) y la estructura
+                                         de la página. Usarlo de modelo.
+
+
+5. COMPROBAR ANTES DE PUBLICAR
+------------------------------
+   npm test                                   (Node 22 o superior; ahora hay 111 tests)
+   python3 -m http.server 8080                (desde la raíz; OJO: aquí no existe «python», usar python3)
+   Abrir http://localhost:8080/aula/
+   Revisar: escritorio y móvil (375 px), modo claro y oscuro en Mates, corregir con fallos,
+   «Practicar solo los fallos», «Repetir todos», enlaces de índice, notas y portada.
+   El error «No se pudo cargar el ranking» en local es normal (la API está en Render).
+
+   Fallo ya visto: en las tarjetas de pregunta la <legend> flota a todo el ancho; cualquier
+   bloque nuevo dentro de .science-questions fieldset necesita «clear: both» o se aplasta a un lado.
+
+
+6. PUBLICAR
+-----------
+   Se publica en GitHub Pages al hacer push a main (workflow .github/workflows/deploy-pages.yml).
+   Web: https://mvisions.github.io/estudionoe/aula/
+   No hacer commit ni push sin que lo pida el usuario. Hay cambios suyos sin confirmar
+   en el repo (por ejemplo index.html y aula/historia.html): no tocarlos.
+
+
+7. REGISTRO DE LO HECHO (3 de noviembre de 2026)
+------------------------------------------------
+Nota: «Martes 3 · MATES: múltiplos = resultados de las tablas; pág 42 ej 3, pág 44 ej 1.
+       CONO: Taller de Ciencias, Aristóteles, Edad Moderna y descubrimientos, Nicolás Copérnico.»
+
+Nuevos:
+   aula/notas/2026-11-03.html               nota literal + enlaces a las dos páginas
+   aula/matematicas-multiplos.html          «Los múltiplos»: 3 tarjetas, ejemplo, tablero 1-100
+                                            (tablas 2-10), ideas clave, hoja de 15 ejercicios y vídeo Smartick (6:55)
+   aula/multiplos-questions.mjs             banco de 15 ejercicios (list, mark, choice, number)
+   aula/multiplos.mjs                       tablero + monta la hoja
+   aula/conocimiento-medio-copernico.html   «De Aristóteles a Copérnico»: Edad Moderna,
+                                            descubrimientos, Copérnico, experimento libro/papel,
+                                            test de 9 preguntas y vídeo GeoyMas sobre Copérnico (3:05)
+   aula/copernico-questions.mjs             banco de 9 preguntas (3 por tema)
+   aula/copernico.mjs                       monta el test
+   aula/worksheet-quiz.mjs                  motor común de hojas (reutilizable)
+   tests/worksheets.test.mjs                tests de soluciones, corrección y estructura
+
+Modificados:
+   aula/notas/index.html, aula/matematicas/index.html (2 páginas),
+   aula/conocimiento-medio/index.html (3 páginas), aula/index.html (aviso azul de Mates,
+   aviso de CM con fecha 3 nov, descripciones de tarjetas, versión de CSS), styles.css
+   (aviso azul, estilos de hojas, tablero, .class-note y vídeo azul), README.md y los tests
+   de la sección 4. Las dos páginas nuevas llevan un vídeo explicativo de YouTube:
+   Smartick «¿Qué son los múltiplos? [PARA NIÑOS]» (6:55) y GeoyMas «¿Quién fue?
+   Biografía de Nicolás Copérnico | Teoría Heliocéntrica» (3:05).
+
+Pendiente / ideas:
+   - Si se quiere ranking en estas hojas, hay que ampliar la API (server.mjs) y desplegar en Render.

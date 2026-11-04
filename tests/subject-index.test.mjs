@@ -6,11 +6,11 @@ const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
 const indexes = [
   {
     path: "../aula/conocimiento-medio/index.html",
-    pages: ["../historia.html", "../conocimiento-medio.html"],
+    pages: ["../historia.html", "../conocimiento-medio.html", "../conocimiento-medio-copernico.html"],
   },
   {
     path: "../aula/matematicas/index.html",
-    pages: ["../matematicas.html"],
+    pages: ["../matematicas.html", "../matematicas-multiplos.html"],
   },
   {
     path: "../aula/lengua/index.html",
@@ -43,10 +43,12 @@ test("La portada abre cada índice y las páginas activas ofrecen volver al suyo
   assert.doesNotMatch(homepage, /href="\.\/(?:conocimiento-medio|matematicas|lengua(?:-actual)?|ingles)\.html"/);
 
   const subjectPages = [
-    ["../index.html", "./aula/conocimiento-medio/"],
+    ["../aula/conocimiento-medio/edad-media.html", "./"],
     ["../aula/historia.html", "./conocimiento-medio/"],
     ["../aula/conocimiento-medio.html", "./conocimiento-medio/"],
+    ["../aula/conocimiento-medio-copernico.html", "./conocimiento-medio/"],
     ["../aula/matematicas.html", "./matematicas/"],
+    ["../aula/matematicas-multiplos.html", "./matematicas/"],
     ["../aula/lengua.html", "./lengua/"],
     ["../aula/lengua-actual.html", "./lengua/"],
     ["../aula/dictado.html", "./lengua/"],
