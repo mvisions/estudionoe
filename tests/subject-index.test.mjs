@@ -6,7 +6,7 @@ const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
 const indexes = [
   {
     path: "../aula/conocimiento-medio/index.html",
-    pages: ["../historia.html", "../conocimiento-medio.html", "../conocimiento-medio-copernico.html"],
+    pages: ["../historia.html", "../conocimiento-medio.html", "../conocimiento-medio-copernico.html", "../mitos-griegos.html"],
   },
   {
     path: "../aula/matematicas/index.html",
@@ -50,6 +50,7 @@ test("La portada abre cada índice y las páginas activas ofrecen volver al suyo
     ["../aula/historia.html", "./conocimiento-medio/"],
     ["../aula/conocimiento-medio.html", "./conocimiento-medio/"],
     ["../aula/conocimiento-medio-copernico.html", "./conocimiento-medio/"],
+    ["../aula/mitos-griegos.html", "./conocimiento-medio/"],
     ["../aula/matematicas.html", "./matematicas/"],
     ["../aula/matematicas-multiplos.html", "./matematicas/"],
     ["../aula/lengua.html", "./lengua/"],

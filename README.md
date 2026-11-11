@@ -7,10 +7,10 @@ Web: https://mvisions.github.io/estudionoe/
 La nueva portada está en `aula/index.html`; una vez publicada, estará disponible
 en https://mvisions.github.io/estudionoe/aula/.
 Conocimiento del Medio tiene un índice en `aula/conocimiento-medio/` que
-ordena sus páginas de Historia/Edad Media, el taller «Jugando con las fuerzas»
-y el taller «De Aristóteles a Copérnico».
-Desde la portada, la tarjeta abre este índice de tres entradas y el aviso superior
-lleva directamente a la última página publicada, «De Aristóteles a Copérnico».
+ordena sus páginas de Historia/Edad Media, el taller «Jugando con las fuerzas»,
+la guía «De Aristóteles a Copérnico» y la lección «Los mitos griegos».
+Desde la portada, la tarjeta abre este índice de cuatro entradas y el aviso superior
+lleva directamente a la última página publicada, «Los mitos griegos».
 El taller está en `aula/conocimiento-medio.html`; la antigua página
 `aula/historia.html` se conserva como acceso al tema de la Edad Media.
 La guía incluye un test de nueve preguntas sobre mecánica, Aristóteles y las
@@ -20,6 +20,10 @@ responder. Al completar las nueve preguntas se puede participar en el ranking
 Antes del test aparece la biografía infantil de Aristóteles de Quonomy
 (4:05), ya visible en la página. El reproductor usa `youtube-nocookie.com`;
 también hay un enlace directo a YouTube.
+La guía `aula/mitos-griegos.html` explica los mitos de Prometeo, Pandora,
+Perseo y Medusa, Teseo, Edipo y la Esfinge, y termina con el toque de oro
+del rey Midas. Incluye un vídeo educativo en español de CerebritosTV y un
+test autocorregible de doce preguntas, con explicaciones y repaso de fallos.
 Matemáticas abre `aula/matematicas/`, cuyo índice enlaza a los temas Potencias
 y Múltiplos.
 Lengua abre `aula/lengua/`, con dictado de voz y repaso de los temas 1 y 2

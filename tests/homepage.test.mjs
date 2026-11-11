@@ -68,12 +68,12 @@ test("La portada incluye Francés en naranja con un botón Próximamente desacti
   assert.match(styles, /\[data-theme="dark"\] \.subject-grid \[data-subject="french"\]\.mode-card \{ --subject-accent: #ffc18a; \}/);
 });
 
-test("La portada destaca la actualización importante de Conocimiento del Medio", () => {
+test("La portada anuncia la nueva guía de mitos griegos de Conocimiento del Medio", () => {
   const html = readFileSync(new URL("../aula/index.html", import.meta.url), "utf8");
   const announcement = html.match(/<section class="exam-alert exam-alert-compact exam-alert-science"[\s\S]*?<\/section>/)?.[0];
   assert.ok(announcement);
-  assert.match(announcement, /¡IMPORTANTE![\s\S]*CONOCIMIENTO DEL MEDIO · ACTUALIZADO/);
-  assert.match(announcement, /href="\.\/conocimiento-medio-copernico\.html">Ir a De Aristóteles a Copérnico/);
+  assert.match(announcement, /CONOCIMIENTO DEL MEDIO · NUEVO TEMA · <time datetime="2026-11-11">11 DE NOVIEMBRE<\/time>/);
+  assert.match(announcement, /href="\.\/mitos-griegos\.html">Estudiar los mitos griegos/);
   assert.doesNotMatch(html, /href="\.\/conocimiento-medio\.html"/);
 });
 
@@ -111,7 +111,7 @@ test("La portada anuncia la hoja de múltiplos del 3 de noviembre en azul", () =
   assert.match(announcement, /id="math-alert-title"[^>]*>MATEMÁTICAS · MÚLTIPLOS · <time datetime="2026-11-03">3 DE NOVIEMBRE<\/time>/);
   assert.match(announcement, /href="\.\/matematicas-multiplos\.html">Ir a la hoja de múltiplos/);
   assert.match(html, /<h3>Matemáticas<\/h3>[\s\S]*href="\.\/matematicas\/">Ver índice de Matemáticas/);
-  assert.match(html, /id="science-alert-title"[^>]*>CONOCIMIENTO DEL MEDIO · ACTUALIZADO · <time datetime="2026-11-03">/);
+  assert.match(html, /id="science-alert-title"[^>]*>CONOCIMIENTO DEL MEDIO · NUEVO TEMA · <time datetime="2026-11-11">/);
   assert.match(styles, /\.exam-alert\.exam-alert-math \{/);
   assert.match(html, /styles\.css\?v=20261104-pets2/);
 });

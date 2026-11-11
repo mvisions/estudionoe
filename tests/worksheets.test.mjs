@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { multiplesOf, multiplesQuestions } from "../aula/multiplos-questions.mjs";
 import { copernicusQuestions } from "../aula/copernico-questions.mjs";
+import { greekMythQuestions } from "../aula/mitos-griegos-questions.mjs";
 import { feedbackText, gradeWorksheet, parseNumberList, renderWorksheetQuestions } from "../aula/worksheet-quiz.mjs";
 
 const read = path => readFileSync(new URL(path, import.meta.url), "utf8");
@@ -54,6 +55,25 @@ test("El test de Copérnico tiene tres preguntas por tema con explicaciones", ()
     assert.ok(Number.isInteger(question.answer) && question.answer >= 0 && question.answer < 3);
     assert.ok(question.explanation.length > 40, question.id);
   }
+});
+
+test("El test de mitos griegos termina con Midas y todas sus respuestas están explicadas", () => {
+  assert.equal(greekMythQuestions.length, 12);
+  assert.equal(new Set(greekMythQuestions.map(question => question.id)).size, 12);
+  assert.deepEqual([...new Set(greekMythQuestions.map(question => question.group))], [
+    "Los dioses y sus historias",
+    "Héroes y criaturas",
+    "El rey Midas",
+  ]);
+  assert.deepEqual(greekMythQuestions.slice(-2).map(question => question.id), ["midas-problema", "ensenanza-midas"]);
+  for (const question of greekMythQuestions) {
+    assert.equal(question.type, "choice");
+    assert.equal(new Set(question.options).size, 3);
+    assert.ok(Number.isInteger(question.answer) && question.answer >= 0 && question.answer < 3);
+    assert.ok(question.explanation.length > 40, question.id);
+  }
+  assert.equal(gradeWorksheet(greekMythQuestions, correctAnswers(greekMythQuestions)).grade, 10);
+  assert.equal(gradeWorksheet(greekMythQuestions, {}).unanswered, 12);
 });
 
 test("La corrección acepta listas en cualquier orden y explica qué falta o sobra", () => {
@@ -124,6 +144,22 @@ test("Las nuevas páginas siguen la estructura de sus asignaturas y se publican"
   assert.match(science, /youtube-nocookie\.com\/embed\/dwigKvjyPoM/);
   assert.match(science, /href="https:\/\/www\.youtube\.com\/watch\?v=dwigKvjyPoM"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
   assert.match(science, /id="copernicus-video-title">Copérnico y la idea del Sol en el centro<\/h2>/);
+
+  const myths = read("../aula/mitos-griegos.html");
+  assert.match(myths, /styles\.css\?v=20261104-pets2/);
+  assert.match(myths, /mitos-griegos\.css\?v=20261111/);
+  for (const heading of ["Dioses del Olimpo", "Prometeo y el fuego", "Pandora y la vasija", "Perseo y Medusa", "Teseo y el Minotauro", "Edipo y la Esfinge", "El rey Midas y el toque de oro"])
+    assert.ok(myths.includes(heading), heading);
+  assert.match(myths, /id="myths-quiz" hidden/);
+  assert.match(myths, /youtube-nocookie\.com\/embed\/uACs6QFKWe8/);
+  assert.match(myths, /href="https:\/\/www\.youtube\.com\/watch\?v=uACs6QFKWe8"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
+  assert.match(myths, /src="\.\/mitos-griegos\.mjs\?v=20261111"/);
+
+  const index = read("../aula/conocimiento-medio/index.html");
+  assert.match(index, /4 páginas/);
+  assert.match(index, /href="\.\.\/mitos-griegos\.html">Los mitos griegos<\/a>/);
+  const home = read("../aula/index.html");
+  assert.match(home, /href="\.\/mitos-griegos\.html">Estudiar los mitos griegos/);
 
   assert.match(read("../.github/workflows/deploy-pages.yml"), /cp -R aula site\//);
 });

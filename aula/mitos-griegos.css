@@ -1,0 +1,11 @@
+.greek-myths-page { --muted: #52635b; }
+.greek-myths-page .brand-subtitle,
+.greek-myths-page .header-tag { font-size: 11px; }
+.greek-myths-page footer { color: #52635b; }
+.greek-myths-page .video-frame .muted { color: #52635b; }
+.greek-myths-page h2 { font-size: 24px; }
+.greek-myths-page main > section > p,
+.greek-myths-page main > section > ul,
+.greek-myths-page main > section article > p { max-width: 70ch; }
+.greek-myths-page main > section article h3 { font-size: 20px; margin-bottom: 8px; }
+.greek-myths-page main > section article + article { margin-top: 24px; }
