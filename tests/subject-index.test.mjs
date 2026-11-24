@@ -20,6 +20,10 @@ const indexes = [
     path: "../aula/ingles/index.html",
     pages: ["../ingles.html", "../ingles-gramatica.html"],
   },
+  {
+    path: "../aula/frances/index.html",
+    pages: ["../frances-numeros.html"],
+  },
 ];
 
 test("Cada índice enumera sus páginas en orden cronológico y enlaza cada una", () => {
@@ -38,7 +42,7 @@ test("Cada índice enumera sus páginas en orden cronológico y enlaza cada una"
 
 test("La portada abre cada índice y las páginas activas ofrecen volver al suyo", () => {
   const homepage = read("../aula/index.html");
-  for (const subject of ["conocimiento-medio", "matematicas", "lengua", "ingles"])
+  for (const subject of ["conocimiento-medio", "matematicas", "lengua", "ingles", "frances"])
     assert.match(homepage, new RegExp(`href="./${subject}/"`));
   assert.doesNotMatch(homepage, /href="\.\/(?:conocimiento-medio|matematicas|lengua(?:-actual)?|ingles)\.html"/);
 
@@ -60,6 +64,7 @@ test("La portada abre cada índice y las páginas activas ofrecen volver al suyo
     ["../aula/test-diptongos.html", "./lengua/"],
     ["../aula/ingles.html", "./ingles/"],
     ["../aula/ingles-gramatica.html", "./ingles/"],
+    ["../aula/frances-numeros.html", "./frances/"],
   ];
   for (const [path, indexLink] of subjectPages)
     assert.ok(read(path).includes(`href="${indexLink}"`), `${path} should link its subject index`);

@@ -8,6 +8,14 @@ import { vowelQuestions } from "./language-vowels.mjs";
 import { scienceQuestions } from "./science-quiz.mjs";
 import { grammarQuestions, gradeGrammarQuiz, GRAMMAR_QUIZ_SIZE } from "./aula/ingles-gramatica-questions.mjs";
 import { flechasPairs, gradeFlechas } from "./aula/ingles-flechas-questions.mjs";
+import {
+  frenchNumberPairs,
+  frenchNumberQuiz,
+  frenchNumbers,
+  gradeFrenchMatching,
+  gradeFrenchQuiz,
+  gradeFrenchWriting,
+} from "./aula/frances-numeros-questions.mjs";
 
 const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -32,6 +40,22 @@ function scoreActivity(activity, ids, answers) {
     // Cada intento une las seis parejas de has / have; se corrige con el banco oficial.
     const graded = gradeFlechas(flechasPairs, answers);
     return { points: graded.points, total: flechasPairs.length };
+  }
+  if (activity === "french-numbers-matching") {
+    const graded = gradeFrenchMatching(frenchNumberPairs, answers);
+    return { points: graded.points, total: graded.total };
+  }
+  if (activity === "french-numbers-writing") {
+    const questions = frenchNumbers.map(item => ({ ...item, id: `french-number-${item.number}` }));
+    const graded = gradeFrenchWriting(questions, answers);
+    return { points: graded.points, total: graded.total };
+  }
+  if (activity === "french-numbers-quiz") {
+    const selected = Object.fromEntries(ids.map(id => [
+      id, /^[0-2]$/.test(String(answers[id] ?? "")) ? Number(answers[id]) : undefined,
+    ]));
+    const graded = gradeFrenchQuiz(frenchNumberQuiz, selected);
+    return { points: graded.points, total: graded.total };
   }
   if (activity === "english-ordinal") {
     const bank = new Map(ordinalNumbers.map(({ number, words }) => [`ordinal-${number}`, words]));
@@ -73,6 +97,9 @@ function scoreActivity(activity, ids, answers) {
 const questionIds = {
   "english-grammar": new Set(grammarQuestions.map(question => question.id)),
   "english-flechas": new Set(flechasPairs.map(pair => pair.id)),
+  "french-numbers-matching": new Set(frenchNumberPairs.map(pair => pair.id)),
+  "french-numbers-writing": new Set(frenchNumbers.map(item => `french-number-${item.number}`)),
+  "french-numbers-quiz": new Set(frenchNumberQuiz.map(question => question.id)),
   "english-ordinal": new Set(ordinalNumbers.map(({ number }) => `ordinal-${number}`)),
   "english-date": new Set(monthNames.flatMap((_, monthIndex) =>
     Array.from({ length: daysInMonth[monthIndex] }, (_, day) => `date-${monthIndex + 1}-${day + 1}`))),
@@ -86,6 +113,9 @@ const questionIds = {
 export const activityDefinitions = Object.freeze({
   "english-grammar": { label: "Inglés · To be, to have y posesivos", minQuestions: GRAMMAR_QUIZ_SIZE, maxQuestions: GRAMMAR_QUIZ_SIZE },
   "english-flechas": { label: "Inglés · Unir has y have", minQuestions: flechasPairs.length, maxQuestions: flechasPairs.length },
+  "french-numbers-matching": { label: "Francés · Unir números", minQuestions: frenchNumberPairs.length, maxQuestions: frenchNumberPairs.length },
+  "french-numbers-writing": { label: "Francés · Escribir números", minQuestions: frenchNumbers.length, maxQuestions: frenchNumbers.length },
+  "french-numbers-quiz": { label: "Francés · Test de números", minQuestions: frenchNumberQuiz.length, maxQuestions: frenchNumberQuiz.length },
   "english-ordinal": { label: "Inglés · Ordinales", minQuestions: 10, maxQuestions: 10 },
   "english-date": { label: "Inglés · Fechas", minQuestions: 10, maxQuestions: 10 },
   "english-classroom": { label: "Inglés · Aula", minQuestions: 10, maxQuestions: 10 },

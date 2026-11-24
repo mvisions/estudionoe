@@ -12,6 +12,7 @@ import { scienceQuestions } from "../science-quiz.mjs";
 import { createExamService, createMemoryStore } from "../exam-service.mjs";
 import { createApi } from "../server.mjs";
 import { flechasPairs } from "../aula/ingles-flechas-questions.mjs";
+import { frenchNumberPairs, frenchNumberQuiz, frenchNumbers } from "../aula/frances-numeros-questions.mjs";
 
 test("Las actividades con nota calculan sus puntos desde los bancos oficiales", () => {
   const ordinals = ordinalNumbers.slice(0, 10);
@@ -56,11 +57,20 @@ test("Las actividades con nota calculan sus puntos desde los bancos oficiales", 
 });
 
 test("Las actividades solo aceptan bancos y cantidades completos válidos", () => {
-  assert.equal(Object.keys(activityDefinitions).length, 9);
+  assert.equal(Object.keys(activityDefinitions).length, 12);
   assert.throws(() => gradeActivity("english-ordinal", ["ordinal-1"], { "ordinal-1": "first" }), /formato válido/);
   assert.throws(() => gradeActivity("english-ordinal", Array(10).fill("ordinal-1"), {}), /formato válido/);
   assert.throws(() => gradeActivity("language-review", ["1"], { "1": "respuesta ajena" }), /formato válido/);
   assert.throws(() => gradeActivity("not-an-activity", [], {}), /formato válido/);
+  assert.deepEqual(gradeActivity("french-numbers-matching", frenchNumberPairs.map(pair => pair.id),
+    Object.fromEntries(frenchNumberPairs.map(pair => [pair.id, String(pair.answer)]))),
+  { points: 10, total: 10 });
+  assert.deepEqual(gradeActivity("french-numbers-writing", frenchNumbers.map(item => `french-number-${item.number}`),
+    Object.fromEntries(frenchNumbers.map(item => [`french-number-${item.number}`, item.word]))),
+  { points: 10, total: 10 });
+  assert.deepEqual(gradeActivity("french-numbers-quiz", frenchNumberQuiz.map(question => question.id),
+    Object.fromEntries(frenchNumberQuiz.map(question => [question.id, "0"]))),
+  { points: 10, total: 10 });
 });
 
 test("La página principal y todas las prácticas independientes muestran acceso a los rankings", () => {
@@ -68,7 +78,7 @@ test("La página principal y todas las prácticas independientes muestran acceso
   const pages = [
     "aula/index.html", "aula/historia.html", "aula/conocimiento-medio.html", "aula/ingles.html", "aula/lengua.html", "aula/lengua-actual.html",
     "aula/repaso-lengua.html", "aula/test-diptongos.html", "aula/dictado.html", "aula/ingles-gramatica.html",
-    "aula/matematicas-multiplos.html", "aula/conocimiento-medio-copernico.html",
+    "aula/matematicas-multiplos.html", "aula/conocimiento-medio-copernico.html", "aula/frances-numeros.html",
   ];
   for (const path of pages)
     assert.match(readFileSync(`${root}/${path}`, "utf8"), /data-activity-rankings/);

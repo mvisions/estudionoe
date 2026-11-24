@@ -146,7 +146,7 @@ test("Las nuevas páginas siguen la estructura de sus asignaturas y se publican"
   assert.match(science, /id="copernicus-video-title">Copérnico y la idea del Sol en el centro<\/h2>/);
 
   const myths = read("../aula/mitos-griegos.html");
-  assert.match(myths, /styles\.css\?v=20261104-pets2/);
+  assert.match(myths, /styles\.css\?v=20261124-french/);
   assert.match(myths, /mitos-griegos\.css\?v=20261111/);
   for (const heading of ["Dioses del Olimpo", "Prometeo y el fuego", "Pandora y la vasija", "Perseo y Medusa", "Teseo y el Minotauro", "Edipo y la Esfinge", "El rey Midas y el toque de oro"])
     assert.ok(myths.includes(heading), heading);
@@ -159,7 +159,7 @@ test("Las nuevas páginas siguen la estructura de sus asignaturas y se publican"
   assert.match(index, /4 páginas/);
   assert.match(index, /href="\.\.\/mitos-griegos\.html">Los mitos griegos<\/a>/);
   const home = read("../aula/index.html");
-  assert.match(home, /href="\.\/mitos-griegos\.html">Estudiar los mitos griegos/);
+  assert.match(home, /href="\.\/frances-numeros\.html">Empezar Francés/);
 
   assert.match(read("../.github/workflows/deploy-pages.yml"), /cp -R aula site\//);
 });

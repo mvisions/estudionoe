@@ -3,17 +3,17 @@ const legacyAnimalTypes = Object.freeze({ loro: "delfin" });
 const pets = Object.freeze({
   delfin: {
     label: "Delfín",
-    image: new URL("./pets/delfin-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/delfin-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
   gato: {
     label: "Gato",
-    image: new URL("./pets/gato-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/gato-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
   perro: {
     label: "Perro",
-    image: new URL("./pets/perro-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/perro-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
   ardilla: {
@@ -28,17 +28,17 @@ const pets = Object.freeze({
   },
   oso: {
     label: "Oso",
-    image: new URL("./pets/oso-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/oso-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
   mono: {
     label: "Mono",
-    image: new URL("./pets/mono-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/mono-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
   cocodrilo: {
     label: "Cocodrilo",
-    image: new URL("./pets/cocodrilo-3d.png?v=20261104-pets2", import.meta.url).href,
+    image: new URL("./pets/cocodrilo-3d.png?v=20261124-french", import.meta.url).href,
     cutout: true,
   },
 });

@@ -1,5 +1,5 @@
 import { offerActivityRanking } from "./activity-ranking.mjs";
-import { celebratePet } from "./pet-companion.mjs?v=20261104-pets2";
+import { celebratePet } from "./pet-companion.mjs?v=20261124-french";
 
 export const scienceQuestions = [
   {

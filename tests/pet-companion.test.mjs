@@ -22,7 +22,7 @@ test("La mascota elegida y los efectos aparecen en todas las páginas de estudio
   ];
   for (const page of pages)
     assert.match(readFileSync(new URL(`../${page}`, import.meta.url), "utf8"),
-      /pet-companion\.mjs\?v=20261104-pets2/);
+      /pet-companion\.mjs\?v=20261124-french/);
 
   for (const legacy of ["parrot.svg", "cat-preview.jpg", "dog-preview.jpg"])
     assert.equal(existsSync(new URL(`../pets/${legacy}`, import.meta.url)), false, `${legacy} ya no se usa`);
@@ -43,7 +43,7 @@ test("La mascota elegida y los efectos aparecen en todas las páginas de estudio
     const png = readFileSync(new URL(`../pets/${type}-3d.png`, import.meta.url));
     assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
     assert.equal(png[25], 6, `${type}: debe conservar el canal alfa`);
-    assert.match(companion, new RegExp(`${type}: \\{\\s*label: "${label}",\\s*image: new URL\\("\\./pets/${type}-3d\\.png\\?v=20261104-pets2",[^}]*cutout: true`));
+    assert.match(companion, new RegExp(`${type}: \\{\\s*label: "${label}",\\s*image: new URL\\("\\./pets/${type}-3d\\.png\\?v=20261124-french",[^}]*cutout: true`));
   }
   assert.doesNotMatch(companion, /loro: \{|parrot|cat-preview|dog-preview|· 2D/);
   assert.match(companion, /aria-label="Tipo de mascota"/);
@@ -86,7 +86,7 @@ test("Las ocho mascotas se pueden elegir, guardar y recuperar sin cambiar las an
 });
 
 test("Páginas y actividades comparten la versión de mascotas sin módulos duplicados", () => {
-  const version = "20261104-pets2";
+  const version = "20261124-french";
   const consumers = [
     "app.mjs", "science-quiz.mjs", "language-vowels.mjs", "language-quiz.mjs",
     "english-exercises.mjs", "dictation.mjs", "aula/worksheet-quiz.mjs", "aula/ingles-gramatica.mjs",
@@ -114,7 +114,7 @@ test("Páginas y actividades comparten la versión de mascotas sin módulos dupl
   }
   for (const file of ["aula/copernico.mjs", "aula/multiplos.mjs"]) {
     assert.match(readFileSync(new URL(`../${file}`, import.meta.url), "utf8"),
-      /from "\.\/worksheet-quiz\.mjs\?v=20261104-pets2"/);
+      /from "\.\/worksheet-quiz\.mjs\?v=20261124-french"/);
   }
 });
 

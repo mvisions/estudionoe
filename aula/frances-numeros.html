@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es" data-subject="french">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#a84c0a">
+    <meta name="description" content="Aprende los números del 1 al 10 en francés con tres actividades de práctica.">
+    <title>Francés · Les nombres del 1 al 10 · Noé</title>
+    <link rel="stylesheet" href="../styles.css?v=20261124-french">
+    <link rel="stylesheet" href="../french.css?v=20261124">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">N</span><span>Noé<span class="brand-subtitle">MI ESPACIO DE ESTUDIO</span></span></a>
+      <div class="header-actions"><span class="header-tag">Francés · Números</span>
+        <button id="theme-toggle" class="secondary" type="button" aria-pressed="false">Modo oscuro</button>
+      </div>
+    </header>
+    <main class="french-numbers">
+      <nav class="header-actions" aria-label="Ruta de navegación">
+        <a class="secondary" href="./">Todas las asignaturas</a>
+        <a class="secondary" href="./frances/">Índice de Francés</a>
+      </nav>
+      <span class="eyebrow">Première leçon</span>
+      <h1>Les nombres<br><span class="accent">de 1 à 10.</span></h1>
+      <p>Aprende los diez primeros números en francés con tres retos. Cada reto se abre en una pantalla independiente para que puedas concentrarte.</p>
+      <section aria-labelledby="activities-title">
+        <div class="section-heading"><h2 id="activities-title">Elige cómo practicar</h2><span class="muted">10 respuestas por actividad</span></div>
+        <div class="french-activity-grid">
+          <button class="french-activity-card" type="button" data-open-french-test="matching">
+            <span class="french-activity-number" aria-hidden="true">01</span>
+            <span class="french-activity-title">Unir con flechas</span>
+            <span class="french-activity-text">Relaciona cada palabra escrita en francés con su número.</span>
+            <span class="french-activity-cta">Empezar →</span>
+          </button>
+          <button class="french-activity-card" type="button" data-open-french-test="writing">
+            <span class="french-activity-number" aria-hidden="true">02</span>
+            <span class="french-activity-title">Escribir los números</span>
+            <span class="french-activity-text">Escribe en francés el número que aparece. El ejercicio de flechas queda fuera de la pantalla.</span>
+            <span class="french-activity-cta">Empezar →</span>
+          </button>
+          <button class="french-activity-card" type="button" data-open-french-test="quiz">
+            <span class="french-activity-number" aria-hidden="true">03</span>
+            <span class="french-activity-title">Elegir la forma correcta</span>
+            <span class="french-activity-text">De varias opciones, encuentra la palabra francesa bien escrita.</span>
+            <span class="french-activity-cta">Empezar →</span>
+          </button>
+        </div>
+      </section>
+      <aside class="french-tip"><strong>Orden recomendado</strong><span>Hazlas en orden: relacionar, escribir y reconocer.</span></aside>
+      <div data-activity-rankings></div>
+      <p><a class="secondary" href="./frances/">Volver al índice de Francés</a></p>
+    </main>
+    <section id="french-test-screen" class="test-screen" role="dialog" aria-modal="true" aria-labelledby="french-test-screen-title" hidden>
+      <div class="test-screen-bar">
+        <button class="secondary" type="button" data-action="back">← Volver</button>
+        <p class="test-screen-title" id="french-test-screen-title" tabindex="-1">Práctica de Francés</p>
+        <p class="test-screen-progress" id="french-test-screen-progress"></p>
+      </div>
+      <div class="test-screen-body"><div class="test-screen-inner" id="french-test-screen-content"></div></div>
+    </section>
+    <div id="notice" class="notice" role="status" aria-live="polite"></div>
+    <footer>Hecho para aprender, no solo para acertar.</footer>
+    <script type="module" src="./subject-index.mjs"></script>
+    <script type="module" src="./frances-numeros.mjs?v=20261124"></script>
+    <script type="module" src="../pet-companion.mjs?v=20261124-french"></script>
+    <script type="module" src="../visitor-tracker.mjs"></script>
+  </body>
+</html>

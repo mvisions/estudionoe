@@ -85,6 +85,12 @@ p { line-height: 1.65; }
 .exam-alert.exam-alert-math a { background: #245681; }
 .exam-alert.exam-alert-math a:hover { background: #193f64; }
 @keyframes exam-flash-math { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #b3d3f2; } 50% { opacity: .78; text-shadow: 0 0 12px #8fb2d6, 0 0 20px #cce2f8; } }
+.exam-alert.exam-alert-french { border-color: #e9b98d; background: linear-gradient(115deg, #fff0df, #fffaf5 52%, #ffe1c1); color: #4b3023; box-shadow: 0 8px 24px #a84c0a20; }
+.exam-alert.exam-alert-french .exam-alert-kicker { color: #a84c0a; }
+.exam-alert.exam-alert-french .exam-alert-title { color: #813805; animation-name: exam-flash-french; }
+.exam-alert.exam-alert-french a { background: #a84c0a; }
+.exam-alert.exam-alert-french a:hover { background: #813805; }
+@keyframes exam-flash-french { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #f3c29d; } 50% { opacity: .78; text-shadow: 0 0 12px #e6a16e, 0 0 20px #f8d3b4; } }
 @keyframes exam-flash-language { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #f2b5bd; } 50% { opacity: .78; text-shadow: 0 0 12px #e9a3ad, 0 0 20px #f7c6cc; } }
 @keyframes exam-flash { 0%, 100% { opacity: 1; text-shadow: 0 0 0 #ffc94d; } 50% { opacity: .72; text-shadow: 0 0 13px #f2ae20, 0 0 22px #ffd870; } }
 @keyframes exam-sparkle { 0%, 100% { opacity: .45; transform: scale(.8) rotate(0deg); } 50% { opacity: 1; transform: scale(1.25) rotate(25deg); } }
@@ -415,6 +421,8 @@ dialog .nav { justify-content: flex-end; }
 [data-subject="french"].mode-card { border-color: #e9b98d; }
 .subject-grid [data-subject="french"].mode-card { --subject-accent: #d7803d; }
 [data-subject="french"].mode-card .mode-icon { background: #fff0df; color: #a84c0a; }
+[data-subject="french"].mode-card .primary { background: #a84c0a; border-color: #a84c0a; color: white; }
+[data-subject="french"].mode-card .primary:hover { background: #813805; border-color: #813805; }
 [data-subject="french"].mode-card .primary:disabled { background: #a84c0a; border-color: #a84c0a; color: white; opacity: 1; }
 [data-theme="dark"] [data-subject="french"].mode-card { border-color: #ad6a37; }
 [data-theme="dark"] .subject-grid .mode-card { --subject-accent: #8fb99a; }

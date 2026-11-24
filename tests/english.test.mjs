@@ -94,7 +94,7 @@ test("La página de Inglés reúne ordinales, fechas y expresiones del aula", ()
   assert.match(html, /id="classroom-phrases"/);
   assert.match(homepage, /números ordinales del primero al centésimo/);
   assert.doesNotMatch(homepage, /english-exam-alert-title|INGLÉS ACTUALIZADO|Empezar a estudiar Inglés/);
-  assert.match(homepage, /CONTROL DE LENGUA/);
+  assert.match(homepage, /FRANCÉS · ACTUALIZADO/);
   assert.match(styles, /prefers-reduced-motion: reduce/);
   assert.match(html, /src="\.\.\/english-exercises\.mjs(?:\?v=[^"]+)?"/);
   assert.match(workflow, /english-exercises\.mjs english-grading\.mjs english-result-summary\.mjs english-classroom\.mjs ordinal-numbers\.mjs site\//);
