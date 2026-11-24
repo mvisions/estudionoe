@@ -15,8 +15,11 @@ test("La lección de Francés ofrece las tres prácticas y separa la pantalla de
   assert.match(html, /data-open-french-test="matching"/);
   assert.match(html, /data-open-french-test="writing"/);
   assert.match(html, /data-open-french-test="quiz"/);
+  assert.match(html, /youtube-nocookie\.com\/embed\/qfsMXxTcY-I/);
+  assert.match(html, /href="https:\/\/www\.youtube\.com\/watch\?v=qfsMXxTcY-I"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
   assert.match(html, /id="french-test-screen"/);
   assert.match(read("../aula/frances-numeros.mjs"), /Las palabras de ayuda están en otra pantalla/);
+  assert.match(read("../aula/frances-numeros.mjs"), /scrollTo\(\{ top: 0, behavior: "smooth" \}\)/);
 });
 
 test("El banco del test tiene una única forma correcta y opciones mal escritas", () => {

@@ -41,7 +41,7 @@ function showScreen(name) {
   document.body.classList.add("test-screen-open");
   modes[name].render();
   title.focus({ preventScroll: true });
-  window.scrollTo({ top: 0, behavior: "instant" });
+  requestAnimationFrame(() => screen.querySelector(".test-screen-body")?.scrollTo({ top: 0, behavior: "smooth" }));
 }
 
 function closeScreen() {
