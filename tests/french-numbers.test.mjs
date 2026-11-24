@@ -30,7 +30,7 @@ test("El banco del test tiene una única forma correcta y opciones mal escritas"
 
 test("La corrección de Francés distingue respuestas correctas y errores", () => {
   const writingQuestions = frenchNumbers.map(item => ({ ...item, id: `french-number-${item.number}` }));
-  const writingAnswers = Object.fromEntries(writingQuestions.map(question => [question.id, question.word]));
+  const writingAnswers = Object.fromEntries(writingQuestions.map(question => [question.id, question.word.toUpperCase()]));
   writingAnswers["french-number-5"] = "sinque";
   assert.deepEqual(gradeFrenchWriting(writingQuestions, writingAnswers), {
     results: writingQuestions.map(question => ({

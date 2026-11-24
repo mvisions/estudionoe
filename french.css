@@ -41,6 +41,10 @@
 .french-test-content .grammar-questions legend { padding: 0 8px; font-weight: 700; line-height: 1.6; }
 .french-test-content .grammar-questions label { display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; }
 .french-test-content .grammar-questions label:hover { background: var(--french-soft); }
+.french-test-content .grammar-questions fieldset.is-incorrect { border-color: #b1594a; }
+.french-test-content .grammar-questions label.is-incorrect { border-color: #b1594a; background: #fdf1ee; color: #8d392f; }
+.french-test-content .grammar-questions label.is-correct { border-color: #579466; background: #edf5e9; }
+.french-feedback { margin: 14px 0 0; color: #8d392f; font-size: 13px; line-height: 1.6; }
 .french-test-content .grammar-questions input[type="radio"] { width: 18px; height: 18px; margin: 0; accent-color: var(--green); }
 .french-writing-form { padding: 22px; border: 1px solid var(--border); border-radius: 16px; }
 .french-writing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }

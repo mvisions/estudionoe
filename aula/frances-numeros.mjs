@@ -72,6 +72,7 @@ function finishActivity(slot, result, ids, answers, grade) {
 function renderMatching() {
   activity.answers = {};
   activity.selected = null;
+  activity.leftOrder = shuffle(frenchNumberPairs.map(pair => pair.id));
   activity.order = shuffle(frenchNumberPairs.map(pair => pair.id));
   content.innerHTML = `
     <div class="french-test-content">
@@ -86,8 +87,8 @@ function renderMatching() {
   const finish = content.querySelector('[data-action="finish"]');
   const paint = focus => {
     board.innerHTML = `<svg class="arrows" aria-hidden="true"><defs><marker id="french-arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="currentColor"/></marker></defs><g id="french-lines"></g></svg>
-      <div class="match-column">${frenchNumberPairs.map((pair, index) => `<button type="button" class="match-item ${activity.answers[pair.id] ? "connected" : ""} ${activity.selected === pair.id ? "active" : ""}" data-left="${pair.id}" aria-pressed="${activity.selected === pair.id}"><span class="match-badge">${letters[index]}</span><span lang="fr">${pair.left}</span></button>`).join("")}</div><div></div>
-      <div class="match-column">${activity.order.map(id => { const pair = frenchNumberPairs.find(item => item.id === id); const owner = frenchNumberPairs.findIndex(item => activity.answers[item.id] === id); return `<button type="button" class="match-item ${owner >= 0 ? "connected" : ""}" data-right="${id}"><span class="match-badge">${owner >= 0 ? letters[owner] : "·"}</span><span>${pair.right}</span></button>`; }).join("")}</div>`;
+      <div class="match-column">${activity.leftOrder.map((id, index) => { const pair = frenchNumberPairs.find(item => item.id === id); return `<button type="button" class="match-item ${activity.answers[pair.id] ? "connected" : ""} ${activity.selected === pair.id ? "active" : ""}" data-left="${pair.id}" aria-pressed="${activity.selected === pair.id}"><span class="match-badge">${letters[index]}</span><span lang="fr">${pair.left}</span></button>`; }).join("")}</div><div></div>
+      <div class="match-column">${activity.order.map(id => { const pair = frenchNumberPairs.find(item => item.id === id); const owner = activity.leftOrder.findIndex(leftId => activity.answers[leftId] === pair.right); return `<button type="button" class="match-item ${owner >= 0 ? "connected" : ""}" data-right="${pair.right}"><span class="match-badge">${owner >= 0 ? letters[owner] : "·"}</span><span>${pair.right}</span></button>`; }).join("")}</div>`;
     progress.textContent = `${Object.keys(activity.answers).length} de ${frenchNumberPairs.length} unidas`;
     if (focus) board.querySelector(focus)?.focus();
     requestAnimationFrame(() => drawLines(board));
@@ -110,7 +111,7 @@ function renderMatching() {
     paint(`[data-right="${right.dataset.right}"]`);
   });
   content.querySelector('[data-action="clear"]').addEventListener("click", () => { activity.answers = {}; activity.selected = null; finish.hidden = true; result.textContent = ""; paint(); });
-  content.querySelector('[data-action="shuffle"]').addEventListener("click", () => { activity.answers = {}; activity.selected = null; activity.order = shuffle(frenchNumberPairs.map(pair => pair.id)); finish.hidden = true; result.textContent = ""; paint(); });
+  content.querySelector('[data-action="shuffle"]').addEventListener("click", () => { activity.answers = {}; activity.selected = null; activity.leftOrder = shuffle(frenchNumberPairs.map(pair => pair.id)); activity.order = shuffle(frenchNumberPairs.map(pair => pair.id)); finish.hidden = true; result.textContent = ""; paint(); });
   content.querySelector('[data-action="check"]').addEventListener("click", () => {
     if (Object.keys(activity.answers).length < frenchNumberPairs.length) {
       result.textContent = `Faltan uniones: llevas ${Object.keys(activity.answers).length} de ${frenchNumberPairs.length}.`;
@@ -119,7 +120,9 @@ function renderMatching() {
     }
     const graded = gradeFrenchMatching(frenchNumberPairs, activity.answers);
     board.querySelectorAll(".match-item").forEach(item => {
-      const pair = frenchNumberPairs.find(candidate => candidate.id === (item.dataset.left ?? item.dataset.right));
+      const pair = item.dataset.left
+        ? frenchNumberPairs.find(candidate => candidate.id === item.dataset.left)
+        : frenchNumberPairs.find(candidate => candidate.right === item.dataset.right);
       const correct = graded.results.find(itemResult => itemResult.pair.id === pair.id)?.correct;
       item.classList.toggle("is-ok", correct);
       item.classList.toggle("is-bad", !correct);
@@ -161,7 +164,7 @@ function renderWriting() {
 
 function renderQuiz() {
   content.innerHTML = `<div class="french-test-content"><p>Lee el número y elige la única forma bien escrita en francés.</p>
-    <form id="french-quiz-form" class="french-quiz-form"><div class="grammar-questions">${frenchNumberQuiz.map((question, index) => `<fieldset><legend>${index + 1}. ${question.question}</legend><div class="options">${question.options.map((option, optionIndex) => `<label><input type="radio" name="${question.id}" value="${optionIndex}" required><span lang="fr">${option}</span></label>`).join("")}</div></fieldset>`).join("")}</div>
+    <form id="french-quiz-form" class="french-quiz-form"><div class="grammar-questions">${frenchNumberQuiz.map((question, index) => `<fieldset data-question="${question.id}"><legend>${index + 1}. ${question.question}</legend><div class="options">${question.options.map((option, optionIndex) => `<label><input type="radio" name="${question.id}" value="${optionIndex}" required><span lang="fr">${option}</span></label>`).join("")}</div><p class="french-feedback" hidden></p></fieldset>`).join("")}</div>
       <div class="nav"><button class="primary" type="submit">Corregir test</button><button class="secondary" type="reset">Otro test</button><button class="primary" type="button" data-action="finish" hidden>Terminar y volver</button></div>
     </form><p data-french-result class="quiz-result" role="status" aria-live="polite" tabindex="-1"></p><div data-ranking-slot></div></div>`;
   const form = content.querySelector("form");
@@ -171,12 +174,28 @@ function renderQuiz() {
     event.preventDefault();
     const answers = Object.fromEntries([...new FormData(form)].map(([id, value]) => [id, Number(value)]));
     const graded = gradeFrenchQuiz(frenchNumberQuiz, answers);
-    result.textContent = `Has acertado ${graded.points} de ${graded.total}. ${graded.points === graded.total ? "¡Perfecto!" : "Busca las opciones marcadas para repasar."}`;
+    for (const item of graded.results) {
+      const fieldset = form.querySelector(`[data-question="${item.question.id}"]`);
+      const feedback = fieldset.querySelector(".french-feedback");
+      const labels = [...fieldset.querySelectorAll("label")];
+      labels.forEach((label, index) => {
+        label.classList.toggle("is-incorrect", index === item.selected && !item.correct);
+        label.classList.toggle("is-correct", index === item.question.answer);
+      });
+      fieldset.classList.toggle("is-incorrect", !item.correct);
+      feedback.textContent = "";
+      feedback.hidden = true;
+      if (!item.correct) {
+        feedback.textContent = `Tu elección «${item.question.options[item.selected] ?? "sin responder"}» no es correcta. La respuesta correcta es «${item.question.options[item.question.answer]}» porque el número ${item.question.id.replace("french-quiz-", "")} se escribe así en francés.`;
+        feedback.hidden = false;
+      }
+    }
+    result.textContent = `Has acertado ${graded.points} de ${graded.total}. ${graded.points === graded.total ? "¡Perfecto!" : "Las respuestas incorrectas aparecen en rojo y la correcta en verde."}`;
     finish.hidden = false;
     finishActivity(content.querySelector("[data-ranking-slot]"), graded, frenchNumberQuiz.map(question => question.id), Object.fromEntries(Object.entries(answers).map(([id, value]) => [id, String(value)])), graded.points);
     result.focus();
   });
-  form.addEventListener("reset", () => { window.setTimeout(() => { result.textContent = ""; finish.hidden = true; }, 0); });
+  form.addEventListener("reset", () => { window.setTimeout(() => { result.textContent = ""; finish.hidden = true; form.querySelectorAll("fieldset, label, .french-feedback").forEach(element => { element.classList.remove("is-incorrect", "is-correct"); if (element.classList.contains("french-feedback")) element.hidden = true; }); }, 0); });
   finish.addEventListener("click", closeScreen);
 }
 
