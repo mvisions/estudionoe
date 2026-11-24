@@ -1,0 +1,1721 @@
+{
+  "fecha": "2026-11-03",
+  "provincia": "Granada",
+  "fuente": "https://www.cofgranada.com/Paginas/Farmacias_Guardia.asp",
+  "consultado": "2026-11-03T01:08:41.595180+00:00",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Agrón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alamedilla",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Albolote",
+      "estado": "parcial",
+      "farmacias": 1,
+      "documentos": [
+        "Albolote. 2026. FIJO.pdf"
+      ],
+      "errores": [
+        "Albolote. 2026. FIJO.pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Albondón",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "23 VERSION D noviembre.pdf"
+      ],
+      "errores": [
+        "23 VERSION D noviembre.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Albuñán",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Albuñol",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "23 VERSION D noviembre.pdf"
+      ],
+      "errores": [
+        "23 VERSION D noviembre.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Albuñuelas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alcudia de guadix",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Aldeire",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Alfacar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Algarinejo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alhama de granada",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alhendín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alicún de ortega",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Almegíjar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Almuñécar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "DOCUMENTO POR SEMANAS ALMUnECAR 2026-1(1).pdf"
+      ],
+      "errores": [
+        "DOCUMENTO POR SEMANAS ALMUnECAR 2026-1(1).pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Alomartes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alquife",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf",
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada.",
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Ambroz",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey - fornes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey - játar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Armilla",
+      "estado": "parcial",
+      "farmacias": 1,
+      "documentos": [
+        "Armilla  2026. FIJO(1).pdf"
+      ],
+      "errores": [
+        "Armilla  2026. FIJO(1).pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Atarfe",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Bácor-olivar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Baza",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "MODIFICADO Baza  2026. POR DIAS EXC. VERANO POR SEMANAS-10.pdf"
+      ],
+      "errores": [
+        "MODIFICADO Baza  2026. POR DIAS EXC. VERANO POR SEMANAS-10.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Beas de granada",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Beas de guadix",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Belicena",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Benalúa de guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Benalúa de las villas",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Benamaurel",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Bérchules",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Bubión",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Busquístar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cacín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cádiar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Cájar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Calahonda",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "22-11(1).pdf"
+      ],
+      "errores": [
+        "22-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Calahorra, la",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Calicasas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Campo cámara",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Campotéjar",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Caniles",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cáñar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Capileira",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Carataunas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Carchuna",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "22-11(1).pdf"
+      ],
+      "errores": [
+        "22-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cástaras",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Castell de ferro",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "22-11(1).pdf"
+      ],
+      "errores": [
+        "22-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Castilléjar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "2 CASTILLEJAR horizontal-11.pdf"
+      ],
+      "errores": [
+        "2 CASTILLEJAR horizontal-11.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Castril",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "3 CASTRIL-11(1).pdf"
+      ],
+      "errores": [
+        "3 CASTRIL-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cenes de la vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chaparral, el",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chauchina",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chimeneas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Churriana de la vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cijuela",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cogollos de guadix",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cogollos vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Colomera",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cortes de baza",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cortes y graena",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cozvijar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cuevas del campo",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Cúllar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cúllar vega",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cúllar vega - el ventorrillo",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Darro",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Dehesas de guadix",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Dehesas viejas",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Deifontes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Diezma",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Dílar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Dólar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Domingo pérez",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Dúdar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "14-11(1).pdf"
+      ],
+      "errores": [
+        "14-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Dúrcal",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Escoznar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Escúzar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ferreira",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Fonelas",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Freila",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Fuente vaqueros",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Gabias, las",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Galera",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "4 GALERA-11(1).pdf"
+      ],
+      "errores": [
+        "4 GALERA-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Gobernador",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Gójar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Gor",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Gorafe",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Granada",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "NOVIEMBRE SEMANAL-2026.pdf"
+      ],
+      "errores": [
+        "NOVIEMBRE SEMANAL-2026.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Guadahortuna",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Guejar faragüit",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Güéjar sierra",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "14-11(1).pdf"
+      ],
+      "errores": [
+        "14-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Güevéjar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Herradura, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Hijar",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huélago",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Huéneja",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "7-11(2).pdf"
+      ],
+      "errores": [
+        "7-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Huéscar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huétor de santillán",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huétor tájar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "WEB JULIO DICIEMBRE 2026.pdf"
+      ],
+      "errores": [
+        "WEB JULIO DICIEMBRE 2026.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Huétor vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Illora",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Itrabo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Iznalloz",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Jayena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Jerez del marquesado",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Jete",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Jun",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Juviles",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Láchar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lanjarón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lanteira",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "6-11(2).pdf"
+      ],
+      "errores": [
+        "6-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Laroles",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Lecrín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lentegí",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "DOCUMENTO POR SEMANAS ALMUnECAR 2026-1(1).pdf"
+      ],
+      "errores": [
+        "DOCUMENTO POR SEMANAS ALMUnECAR 2026-1(1).pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Lobras/juviles",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Loja",
+      "estado": "parcial",
+      "farmacias": 3,
+      "documentos": [
+        "Loja 2026 NOVIEMBRE.pdf"
+      ],
+      "errores": [
+        "Loja 2026 NOVIEMBRE.pdf: Horarios de festivo y relevo pendientes de confirmar."
+      ]
+    },
+    {
+      "nombre": "Lugros",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Lújar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "22-11(1).pdf"
+      ],
+      "errores": [
+        "22-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Malahá, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Mamola, la",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "23 VERSION D noviembre.pdf"
+      ],
+      "errores": [
+        "23 VERSION D noviembre.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Maracena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "MARACENA 2026 -4.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Marchal",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Mecina bombaron",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Moclín - olivares",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moclín - puerto lope",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moclín - tiena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Molvízar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Monachil",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Monachil-sierra nevada",
+      "estado": "error",
+      "error": "Respuesta sin calendario reconocible."
+    },
+    {
+      "nombre": "Montefrío",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Montejícar",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Montillana",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Moraleda de zafayona",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moraleda de zafayona -loreto",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moreda",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Motril",
+      "estado": "parcial",
+      "farmacias": 4,
+      "documentos": [
+        "Motril 2026. FIJO.pdf"
+      ],
+      "errores": [
+        "Motril 2026. FIJO.pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Murtas",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Nigüelas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Nívar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ogíjares",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Orce",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "5 ORCE-11(1).pdf"
+      ],
+      "errores": [
+        "5 ORCE-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Órgiva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Otívar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Otura",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Padul",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pampaneira",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pedro martínez",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Peligros",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Peza, la",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Pinos del valle",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pinos genil",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "14-11(1).pdf"
+      ],
+      "errores": [
+        "14-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Pinos puente",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Piñar",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pitres",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Polícar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "8-11(2).pdf"
+      ],
+      "errores": [
+        "8-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Pórtugos",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Puebla de don fadrique",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pulianas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pulianillas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Purchil",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Purullena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Quéntar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "14-11(1).pdf"
+      ],
+      "errores": [
+        "14-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Rábita, la",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "23 VERSION D noviembre.pdf"
+      ],
+      "errores": [
+        "23 VERSION D noviembre.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Restabal",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Rubite",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Salar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Salobreña",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "Salobrea 2026 DEFINITIVO-2.pdf"
+      ],
+      "errores": [
+        "Salobrea 2026 DEFINITIVO-2.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Santa cruz del comercio",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Santa fe",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Soportújar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Sorvilán",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "23 VERSION D noviembre.pdf"
+      ],
+      "errores": [
+        "23 VERSION D noviembre.pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Tocon",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Torre-cardela",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Torrenueva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Torvizcón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Trevélez",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "25-12.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Turón",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Ugíjar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Valderrubio",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Válor",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "26 HORIZONTAL-11.pdf"
+      ],
+      "errores": [
+        "26 HORIZONTAL-11.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Varadero - el puerto (motril)",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "22-11(1).pdf"
+      ],
+      "errores": [
+        "22-11(1).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    },
+    {
+      "nombre": "Vélez de benaudalla",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventas de huelma",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventas de zafarraya",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventorros de san josé",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Villanueva de las torres",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Villanueva mesía",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Viznar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zafarraya",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zagra",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zubia, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zujaira-casanueva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zújar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "1-11(2).pdf"
+      ],
+      "errores": [
+        "1-11(2).pdf: El cartel semanal no cubre toda la fecha solicitada."
+      ]
+    }
+  ],
+  "farmacias": 75,
+  "con_coordenadas": 57,
+  "calendario_actualizado": true
+}

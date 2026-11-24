@@ -1,0 +1,567 @@
+[
+  {
+    "id": "26-26000011",
+    "cofm_id": "26000011",
+    "direccion": "Mayor, 5",
+    "localidad": "Alfaro",
+    "sector": "",
+    "zona": "Alfaro",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Alfaro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Boyra Navea, Carlos"
+  },
+  {
+    "id": "26-26000012",
+    "cofm_id": "26000012",
+    "direccion": "Las Pozas, 3",
+    "localidad": "Alfaro",
+    "sector": "",
+    "zona": "Alfaro",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Alfaro"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Twose Navajas, Sofia"
+  },
+  {
+    "id": "26-26000002",
+    "cofm_id": "26000002",
+    "direccion": "Plz. Ntra. Sra. de Vico, 5",
+    "localidad": "Arnedo",
+    "sector": "",
+    "zona": "Arnedo",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Arnedo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Roldan Ruiz, Guillermo"
+  },
+  {
+    "id": "26-26000105",
+    "cofm_id": "26000105",
+    "direccion": "Toriles, 4",
+    "localidad": "Arnedo",
+    "sector": "",
+    "zona": "Arnedo",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Arnedo"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Gonzalez Llobet, Gloria"
+  },
+  {
+    "id": "26-26000020",
+    "cofm_id": "26000020",
+    "direccion": "Paseo del Mercadal, 12",
+    "localidad": "Calahorra",
+    "sector": "",
+    "zona": "Calahorra",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Calahorra"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Ameyugo Gonzalez, Diego"
+  },
+  {
+    "id": "26-26000101",
+    "cofm_id": "26000101",
+    "direccion": "Plz.España, s/n",
+    "localidad": "Aguilar del Río Alhama",
+    "sector": "",
+    "zona": "Cervera del Río Alhama",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Aguilar del Río Alhama"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "26-26000170",
+    "cofm_id": "26000170",
+    "direccion": "Mayor, 34",
+    "localidad": "Igea",
+    "sector": "",
+    "zona": "Cervera del Río Alhama",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Igea"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Arnedo Hernandez, Amaia"
+  },
+  {
+    "id": "26-26000039",
+    "cofm_id": "26000039",
+    "direccion": "Avda. de La Rioja, 27",
+    "localidad": "Haro",
+    "sector": "",
+    "zona": "Haro",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 42.5745275,
+    "lng": -2.8517237,
+    "localidades_atendidas": [
+      "Haro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Fernandez Lacuesta, Felix",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4955506510",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "26-26000060",
+    "cofm_id": "26000060",
+    "direccion": "Estambrera, 22 bajo 1",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 42.4554735,
+    "lng": -2.4381478,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Gonzalez Ramirez, Javier",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "26-26000069",
+    "cofm_id": "26000069",
+    "direccion": "Huesca, 53-55",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Canales Leza, Amaia"
+  },
+  {
+    "id": "26-26000082",
+    "cofm_id": "26000082",
+    "direccion": "Gran Via, 67",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Gonzalez Garnica, Jose Antonio"
+  },
+  {
+    "id": "26-26000089",
+    "cofm_id": "26000089",
+    "direccion": "Republica Argentina, 26",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 42.4617075,
+    "lng": -2.4490225,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Pison Saenz de Jubera, Manuela",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/way/1564160724",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "26-26000097",
+    "cofm_id": "26000097",
+    "direccion": "Republica Argentina, 54",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Sabras Salazar, Manuel"
+  },
+  {
+    "id": "26-26000098",
+    "cofm_id": "26000098",
+    "direccion": "Av. Solidaridad, 19",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Roldan Yanguas, Guillermo"
+  },
+  {
+    "id": "26-26000100",
+    "cofm_id": "26000100",
+    "direccion": "Rio Linares, 1 (La Estrella)",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 42.4541817,
+    "lng": -2.4263043,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Torroba Pardo, Ignacio",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/12093344175",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "26-26000107",
+    "cofm_id": "26000107",
+    "direccion": "Salamanca, 7 (Yague)",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Leza Angulo, Fernando"
+  },
+  {
+    "id": "26-26000165",
+    "cofm_id": "26000165",
+    "direccion": "Tejera, S/N (C.C. Parque Rioja)",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Aizpurua Yurrita, Juan Andres"
+  },
+  {
+    "id": "26-26000301",
+    "cofm_id": "26000301",
+    "direccion": "Clavijo, 22",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Muñoz Solano, David"
+  },
+  {
+    "id": "26-26000147",
+    "cofm_id": "26000147",
+    "direccion": "Republica Argentina, 64",
+    "localidad": "Logroño",
+    "sector": "",
+    "zona": "Logroño",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Logroño"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Rodriguez Valdunciel, Sonia"
+  },
+  {
+    "id": "26-26000075",
+    "cofm_id": "26000075",
+    "direccion": "Avda. de La Rioja, 16",
+    "localidad": "Nájera",
+    "sector": "",
+    "zona": "Nájera",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Nájera"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Luqui Sarrasqueta, Conchita"
+  },
+  {
+    "id": "26-26000152",
+    "cofm_id": "26000152",
+    "direccion": "San Fernando, 58",
+    "localidad": "Nájera",
+    "sector": "",
+    "zona": "Nájera",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Nájera"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Llano Galdamez C.B"
+  },
+  {
+    "id": "26-26000030",
+    "cofm_id": "26000030",
+    "direccion": "San Felipe, 4",
+    "localidad": "Ezcaray",
+    "sector": "",
+    "zona": "Santo Domingo de la Calzada-Ezcaray",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ezcaray"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Masip Algarate, Gabriel P."
+  },
+  {
+    "id": "26-26000004",
+    "cofm_id": "26000004",
+    "direccion": "San Roque, 2",
+    "localidad": "Santo Domingo de la Calzada",
+    "sector": "",
+    "zona": "Santo Domingo de la Calzada-Ezcaray",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Santo Domingo de la Calzada"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Prior Molto, Cristina."
+  },
+  {
+    "id": "26-26000172",
+    "cofm_id": "26000172",
+    "direccion": "Arzobispo Barroeta, 15",
+    "localidad": "Ezcaray",
+    "sector": "",
+    "zona": "Santo Domingo de la Calzada-Ezcaray",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ezcaray"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Tapia Romo, M  Begoña"
+  },
+  {
+    "id": "26-26000155",
+    "cofm_id": "26000155",
+    "direccion": "Isidoro Salas, 41",
+    "localidad": "Santo Domingo de la Calzada",
+    "sector": "",
+    "zona": "Santo Domingo de la Calzada-Ezcaray",
+    "provincia": "La Rioja",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Santo Domingo de la Calzada"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Manzanares Bartolome, Irene"
+  }
+]

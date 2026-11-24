@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-11-04",
+  "provincia": "Andorra",
+  "fuente": "https://www.govern.ad/ca/tematiques/salut/assistencia-sanitaria/farmacies-de-guardia",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Govern d'Andorra - Farmàcies de guàrdia",
+      "estado": "parcial",
+      "farmacias": 2,
+      "error": "PDF mensual oficial con turnos DIA 9:30–22 y NIT 22–9:30. La tabla semanal del Pas de la Casa no publica horas y no se importa. Coordenadas solo con coincidencia única de nombre y dirección con una farmacia de OpenStreetMap."
+    }
+  ],
+  "farmacias": 2,
+  "farmacias_confirmadas": 2,
+  "con_coordenadas": 1,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

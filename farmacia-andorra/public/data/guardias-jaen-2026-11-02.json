@@ -1,0 +1,888 @@
+[
+  {
+    "id": "cof-jaen-84",
+    "numero_colegio": "84",
+    "nombre": "PIÑAR MORALES, MARIA",
+    "direccion": "FUENTE,8",
+    "localidad": "Jimena",
+    "provincia": "Jaén",
+    "telefono": "953357003",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA(2).pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA(2).pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA(1).pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "JIMENA",
+    "localidades_atendidas": [
+      "Albanchez De Mágina",
+      "Bedmar",
+      "Jimena"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-5",
+    "numero_colegio": "5",
+    "nombre": "GONZALEZ GONZALEZ, RAFAEL",
+    "direccion": "EL CARMEN, 69",
+    "localidad": "Alcaudete",
+    "provincia": "Jaén",
+    "telefono": "953561048",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALCAUDETE.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALCAUDETE.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FARMACIA LA FARMACIA LA FARMACIA LA FARMACIA LA MURALLA",
+    "localidades_atendidas": [
+      "Alcaudete"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-329",
+    "numero_colegio": "329",
+    "nombre": "CHAMORRO CIVANTO, CARLOS",
+    "direccion": "NAVILLAS,8",
+    "localidad": "Navas De San Juan",
+    "provincia": "Jaén",
+    "telefono": "953687261",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA.pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA(1).pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA(2).pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "NAVAS DE SAN JUAN (CHAMORRO)",
+    "localidades_atendidas": [
+      "Aldeahermosa",
+      "Navas De San Juan",
+      "Santisteban Del Puerto"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-10",
+    "numero_colegio": "10",
+    "nombre": "RICO GALDON, LUIS",
+    "direccion": "22 DE JULIO, 3",
+    "localidad": "Andujar",
+    "provincia": "Jaén",
+    "telefono": "953514029",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS ANDUJAR NOVIEMBRE 2026 MOD.pdf&Tipo=Guardias",
+    "guardia_franja": "24 horas (9:30-9:30 del día siguiente)",
+    "guardia_franjas": [
+      "24 horas (9:30-9:30 del día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS ANDUJAR NOVIEMBRE 2026 MOD.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "D. Luis Rico 22 de Julio, 3",
+    "localidades_atendidas": [
+      "Andujar"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-14",
+    "numero_colegio": "14",
+    "nombre": "SOTO FERNANDEZ, EVA MARIA",
+    "direccion": "AVDA. ANDALUCIA, 1 B",
+    "localidad": "Arjonilla",
+    "provincia": "Jaén",
+    "telefono": "953521197",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ARJONILLA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ARJONILLA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FARMACIA EVA SOTO FDEZ AVD. ANDALUCÍA 1B",
+    "localidades_atendidas": [
+      "Arjonilla"
+    ],
+    "nota_ubicacion": "El cartel indica «AVD. ANDALUCÍA 1B»; el directorio oficial identifica a este titular en «AVDA. ANDALUCIA, 1 B». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-16",
+    "numero_colegio": "16",
+    "nombre": "GARCIA GODOY, CONCEPCION GARCIA GODOY, PILAR",
+    "direccion": "NUEVA, 35",
+    "localidad": "Arquillos",
+    "provincia": "Jaén",
+    "telefono": "953633113",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILCHES - ARQUILLOS(1).pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILCHES - ARQUILLOS(1).pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILCHES - ARQUILLOS.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Arquillos(Garcia) C/Nueva 35",
+    "localidades_atendidas": [
+      "Arquillos",
+      "Vilches"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-20",
+    "numero_colegio": "20",
+    "nombre": "RUIZ BUENO, MARTA ISABEL",
+    "direccion": "PASEO ELORZA GARAT, 6",
+    "localidad": "Baeza",
+    "provincia": "Jaén",
+    "telefono": "953740542",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAEZA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de la fecha; horario no especificado en el cartel",
+    "guardia_franjas": [
+      "Guardia de la fecha; horario no especificado en el cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAEZA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "LDA.RUIZ AVD. PUCHE PARDO, Nº6",
+    "localidades_atendidas": [
+      "Baeza"
+    ],
+    "nota_ubicacion": "El cartel indica «AVD. PUCHE PARDO, Nº6»; el directorio oficial identifica a este titular en «PASEO ELORZA GARAT, 6». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-274",
+    "numero_colegio": "274",
+    "nombre": "GUILLEN PASCUAL, ELISA",
+    "direccion": "ANDUJAR, 54",
+    "localidad": "Bailen",
+    "provincia": "Jaén",
+    "telefono": "953670721",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAILEN.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAILEN.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Dª Elisa Guillen Pascual C/ Andujar,54",
+    "localidades_atendidas": [
+      "Bailen"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-141",
+    "numero_colegio": "141",
+    "nombre": "LENDINEZ BUENO, FERNANDO ANGEL",
+    "direccion": "TIENDAS, 20",
+    "localidad": "Beas De Segura",
+    "provincia": "Jaén",
+    "telefono": "953424178",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BEAS DE SEGURA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BEAS DE SEGURA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Farmacia Lendínez C/Las Tiendas, 20",
+    "localidades_atendidas": [
+      "Beas De Segura"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-303",
+    "numero_colegio": "303",
+    "nombre": "MORENO RUIZ, DIEGO",
+    "direccion": "AVDA. VIRGEN DE LA CABEZA, 21",
+    "localidad": "Castillo De Locubin",
+    "provincia": "Jaén",
+    "telefono": "953591129",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CASTILLO DE LOCUBIN.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CASTILLO DE LOCUBIN.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Diego Moreno Ruiz",
+    "localidades_atendidas": [
+      "Castillo De Locubin"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-47",
+    "numero_colegio": "47",
+    "nombre": "GONZALEZ SANCHEZ, MERCEDES",
+    "direccion": "DOCTOR MUÑOZ, 6",
+    "localidad": "Cazorla",
+    "provincia": "Jaén",
+    "telefono": "953720133",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CAZORLA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CAZORLA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "MERCEDES GONZALEZ DOCTOR MUÑOZ, 6 DOCTOR MUÑOZ, 6 DOCTOR MUÑOZ, 6",
+    "localidades_atendidas": [
+      "Cazorla"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-184",
+    "numero_colegio": "184",
+    "nombre": "MEDINA MARTOS, FERNANDO",
+    "direccion": "CARRETERA DE CAZORLA, 19",
+    "localidad": "Santo Tome",
+    "provincia": "Jaén",
+    "telefono": "953736254",
+    "lat": 38.0270703,
+    "lng": -3.1001269,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTO TOME - CHILLUEVAR.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTO TOME - CHILLUEVAR.pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTO TOME - CHILLUEVAR(1).pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "SANTO TOME",
+    "localidades_atendidas": [
+      "Chilluevar",
+      "Santo Tome"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1934434398"
+  },
+  {
+    "id": "cof-jaen-57",
+    "numero_colegio": "57",
+    "nombre": "BELIZON ESPINOSA, ANA ISABEL",
+    "direccion": "LA PAZ, 5",
+    "localidad": "Higuera De Calatrava",
+    "provincia": "Jaén",
+    "telefono": "953529090",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HIGUERA DE CALATRAVA - SANTIAGO DE CALATRAVA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HIGUERA DE CALATRAVA - SANTIAGO DE CALATRAVA.pdf&Tipo=Guardias",
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HIGUERA DE CALATRAVA - SANTIAGO DE CALATRAVA(1).pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FCIA HIGUERA DE CALATRAVA",
+    "localidades_atendidas": [
+      "Higuera De Calatrava",
+      "Santiago De Calatrava"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-314",
+    "numero_colegio": "314",
+    "nombre": "DIAZ DIAZ, GINES ALONSO RUEDA, Mª CARMEN",
+    "direccion": "PRINCIPADO DE ASTURIAS, 4",
+    "localidad": "Jaén",
+    "provincia": "Jaén",
+    "telefono": "953881230",
+    "lat": 37.7818181,
+    "lng": -3.7884961,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Día (9:30-22:00)",
+    "guardia_franjas": [
+      "Día (9:30-22:00)"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Principado de Asturias nº 4",
+    "localidades_atendidas": [
+      "Jaén"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1165481845"
+  },
+  {
+    "id": "cof-jaen-214",
+    "numero_colegio": "214",
+    "nombre": "MEMBRADO HERRERA, ELENA",
+    "direccion": "AVDA. ANDALUCIA, 32",
+    "localidad": "Jaén",
+    "provincia": "Jaén",
+    "telefono": "953250652",
+    "lat": 37.7776369,
+    "lng": -3.795559,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Día (9:30-22:00); Noche (22:00-9:30 del día siguiente)",
+    "guardia_franjas": [
+      "Día (9:30-22:00)",
+      "Noche (22:00-9:30 del día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Avda. de Andalucía nº 32",
+    "localidades_atendidas": [
+      "Jaén"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1266720131"
+  },
+  {
+    "id": "cof-jaen-182",
+    "numero_colegio": "182",
+    "nombre": "TUTAU GOMEZ, JOSE FERNANDO",
+    "direccion": "MILLAN DE PRIEGO, 45",
+    "localidad": "Jaén",
+    "provincia": "Jaén",
+    "telefono": "953654288",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Día (9:30-22:00)",
+    "guardia_franjas": [
+      "Día (9:30-22:00)"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Millán de Priego nº 45",
+    "localidades_atendidas": [
+      "Jaén"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-212",
+    "numero_colegio": "212",
+    "nombre": "DELGADO BELLOSO, JUAN MANUEL",
+    "direccion": "AVDA. DE ANDALUCIA,81",
+    "localidad": "Jaén",
+    "provincia": "Jaén",
+    "telefono": "953255353",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Noche (22:00-9:30 del día siguiente)",
+    "guardia_franjas": [
+      "Noche (22:00-9:30 del día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Avda. de Andalucía nº 81",
+    "localidades_atendidas": [
+      "Jaén"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-86",
+    "numero_colegio": "86",
+    "nombre": "HERRERA RODRIGUEZ, Mª JOSE",
+    "direccion": "TARIFA,27",
+    "localidad": "Jodar",
+    "provincia": "Jaén",
+    "telefono": "953785039",
+    "lat": 37.8408472,
+    "lng": -3.3524279,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 JODAR.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de la fecha; horario no especificado en el cartel",
+    "guardia_franjas": [
+      "Guardia de la fecha; horario no especificado en el cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 JODAR.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Mª Jose Herrera Rodriguez, C/ Tarifa, 27 LUNES",
+    "localidades_atendidas": [
+      "Jodar"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2775081772"
+  },
+  {
+    "id": "cof-jaen-37",
+    "numero_colegio": "37",
+    "nombre": "AMADOR MARTIN, JAVIER",
+    "direccion": "OLAVIDE,32",
+    "localidad": "La Carolina",
+    "provincia": "Jaén",
+    "telefono": "953680800",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS LA CAROLINA DE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS LA CAROLINA DE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "LDO. JAVIER AMADOR MARTIN-C/ OLAVIDE 33",
+    "localidades_atendidas": [
+      "La Carolina"
+    ],
+    "nota_ubicacion": "El cartel indica «C/ OLAVIDE 33»; el directorio oficial identifica a este titular en «OLAVIDE,32». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-186",
+    "numero_colegio": "186",
+    "nombre": "MEDINA PEREZ, ENCARNACION MALO DE MOLINA MEDINA, VIOLETA",
+    "direccion": "TERCIA, 11",
+    "localidad": "Los Villares",
+    "provincia": "Jaén",
+    "telefono": "953320018",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LOS VILLARES.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LOS VILLARES.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "ENCARNACIÓN MEDINA Y OTRA TERCIA, 11",
+    "localidades_atendidas": [
+      "Los Villares"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-325",
+    "numero_colegio": "325",
+    "nombre": "PEÑA ARANDA, GUILLERMINA",
+    "direccion": "ZAMBRA, 45",
+    "localidad": "Mancha Real",
+    "provincia": "Jaén",
+    "telefono": "953350023",
+    "lat": 37.7866641,
+    "lng": -3.6113482,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 MANCHA REAL.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de la fecha; horario no especificado en el cartel",
+    "guardia_franjas": [
+      "Guardia de la fecha; horario no especificado en el cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 MANCHA REAL.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Dª. Guillermina Peña Aranda, C/ Zambra, 45 Dª. Guillermina Peña Aranda, C/ Zambra, 45",
+    "localidades_atendidas": [
+      "Mancha Real"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/11229103837"
+  },
+  {
+    "id": "cof-jaen-117",
+    "numero_colegio": "117",
+    "nombre": "CERVERA BACHILLER, JOSE",
+    "direccion": "DIONISIO MARTIN,26",
+    "localidad": "Peal De Becerro",
+    "provincia": "Jaén",
+    "telefono": "953730227",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 PEAL DE BECERRO.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 PEAL DE BECERRO.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "JOSÉ CERVERA BACHILLER C/ DIONISIO",
+    "localidades_atendidas": [
+      "Peal De Becerro"
+    ],
+    "nota_ubicacion": "El cartel indica «C/ DIONISIO»; el directorio oficial identifica a este titular en «DIONISIO MARTIN,26». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-121",
+    "numero_colegio": "121",
+    "nombre": "RAMÍREZ PEÑA, LAURA",
+    "direccion": "TERCIAS, 14",
+    "localidad": "Pegalajar",
+    "provincia": "Jaén",
+    "telefono": "953360440",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11 - GUARDIAS PEGALAJAR NOVIEMBRE 2026.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11 - GUARDIAS PEGALAJAR NOVIEMBRE 2026.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Gda. Laura Ramírez Peña C/ Tercias, nº 14 (Pegalajar)",
+    "localidades_atendidas": [
+      "Pegalajar"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-125",
+    "numero_colegio": "125",
+    "nombre": "TORRES ANTIÑOLO, AMPARO",
+    "direccion": "SANTO,26",
+    "localidad": "Pozo Alcon",
+    "provincia": "Jaén",
+    "telefono": "953739002",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 POZO ALCON.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 POZO ALCON.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FARMACIA ANTIÑOLO",
+    "localidades_atendidas": [
+      "Pozo Alcon"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-138",
+    "numero_colegio": "138",
+    "nombre": "LOPEZ BLAZQUEZ, SERGIO",
+    "direccion": "SAN ANTONIO, 37",
+    "localidad": "Santiago De La Espada",
+    "provincia": "Jaén",
+    "telefono": "953438048",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTIAGO DE LA ESPADA.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTIAGO DE LA ESPADA.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "LDO. SERGIO LDO. SERGIO LÓPEZ BLÁZQUEZ",
+    "localidades_atendidas": [
+      "Santiago De La Espadada"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-146",
+    "numero_colegio": "146",
+    "nombre": "GONZÁLEZ DURO, CARMEN GONZÁLEZ DURO, LAURA",
+    "direccion": "CUESTA NEGRA, 16",
+    "localidad": "Torredelcampo",
+    "provincia": "Jaén",
+    "telefono": "953567083",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDELCAMPO 30.9.26.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDELCAMPO 30.9.26.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Hnas. González Duro - Cuesta Negra, 16",
+    "localidades_atendidas": [
+      "Torredelcampo"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-152",
+    "numero_colegio": "152",
+    "nombre": "HIGUERUELO COLOMO, ANTONIO",
+    "direccion": "PLAZA DE LA CONSTITUCIÓN, 10",
+    "localidad": "Torredonjimeno",
+    "provincia": "Jaén",
+    "telefono": "953571027",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDONJIMENO MOD..pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de la fecha; horario no especificado en el cartel",
+    "guardia_franjas": [
+      "Guardia de la fecha; horario no especificado en el cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDONJIMENO MOD..pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "LDO. D. ANTONIO HIGUERUELO COLOMO PLAZA DE LA CONSTITUCIÓN, 10",
+    "localidades_atendidas": [
+      "Torredonjimeno"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-155",
+    "numero_colegio": "155",
+    "nombre": "RUIZ MEDINA, CATALINA",
+    "direccion": "PRIOR HIGUERAS, 6",
+    "localidad": "Torres",
+    "provincia": "Jaén",
+    "telefono": "953364131",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORRES.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de 24 horas; semana del 2026-11-02",
+    "guardia_franjas": [
+      "Guardia de 24 horas; semana del 2026-11-02"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORRES.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "GUARDIA",
+    "localidades_atendidas": [
+      "Torres"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-188",
+    "numero_colegio": "188",
+    "nombre": "CORRAL RUIZ, Mª BELEN",
+    "direccion": "OBISPO COBOS, 47",
+    "localidad": "Ubeda",
+    "provincia": "Jaén",
+    "telefono": "953750574",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 UBEDA - MOD 28-9-26.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia de la fecha; horario no especificado en el cartel",
+    "guardia_franjas": [
+      "Guardia de la fecha; horario no especificado en el cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 UBEDA - MOD 28-9-26.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "Mª BELEN CORRAL RUIZ C/OBISPO COBO Nº47-953750574 LUNES",
+    "localidades_atendidas": [
+      "Ubeda"
+    ],
+    "nota_ubicacion": "El cartel indica «C/OBISPO COBO Nº47-953750574 LUNES»; el directorio oficial identifica a este titular en «OBISPO COBOS, 47». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-161",
+    "numero_colegio": "161",
+    "nombre": "LOPEZ-BARAJAS GARCIA, JOSE Mª",
+    "direccion": "REAL,4",
+    "localidad": "Valdepeñas De Jaen",
+    "provincia": "Jaén",
+    "telefono": "953310011",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VALEPENAS DE JAEN.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VALEPENAS DE JAEN.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FARMACIA VELASCO VALENZUELA",
+    "localidades_atendidas": [
+      "Valdepeñas De Jaen"
+    ],
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-165",
+    "numero_colegio": "165",
+    "nombre": "SOTO ARROYO, MARÍA TERESA",
+    "direccion": "LA FERIA, 31",
+    "localidad": "Villacarrillo",
+    "provincia": "Jaén",
+    "telefono": "953454087",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLACARRILLO V12-6.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLACARRILLO V12-6.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "FARMACIA ARROYO C/FERIA",
+    "localidades_atendidas": [
+      "Villacarrillo"
+    ],
+    "nota_ubicacion": "El cartel indica «C/FERIA»; el directorio oficial identifica a este titular en «LA FERIA, 31». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  },
+  {
+    "id": "cof-jaen-171",
+    "numero_colegio": "171",
+    "nombre": "BUENO JORQUERA, Mª ANGELES MARTINEZ GARVI, LIMBERG",
+    "direccion": "SAN JUAN DE LA CRUZ,5",
+    "localidad": "Villanueva Del Arzobispo",
+    "provincia": "Jaén",
+    "telefono": "953450607",
+    "lat": null,
+    "lng": null,
+    "guardia": true,
+    "fuente": "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLANUEVA DEL ARZOBISPO.pdf&Tipo=Guardias",
+    "guardia_franja": "Guardia según casilla mensual; consulta el horario del cartel",
+    "guardia_franjas": [
+      "Guardia según casilla mensual; consulta el horario del cartel"
+    ],
+    "fecha_guardia": "2026-11-02",
+    "fuentes": [
+      "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLANUEVA DEL ARZOBISPO.pdf&Tipo=Guardias"
+    ],
+    "direccion_cartel": "MARÍA DE LOS ÁNGELES MARÍA DE LOS ÁNGELES BUENO JORQUERA C/S.JUAN DE LA CRUZ, 5 C/S.JUAN DE LA CRUZ, 5",
+    "localidades_atendidas": [
+      "Villanueva Del Arzobispo"
+    ],
+    "nota_ubicacion": "El cartel indica «C/S.JUAN DE LA CRUZ, 5 C/S.JUAN DE LA CRUZ, 5»; el directorio oficial identifica a este titular en «SAN JUAN DE LA CRUZ,5». Confirma la dirección antes de desplazarte.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null
+  }
+]

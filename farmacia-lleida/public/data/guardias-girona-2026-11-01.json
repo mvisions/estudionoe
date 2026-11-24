@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "cof-girona-10010000000164",
+    "nombre": "A. BONMATÍ CASTELLÁ",
+    "direccion": "C/La Verneda, 57",
+    "localidad": "ANGLES",
+    "provincia": "Girona",
+    "telefono": "972420889",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 13:30; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 13:30; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "ANGLES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000164"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000440",
+    "nombre": "S. GONZALEX-HUIX ESPASA",
+    "direccion": "Pça. Dr. Turón, 9",
+    "localidad": "ARBUCIES",
+    "provincia": "Girona",
+    "telefono": "972162181",
+    "lat": 41.81732,
+    "lng": 2.515502,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "ARBUCIES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000440"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000440",
+    "ajuste_ubicacion_m": 6.1,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/7296375135",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 6.1 m."
+  },
+  {
+    "id": "cof-girona-10010000004688",
+    "nombre": "FARMÀCIA MUNTALT MONER, CB",
+    "direccion": "C/Busquets i Punset, 43",
+    "localidad": "SANT HILARI SACALM",
+    "provincia": "Girona",
+    "telefono": "972869049",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT HILARI SACALM"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004688"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000711",
+    "nombre": "FRANCESC FIGUERAS CALSINA",
+    "direccion": "Avgda. Catalunya, 17",
+    "localidad": "BANYOLES",
+    "provincia": "Girona",
+    "telefono": "972571304",
+    "lat": 42.1235512,
+    "lng": 2.7596581,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "BANYOLES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000711"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000711",
+    "ajuste_ubicacion_m": 12.9,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/7295761602",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 12.9 m."
+  },
+  {
+    "id": "cof-girona-10010000000645",
+    "nombre": "M.TERESA ADELL CREIXELL",
+    "direccion": "C/Anselm Clavè, 84",
+    "localidad": "BLANES",
+    "provincia": "Girona",
+    "telefono": "972331656",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "BLANES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000645"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000445",
+    "nombre": "M.VICTORIA SÁNCHEZ GALINDO",
+    "direccion": "Ctra. de Grions, 29",
+    "localidad": "SANT FELIU DE BUI XALLEU",
+    "provincia": "Girona",
+    "telefono": "689197423",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT FELIU DE BUI XALLEU"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000445"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000755",
+    "nombre": "TRAVERIA, CB",
+    "direccion": "C/ Guàrdia, 4",
+    "localidad": "SANT PAU DE SEGURIES",
+    "provincia": "Girona",
+    "telefono": "972747119",
+    "lat": 42.261364,
+    "lng": 2.365554,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT PAU DE SEGURIES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000755"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000755",
+    "ajuste_ubicacion_m": 11.8,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/7297204631",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 11.8 m."
+  },
+  {
+    "id": "cof-girona-10010000000448",
+    "nombre": "X. PLANAS PUJOL",
+    "direccion": "Ctra. Llagostera, 29",
+    "localidad": "CALDES DE MALAVELLA",
+    "provincia": "Girona",
+    "telefono": "673795997",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "11:00 - 13:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "11:00 - 13:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CALDES DE MALAVELLA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000448"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000430",
+    "nombre": "A. LAGUILLO SALA",
+    "direccion": "Ctra. Provincial, 289",
+    "localidad": "CASSA DE LA SELVA",
+    "provincia": "Girona",
+    "telefono": "972464555",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CASSA DE LA SELVA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000430"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000588",
+    "nombre": "SOTO GRUART, C.B.",
+    "direccion": "C/ Garbí, 5",
+    "localidad": "LLAGOSTERA",
+    "provincia": "Girona",
+    "telefono": "972831463",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "10:00 - 13:00",
+    "guardia_franjas": [
+      "10:00 - 13:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LLAGOSTERA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000588"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000033",
+    "nombre": "M. DELLONDER NAVARRO",
+    "direccion": "C/Aumet, 48",
+    "localidad": "CELRA",
+    "provincia": "Girona",
+    "telefono": "667558161",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CELRA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000033"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000002715",
+    "nombre": "C. THIÓ PERA",
+    "direccion": "C/ Nou, 106",
+    "localidad": "FIGUERES",
+    "provincia": "Girona",
+    "telefono": "972500054",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "FIGUERES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000002715"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000004669",
+    "nombre": "M. JUANOLA BRUGUÉS",
+    "direccion": "Passeig Sant Joan Bosco, 23",
+    "localidad": "GIRONA",
+    "provincia": "Girona",
+    "telefono": "972204193",
+    "lat": 42.0066942,
+    "lng": 2.8247397,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:15 - 22:00 · 09:00 - 21:00",
+    "guardia_franjas": [
+      "09:15 - 22:00",
+      "09:00 - 21:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "GIRONA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004669"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000004669",
+    "ajuste_ubicacion_m": 5.5,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/796750206",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 5.5 m."
+  },
+  {
+    "id": "cof-girona-10010000000007",
+    "nombre": "O. ALTARRIBA GARRIGA",
+    "direccion": "Rbla. Llibertat, 18",
+    "localidad": "GIRONA",
+    "provincia": "Girona",
+    "telefono": "972200191",
+    "lat": 41.9833468,
+    "lng": 2.8238914,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:15 - 09:15 (día siguiente)",
+    "guardia_franjas": [
+      "09:15 - 09:15 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "GIRONA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000007"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000007",
+    "ajuste_ubicacion_m": 14.4,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/796750218",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 14.4 m."
+  },
+  {
+    "id": "cof-girona-10010000002673",
+    "nombre": "G. CARANDELL MORA",
+    "direccion": "Avgda. de Riells, 18",
+    "localidad": "L'ESCALA",
+    "provincia": "Girona",
+    "telefono": "972771473",
+    "lat": 42.11715,
+    "lng": 3.13148,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "L'ESCALA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000002673"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000002673",
+    "ajuste_ubicacion_m": 1.6,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/4361755236",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 1.6 m."
+  },
+  {
+    "id": "cof-girona-10010000004573",
+    "nombre": "J. GISPERT DOMÈNECH",
+    "direccion": "C/Carme Carles, 16",
+    "localidad": "VULPELLAC",
+    "provincia": "Girona",
+    "telefono": "674038640",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "VULPELLAC"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004573"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000086",
+    "nombre": "J. MUNTANÉ BARTRA",
+    "direccion": "Escoles Pies, 8",
+    "localidad": "PUIGCERDÀ",
+    "provincia": "Girona",
+    "telefono": "622247444",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "PUIGCERDÀ"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000086"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000066",
+    "nombre": "G. ESCUTIA CELDA",
+    "direccion": "C/Major, 87",
+    "localidad": "LA JONQUERA",
+    "provincia": "Girona",
+    "telefono": "972554014",
+    "lat": 42.4178988,
+    "lng": 2.8730664,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "10:00 - 12:00",
+    "guardia_franjas": [
+      "10:00 - 12:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LA JONQUERA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000066"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000066",
+    "ajuste_ubicacion_m": 9.9,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/3643167106",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 9.9 m."
+  },
+  {
+    "id": "cof-girona-10010000000229",
+    "nombre": "M. FARNERS HORTALÁ DANIEL",
+    "direccion": "C/Castellar, 2 (port)",
+    "localidad": "LLANÇÀ",
+    "provincia": "Girona",
+    "telefono": "616745386",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 23:59; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 23:59; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LLANÇÀ"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000229"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000002633",
+    "nombre": "A. LÓPEZ SANTIAGO",
+    "direccion": "Avgda. Just Marlés, 66",
+    "localidad": "LLORET DE MAR",
+    "provincia": "Girona",
+    "telefono": "972365796",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:30 - 22:00",
+    "guardia_franjas": [
+      "09:30 - 22:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LLORET DE MAR"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000002633"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000004694",
+    "nombre": "FARMÀCIA MARTÍN RÍOS",
+    "direccion": "Avgda. Vidreres, 146",
+    "localidad": "LLORET DE MAR",
+    "provincia": "Girona",
+    "telefono": "972964655",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "22:00 - 09:30 (día siguiente)",
+    "guardia_franjas": [
+      "22:00 - 09:30 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LLORET DE MAR"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004694"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000290",
+    "nombre": "M. CARMEN LORES CATALAN",
+    "direccion": "C/Enric Granados, 9 local, 17",
+    "localidad": "TOSSA",
+    "provincia": "Girona",
+    "telefono": "646480318",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "TOSSA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000290"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000671",
+    "nombre": "ESTEVE BONMATI, CB",
+    "direccion": "Avgda. Reis Católics, 15",
+    "localidad": "OLOT",
+    "provincia": "Girona",
+    "telefono": "972260085",
+    "lat": 42.1816734,
+    "lng": 2.4825337,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "OLOT"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000671"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000671",
+    "ajuste_ubicacion_m": 10.1,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/7297108960",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 10.1 m."
+  },
+  {
+    "id": "cof-girona-10010000000080",
+    "nombre": "SUÑER, C.B.",
+    "direccion": "Pça. de l' Esglesia, 9",
+    "localidad": "PALAFRUGELL",
+    "provincia": "Girona",
+    "telefono": "972300691",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "PALAFRUGELL"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000080"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000739",
+    "nombre": "SANTIAGO POU JUANOLA",
+    "direccion": "C/PIRROIG, 23",
+    "localidad": "CALELLA",
+    "provincia": "Girona",
+    "telefono": "972615859",
+    "lat": 41.888885,
+    "lng": 3.1863539,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 14:00",
+    "guardia_franjas": [
+      "09:00 - 14:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CALELLA"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000739"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000739",
+    "ajuste_ubicacion_m": 3.2,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/1869210219",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 3.2 m."
+  },
+  {
+    "id": "cof-girona-10010000000263",
+    "nombre": "A. MENDIETA FITER",
+    "direccion": "C/Pere Pascuet, 37",
+    "localidad": "LLAFRANC",
+    "provincia": "Girona",
+    "telefono": "972302770",
+    "lat": 41.893474,
+    "lng": 3.192101,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 14:00",
+    "guardia_franjas": [
+      "09:00 - 14:00"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "LLAFRANC"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000263"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000263",
+    "ajuste_ubicacion_m": 12.3,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/1869210226",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 12.3 m."
+  },
+  {
+    "id": "cof-girona-10010000000273",
+    "nombre": "C. GRANELL ORTELLS",
+    "direccion": "Avgda. Costa Brava, 6-8",
+    "localidad": "SANT ANTONI DE CALONGE",
+    "provincia": "Girona",
+    "telefono": "972652705",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "11:00 - 13:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "11:00 - 13:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT ANTONI DE CALONGE"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000273"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000654",
+    "nombre": "JOSEP Mª BORÉS DOMÈNECH",
+    "direccion": "Pg. Mundet, 33",
+    "localidad": "SANT ANTONI DE CALONGE",
+    "provincia": "Girona",
+    "telefono": "972651634",
+    "lat": 41.84564,
+    "lng": 3.10293,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "11:00 - 13:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "11:00 - 13:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT ANTONI DE CALONGE"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000654"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000654",
+    "ajuste_ubicacion_m": 13.1,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/1976837599",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 13.1 m."
+  },
+  {
+    "id": "cof-girona-10010000000008",
+    "nombre": "J. BAVIERA BAVIERA",
+    "direccion": "C/Major, 1",
+    "localidad": "PALAMOS",
+    "provincia": "Girona",
+    "telefono": "872211623685991136",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "PALAMOS"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000008"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000293",
+    "nombre": "T. CUY PRAT",
+    "direccion": "Avgda. Estació, 7",
+    "localidad": "CAMPDEVANOL",
+    "provincia": "Girona",
+    "telefono": "972730651627577371",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CAMPDEVANOL"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000293"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000002709",
+    "nombre": "M. RAMIS FOLCRÀ",
+    "direccion": "C/Major, 24",
+    "localidad": "RIBES DE FRESER",
+    "provincia": "Girona",
+    "telefono": "681361106",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "11:00 - 13:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "11:00 - 13:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "RIBES DE FRESER"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000002709"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000004370",
+    "nombre": "X. LORENTE MOREJÓN",
+    "direccion": "Carrer Berenguer el Vell, 5",
+    "localidad": "RIPOLL",
+    "provincia": "Girona",
+    "telefono": "972703936",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "RIPOLL"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004370"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000272",
+    "nombre": "G. CAMPRUBI FALCO",
+    "direccion": "C/Ramón d'Urg, 56",
+    "localidad": "SANT JOAN DE LES ABADESSES",
+    "provincia": "Girona",
+    "telefono": "972722226",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT JOAN DE LES ABADESSES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000272"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000260",
+    "nombre": "P. COLOMER COLL",
+    "direccion": "Crta. Port Lligat, 28",
+    "localidad": "CADAQUES",
+    "provincia": "Girona",
+    "telefono": "972258932",
+    "lat": 42.2929819,
+    "lng": 3.2783935,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 20:30; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 20:30; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "CADAQUES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000260"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000260",
+    "ajuste_ubicacion_m": 5.2,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/7366934270",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 5.2 m."
+  },
+  {
+    "id": "cof-girona-10010000004344",
+    "nombre": "L. MICALÓ MASACHS",
+    "direccion": "Gran Via Pau Casals, 227",
+    "localidad": "ROSES",
+    "provincia": "Girona",
+    "telefono": "972256375",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "ROSES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004344"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000201",
+    "nombre": "O. ORDIS TRULLS",
+    "direccion": "Pg. Països Catalans, 65",
+    "localidad": "SALT",
+    "provincia": "Girona",
+    "telefono": "972237704",
+    "lat": 41.973498,
+    "lng": 2.797244,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:30 - 09:30 (día siguiente)",
+    "guardia_franjas": [
+      "09:30 - 09:30 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SALT"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000201"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000201",
+    "ajuste_ubicacion_m": 12.2,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/3840862304",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 12.2 m."
+  },
+  {
+    "id": "cof-girona-10010000000141",
+    "nombre": "M. SALA CALSINA",
+    "direccion": "Avgda. Costa Brava, 2",
+    "localidad": "PLATJA D'ARO",
+    "provincia": "Girona",
+    "telefono": "972817564",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "PLATJA D'ARO"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000141"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000408",
+    "nombre": "A. VALLS GIRONES",
+    "direccion": "C/Major, 33",
+    "localidad": "SANT FELIU DE GUIXOLS",
+    "provincia": "Girona",
+    "telefono": "972320192",
+    "lat": 41.782049,
+    "lng": 3.030915,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 20:30",
+    "guardia_franjas": [
+      "09:00 - 20:30"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT FELIU DE GUIXOLS"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000408"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000408",
+    "ajuste_ubicacion_m": 0.6,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/2208317413",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 0.6 m."
+  },
+  {
+    "id": "cof-girona-10010000000100",
+    "nombre": "E. SALLÉS MARTÍ",
+    "direccion": "Placeta de Sant Joan, 4",
+    "localidad": "SANT FELIU DE GUIXOLS",
+    "provincia": "Girona",
+    "telefono": "972320428",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "20:30 - 09:00 (día siguiente)",
+    "guardia_franjas": [
+      "20:30 - 09:00 (día siguiente)"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANT FELIU DE GUIXOLS"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000100"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000004511",
+    "nombre": "DÚNIA ROCAS YANES",
+    "direccion": "Passeig Federico García Lorca, 8 baixos",
+    "localidad": "SARRIA DE TER",
+    "provincia": "Girona",
+    "telefono": "629358881",
+    "lat": 42.014956,
+    "lng": 2.81589,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 14:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 14:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SARRIA DE TER"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000004511"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000004511",
+    "ajuste_ubicacion_m": 3.9,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/2775104907",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 3.9 m."
+  },
+  {
+    "id": "cof-girona-10010000000642",
+    "nombre": "D. BIRAUD",
+    "direccion": "C/Josep Pla, 84",
+    "localidad": "VIDRERES",
+    "provincia": "Girona",
+    "telefono": "972875666",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:00 - 21:00; guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 21:00; guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "VIDRERES"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000642"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000493",
+    "nombre": "A. SUREDA CAMPS",
+    "direccion": "Crta. de Sils, 1",
+    "localidad": "SANTA COLOMA DE FARNERS",
+    "provincia": "Girona",
+    "telefono": "620170017",
+    "lat": null,
+    "lng": null,
+    "ubicacion_pendiente_verificacion": true,
+    "guardia": true,
+    "guardia_franja": "09:30 - 09:30 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:30 - 09:30 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "SANTA COLOMA DE FARNERS"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000493"
+    ]
+  },
+  {
+    "id": "cof-girona-10010000000774",
+    "nombre": "M. FUNTANÉ MASÓ",
+    "direccion": "C/Major, 55",
+    "localidad": "TORROELLA DE MONTGRI",
+    "provincia": "Girona",
+    "telefono": "972757018",
+    "lat": 42.040832,
+    "lng": 3.1259619,
+    "ubicacion_pendiente_verificacion": false,
+    "guardia": true,
+    "guardia_franja": "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes",
+    "guardia_franjas": [
+      "09:00 - 09:00 (día siguiente); guardia no presencial, llamar antes"
+    ],
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "TORROELLA DE MONTGRI"
+    ],
+    "fuente": "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+    "fuentes": [
+      "https://www.cofgi.org/farmacies/farmacies-de-guardia",
+      "https://www.cofgi.org/farmacies/detall-guardia/10010000000774"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofgi.org/farmacies/detall-guardia/10010000000774",
+    "ajuste_ubicacion_m": 0.8,
+    "referencia_ubicacion": "https://www.openstreetmap.org/node/3913578436",
+    "nota_ubicacion": "Marcador del Colegio contrastado con farmacia OSM a 0.8 m."
+  }
+]

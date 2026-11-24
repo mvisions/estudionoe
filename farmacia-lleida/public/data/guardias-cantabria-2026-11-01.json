@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "cof-cantabria-6f39ed3113159383",
+    "nombre": "FARMACIA SÁDABA, C.B.",
+    "direccion": "Avenida GENERALISIMO-ED. LOS ARCOS, 48",
+    "localidad": "Ontaneda",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942594023",
+    "guardia": true,
+    "lat": 43.1979367,
+    "lng": -3.9245003,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 00:00 · Zona Alto Pas"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T00:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Alto Pas"
+    ],
+    "localidades_atendidas": [
+      "Ontaneda"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 00:00 · Zona Alto Pas"
+  },
+  {
+    "id": "cof-cantabria-1bb0e88b03ddd04d",
+    "nombre": "RUIZ DE SALAZAR FERNÁNDEZ-ABASCAL, JULIO",
+    "direccion": "Calle LOS MARTIRES, 17",
+    "localidad": "Torrelavega",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942892021",
+    "guardia": true,
+    "lat": 43.3524689,
+    "lng": -4.048571,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 00:00 — 09:00 · Zona Alto Pas",
+      "31/10/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "01/11/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "31/10/2026: 22:00 — 09:00 · Zona Bezana",
+      "01/11/2026: 22:00 — 09:00 · Zona Bezana",
+      "31/10/2026: 09:00 — 09:00 · Zona Torrelavega",
+      "01/11/2026: 09:00 — 09:00 · Zona Torrelavega",
+      "31/10/2026: 22:00 — 09:00 · Zona Polanco · Suances · Altamira",
+      "01/11/2026: 22:00 — 09:00 · Zona Polanco · Suances · Altamira"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-11-01T00:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Alto Pas",
+      "Bajo Pas",
+      "Bezana",
+      "Torrelavega",
+      "Polanco · Suances · Altamira"
+    ],
+    "localidades_atendidas": [
+      "Torrelavega"
+    ],
+    "guardia_franja": "01/11/2026: 00:00 — 09:00 · Zona Alto Pas · 31/10/2026: 22:00 — 09:00 · Zona Bajo Pas · 01/11/2026: 22:00 — 09:00 · Zona Bajo Pas · 31/10/2026: 22:00 — 09:00 · Zona Bezana · 01/11/2026: 22:00 — 09:00 · Zona Bezana · 31/10/2026: 09:00 — 09:00 · Zona Torrelavega · 01/11/2026: 09:00 — 09:00 · Zona Torrelavega · 31/10/2026: 22:00 — 09:00 · Zona Polanco · Suances · Altamira · 01/11/2026: 22:00 — 09:00 · Zona Polanco · Suances · Altamira"
+  },
+  {
+    "id": "cof-cantabria-8eba030c6dc0a4d2",
+    "nombre": "FARMACIA LÓPEZ-ALVARADO, C.B.",
+    "direccion": "Calle JESÚS DE MONASTERIO, 6",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942234178",
+    "guardia": true,
+    "lat": 43.4620127,
+    "lng": -3.8121979,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "31/10/2026: 22:00 — 09:00 · Zona Bezana",
+      "31/10/2026: 22:00 — 09:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bajo Pas",
+      "Bezana",
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Bajo Pas · 31/10/2026: 22:00 — 09:00 · Zona Bezana · 31/10/2026: 22:00 — 09:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-83782957083731a0",
+    "nombre": "MAZA HUIDOBRO, MERCEDES DE LA",
+    "direccion": "Calle LOS ALCORNOQUES, 5 (EL ALISAL)",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942059854",
+    "guardia": true,
+    "lat": 43.4571402,
+    "lng": -3.8546151,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "31/10/2026: 22:00 — 09:00 · Zona Bezana",
+      "31/10/2026: 22:00 — 09:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bajo Pas",
+      "Bezana",
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Bajo Pas · 31/10/2026: 22:00 — 09:00 · Zona Bezana · 31/10/2026: 22:00 — 09:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-b8a78836ae299309",
+    "nombre": "MOTA CHECA, PEDRO CARLOS",
+    "direccion": "Plaza RUBEN DARIO, 1 (SARDINERO)",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942275393",
+    "guardia": true,
+    "lat": 43.4783792,
+    "lng": -3.7896491,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "01/11/2026: 22:00 — 09:00 · Zona Bezana",
+      "01/11/2026: 22:00 — 09:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bajo Pas",
+      "Bezana",
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 22:00 — 09:00 · Zona Bajo Pas · 01/11/2026: 22:00 — 09:00 · Zona Bezana · 01/11/2026: 22:00 — 09:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-7ad03111ecd77a50",
+    "nombre": "MATEO GARCÍA, DIEGO",
+    "direccion": "Plaza DE NUMANCIA, 2",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942232535",
+    "guardia": true,
+    "lat": 43.4611349,
+    "lng": -3.8172894,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 22:00 — 09:00 · Zona Bajo Pas",
+      "01/11/2026: 22:00 — 09:00 · Zona Bezana",
+      "01/11/2026: 22:00 — 09:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bajo Pas",
+      "Bezana",
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 22:00 — 09:00 · Zona Bajo Pas · 01/11/2026: 22:00 — 09:00 · Zona Bezana · 01/11/2026: 22:00 — 09:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-4b88979ad46b3dd4",
+    "nombre": "AMORÓS GONZÁLEZ, JOSÉ FRANCISCO",
+    "direccion": "Bº SORRIBERO, 15 - BAJO (LOCAL 2)",
+    "localidad": "Renedo De Piélagos",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942308254",
+    "guardia": true,
+    "lat": 43.3563704,
+    "lng": -3.9573355,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Bajo Pas"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bajo Pas"
+    ],
+    "localidades_atendidas": [
+      "Renedo De Piélagos"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Bajo Pas"
+  },
+  {
+    "id": "cof-cantabria-dadc7603539e5962",
+    "nombre": "PÉREZ MACHO, OFELIA MARÍA",
+    "direccion": "Calle CONDESA FORJAS DE BUELNA, 14",
+    "localidad": "Corrales De Buelna, Los",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942088110",
+    "guardia": true,
+    "lat": 43.2603951,
+    "lng": -4.0644038,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 09:00 — 09:00 · Zona Besaya",
+      "01/11/2026: 09:00 — 09:00 · Zona Besaya"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Besaya"
+    ],
+    "localidades_atendidas": [
+      "Corrales De Buelna, Los"
+    ],
+    "guardia_franja": "31/10/2026: 09:00 — 09:00 · Zona Besaya · 01/11/2026: 09:00 — 09:00 · Zona Besaya"
+  },
+  {
+    "id": "cof-cantabria-9f8d2125d6c10bd4",
+    "nombre": "SANTAMARÍA PABLOS, ANA",
+    "direccion": "Avenida DE LA LIBERTAD, 15",
+    "localidad": "Mompia",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942305120",
+    "guardia": true,
+    "lat": 43.4331062,
+    "lng": -3.9198565,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Bezana"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Bezana"
+    ],
+    "localidades_atendidas": [
+      "Mompia"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Bezana"
+  },
+  {
+    "id": "cof-cantabria-5a9ca1a71c68b9dd",
+    "nombre": "ÁLVAREZ SAINZ DE LA MAZA, PILAR",
+    "direccion": "Carretera DE ALISAS, 39",
+    "localidad": "Cavada, La",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942539291",
+    "guardia": true,
+    "lat": 43.3521322,
+    "lng": -3.7037416,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 09:00 — 09:00 · Zona Cudeyo · Miera",
+      "01/11/2026: 09:00 — 09:00 · Zona Cudeyo · Miera"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Cudeyo · Miera"
+    ],
+    "localidades_atendidas": [
+      "Cavada, La"
+    ],
+    "guardia_franja": "31/10/2026: 09:00 — 09:00 · Zona Cudeyo · Miera · 01/11/2026: 09:00 — 09:00 · Zona Cudeyo · Miera"
+  },
+  {
+    "id": "cof-cantabria-f102dafc9152ced5",
+    "nombre": "ALONSO LÓPEZ, ANDREA",
+    "direccion": "Plaza CAPITAN PALACIOS, 2",
+    "localidad": "Potes",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942730008",
+    "guardia": true,
+    "lat": 43.1534349,
+    "lng": -4.6236838,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Liébana"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Liébana"
+    ],
+    "localidades_atendidas": [
+      "Potes"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Liébana"
+  },
+  {
+    "id": "cof-cantabria-1592d5b67bddbae1",
+    "nombre": "SANZ LUCAS, ARTURO",
+    "direccion": "Avenida PROLONGACIÓN VIRGEN DEL PUERTO, 10",
+    "localidad": "Santoña",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "665399983",
+    "guardia": true,
+    "lat": 43.4459366,
+    "lng": -3.4545229,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Meruelo · Gama",
+      "01/11/2026: 22:00 — 09:00 · Zona Meruelo · Gama",
+      "31/10/2026: 09:00 — 09:00 · Zona Santoña",
+      "01/11/2026: 09:00 — 09:00 · Zona Santoña"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Meruelo · Gama",
+      "Santoña"
+    ],
+    "localidades_atendidas": [
+      "Santoña"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Meruelo · Gama · 01/11/2026: 22:00 — 09:00 · Zona Meruelo · Gama · 31/10/2026: 09:00 — 09:00 · Zona Santoña · 01/11/2026: 09:00 — 09:00 · Zona Santoña"
+  },
+  {
+    "id": "cof-cantabria-4457f25d8014f471",
+    "nombre": "GONZÁLEZ MONTERDE, JORGE",
+    "direccion": "Bº PALACIO, 1",
+    "localidad": "Arnuero",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942677081",
+    "guardia": true,
+    "lat": 43.470229,
+    "lng": -3.5732813,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Meruelo · Gama"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Meruelo · Gama"
+    ],
+    "localidades_atendidas": [
+      "Arnuero"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Meruelo · Gama"
+  },
+  {
+    "id": "cof-cantabria-bb3efb79d6c61e31",
+    "nombre": "RIBEIRO OLIVEIRA, JOSÉ ANTONIO",
+    "direccion": "Carretera TINA MENOR-PALENCIA, S/N",
+    "localidad": "Puentenansa",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942728006",
+    "guardia": true,
+    "lat": 43.2534457,
+    "lng": -4.4076489,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Nansa"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Nansa"
+    ],
+    "localidades_atendidas": [
+      "Puentenansa"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Nansa"
+  },
+  {
+    "id": "cof-cantabria-fc0fe35052048c91",
+    "nombre": "MATEO GARCÍA, MARCELO",
+    "direccion": "Bº LA HELGUERA, 18",
+    "localidad": "La Helguera De Penagos",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942554234",
+    "guardia": true,
+    "lat": 43.3398657,
+    "lng": -3.8201063,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 09:00 — 09:00 · Zona Pisueña · Cayón · Selaya",
+      "01/11/2026: 09:00 — 09:00 · Zona Pisueña · Cayón · Selaya"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Pisueña · Cayón · Selaya"
+    ],
+    "localidades_atendidas": [
+      "La Helguera De Penagos"
+    ],
+    "guardia_franja": "31/10/2026: 09:00 — 09:00 · Zona Pisueña · Cayón · Selaya · 01/11/2026: 09:00 — 09:00 · Zona Pisueña · Cayón · Selaya"
+  },
+  {
+    "id": "cof-cantabria-60097819df0c9145",
+    "nombre": "HERNÁNDEZ SANTOS, ISABEL",
+    "direccion": "Calle MARCELINO S. DE SAUTUOLA, 4 (MARTILLO)",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942212467",
+    "guardia": true,
+    "lat": 43.4625753,
+    "lng": -3.8034708,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-f8834eedd115921e",
+    "nombre": "VALDÉS GALLO, C.B., FARMACIA",
+    "direccion": "Calle CALVO SOTELO, 2",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942071932",
+    "guardia": true,
+    "lat": 43.4613705,
+    "lng": -3.8101826,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-1fb67837ae89379a",
+    "nombre": "MARTÍNEZ OBREGÓN, MÓNICA",
+    "direccion": "Avenida LOS CIRUELOS, 25-27",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942323789",
+    "guardia": true,
+    "lat": 43.458136,
+    "lng": -3.8525271,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-d91c02fab90a434a",
+    "nombre": "FARMACIA IRAOLA Y VALDÉS, C.B.",
+    "direccion": "Avenida DE LOS CASTROS, 153",
+    "localidad": "Santander",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942355980",
+    "guardia": true,
+    "lat": 43.4645102,
+    "lng": -3.8282452,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Santander"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Santander"
+    ],
+    "localidades_atendidas": [
+      "Santander"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Santander"
+  },
+  {
+    "id": "cof-cantabria-7bdeb53c10d3f950",
+    "nombre": "MENDOZA GÓMEZ, MARÍA ENCARNACIÓN",
+    "direccion": "Plaza DEL PESCADOR, 4",
+    "localidad": "Colindres",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942304825",
+    "guardia": true,
+    "lat": 43.3983805,
+    "lng": -3.4504604,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Alto y Bajo Asón",
+      "31/10/2026: 22:00 — 09:00 · Zona Laredo · Colindres"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Alto y Bajo Asón",
+      "Laredo · Colindres"
+    ],
+    "localidades_atendidas": [
+      "Colindres"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Alto y Bajo Asón · 31/10/2026: 22:00 — 09:00 · Zona Laredo · Colindres"
+  },
+  {
+    "id": "cof-cantabria-18e0d906bacd6b20",
+    "nombre": "FERNÁNDEZ-BALDOR AÑÍBARRO, VERÓNICA",
+    "direccion": "Calle LA ATALAYA, 10 (UR. PTO. RIVERO) BL. 1 BAJO",
+    "localidad": "Limpias",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942622400",
+    "guardia": true,
+    "lat": 43.3597878,
+    "lng": -3.4265623,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Alto y Bajo Asón"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Alto y Bajo Asón"
+    ],
+    "localidades_atendidas": [
+      "Limpias"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Alto y Bajo Asón"
+  },
+  {
+    "id": "cof-cantabria-3cb1d6fa67e7fe15",
+    "nombre": "FUENTE DEL REY, MARÍA FATIMA DE LA",
+    "direccion": "Calle MARQUES DE COMILLAS, 13",
+    "localidad": "Laredo",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942605338",
+    "guardia": true,
+    "lat": 43.4098382,
+    "lng": -3.4171073,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 22:00 — 09:00 · Zona Alto y Bajo Asón",
+      "01/11/2026: 09:00 — 09:00 · Zona Laredo · Colindres"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Alto y Bajo Asón",
+      "Laredo · Colindres"
+    ],
+    "localidades_atendidas": [
+      "Laredo"
+    ],
+    "guardia_franja": "01/11/2026: 22:00 — 09:00 · Zona Alto y Bajo Asón · 01/11/2026: 09:00 — 09:00 · Zona Laredo · Colindres"
+  },
+  {
+    "id": "cof-cantabria-50da741a94a29008",
+    "nombre": "ANDRÉS DIRUBE, MARÍA ANTONIETA DE",
+    "direccion": "Calle INDUSTRIA, 66 BAJO",
+    "localidad": "Astillero, El",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942543654",
+    "guardia": true,
+    "lat": 43.3961685,
+    "lng": -3.8181497,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Camargo",
+      "31/10/2026: 22:00 — 09:00 · Zona El Astillero"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Camargo",
+      "El Astillero"
+    ],
+    "localidades_atendidas": [
+      "Astillero, El"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Camargo · 31/10/2026: 22:00 — 09:00 · Zona El Astillero"
+  },
+  {
+    "id": "cof-cantabria-7491026a39ce8264",
+    "nombre": "CALDERÓN FRAILE, MARÍA GEMA",
+    "direccion": "Avenida DE BILBAO, 95 (LA TORRE)",
+    "localidad": "Muriedas",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942250096",
+    "guardia": true,
+    "lat": 43.4159451,
+    "lng": -3.8446878,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Camargo"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Camargo"
+    ],
+    "localidades_atendidas": [
+      "Muriedas"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Camargo"
+  },
+  {
+    "id": "cof-cantabria-546041ca96bdffa7",
+    "nombre": "QUIÑONES PIQUERO, SILVIA",
+    "direccion": "Calle RUFINO RUIZ CEBALLOS, 7 (FRENTE A LA TOBA)",
+    "localidad": "Maliaño",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942305160",
+    "guardia": true,
+    "lat": 43.423171,
+    "lng": -3.8427129,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 22:00 — 09:00 · Zona Camargo",
+      "01/11/2026: 22:00 — 09:00 · Zona El Astillero"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T22:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T22:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Camargo",
+      "El Astillero"
+    ],
+    "localidades_atendidas": [
+      "Maliaño"
+    ],
+    "guardia_franja": "01/11/2026: 22:00 — 09:00 · Zona Camargo · 01/11/2026: 22:00 — 09:00 · Zona El Astillero"
+  },
+  {
+    "id": "cof-cantabria-604bb5c28a2defd8",
+    "nombre": "RODRÍGUEZ GARAY, MATILDE",
+    "direccion": "Calle MAYOR, 16",
+    "localidad": "Reinosa",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942750389",
+    "guardia": true,
+    "lat": 43.0006761,
+    "lng": -4.1378046,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 09:00 — 09:00 · Zona Campoo · Los Valles"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Campoo · Los Valles"
+    ],
+    "localidades_atendidas": [
+      "Reinosa"
+    ],
+    "guardia_franja": "31/10/2026: 09:00 — 09:00 · Zona Campoo · Los Valles"
+  },
+  {
+    "id": "cof-cantabria-206af8c68dd0872f",
+    "nombre": "FARMACIA MAYOR 9, C.B.",
+    "direccion": "Calle MAYOR, 9",
+    "localidad": "Reinosa",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942750366",
+    "guardia": true,
+    "lat": 43.001123,
+    "lng": -4.137112,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Campoo · Los Valles"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Campoo · Los Valles"
+    ],
+    "localidades_atendidas": [
+      "Reinosa"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Campoo · Los Valles"
+  },
+  {
+    "id": "cof-cantabria-03e373eb1ad4a0cd",
+    "nombre": "RODRÍGUEZ CAMUS, MARTA MARÍA",
+    "direccion": "Calle MAYOR, 2",
+    "localidad": "Reinosa",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942750740",
+    "guardia": true,
+    "lat": 43.0003,
+    "lng": -4.138528,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 09:00 · Zona Campoo · Los Valles"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Campoo · Los Valles"
+    ],
+    "localidades_atendidas": [
+      "Reinosa"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 09:00 · Zona Campoo · Los Valles"
+  },
+  {
+    "id": "cof-cantabria-9c8773da93723cd0",
+    "nombre": "MACHÍN MACHÍN, MARÍA TERESA",
+    "direccion": "Calle MANUEL URQUIJO, 2 (POLIDEPORTIVO PERU ZABALLA)",
+    "localidad": "Castro Urdiales",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942014312",
+    "guardia": true,
+    "lat": 43.3898412,
+    "lng": -3.2274076,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 09:00 — 09:00 · Zona Castro Urdiales"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Castro Urdiales"
+    ],
+    "localidades_atendidas": [
+      "Castro Urdiales"
+    ],
+    "guardia_franja": "31/10/2026: 09:00 — 09:00 · Zona Castro Urdiales"
+  },
+  {
+    "id": "cof-cantabria-ae97b3eae378e5b5",
+    "nombre": "FERNÁNDEZ CALLEJA, ANA MARÍA",
+    "direccion": "Calle COTOLINO, 5",
+    "localidad": "Castro Urdiales",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942303081",
+    "guardia": true,
+    "lat": 43.3715798,
+    "lng": -3.2047008,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 09:00 · Zona Castro Urdiales"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Castro Urdiales"
+    ],
+    "localidades_atendidas": [
+      "Castro Urdiales"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 09:00 · Zona Castro Urdiales"
+  },
+  {
+    "id": "cof-cantabria-2095441776ac08c3",
+    "nombre": "SILOS LÁZARO, MARÍA DEL ROSARIO",
+    "direccion": "Calle BALLESTAS, 6",
+    "localidad": "Guarnizo",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942559263",
+    "guardia": true,
+    "lat": 43.4049606,
+    "lng": -3.8384779,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona El Astillero"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "El Astillero"
+    ],
+    "localidades_atendidas": [
+      "Guarnizo"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona El Astillero"
+  },
+  {
+    "id": "cof-cantabria-577084fd9783e7a6",
+    "nombre": "MARTÍNEZ LÓPEZ, JULIA",
+    "direccion": "Barrio Puente San Miguel, 4",
+    "localidad": "Puente San Miguel",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942307153",
+    "guardia": true,
+    "lat": 43.3634269,
+    "lng": -4.0969947,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "01/11/2026: 09:00 — 22:00 · Zona Polanco · Suances · Altamira"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-01T22:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-01T22:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Polanco · Suances · Altamira"
+    ],
+    "localidades_atendidas": [
+      "Puente San Miguel"
+    ],
+    "guardia_franja": "01/11/2026: 09:00 — 22:00 · Zona Polanco · Suances · Altamira"
+  },
+  {
+    "id": "cof-cantabria-c1f9bbd7e5e9aaa1",
+    "nombre": "PRIETO AJA, MARINA",
+    "direccion": "Calle HONDAL, 101",
+    "localidad": "Villanueva De La Peña",
+    "provincia": "Cantabria",
+    "fuente": "https://cofcantabria.org/cofguardiasclient/",
+    "telefono": "942708229",
+    "guardia": true,
+    "lat": 43.3171797,
+    "lng": -4.1919998,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://cofcantabria.org/cofguardiasclient/",
+    "fecha_guardia": "2026-11-01",
+    "guardia_franjas": [
+      "31/10/2026: 22:00 — 09:00 · Zona Saja · San Vicente",
+      "01/11/2026: 09:00 — 09:00 · Zona Saja · San Vicente"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "zonas_atendidas": [
+      "Saja · San Vicente"
+    ],
+    "localidades_atendidas": [
+      "Villanueva De La Peña"
+    ],
+    "guardia_franja": "31/10/2026: 22:00 — 09:00 · Zona Saja · San Vicente · 01/11/2026: 09:00 — 09:00 · Zona Saja · San Vicente"
+  }
+]

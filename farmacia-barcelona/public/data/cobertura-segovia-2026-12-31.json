@@ -1,0 +1,35 @@
+{
+  "fecha": "2026-12-31",
+  "provincia": "Segovia",
+  "fuente": "https://cofsegovia.com/farmacias-de-guardia/",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Segovia capital",
+      "estado": "parcial",
+      "farmacias": 3,
+      "error": "Calendario oficial de la capital interpretado; no cubre los calendarios de otras localidades de Segovia."
+    },
+    {
+      "nombre": "Cuéllar",
+      "estado": "error",
+      "error": "El calendario semanal contiene fechas inconsistentes para 2026-12-31."
+    },
+    {
+      "nombre": "El Espinar",
+      "estado": "error",
+      "error": "El calendario semanal contiene fechas inconsistentes para 2026-12-31."
+    },
+    {
+      "nombre": "Servicios rurales de Segovia",
+      "estado": "parcial",
+      "farmacias": 3,
+      "error": "La guardia de 24 h de Cantalejo no identifica cuál de sus 2 farmacias está asignada. No se pudo identificar de forma única: TORRECILLA, NAVA DE LA A."
+    }
+  ],
+  "farmacias": 6,
+  "farmacias_confirmadas": 6,
+  "con_coordenadas": 3,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

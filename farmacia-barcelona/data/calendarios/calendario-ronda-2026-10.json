@@ -1,0 +1,149 @@
+{
+  "pueblo": "Ronda",
+  "provincia_id": "29",
+  "zona_code": "29000009",
+  "mes": "2026-10",
+  "dias": {
+    "2026-10-01": [],
+    "2026-10-02": [],
+    "2026-10-03": [],
+    "2026-10-04": [],
+    "2026-10-05": [],
+    "2026-10-06": [],
+    "2026-10-07": [],
+    "2026-10-08": [],
+    "2026-10-09": [],
+    "2026-10-10": [
+      {
+        "id": "29000025",
+        "direccion": "ESPINEL, 38 - Ronda"
+      }
+    ],
+    "2026-10-11": [
+      {
+        "id": "29000094",
+        "direccion": "PLAZA DE ESPA&#209;A, 5 - Ronda"
+      }
+    ],
+    "2026-10-12": [
+      {
+        "id": "29000099",
+        "direccion": "DOLORES PE&#209;A, 5 - Ronda"
+      }
+    ],
+    "2026-10-13": [
+      {
+        "id": "29000171",
+        "direccion": "SETENIL, 18 - Ronda"
+      }
+    ],
+    "2026-10-14": [
+      {
+        "id": "29000026",
+        "direccion": "ESPINEL, 126 - Ronda"
+      }
+    ],
+    "2026-10-15": [
+      {
+        "id": "29000240",
+        "direccion": "HUELVA, 14 - Ronda"
+      }
+    ],
+    "2026-10-16": [
+      {
+        "id": "29000464",
+        "direccion": "AVDA. JOSE ORTIZ MASSAGUER, 2 - Ronda"
+      }
+    ],
+    "2026-10-17": [
+      {
+        "id": "29000473",
+        "direccion": "PLAZA RUEDO ALAMEDA, 1 - Ronda"
+      }
+    ],
+    "2026-10-18": [
+      {
+        "id": "29000475",
+        "direccion": "SEVILLA, 129      EDIFICIO  PARQUE SUR - Ronda"
+      }
+    ],
+    "2026-10-19": [
+      {
+        "id": "29000084",
+        "direccion": "ESPINEL, 30 - Ronda"
+      }
+    ],
+    "2026-10-20": [
+      {
+        "id": "29000150",
+        "direccion": "SEVILLA, 34-36 - Ronda"
+      }
+    ],
+    "2026-10-21": [
+      {
+        "id": "29000181",
+        "direccion": "C/ LAURIA, 9 - Ronda"
+      }
+    ],
+    "2026-10-22": [
+      {
+        "id": "29000108",
+        "direccion": "ESPINEL, 63 - Ronda"
+      }
+    ],
+    "2026-10-23": [
+      {
+        "id": "29000025",
+        "direccion": "ESPINEL, 38 - Ronda"
+      }
+    ],
+    "2026-10-24": [
+      {
+        "id": "29000094",
+        "direccion": "PLAZA DE ESPA&#209;A, 5 - Ronda"
+      }
+    ],
+    "2026-10-25": [
+      {
+        "id": "29000099",
+        "direccion": "DOLORES PE&#209;A, 5 - Ronda"
+      }
+    ],
+    "2026-10-26": [
+      {
+        "id": "29000171",
+        "direccion": "SETENIL, 18 - Ronda"
+      }
+    ],
+    "2026-10-27": [
+      {
+        "id": "29000026",
+        "direccion": "ESPINEL, 126 - Ronda"
+      }
+    ],
+    "2026-10-28": [
+      {
+        "id": "29000240",
+        "direccion": "HUELVA, 14 - Ronda"
+      }
+    ],
+    "2026-10-29": [
+      {
+        "id": "29000464",
+        "direccion": "AVDA. JOSE ORTIZ MASSAGUER, 2 - Ronda"
+      }
+    ],
+    "2026-10-30": [
+      {
+        "id": "29000473",
+        "direccion": "PLAZA RUEDO ALAMEDA, 1 - Ronda"
+      }
+    ],
+    "2026-10-31": [
+      {
+        "id": "29000475",
+        "direccion": "SEVILLA, 129      EDIFICIO  PARQUE SUR - Ronda"
+      }
+    ]
+  }
+}

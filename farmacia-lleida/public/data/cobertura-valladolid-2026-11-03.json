@@ -1,0 +1,127 @@
+{
+  "fecha": "2026-11-03",
+  "provincia": "Valladolid",
+  "fuente": "https://ciudadanos.farmaceuticosdevalladolid.es/FarmaciasGuardia.aspx",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Alaejos",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Albires (León)",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Alcazarén",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Arroyo de la Encomienda",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Bolaños de Campos",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Fombellida",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Iscar",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Laguna de Duero",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Medina de Rioseco",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Medina del Campo",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Mucientes",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Peñafiel",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Portillo",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Tordesillas",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Tudela de Duero",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Valdestillas",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Valladolid",
+      "estado": "parcial",
+      "farmacias": 9,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Villardefrades",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    },
+    {
+      "nombre": "Villarramiel (Palencia)",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Cuadros oficiales del día confirmados; madrugada anterior y cobertura de todos los municipios no certificadas. El directorio puede contener fichas sin dirección, que se omiten con aviso. No se infieren derivaciones."
+    }
+  ],
+  "farmacias": 27,
+  "farmacias_confirmadas": 27,
+  "con_coordenadas": 23,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

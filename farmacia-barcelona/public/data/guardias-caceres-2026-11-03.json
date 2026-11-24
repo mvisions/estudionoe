@@ -1,0 +1,643 @@
+[
+  {
+    "id": "cof-caceres-tel-927160195",
+    "nombre": "RUIZ ALVAREZ, Mª DOLORES",
+    "direccion": "AVDA. CRUZ DE LOS PAJARES, 124-A, 10100, MIAJADAS",
+    "localidad": "MIAJADAS",
+    "provincia": "Cáceres",
+    "telefono": "927160195",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ABERTURA",
+      "ALBALA",
+      "ALCUESCAR",
+      "ALDEA DEL CANO",
+      "ALMOHARIN",
+      "ALONSO DE OJEDA",
+      "ARROYOMOLINOS DE MONTANCHEZ",
+      "CAMPO LUGAR",
+      "CASAS DE DON ANTONIO",
+      "ESCURIAL",
+      "GARCIAZ",
+      "MADRIGALEJO",
+      "MIAJADAS",
+      "MONTANCHEZ",
+      "TORRE DE SANTA MARIA",
+      "TORREMOCHA",
+      "VALDEFUENTES",
+      "VALDEMORALES",
+      "VILLAMESIAS",
+      "ZARZA DE MONTANCHEZ",
+      "ZORITA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.146559126413,
+    "lng": -5.9171512221034,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.146559126413,-5.9171512221034",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927147381",
+    "nombre": "SANCHEZ MATEOS, CARIDAD",
+    "direccion": "AVDA. PUREZA CANELO, 51, 10840, MORALEJA",
+    "localidad": "MORALEJA",
+    "provincia": "Cáceres",
+    "telefono": "927147381",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ACEBO",
+      "CILLEROS",
+      "DESCARGAMARIA",
+      "ELJAS",
+      "GATA",
+      "HOYOS",
+      "LA MOHEDA DE GATA",
+      "MORALEJA",
+      "PERALES DEL PUERTO",
+      "SAN MARTIN DE TREVEJO",
+      "SANTIBAÑEZ EL ALTO",
+      "TORRE DE D. MIGUEL",
+      "VALVERDE DEL FRESNO",
+      "VEGAVIANA",
+      "VILLAMIEL",
+      "VILLASBUENAS DE GATA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.067622083346,
+    "lng": -6.6549626306489,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.067622083346,-6.6549626306489",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927390105",
+    "nombre": "PANIAGUA CASTAÑO, BEATRIZ",
+    "direccion": "CL. SAN PEDRO DE ALCANTARA, 32, 10980, ALCANTARA",
+    "localidad": "ALCANTARA",
+    "provincia": "Cáceres",
+    "telefono": "927390105",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ACEHUCHE",
+      "ALCANTARA",
+      "CECLAVIN",
+      "MATA DE ALCANTARA",
+      "ZARZA LA MAYOR"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.715953461268,
+    "lng": -6.8821960172776,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.715953461268,-6.8821960172776",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927430224",
+    "nombre": "GIL ANTUNEZ, FCO. JAVIER",
+    "direccion": "CL. CISNEROS 9, 10810, MONTEHERMOSO",
+    "localidad": "MONTEHERMOSO",
+    "provincia": "Cáceres",
+    "telefono": "927430224",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ACEITUNA",
+      "HERNAN PEREZ",
+      "MONTEHERMOSO",
+      "POZUELO DE ZARZON",
+      "TORRECILLA DE LOS ANGELES",
+      "VILLA DEL CAMPO",
+      "VILLANUEVA DE LA SIERRA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.088614214416,
+    "lng": -6.3494879779373,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.088614214416,-6.3494879779373",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927439005",
+    "nombre": "MUÑOZ SALGADO, Mª JESUS",
+    "direccion": "CL. AGAPITO MONFORTE, 162, 10650, AHIGAL",
+    "localidad": "AHIGAL",
+    "provincia": "Cáceres",
+    "telefono": "927439005",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "AHIGAL",
+      "CASAR DE PALOMERO",
+      "GUIJO DE GRANADILLA",
+      "LA PESGA",
+      "MARCHAGAZ",
+      "MOHEDAS DE GRANADILLA",
+      "PALOMERO",
+      "SANTIBAÑEZ EL BAJO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.190213640435,
+    "lng": -6.1889170032099,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.190213640435,-6.1889170032099",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927320220",
+    "nombre": "PEREZ-ZUBIZARRETA GUERRERO, Mª. ISABEL",
+    "direccion": "CL. MARQUES DE ALBAYDA, 8, 10200, TRUJILLO",
+    "localidad": "TRUJILLO",
+    "provincia": "Cáceres",
+    "telefono": "927320220",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALDEA DEL OBISPO",
+      "ALDEACENTENERA",
+      "CONQUISTA DE LA SIERRA",
+      "HERGUIJUELA",
+      "IBAHERNANDO",
+      "JARAICEJO",
+      "LA CUMBRE",
+      "MADROÑERA",
+      "PLASENZUELA",
+      "PUERTO DE SANTA CRUZ",
+      "ROBLEDILLO DE TRUJILLO",
+      "SALVATIERRA DE SANTIAGO",
+      "SANTA ANA",
+      "SANTA CRUZ DE LA SIERRA",
+      "TORRECILLA DE LA TIESA",
+      "TRUJILLO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.454993070823,
+    "lng": -5.882307308707,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.454993070823,-5.882307308707",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927460248",
+    "nombre": "FARMACIA SANCHEZ RUBIO ESPJ",
+    "direccion": "PZA. MAYOR, 15 - BAJO, 10400, JARAIZ DE LA VERA",
+    "localidad": "JARAIZ DE LA VERA",
+    "provincia": "Cáceres",
+    "telefono": "927460248",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALDEANUEVA DE LA VERA",
+      "ARROYOMOLINOS DE LA VERA",
+      "CUACOS DE YUSTE",
+      "GARGANTA LA OLLA",
+      "JARAIZ DE LA VERA",
+      "PASARON DE LA VERA",
+      "TORREMENGA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.0597623357,
+    "lng": -5.7552806051485,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.0597623357,-5.7552806051485",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927369288",
+    "nombre": "MARTIN CALERO Mª JOSE",
+    "direccion": "AVDA. CERVANTES, 41, 10136, CAÑAMERO",
+    "localidad": "CAÑAMERO",
+    "provincia": "Cáceres",
+    "telefono": "927369288",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALIA",
+      "CAÑAMERO",
+      "CASTAÑAR DE IBOR",
+      "GUADALUPE",
+      "LOGROSAN",
+      "NAVALVILLAR DE IBOR",
+      "ROBLEDOLLANO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.382409767278,
+    "lng": -5.3889905698235,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.382409767278,-5.3889905698235",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927270054",
+    "nombre": "ROSADO COLLADO, RODRIGO",
+    "direccion": "CL. REGAJAL, 9, 10900, ARROYO DE LA LUZ",
+    "localidad": "ARROYO DE LA LUZ",
+    "provincia": "Cáceres",
+    "telefono": "927270054",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALISEDA",
+      "ARROYO DE LA LUZ"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.482201472325,
+    "lng": -6.5827301232838,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.482201472325,-6.5827301232838",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927530278",
+    "nombre": "ABAD PALLERO, ANA",
+    "direccion": "CL. DUQUE DE PE?ARANDA, 17, 10300, NAVALMORAL DE LA MATA",
+    "localidad": "NAVALMORAL DE LA MATA",
+    "provincia": "Cáceres",
+    "telefono": "927530278",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALMARAZ",
+      "BELVIS DE MONROY",
+      "BOHONAL DE IBOR",
+      "CABAÑAS DEL CASTILLO",
+      "CASAS DE MIRAVETE",
+      "CASATEJADA",
+      "CASTAÑAR DE IBOR",
+      "DELEITOSA",
+      "GORDO, EL",
+      "MAJADAS DE TIETAR",
+      "MILLANES DE LA MATA",
+      "NAVALMORAL DE LA MATA",
+      "NAVALVILLAR DE IBOR",
+      "Oropesa",
+      "PERALEDA DE LA MATA",
+      "PERALEDA DE SAN ROMAN",
+      "PUEBLONUEVO DE MIRAMONTES",
+      "ROBLEDOLLANO",
+      "ROSALEJO",
+      "SAUCEDILLA",
+      "TALAYUELA",
+      "TIETAR"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.891354587407,
+    "lng": -5.5401590180102,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.891354587407,-5.5401590180102",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927151676",
+    "nombre": "JUAN MANUEL MASA COSTA",
+    "direccion": "AVDA. EXTREMADURA, 57, 10374, NAVEZUELAS",
+    "localidad": "NAVEZUELAS",
+    "provincia": "Cáceres",
+    "telefono": "927151676",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BERZOCANA",
+      "CASTAÑAR DE IBOR",
+      "NAVALVILLAR DE IBOR",
+      "NAVEZUELAS",
+      "ROBLEDOLLANO",
+      "ROTURAS (CABAÑAS DEL CASTILLO)"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.51121486229,
+    "lng": -5.4398362410742,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.51121486229,-5.4398362410742",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927309651",
+    "nombre": "MONTERO DE ESPINOSA C.B.",
+    "direccion": "CL. HOSPITAL SANTA MARIA, 2, 10940, GARROVILLAS",
+    "localidad": "GARROVILLAS",
+    "provincia": "Cáceres",
+    "telefono": "927309651",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BROZAS",
+      "GARROVILLAS",
+      "NAVAS DEL MADROÑO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.710409879519,
+    "lng": -6.5504341368789,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.710409879519,-6.5504341368789",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927501040",
+    "nombre": "VILCHEZ QUESADA, JOSE MARIA",
+    "direccion": "CL. GOBERNADOR, 58, 10800, CORIA",
+    "localidad": "CORIA",
+    "provincia": "Cáceres",
+    "telefono": "927501040",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CALZADILLA",
+      "CASAS DE DON GOMEZ",
+      "CASILLAS DE CORIA",
+      "CORIA",
+      "EL BATAN",
+      "GUIJO DE CORIA",
+      "MORCILLO",
+      "PORTAJE",
+      "PUEBLA DE ARGEME"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.984871092929,
+    "lng": -6.5330841354917,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.984871092929,-6.5330841354917",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927674114",
+    "nombre": "MARTIN GOMEZ, Mª SHEILA",
+    "direccion": "CL. CRISTO DE LA SALUD, 8, 10630, PINOFRANQUEADO",
+    "localidad": "PINOFRANQUEADO",
+    "provincia": "Cáceres",
+    "telefono": "927674114",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CAMINOMORISCO",
+      "CASARES DE HURDES",
+      "NUÑOMORAL",
+      "PINOFRANQUEADO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.302263697906,
+    "lng": -6.3322000303421,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.302263697906,-6.3322000303421",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927290016",
+    "nombre": "MARIA DEL PILAR GARCIA DE CELIS",
+    "direccion": "CL. LARGA ALTA, 34, 10190, CASAR DE CACERES",
+    "localidad": "CASAR DE CACERES",
+    "provincia": "Cáceres",
+    "telefono": "927290016",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CAÑAVERAL",
+      "CASAR DE CACERES",
+      "CASAS DE MILLAN"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.560188842213,
+    "lng": -6.4167406659502,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.560188842213,-6.4167406659502",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927593101",
+    "nombre": "TEJERO VICENTE, MARÍA DEL CARMEN",
+    "direccion": "AVDA. VIRGEN DE GUADALUPE, 3, 10570, SALORINO",
+    "localidad": "SALORINO",
+    "provincia": "Cáceres",
+    "telefono": "927593101",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARBAJO",
+      "CEDILLO",
+      "HERRERA DE ALCANTARA",
+      "MEMBRIO",
+      "SALORINO",
+      "SANTIAGO DE ALCANTARA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.478918238069,
+    "lng": -7.0079657114265,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.478918238069,-7.0079657114265",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927555486",
+    "nombre": "RUIZ TELLO, GUADALUPE",
+    "direccion": "CL. REAL, 39, 10330, VILLAR DEL PEDROSO",
+    "localidad": "VILLAR DEL PEDROSO",
+    "provincia": "Cáceres",
+    "telefono": "927555486",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARRASCALEJO",
+      "VALDELACASA DE TAJO",
+      "VILLAR DEL PEDROSO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.705910884793,
+    "lng": -5.19684506149,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.705910884793,-5.19684506149",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927570758",
+    "nombre": "SERRANO GOMEZ RUBEN",
+    "direccion": "CL. RONDA SUR, 77, 10460, LOSAR DE LA VERA",
+    "localidad": "LOSAR DE LA VERA",
+    "provincia": "Cáceres",
+    "telefono": "927570758",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "GUIJO DE SANTA BARBARA",
+      "JARANDILLA",
+      "LOSAR DE LA VERA",
+      "MADRIGAL DE LA VERA",
+      "TALAVERUELA DE LA VERA",
+      "VALVERDE DE LA VERA",
+      "VIANDAR DE LA VERA",
+      "VILLANUEVA DE LA VERA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.119981261161,
+    "lng": -5.6043441559384,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.119981261161,-5.6043441559384",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927473225",
+    "nombre": "COTRINA VALDES, PEDRO MANUEL",
+    "direccion": "AVDA. DE LA CONSTITUCIÓN, 11, 10700, HERVAS",
+    "localidad": "HERVAS",
+    "provincia": "Cáceres",
+    "telefono": "927473225",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "HERVAS",
+      "LA GARGANTA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 40.272194181683,
+    "lng": -5.8628069035922,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//40.272194181683,-5.8628069035922",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927303440",
+    "nombre": "MONTERO MUELA CARMEN",
+    "direccion": "CL. CORIA, 12, 10830, TORREJONCILLO",
+    "localidad": "TORREJONCILLO",
+    "provincia": "Cáceres",
+    "telefono": "927303440",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "HOLGUERA",
+      "TORREJONCILLO"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.897205664484,
+    "lng": -6.4670828368374,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.897205664484,-6.4670828368374",
+    "guardia_intervalos": []
+  },
+  {
+    "id": "cof-caceres-tel-927580023",
+    "nombre": "CID DELGADO, ANA",
+    "direccion": "CL. DUQUESA DE LA VICTORIA, 26, 10500, VALENCIA DE ALCANTARA",
+    "localidad": "VALENCIA DE ALCANTARA",
+    "provincia": "Cáceres",
+    "telefono": "927580023",
+    "fuente": "https://farmacias.cofcaceres.es/",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "VALENCIA DE ALCANTARA"
+    ],
+    "guardia_franja": "Guardia sin horario publicado",
+    "guardia_franjas": [
+      "Guardia sin horario publicado"
+    ],
+    "lat": 39.411996320248,
+    "lng": -7.2425686359396,
+    "nota_guardia": "COFCáceres marca esta farmacia «En Servicio de Urgencias» al consultar, pero no publica un calendario fechado ni su intervalo horario; se asigna al día actual.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.google.es/maps/dir//39.411996320248,-7.2425686359396",
+    "guardia_intervalos": []
+  }
+]

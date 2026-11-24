@@ -1,0 +1,179 @@
+{
+  "fecha": "2026-11-05",
+  "provincia": "Las Palmas",
+  "fuente": "https://www.coflaspalmas.es",
+  "consultas": [
+    {
+      "nombre": "Agaete",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Agüimes",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Antigua",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Arrecife",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Artenara",
+      "estado": "disponible",
+      "farmacias": 0
+    },
+    {
+      "nombre": "Arucas",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Betancuria",
+      "estado": "disponible",
+      "farmacias": 0
+    },
+    {
+      "nombre": "Firgas",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Gáldar",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Haría",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Ingenio",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "La Aldea de San Nicolás",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "La Oliva",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Las Palmas de Gran Canaria",
+      "estado": "disponible",
+      "farmacias": 4
+    },
+    {
+      "nombre": "Mogán",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Moya",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Pájara",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Puerto del Rosario",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "San Bartolomé de Lanzarote",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "San Bartolomé de Tirajana",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Santa Brígida",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Santa Lucía de Tirajana",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Santa María de Guía",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Teguise",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Tejeda",
+      "estado": "disponible",
+      "farmacias": 0
+    },
+    {
+      "nombre": "Telde",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Teror",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Tías",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Tinajo",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Tuineje",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Valleseco",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Valsequillo",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Vega de San Mateo",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Yaiza",
+      "estado": "disponible",
+      "farmacias": 1
+    }
+  ],
+  "farmacias": 37,
+  "farmacias_confirmadas": 37
+}

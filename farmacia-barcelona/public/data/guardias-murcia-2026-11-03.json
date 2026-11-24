@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "cof-murcia-206",
+    "cofrm_id": 206,
+    "nombre": "DELGADO ALCAZAR, CONCEPCION",
+    "direccion": "AVENIDA MARTINEZ CAMPOS, Nº 1",
+    "localidad": "ALCANTARILLA",
+    "provincia": "Murcia",
+    "municipio": "Alcantarilla",
+    "guardia": true,
+    "telefono": "968800368",
+    "codigo_postal": "30820",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/206/calendar",
+    "lat": 37.969270012284575,
+    "lng": -1.215629975968882,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/206",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALCANTARILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-145",
+    "cofrm_id": 145,
+    "nombre": "GARCIA-SALA DUYOS, JOSE",
+    "direccion": "CALLE BARON DEL SOLAR, Nº 20, ESQUINA DE LOS MILANOS",
+    "localidad": "JUMILLA",
+    "provincia": "Murcia",
+    "municipio": "Jumilla",
+    "guardia": true,
+    "telefono": "968782315",
+    "codigo_postal": "30520",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/145/calendar",
+    "lat": 38.47376832086461,
+    "lng": -1.3325591315798064,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/145",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "JUMILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-101",
+    "cofrm_id": 101,
+    "nombre": "PEREZ BELDA, PASCUALA MARIA Y MENDOZA PEREZ, MARIA ISABEL",
+    "direccion": "CALLE SAN JOSE, Nº 28",
+    "localidad": "FORTUNA",
+    "provincia": "Murcia",
+    "municipio": "Fortuna",
+    "guardia": true,
+    "telefono": "968685007",
+    "codigo_postal": "30620",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/101/calendar",
+    "lat": 38.1808899888207,
+    "lng": -1.1235100105422986,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/101",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "FORTUNA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-572",
+    "cofrm_id": 572,
+    "nombre": "AGUILERA MUSSO, BELEN",
+    "direccion": "CALLE CARRIL DE LA TORRE, Nº 14",
+    "localidad": "PUENTE TOCINOS",
+    "provincia": "Murcia",
+    "municipio": "Murcia",
+    "guardia": true,
+    "telefono": "868789998",
+    "codigo_postal": "30006",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/572/calendar",
+    "lat": 37.99115000942368,
+    "lng": -1.0999100501511552,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/572",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "PUENTE TOCINOS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-51",
+    "cofrm_id": 51,
+    "nombre": "PACHECO ATIENZA, ARSENIO Y PACHECO LOPEZ, ARSENIO",
+    "direccion": "CALLE MIGUEL HERNANDEZ, Nº 13, (EN CATASTRO SAN MIGUEL, Nº 28 B)",
+    "localidad": "ABANILLA",
+    "provincia": "Murcia",
+    "municipio": "Abanilla",
+    "guardia": true,
+    "telefono": "968680018",
+    "codigo_postal": "30640",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/51/calendar",
+    "lat": 38.20577995637213,
+    "lng": -1.0406799678429675,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/51",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ABANILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-159",
+    "cofrm_id": 159,
+    "nombre": "LADRON DE GUEVARA RUIZ, JUAN ANTONIO",
+    "direccion": "CALLE GRAN VIA JUAN CARLOS I, Nº 86",
+    "localidad": "CIEZA",
+    "provincia": "Murcia",
+    "municipio": "Cieza",
+    "guardia": true,
+    "telefono": "968760306",
+    "codigo_postal": "30530",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/159/calendar",
+    "lat": 38.2420500365217,
+    "lng": -1.421179977438832,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/159",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CIEZA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-541",
+    "cofrm_id": 541,
+    "nombre": "REPRESA AZORIN, MARIA ALEJANDRA",
+    "direccion": "CL.SAN JOSE, Nº 45, ESQUINA C/ JUAN RAMON JIMENEZ",
+    "localidad": "ALCAZARES,LOS",
+    "provincia": "Murcia",
+    "municipio": "Alcazares (Los)",
+    "guardia": true,
+    "telefono": "968582896",
+    "codigo_postal": "30710",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/541/calendar",
+    "lat": 37.74276003167456,
+    "lng": -0.8544099515475714,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/541",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALCAZARES,LOS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-542",
+    "cofrm_id": 542,
+    "nombre": "TORRES TOMAS, EMILIA MARIA Y LOPEZ TORRES, PEDRO LUIS",
+    "direccion": "AVENIDA DE MURCIA, Nº 41, ESQUINA CALLE TERESA JORNET",
+    "localidad": "YECLA",
+    "provincia": "Murcia",
+    "municipio": "Yecla",
+    "guardia": true,
+    "telefono": "968791713",
+    "codigo_postal": "30510",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/542/calendar",
+    "lat": 38.607349955623114,
+    "lng": -1.110909999266993,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/542",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "YECLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-151",
+    "cofrm_id": 151,
+    "nombre": "SORIA FERNANDEZ-MAYORALAS,MANUEL",
+    "direccion": "CL. MAYOR, 9",
+    "localidad": "LORQUI",
+    "provincia": "Murcia",
+    "municipio": "Lorquí",
+    "guardia": true,
+    "telefono": "968693573",
+    "codigo_postal": "30564",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/151/calendar",
+    "lat": 38.08212997605456,
+    "lng": -1.2543699797944825,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/151",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LORQUI"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-510",
+    "cofrm_id": 510,
+    "nombre": "TOLEDO ROMERO, CARMEN",
+    "direccion": "CL.PUERTA DEL SOL, Nº 9 (BARRIO SAN JOSE OBRERO)",
+    "localidad": "CARTAGENA",
+    "provincia": "Murcia",
+    "municipio": "Cartagena",
+    "guardia": true,
+    "telefono": "968314561",
+    "codigo_postal": "30393",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/510/calendar",
+    "lat": 37.62158999859485,
+    "lng": -1.0176499545450202,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/510",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARTAGENA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-511",
+    "cofrm_id": 511,
+    "nombre": "NAVARRO MARTINEZ, FRANCISCO LUIS Y NAVARRO PEREZ-ONTIVEROS, MARIA",
+    "direccion": "CALLE LORCA, S/N, CIUDAD JARDIN LA PAZ",
+    "localidad": "PALMAR,EL",
+    "provincia": "Murcia",
+    "municipio": "Murcia",
+    "guardia": true,
+    "telefono": "968882236",
+    "codigo_postal": "30120",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/511/calendar",
+    "lat": 37.94151001541333,
+    "lng": -1.1676599775648637,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/511",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "PALMAR,EL"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-512",
+    "cofrm_id": 512,
+    "nombre": "ORTEGA CARREÑO, FERNANDO MARIANO",
+    "direccion": "VILLA DE BULLAS,S/N",
+    "localidad": "MULA",
+    "provincia": "Murcia",
+    "municipio": "Mula",
+    "guardia": true,
+    "telefono": "968662346",
+    "codigo_postal": "30170",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/512/calendar",
+    "lat": 38.03990000304502,
+    "lng": -1.4972599459816303,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/512",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "MULA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-526",
+    "cofrm_id": 526,
+    "nombre": "SERNA OÑATE, ANA Y SERNA OÑATE, ALVARO",
+    "direccion": "CALLE CANOVAS DEL CASTILLO, Nº 101, ESQUINA CALLE GASCÓN",
+    "localidad": "SANTIAGO DE LA RIBERA",
+    "provincia": "Murcia",
+    "municipio": "San Javier",
+    "guardia": true,
+    "telefono": "968179289",
+    "codigo_postal": "30720",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/526/calendar",
+    "lat": 37.80581998277668,
+    "lng": -0.7999000505031275,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/526",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SANTIAGO DE LA RIBERA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-558",
+    "cofrm_id": 558,
+    "nombre": "SANCHEZ RUBIO, JUAN",
+    "direccion": "CALLE GRAN VIA, S/N, BAJO, RESIDENCIAL MANGA BEACH, BLOQUE I (MANGALAN)",
+    "localidad": "LA MANGA DEL MAR MENOR",
+    "provincia": "Murcia",
+    "municipio": "San Javier",
+    "guardia": true,
+    "telefono": "968143013",
+    "codigo_postal": "30380",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/558/calendar",
+    "lat": 37.6865500135771,
+    "lng": -0.7364400264098001,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/558",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LA MANGA DEL MAR MENOR"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-122",
+    "cofrm_id": 122,
+    "nombre": "FRANCO CAMPELLO, MARIA JOSE",
+    "direccion": "CALLE RAMON Y CAJAL, Nº 3",
+    "localidad": "MOLINA DE SEGURA",
+    "provincia": "Murcia",
+    "municipio": "Molina de Segura",
+    "guardia": true,
+    "telefono": "968610076",
+    "codigo_postal": "30500",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/122/calendar",
+    "lat": 38.0506700157714,
+    "lng": -1.2112099801120664,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/122",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "MOLINA DE SEGURA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-64",
+    "cofrm_id": 64,
+    "nombre": "GARRIDO SAEZ, ANA MARIA",
+    "direccion": "CL. CALVO SOTELO, Nº 5",
+    "localidad": "BENIEL",
+    "provincia": "Murcia",
+    "municipio": "Beniel",
+    "guardia": true,
+    "telefono": "968600240",
+    "codigo_postal": "30130",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/64/calendar",
+    "lat": 38.045459989329494,
+    "lng": -1.0023500211045477,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/64",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BENIEL"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-113",
+    "cofrm_id": 113,
+    "nombre": "GIL GARCIA,MODESTA",
+    "direccion": "SAN LUIS, 5",
+    "localidad": "LIBRILLA",
+    "provincia": "Murcia",
+    "municipio": "Librilla",
+    "guardia": true,
+    "telefono": "968658002",
+    "codigo_postal": "30892",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/113/calendar",
+    "lat": 37.8865700371143,
+    "lng": -1.3552199508310474,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/113",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LIBRILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-114",
+    "cofrm_id": 114,
+    "nombre": "MARTINEZ SANCHEZ,ELENA",
+    "direccion": "CONSTITUCION,8",
+    "localidad": "MORATALLA",
+    "provincia": "Murcia",
+    "municipio": "Moratalla",
+    "guardia": true,
+    "telefono": "968730253",
+    "codigo_postal": "30440",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/114/calendar",
+    "lat": 38.18882002786192,
+    "lng": -1.8918300097756395,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/114",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "MORATALLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-147",
+    "cofrm_id": 147,
+    "nombre": "DE TORRE SOLER, VICTORIA SUSANA Y LLORET DE TORRE, MARTA",
+    "direccion": "AVENIDA 1º DE MAYO, Nº 6",
+    "localidad": "CALASPARRA",
+    "provincia": "Murcia",
+    "municipio": "Calasparra",
+    "guardia": true,
+    "telefono": "968745489",
+    "codigo_postal": "30420",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/147/calendar",
+    "lat": 38.23048003322572,
+    "lng": -1.6975699459355575,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/147",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CALASPARRA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-349",
+    "cofrm_id": 349,
+    "nombre": "GARRE RODENAS, LOURDES MARIA Y MOLES CUEVAS, JOSE MANUEL",
+    "direccion": "CALLE MANUEL DE FALLA, Nº 32, BAJO",
+    "localidad": "RICOTE",
+    "provincia": "Murcia",
+    "municipio": "Ricote",
+    "guardia": true,
+    "telefono": "968697132",
+    "codigo_postal": "30610",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/349/calendar",
+    "lat": 38.15239995524693,
+    "lng": -1.3648999638188606,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/349",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "RICOTE"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-83",
+    "cofrm_id": 83,
+    "nombre": "RAMA PAGAN, MARIA JESUS",
+    "direccion": "PL. A. ASENSIO, 28",
+    "localidad": "ALGAR,EL",
+    "provincia": "Murcia",
+    "municipio": "Cartagena",
+    "guardia": true,
+    "telefono": "968135641",
+    "codigo_postal": "30366",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/83/calendar",
+    "lat": 37.6485100312566,
+    "lng": -0.8678400358085705,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/83",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALGAR,EL"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-84",
+    "cofrm_id": 84,
+    "nombre": "CARRICONDO CARRICONDO, MARIA CARMEN",
+    "direccion": "CL. MAYOR,Nº 67",
+    "localidad": "UNION,LA",
+    "provincia": "Murcia",
+    "municipio": "Unión (La)",
+    "guardia": true,
+    "telefono": "968560005",
+    "codigo_postal": "30360",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/84/calendar",
+    "lat": 37.617209955991775,
+    "lng": -0.8778999959484208,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/84",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "UNION,LA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-577",
+    "cofrm_id": 577,
+    "nombre": "PEREZ GARCIA, EDUARDO",
+    "direccion": "CALLE GENERAL PARAMO, Nº 46, ESQUINA AVENIDA JUAN CARLOS I",
+    "localidad": "TOTANA",
+    "provincia": "Murcia",
+    "municipio": "Totana",
+    "guardia": true,
+    "telefono": "868162313",
+    "codigo_postal": "30850",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/577/calendar",
+    "lat": 37.766870009835685,
+    "lng": -1.4959200305726617,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/577",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "TOTANA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-431",
+    "cofrm_id": 431,
+    "nombre": "LLAMAS LAZARO, JOSE MARIA ",
+    "direccion": "AVENIDA POETA JULIAN ANDUGAR, Nº 4",
+    "localidad": "SANTOMERA",
+    "provincia": "Murcia",
+    "municipio": "Santomera",
+    "guardia": true,
+    "telefono": "968861935",
+    "codigo_postal": "30140",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/431/calendar",
+    "lat": 38.065420001332484,
+    "lng": -1.0544700545630403,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/431",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SANTOMERA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-54",
+    "cofrm_id": 54,
+    "nombre": "YELO YELO, ISABEL",
+    "direccion": "PLAZA DE LA ZARZUELA, Nº 1",
+    "localidad": "ABARAN",
+    "provincia": "Murcia",
+    "municipio": "Abaran",
+    "guardia": true,
+    "telefono": "968450686",
+    "codigo_postal": "30550",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/54/calendar",
+    "lat": 38.20545004307541,
+    "lng": -1.3968699987143942,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/54",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ABARAN"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-551",
+    "cofrm_id": 551,
+    "nombre": "POLO MARCO, SERGIO ANTONIO",
+    "direccion": "AVENIDA LITERATO AZORIN, Nº 7",
+    "localidad": "YECLA",
+    "provincia": "Murcia",
+    "municipio": "Yecla",
+    "guardia": true,
+    "telefono": "968797190",
+    "codigo_postal": "30510",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/551/calendar",
+    "lat": 38.61402002076379,
+    "lng": -1.1093900247855124,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/551",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "YECLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-132",
+    "cofrm_id": 132,
+    "nombre": "HERNANDEZ MARTINEZ, MARIA JOSE",
+    "direccion": "CALLE MAYOR TRIANA, Nº 5",
+    "localidad": "TOTANA",
+    "provincia": "Murcia",
+    "municipio": "Totana",
+    "guardia": true,
+    "telefono": "968422003",
+    "codigo_postal": "30850",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/132/calendar",
+    "lat": 37.771029960813784,
+    "lng": -1.5006199615320601,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/132",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "TOTANA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-56",
+    "cofrm_id": 56,
+    "nombre": "SERRANO LANDABEREA, ELENA MARIA",
+    "direccion": "CL. JUAN CARLOS I,50",
+    "localidad": "ALHAMA DE MURCIA",
+    "provincia": "Murcia",
+    "municipio": "Alhama de Murcia",
+    "guardia": true,
+    "telefono": "968630047",
+    "codigo_postal": "30840",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/56/calendar",
+    "lat": 37.85016996361999,
+    "lng": -1.4253999951738203,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/56",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALHAMA DE MURCIA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-62",
+    "cofrm_id": 62,
+    "nombre": "FIGUEROA SORIANO, SALVADOR, HEREDEROS  Y FIGUEROA MORALES, MERCEDES",
+    "direccion": "CL.FRANCISCO PUERTA, ESQUINA A CALDERON DE LA BARCA",
+    "localidad": "BULLAS",
+    "provincia": "Murcia",
+    "municipio": "Bullas",
+    "guardia": true,
+    "telefono": "968652080",
+    "codigo_postal": "30180",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/62/calendar",
+    "lat": 38.04707996369831,
+    "lng": -1.6675300527748926,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/62",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BULLAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-190",
+    "cofrm_id": 190,
+    "nombre": "SANCHEZ ABAD,ANTONIO VICENTE Y SANCHEZ RECIO, ANTONIO",
+    "direccion": "FULGENCIO MARTINEZ,S/N",
+    "localidad": "PACA,LA-LORCA",
+    "provincia": "Murcia",
+    "municipio": "Lorca",
+    "guardia": true,
+    "telefono": "968491017",
+    "codigo_postal": "30812",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/190/calendar",
+    "lat": 37.871170020377626,
+    "lng": -1.835869994202927,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/190",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "PACA,LA-LORCA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-214",
+    "cofrm_id": 214,
+    "nombre": "SELMA FERRANDEZ, MARIA ANDREA Y MURCIA SELMA, FRANCISCO JAVIER",
+    "direccion": "CALLE JUAN CARLOS I, Nº 111",
+    "localidad": "ZENETA",
+    "provincia": "Murcia",
+    "municipio": "Murcia",
+    "guardia": true,
+    "telefono": "968854442",
+    "codigo_postal": "30588",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/214/calendar",
+    "lat": 38.01185001033007,
+    "lng": -0.995929960231305,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/214",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ZENETA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-125",
+    "cofrm_id": 125,
+    "nombre": "MARTINEZ GARCIA,JOSE",
+    "direccion": "MAYOR,10",
+    "localidad": "TORRE PACHECO",
+    "provincia": "Murcia",
+    "municipio": "Torre Pacheco",
+    "guardia": true,
+    "telefono": "968578045",
+    "codigo_postal": "30700",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/125/calendar",
+    "lat": 37.74359002901622,
+    "lng": -0.9538400527401967,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/125",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "TORRE PACHECO"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-148",
+    "cofrm_id": 148,
+    "nombre": "ALARCON GARCIA,ROSA MARIA",
+    "direccion": "CALLE JUAN CARLOS I, Nº 12",
+    "localidad": "CORVERA",
+    "provincia": "Murcia",
+    "municipio": "Murcia",
+    "guardia": true,
+    "telefono": "968380026",
+    "codigo_postal": "30153",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/148/calendar",
+    "lat": 37.82836002300836,
+    "lng": -1.1605599529244497,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/148",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CORVERA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-100",
+    "cofrm_id": 100,
+    "nombre": "SANCHEZ DE ALCAZAR ALONSO, MARIA DEL MAR",
+    "direccion": "CALLE ISAAC ALBENIZ, Nº 11",
+    "localidad": "FUENTE ALAMO",
+    "provincia": "Murcia",
+    "municipio": "Fuente Alamo",
+    "guardia": true,
+    "telefono": "968597003",
+    "codigo_postal": "30320",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/100/calendar",
+    "lat": 38.69041000313721,
+    "lng": -1.4296699448448293,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/100",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "FUENTE ALAMO"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-105",
+    "cofrm_id": 105,
+    "nombre": "AGULLÓ GARCÍA, ALBERTO JAIME",
+    "direccion": "CANALEJAS,38",
+    "localidad": "JUMILLA",
+    "provincia": "Murcia",
+    "municipio": "Jumilla",
+    "guardia": true,
+    "telefono": "968780088",
+    "codigo_postal": "30520",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/105/calendar",
+    "lat": 38.47590995788344,
+    "lng": -1.328950004584786,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/105",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "JUMILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-278",
+    "cofrm_id": 278,
+    "nombre": "LOPEZ ATENZA, VICTORIANO JESUS",
+    "direccion": "RAMON Y CAJAL,19",
+    "localidad": "ARCHENA",
+    "provincia": "Murcia",
+    "municipio": "Archena",
+    "guardia": true,
+    "telefono": "968670553",
+    "codigo_postal": "30600",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/278/calendar",
+    "lat": 38.11474002915837,
+    "lng": -1.2997699917655094,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/278",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ARCHENA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-494",
+    "cofrm_id": 494,
+    "nombre": "PEREZ MADRID, JOSE LUIS",
+    "direccion": "CALLE CARTAGENA, 92",
+    "localidad": "PUERTO DE MAZARRON",
+    "provincia": "Murcia",
+    "municipio": "Mazarrón",
+    "guardia": true,
+    "telefono": "968153617",
+    "codigo_postal": "30860",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/494/calendar",
+    "lat": 37.57050999685954,
+    "lng": -1.2579599825331964,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/494",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "PUERTO DE MAZARRON"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-486",
+    "cofrm_id": 486,
+    "nombre": "CAYUELAS SANCHIS, MARIA BEGOÑA",
+    "direccion": "CALLE JUAN VIÑEGLA ESCOLAR, S/N",
+    "localidad": "MULA",
+    "provincia": "Murcia",
+    "municipio": "Mula",
+    "guardia": true,
+    "telefono": "968661911",
+    "codigo_postal": "30170",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/486/calendar",
+    "lat": 38.03835999324621,
+    "lng": -1.4918400121936848,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/486",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "MULA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-503",
+    "cofrm_id": 503,
+    "nombre": "MILLA SANCHEZ, ANTONIO",
+    "direccion": "CALLE ALICANTE, Nº 1, ESQUINA CARRETERA DE BALSICAS",
+    "localidad": "SAN JAVIER",
+    "provincia": "Murcia",
+    "municipio": "San Javier",
+    "guardia": true,
+    "telefono": "968571491",
+    "codigo_postal": "30730",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/503/calendar",
+    "lat": 37.805509971322365,
+    "lng": -0.8398000204885867,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/503",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SAN JAVIER"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-96",
+    "cofrm_id": 96,
+    "nombre": "CASTILLO GUERRERO,JOSE LUIS",
+    "direccion": "CL.CAMINO VERDE, Nº 1",
+    "localidad": "CEHEGIN",
+    "provincia": "Murcia",
+    "municipio": "Cehegin",
+    "guardia": true,
+    "telefono": "968740519",
+    "codigo_postal": "30430",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/96/calendar",
+    "lat": 38.09201000488606,
+    "lng": -1.7947599555653668,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/96",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CEHEGIN"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-293",
+    "cofrm_id": 293,
+    "nombre": "JARA PEREZ, EZEQUIEL RAMON Y JARA CASCALES, ISABEL",
+    "direccion": "PLAZA NUEVA, Nº 6",
+    "localidad": "CEUTÍ",
+    "provincia": "Murcia",
+    "municipio": "Ceutí",
+    "guardia": true,
+    "telefono": "968690188",
+    "codigo_postal": "30562",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/293/calendar",
+    "lat": 38.0795100358207,
+    "lng": -1.271819946517463,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/293",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CEUTÍ"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-518",
+    "cofrm_id": 518,
+    "nombre": "SALVADOR NAVARRO, MARTA",
+    "direccion": "AVENIDA DE LA FLORIDA, Nº 2",
+    "localidad": "LA FLORIDA (LAS TORRES DE COTILLAS)",
+    "provincia": "Murcia",
+    "municipio": "Torres de Cotillas (Las)",
+    "guardia": true,
+    "telefono": "968623302",
+    "codigo_postal": "30565",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/518/calendar",
+    "lat": 38.042469999801895,
+    "lng": -1.2443099959566013,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/518",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LA FLORIDA (LAS TORRES DE COTILLAS)"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-482",
+    "cofrm_id": 482,
+    "nombre": "DESMONTS SALAZAR, JUAN",
+    "direccion": "AVENIDA NUEVA CARTAGENA, Nº 3",
+    "localidad": "CARTAGENA",
+    "provincia": "Murcia",
+    "municipio": "Cartagena",
+    "guardia": true,
+    "telefono": "968316242",
+    "codigo_postal": "30310",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/482/calendar",
+    "lat": 37.621649969375504,
+    "lng": -1.0050799483280402,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/482",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARTAGENA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-245",
+    "cofrm_id": 245,
+    "nombre": "MARTINEZ RIOS, NILA",
+    "direccion": "ANDRES CEGARRA,17",
+    "localidad": "UNION,LA",
+    "provincia": "Murcia",
+    "municipio": "Unión (La)",
+    "guardia": true,
+    "telefono": "968560228",
+    "codigo_postal": "30360",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/245/calendar",
+    "lat": 37.61815999095439,
+    "lng": -0.8778800067272665,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/245",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "UNION,LA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-275",
+    "cofrm_id": 275,
+    "nombre": "RAMOS BLEDA, LORETO",
+    "direccion": "AVENIDA DE ABARAN, Nº 32",
+    "localidad": "CIEZA",
+    "provincia": "Murcia",
+    "municipio": "Cieza",
+    "guardia": true,
+    "telefono": "968760363",
+    "codigo_postal": "30530",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/275/calendar",
+    "lat": 38.23444995939028,
+    "lng": -1.4145000219804458,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/275",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CIEZA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-467",
+    "cofrm_id": 467,
+    "nombre": "MUNUERA ALVAREZ,SALVADOR-J.LUIS",
+    "direccion": "AVENIDA ROMERIA DE LA VIRGEN DEL CARMEN, Nº 74",
+    "localidad": "SAN PEDRO DEL PINATAR",
+    "provincia": "Murcia",
+    "municipio": "San Pedro del Pinatar",
+    "guardia": true,
+    "telefono": "968182090",
+    "codigo_postal": "30740",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/467/calendar",
+    "lat": 37.82250995792519,
+    "lng": -0.7864299450954446,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/467",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SAN PEDRO DEL PINATAR"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-419",
+    "cofrm_id": 419,
+    "nombre": "ROJAS GARCIA, FRANCISCO",
+    "direccion": "CTRA.DE LA ESTACION,16",
+    "localidad": "BLANCA",
+    "provincia": "Murcia",
+    "municipio": "Blanca",
+    "guardia": true,
+    "telefono": "968778301",
+    "codigo_postal": "30540",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/419/calendar",
+    "lat": 38.17979996191204,
+    "lng": -1.3677100383269325,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/419",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BLANCA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-484",
+    "cofrm_id": 484,
+    "nombre": "MUNUERA GONZALEZ, DANIEL",
+    "direccion": "AVDA. EMILIO CASTELAR, 57",
+    "localidad": "SAN PEDRO DEL PINATAR",
+    "provincia": "Murcia",
+    "municipio": "San Pedro del Pinatar",
+    "guardia": true,
+    "telefono": "968183798",
+    "codigo_postal": "30740",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/484/calendar",
+    "lat": 37.83120002766492,
+    "lng": -0.7889199891052234,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/484",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SAN PEDRO DEL PINATAR"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-501",
+    "cofrm_id": 501,
+    "nombre": "COSTA CASTILLO, FRANCISCO JOSE, COSTA MULA, FRANCISCO JOSE Y ALBERTO",
+    "direccion": "CARRETERA DE LORCA, Nº 4, BAJO 3",
+    "localidad": "AGUILAS",
+    "provincia": "Murcia",
+    "municipio": "Aguilas",
+    "guardia": true,
+    "telefono": "968449365",
+    "codigo_postal": "30880",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/501/calendar",
+    "lat": 37.40939999440378,
+    "lng": -1.588869994595384,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/501",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "AGUILAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-502",
+    "cofrm_id": 502,
+    "nombre": "MARIN GALINDO, CRISTINA ERNESTINA ",
+    "direccion": "AVDA. CABO TIÑOSO, Nº 1, URBANIZACION EL ALAMILLO",
+    "localidad": "PUERTO DE MAZARRON",
+    "provincia": "Murcia",
+    "municipio": "Mazarrón",
+    "guardia": true,
+    "telefono": "968153055",
+    "codigo_postal": "30860",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/502/calendar",
+    "lat": 37.57749002754863,
+    "lng": -1.2468200032487498,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/502",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "PUERTO DE MAZARRON"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-421",
+    "cofrm_id": 421,
+    "nombre": "CUADRADO GARCIA, ISABEL",
+    "direccion": "JUAN ANTONIO LOPEZ SANCHEZ, S/N",
+    "localidad": "LA ALMUDEMA- CARAVACA DE LA CRUZ",
+    "provincia": "Murcia",
+    "municipio": "Caravaca de la Cruz",
+    "guardia": true,
+    "telefono": "968704204",
+    "codigo_postal": "30410",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/421/calendar",
+    "lat": 38.09205001720855,
+    "lng": -1.798199971725665,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/421",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LA ALMUDEMA- CARAVACA DE LA CRUZ"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-481",
+    "cofrm_id": 481,
+    "nombre": "MARTINEZ LORENTE, JOSE RAMON",
+    "direccion": "CAMINO DEL PRADO,S/N.",
+    "localidad": "BULLAS",
+    "provincia": "Murcia",
+    "municipio": "Bullas",
+    "guardia": true,
+    "telefono": "968654056",
+    "codigo_postal": "30180",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/481/calendar",
+    "lat": 38.049980034422596,
+    "lng": -1.6658399760856297,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/481",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "BULLAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-371",
+    "cofrm_id": 371,
+    "nombre": "FERNANDEZ CORBALAN, MARIA DOLORES",
+    "direccion": "CALLE SAN AGUSTIN, Nº 69",
+    "localidad": "CEHEGIN",
+    "provincia": "Murcia",
+    "municipio": "Cehegin",
+    "guardia": true,
+    "telefono": "968740042,968741611",
+    "codigo_postal": "30430",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/371/calendar",
+    "lat": 38.091310009837215,
+    "lng": -1.789489961467638,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/371",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CEHEGIN"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-427",
+    "cofrm_id": 427,
+    "nombre": "HERNANDEZ ROS, MARIA DEL CARMEN Y MORENO HERNANDEZ, FRANCISCO JESUS",
+    "direccion": "AVENIDA SAN JOSE OBRERO, Nº 11",
+    "localidad": "ALCANTARILLA",
+    "provincia": "Murcia",
+    "municipio": "Alcantarilla",
+    "guardia": true,
+    "telefono": "968801529",
+    "codigo_postal": "30820",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/427/calendar",
+    "lat": 37.96829002494559,
+    "lng": -1.2251799708194475,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/427",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALCANTARILLA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-517",
+    "cofrm_id": 517,
+    "nombre": "SANCHEZ SOLER, MARIA JOSE",
+    "direccion": "CALLE FUENSANTA, Nº 49, ESQUINA CALLE ANTONIO SALAS, Nº 2",
+    "localidad": "AGUILAS",
+    "provincia": "Murcia",
+    "municipio": "Aguilas",
+    "guardia": true,
+    "telefono": "968448639",
+    "codigo_postal": "30880",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/517/calendar",
+    "lat": 37.405919956797156,
+    "lng": -1.5888099772863515,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/517",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "AGUILAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-312",
+    "cofrm_id": 312,
+    "nombre": "MARTINEZ MONJE, ESTHER Y  MARIA ELENA",
+    "direccion": "AVENIDA DE MADRID, Nº 42, ESQUINA CALLE SERRERIAS",
+    "localidad": "MOLINA DE SEGURA",
+    "provincia": "Murcia",
+    "municipio": "Molina de Segura",
+    "guardia": true,
+    "telefono": "968611834",
+    "codigo_postal": "30500",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/312/calendar",
+    "lat": 38.05693996348827,
+    "lng": -1.2148500227695533,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/312",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "MOLINA DE SEGURA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-315",
+    "cofrm_id": 315,
+    "nombre": "CANO PEREZ, MIGUEL",
+    "direccion": "CALLE JUAN DE LA COSA, Nº 7",
+    "localidad": "CARTAGENA",
+    "provincia": "Murcia",
+    "municipio": "Cartagena",
+    "guardia": true,
+    "telefono": "968506883",
+    "codigo_postal": "30203",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/315/calendar",
+    "lat": 37.606469987753144,
+    "lng": -0.9815500548597051,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/315",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARTAGENA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-328",
+    "cofrm_id": 328,
+    "nombre": "CRESPO GALVEZ, MARIA DOLORES",
+    "direccion": "ALAMEDA DE SAN ANTON, 16",
+    "localidad": "CARTAGENA",
+    "provincia": "Murcia",
+    "municipio": "Cartagena",
+    "guardia": true,
+    "telefono": "968501936",
+    "codigo_postal": "30205",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/328/calendar",
+    "lat": 37.60962000229933,
+    "lng": -0.9928600017114064,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/328",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "CARTAGENA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-343",
+    "cofrm_id": 343,
+    "nombre": "MEROÑO GARCIA,MARIA LUISA",
+    "direccion": "AVENIDA JUAN CARLOS I, Nº 48, ESPALDA A CL.TRASVASE, S/N",
+    "localidad": "TORRE PACHECO",
+    "provincia": "Murcia",
+    "municipio": "Torre Pacheco",
+    "guardia": true,
+    "telefono": "968577070",
+    "codigo_postal": "30700",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/343/calendar",
+    "lat": 37.74217998632484,
+    "lng": -0.9499800245990935,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/343",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "TORRE PACHECO"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-401",
+    "cofrm_id": 401,
+    "nombre": "ROS RUIZ,JOSEFA Y MEROÑO ROS, IRENE",
+    "direccion": "AVENIDA DE LA LIBERTAD, Nº 44",
+    "localidad": "ALCAZARES,LOS",
+    "provincia": "Murcia",
+    "municipio": "Alcazares (Los)",
+    "guardia": true,
+    "telefono": "968575326",
+    "codigo_postal": "30710",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/401/calendar",
+    "lat": 37.74007996586293,
+    "lng": -0.8517500023756375,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/401",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALCAZARES,LOS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-545",
+    "cofrm_id": 545,
+    "nombre": "SATURNO DE LA VILLA, JAVIER Y AGUDO BARRIUSO, MARTA",
+    "direccion": "AVENIDA LOS PULPITES, Nº 36",
+    "localidad": "TORRES DE COTILLAS,LAS",
+    "provincia": "Murcia",
+    "municipio": "Torres de Cotillas (Las)",
+    "guardia": true,
+    "telefono": "968387218",
+    "codigo_postal": "30565",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/545/calendar",
+    "lat": 38.020440008237266,
+    "lng": -1.2363300352570077,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/545",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "TORRES DE COTILLAS,LAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-567",
+    "cofrm_id": 567,
+    "nombre": "RIQUELME GARCIA, CONSUELO",
+    "direccion": "CALLE MAYOR, Nº 17",
+    "localidad": "ALGUAZAS",
+    "provincia": "Murcia",
+    "municipio": "Alguazas",
+    "guardia": true,
+    "telefono": "868919991",
+    "codigo_postal": "30560",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/567/calendar",
+    "lat": 38.04986001681085,
+    "lng": -1.2420600126663288,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/567",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "ALGUAZAS"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30 · Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30",
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-560",
+    "cofrm_id": 560,
+    "nombre": "SERRANO GIL, BARTOLOME",
+    "direccion": "CALLE GRAN VIA, EDIFICIO SUPER ATICOS PLAYA, EL PEDRUCHILLO, KM.8",
+    "localidad": "LA MANGA DEL MAR MENOR",
+    "provincia": "Murcia",
+    "municipio": "San Javier",
+    "guardia": true,
+    "telefono": "868785240",
+    "codigo_postal": "30380",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/560/calendar",
+    "lat": 37.670719996556684,
+    "lng": -0.7289399847753057,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/560",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "LA MANGA DEL MAR MENOR"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 09:30–04/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 09:30–04/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:30:00+01:00",
+        "fin": "2026-11-04T09:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-murcia-562",
+    "cofrm_id": 562,
+    "nombre": "GOMEZ ABELLAN, MARIA ELISA",
+    "direccion": "CALLE MAESTRO PUIG VALERA, Nº 10",
+    "localidad": "SANTOMERA",
+    "provincia": "Murcia",
+    "municipio": "Santomera",
+    "guardia": true,
+    "telefono": "968862154",
+    "codigo_postal": "30140",
+    "fuente": "https://guardias.cofrm.com/api/pharmacies/562/calendar",
+    "lat": 38.059760040777746,
+    "lng": -1.0483899709007907,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://guardias.cofrm.com/api/pharmacies/562",
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "SANTOMERA"
+    ],
+    "guardia_franja": "Guardia COFRM · 03/11 00:00–03/11 09:30",
+    "guardia_franjas": [
+      "Guardia COFRM · 03/11 00:00–03/11 09:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:30:00+01:00"
+      }
+    ]
+  }
+]

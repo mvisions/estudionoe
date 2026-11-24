@@ -1,0 +1,162 @@
+[
+  {
+    "id": "cof-segovia-capital-tel-921466015",
+    "nombre": "FARMACIA PEREZ SOPEÑA",
+    "direccion": "EZEQUIEL GONZALEZ, 21",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921466015",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · nocturna 07/12 22:00–08/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · nocturna 07/12 22:00–08/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-07T22:00:00+01:00",
+        "fin": "2026-12-08T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9456751,
+    "lng": -4.1222204,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "cof-segovia-capital-tel-921462254",
+    "nombre": "FARMACIA LOPEZ CUERDO",
+    "direccion": "CORPUS, 1",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921462254",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · diurna 08/12 10:15–08/12 22:00 · Guardia COF Segovia · nocturna 08/12 22:00–09/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · diurna 08/12 10:15–08/12 22:00",
+      "Guardia COF Segovia · nocturna 08/12 22:00–09/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-08T10:15:00+01:00",
+        "fin": "2026-12-08T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-12-08T22:00:00+01:00",
+        "fin": "2026-12-09T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9494737,
+    "lng": -4.1235441,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/13313545052",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 3 m.",
+    "osm_id": "osm-13313545052",
+    "ajuste_ubicacion_m": 2.8
+  },
+  {
+    "id": "jcyl-40-e1-00009",
+    "nombre": "CABRERIZO IZQUIERDO, CESAR",
+    "direccion": "Calle SANTA MARINA 5",
+    "localidad": "Cuéllar",
+    "provincia": "Segovia",
+    "telefono": "921140606",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/GUARDIAS-CUELLAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "Cuéllar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 07/12 al 13/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 07/12 al 13/12; sin horario publicado"
+    ],
+    "lat": 41.4002881,
+    "lng": -4.3136831,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "jcyl-40-e1-00100",
+    "nombre": "CARRILLO MIGUEL, MONICA",
+    "direccion": "Travesía ALTO DEL LEON 19",
+    "localidad": "San Rafael",
+    "provincia": "Segovia",
+    "telefono": "921171105",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/Guardias-EL-ESPINAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "El Espinar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 07/12 al 13/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 07/12 al 13/12; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00034",
+    "nombre": "COVISA NAGER, ENRIQUE",
+    "direccion": "Plaza Mayor 17",
+    "localidad": "Cantimpalos",
+    "provincia": "Segovia",
+    "telefono": "921496025",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "Cantimpalos"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-08T10:00:00+01:00",
+        "fin": "2026-12-08T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00080",
+    "nombre": "GOMEZ ROAN, MARIA DOLORES",
+    "direccion": "Calle Ayuntamiento Viejo 12",
+    "localidad": "Nieva",
+    "provincia": "Segovia",
+    "telefono": "921594461",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-08",
+    "localidades_atendidas": [
+      "Nieva"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-08T10:00:00+01:00",
+        "fin": "2026-12-08T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  }
+]

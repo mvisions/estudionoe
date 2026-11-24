@@ -1,0 +1,5272 @@
+[
+  {
+    "id": "cof-sevilla-1c1ae2bb32a1fe3b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Ntro. Padre Jesus,6",
+    "localidad": "Aznalcazar",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955750091",
+    "telefonos": [
+      "955750091"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-d8fccc65a5eed911",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "28 de febrero, 12",
+    "localidad": "Aznalcollar",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954135802",
+    "telefonos": [
+      "954135802"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.520427,
+    "lng": -6.2684125,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-34c2a9d3a158bbf3",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. de Andalucía, 42",
+    "localidad": "Benacazón",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955705792",
+    "telefonos": [
+      "955705792"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3525649,
+    "lng": -6.1901924,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-60dcf44e8c6610ef",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Mulhacén, 29. C. Com. La Florida",
+    "localidad": "Bollullos de la Mitación",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955765263",
+    "telefonos": [
+      "955765263"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3446848,
+    "lng": -6.1381905,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-6ab1ae146afee50e",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "28 de Febrero, 4",
+    "localidad": "Bormujos",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955724799",
+    "telefonos": [
+      "955724799"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3722632,
+    "lng": -6.0726768,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c23935a881b41974",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avd.del Aljarafe, 70 Bajo B",
+    "localidad": "Bormujos",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955725919",
+    "telefonos": [
+      "955725919"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3749035,
+    "lng": -6.0687626,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c122eb2e46f680dc",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. Juan Diego, 79",
+    "localidad": "Bormujos",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955724586",
+    "telefonos": [
+      "955724586"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3748818,
+    "lng": -6.0757086,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e1a3fda4f9240054",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. 1º de Mayo, 4, local 1",
+    "localidad": "Camas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954395704",
+    "telefonos": [
+      "954395704"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-14af8a10d288261d",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Fernando Rodríguez, 20",
+    "localidad": "Carrión Céspedes",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954755176",
+    "telefonos": [
+      "954755176"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-a780d28897e6ac69",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Real, 7",
+    "localidad": "Castilleja de Guzmán",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955727713",
+    "telefonos": [
+      "955727713"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4087739,
+    "lng": -6.055933,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f72c8bc5bf7a39a7",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Real, 157",
+    "localidad": "Castilleja de la Cuesta",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954164350",
+    "telefonos": [
+      "954164350"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.385209,
+    "lng": -6.0573536,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8d41bfabcc7bf12a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. de la Constitución, 23",
+    "localidad": "Castilleja del Campo",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954755872",
+    "telefonos": [
+      "954755872"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.386408,
+    "lng": -6.3360945,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a983882af7f67407",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avd. Andalucía, 85",
+    "localidad": "Coria del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954770068",
+    "telefonos": [
+      "954770068"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2837564,
+    "lng": -6.0502978,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e9aa27ce197f6ce3",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Carretero, 178",
+    "localidad": "Coria del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954771143",
+    "telefonos": [
+      "954771143"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2871821,
+    "lng": -6.0577703,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ef3866361bdf3426",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Av. Primero de Mayo, 104",
+    "localidad": "Coria del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954770479",
+    "telefonos": [
+      "954770479"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2927274,
+    "lng": -6.0520706,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-62fb2c24d41e8cc1",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Federico Leal Castaño, 11",
+    "localidad": "Espartinas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954113783",
+    "telefonos": [
+      "954113783"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3822548,
+    "lng": -6.1230392,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-bbefe2ef529b77bf",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Islas Baleares, 2",
+    "localidad": "Gelves",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955761294",
+    "telefonos": [
+      "955761294"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3297189,
+    "lng": -6.0280229,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d8ac3f74ea0c790e",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. de la Concordia, 19",
+    "localidad": "Gines",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954717414",
+    "telefonos": [
+      "954717414"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3848174,
+    "lng": -6.0793111,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-3412b7ca1200de68",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "P. C. Gines-Plaza",
+    "localidad": "Gines",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954713556",
+    "telefonos": [
+      "954713556"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3805599,
+    "lng": -6.0828277,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-106dbefd5a5fe082",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "José y Felipe Acuña, 10",
+    "localidad": "Huevar",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954756275",
+    "telefonos": [
+      "954756275",
+      "699145986"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-b0142ef988bf3944",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Rafael Beca, 72",
+    "localidad": "Isla Mayor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954777051",
+    "telefonos": [
+      "954777051"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.1356898,
+    "lng": -6.1610422,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-629c910066e062fd",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Ciudad Expo",
+    "localidad": "Mairena del Aljarafe",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954184228",
+    "telefonos": [
+      "954184228"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3492614,
+    "lng": -6.0516924,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-aa567aaee7fb97a2",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avenida de Andalucía, 10",
+    "localidad": "Olivares",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954110347",
+    "telefonos": [
+      "954110347"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4175727,
+    "lng": -6.1540867,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9a58c819a6948220",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. de Almensilla, 29",
+    "localidad": "Palomares del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955764169",
+    "telefonos": [
+      "955764169"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3237493,
+    "lng": -6.0613171,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8cb2cb9debe0c6e4",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Ntra. Sra. de Fátima, 17",
+    "localidad": "Pilas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954750067",
+    "telefonos": [
+      "954750067"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3021703,
+    "lng": -6.2973984,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d708e92d6e832249",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Independencia, 32",
+    "localidad": "Pilas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954750164",
+    "telefonos": [
+      "954750164"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3063083,
+    "lng": -6.3025418,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f9804d96f3a9103c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Zorrilla, 1, esq. C/ Santillán",
+    "localidad": "Pilas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "620284909",
+    "telefonos": [
+      "620284909"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.305762,
+    "lng": -6.3087555,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-686f0cd113dfe70f",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. Isla Mayor, 15",
+    "localidad": "Puebla del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955770373",
+    "telefonos": [
+      "955770373"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2630749,
+    "lng": -6.0684305,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/11011843249",
+    "direccion_coordenadas": "Avda. Isla Mayor, 15",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-b9240bf444acc92a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Av.Cerro Cantares,loc.1-2",
+    "localidad": "Puebla del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955772605",
+    "telefonos": [
+      "955772605"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2686958,
+    "lng": -6.0659998,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/11011846926",
+    "direccion_coordenadas": "Av.Cerro Cantares,loc.1-2",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-4d0e096f98e8ecf0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "González Eiris, 17, loc. 17 A,",
+    "localidad": "Salteras",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955708718",
+    "telefonos": [
+      "955708718"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4200254,
+    "lng": -6.1124913,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-42eadb736da68305",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(A partir 8:00 h) 28 de Febrero, frentre Com.Policia",
+    "localidad": "San Juan de Aznalfarache",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954761233",
+    "telefonos": [
+      "954761233"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (A partir 8:00 h) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (A partir 8:00 h)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-66497f03c4fbdc60",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza de Zambullón, 21",
+    "localidad": "Sanlúcar la Mayor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955703494",
+    "telefonos": [
+      "955703494"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3895002,
+    "lng": -6.1992708,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-6b562bbd790385d6",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Pablo Iglesias, 15",
+    "localidad": "Santiponce",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955996882",
+    "telefonos": [
+      "955996882"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4340863,
+    "lng": -6.0394361,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-004bd3943560708a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Urb. Aljamar, manz. 3,casa 88",
+    "localidad": "Tomares",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954151466",
+    "telefonos": [
+      "954151466"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3715321,
+    "lng": -6.0465566,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://solofarmacias.es/sevilla/tomares/farmacia-aljamar-maria-jesus-pariente-cornejo",
+    "direccion_coordenadas": "Urb. Aljamar, manz. 3,casa 88",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-bacfc9ec06ffe1e6",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Av. de la Arboleda, 12",
+    "localidad": "Tomares",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954159063",
+    "telefonos": [
+      "954159063"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3729292,
+    "lng": -6.0365139,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-30bbc7c32b444bf2",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza Virgen del Rocío, 10",
+    "localidad": "Umbrete",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "604916488",
+    "telefonos": [
+      "604916488"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3689586,
+    "lng": -6.1589819,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-1d23ce939ab1d3e9",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. Andalucía, 2",
+    "localidad": "Valencina de la Concepción",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955727384",
+    "telefonos": [
+      "955727384"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4159313,
+    "lng": -6.0756011,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-3b42b44a14cb7582",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Concejo, 2",
+    "localidad": "Villamanrique de la Condesa",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955755535",
+    "telefonos": [
+      "955755535"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.2452225,
+    "lng": -6.3067122,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-4c56f38a10332702",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Pza. Rafael Alberti, 5",
+    "localidad": "Villanueva del Ariscal",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954113214",
+    "telefonos": [
+      "954113214"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Día (de 9:30 a 22:00); (De 8:00 a 9:30 h) · Noche (de 22:00 a 09:30); (De 22:00 a 23:59 h)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Día (de 9:30 a 22:00); (De 8:00 a 9:30 h)",
+      "Noche (de 22:00 a 09:30); (De 22:00 a 23:59 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3961397,
+    "lng": -6.137876,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8be4e2d30a2997bc",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Julio Cesar, 13. Balcón de Sevilla",
+    "localidad": "Camas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954392795",
+    "telefonos": [
+      "954392795"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.4033553,
+    "lng": -6.0398122,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-2b65fd391077cdf9",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Colón, 30 esquina Goya",
+    "localidad": "Gines",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954717179",
+    "telefonos": [
+      "954717179"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.3869258,
+    "lng": -6.0806993,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d414bc9650cb3f6c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(De 22:00 a 23:59 h) - Urb.Vistahermosa,15-Detrás Carrefour Baldomero",
+    "localidad": "San Juan de Aznalfarache",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954171420",
+    "telefonos": [
+      "954171420"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30); (De 22:00 a 23:59 h)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30); (De 22:00 a 23:59 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-e4ecbdbdd84f1171",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Muñoz, 72",
+    "localidad": "Umbrete",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955717703",
+    "telefonos": [
+      "955717703"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf",
+    "lat": 37.36743,
+    "lng": -6.1600247,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Aljarafe.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-112b1627904da14a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "MARQUÉS DE PARADAS, 53.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954225875",
+    "telefonos": [
+      "954225875"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3893822,
+    "lng": -6.0007474,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-fdc91a5f12d646f2",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "ALAMEDA DE HÉRCULES, 7",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954380159",
+    "telefonos": [
+      "954380159"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3979472,
+    "lng": -5.9944016,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9ed767c3c0cd1af5",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "MENENDEZ PELAYO, 12. Frente Jardines Murillo. Acceso autorizado por carril bus",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954418359",
+    "telefonos": [
+      "954418359"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.383397,
+    "lng": -5.9869324,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-60e4b79c240d1612",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "SAN PABLO, 5. Junto El Corte Inglés San Pablo",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954225129",
+    "telefonos": [
+      "954225129"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3903922,
+    "lng": -5.997701,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-3b9dea7a9cdf5a01",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PLAZA ALFALFA, 11",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954226447",
+    "telefonos": [
+      "954226447"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3902951,
+    "lng": -5.9909615,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-6952f41f4ac11b31",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "ARGOTE DE MOLINA, 25",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954224329",
+    "telefonos": [
+      "954224329"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3874264,
+    "lng": -5.9923812,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e1ec1aca582ebd23",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AMADOR DE LOS RIOS, 31. Entre Puerta Osario y Puerta Carmona",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954421153",
+    "telefonos": [
+      "954421153"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 9:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3922736,
+    "lng": -5.9826491,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-34cf6c5901fc617b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CORRAL DEL AGUA,ESQ.CAMINO TOROS,LOC.3,pasando Carrefour Macarena.Bda.Pino Montano",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954950768",
+    "telefonos": [
+      "954950768"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3844521,
+    "lng": -5.9896611,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c588f5aa32bbdb94",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "SAN JUAN BOSCO, 32 - Esq. Venecia",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954410007",
+    "telefonos": [
+      "954410007"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.395807,
+    "lng": -5.977828,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-650ceea441b2f39d",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AGRICULTORES S/N - Junto Parque Bomberos. Bda. Pino Montano",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954941600",
+    "telefonos": [
+      "954941600"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.421592,
+    "lng": -5.9672054,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-57ebb847a3402f87",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. SANCHEZ PIZJUAN, 6. Bda. Dr. Marañon, próximo Facultad de Medicina",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954370132",
+    "telefonos": [
+      "954370132"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4081349,
+    "lng": -5.9881152,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-adfc73c1bab9feea",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "LOPEZ AZME, 1. Los Naranjos, entre Hotel Macarena y Gasolinera de la Ronda de Capuchinos",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954372901",
+    "telefonos": [
+      "954372901"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4018849,
+    "lng": -5.985023,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f01362097126b285",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVD. DR. FEDRIANI, 13. Junto Hospital Universitario",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954371828",
+    "telefonos": [
+      "954371828"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4077971,
+    "lng": -5.9855197,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8d9467ee027bafa7",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "FORJADORES, 17. Frente al Mercado. Pino Montano",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954942000",
+    "telefonos": [
+      "954942000"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.421339,
+    "lng": -5.9637465,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-b7549c4b8ca7344c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CAMINO DE LOS TOROS,S/N-Esq.Corral de la Parra cont.de callejón de los Toros. Bda. Pino Montano",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954942568",
+    "telefonos": [
+      "954942568"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4207357,
+    "lng": -5.9685873,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/10976585217",
+    "direccion_coordenadas": "CAMINO DE LOS TOROS,S/N-Esq.Corral de la Parra cont.de callejón de los Toros. Bda. Pino Montano",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-85dbe95a59593957",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "ESTRELLA BETELGEUSE, 14 - Junto a las Torres de Torneo",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "955638629",
+    "telefonos": [
+      "955638629"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4252254,
+    "lng": -5.9710263,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-1a63874ffbb086c2",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "SANTA MARÍA DE ORDÁS, 12. Entre Avda. Miraflores y Ctra. de Carmona.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954356595",
+    "telefonos": [
+      "954356595"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4039785,
+    "lng": -5.9746216,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-05d322d628ce09f6",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PLAZA SAN MARCOS, 4 AC (Esq. Castellar) - entre c/ Feria y Puerta Osario",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA MACARENA",
+    "telefono": "954382814",
+    "telefonos": [
+      "954382814"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.396143,
+    "lng": -5.9877185,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-85db888e8b70877d",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "LUIS MONTOTO, 85 - Frente Clínica Santa Isabel",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954580798",
+    "telefonos": [
+      "954580798"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3873022,
+    "lng": -5.9748892,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e8909d24f16d5cde",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PLAZA DEL JUNCAL, 1 - Bda. El Juncal",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954633391",
+    "telefonos": [
+      "954633391"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3738419,
+    "lng": -5.9675868,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d31c15777fb906f3",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA.EDUARDO DATO, 46 - Entre Hospital San Juan de Dios y Gran Plaza",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954637738",
+    "telefonos": [
+      "954637738"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3816641,
+    "lng": -5.9677133,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c788e18c3d28e9de",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. SAN FRANCISCO JAVIER, 20. Esq. Camilo José Cela, frente al Edif. Sevilla-2",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955947785",
+    "telefonos": [
+      "955947785"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3813364,
+    "lng": -5.9736421,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-dcf4505e5fdfbe97",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVD. RAMON Y CAJAL, 9. Entre Resid. Condes de Bustillo y Av. Marqués de Nervión",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954647181",
+    "telefonos": [
+      "954647181"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3764443,
+    "lng": -5.9720773,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a21f7c1083bbfdb7",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "MARQUES DEL NERVION, 103 - Entrada por Ramón y Cajal, primera esq. a la derecha",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954632390",
+    "telefonos": [
+      "954632390"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3764516,
+    "lng": -5.9698266,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9ea74589fd172b35",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. CARLOS V, 20. En el Prado de San Sebastián",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954571355",
+    "telefonos": [
+      "954571355"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3798338,
+    "lng": -5.9843414,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-aa2dcf63dc3c6555",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "EFESO, S/N. Frente al Palacio de Deportes",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954520121",
+    "telefonos": [
+      "954520121"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3958477,
+    "lng": -5.9649628,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-590864a86fe91b4f",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "POLÍG. S. PABLO. BARRIO C. C/ JERUSALÉN, 35 Frente Centro Salud San Pablo",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954519121",
+    "telefonos": [
+      "954519121"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 9:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.394266,
+    "lng": -5.9603507,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/10886468003",
+    "direccion_coordenadas": "POLÍG. S. PABLO. BARRIO C. C/ JERUSALÉN, 35 Frente Centro Salud San Pablo",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-8ad73e0ad6c71439",
+    "cofm_id": null,
+    "nombre": "Excepto Sábado",
+    "direccion": "PEDRO PÉREZ FERNÁNDEZ, 16 - Esq. Fernando IV. Los Remedios",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954455340",
+    "telefonos": [
+      "954455340"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3737583,
+    "lng": -6.0010276,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-2ec209fdf6841774",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "ESPERANZA DE TRIANA, 13 - (Detrás del colegio Salesianos de Triana)",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954333188",
+    "telefonos": [
+      "954333188"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Detrás del colegio Salesianos de Triana)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Detrás del colegio Salesianos de Triana)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3811916,
+    "lng": -6.0061995,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-37525a63c708d0f3",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PAGÉS DEL CORRO, N.º 2, LOCALES 1 Y 2",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "611624237",
+    "telefonos": [
+      "611624237"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3858468,
+    "lng": -6.0078149,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d96504d8beeed90b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "REPUBLICA ARGENTINA, 10. Junto a Plaza de Cuba - Los Remedios",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954276687",
+    "telefonos": [
+      "954276687"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3794289,
+    "lng": -5.9993286,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-82d50556fe111d24",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "SAN VICENTE DE PAUL, 14 - Triana",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954330755",
+    "telefonos": [
+      "954330755"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3840749,
+    "lng": -6.0097591,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-1af045b55f9e204a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PADRE DAMIAN, 4 - Semi esq. Virgen de Luján",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954450182",
+    "telefonos": [
+      "954450182"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3749459,
+    "lng": -6.000079,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-cfb8c4bfe3d69bc0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "NIEBLA, 50 -Mitad calle.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954273329",
+    "telefonos": [
+      "954273329"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3771871,
+    "lng": -6.0018029,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-5ec550f35817040b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "SAN JACINTO, 75 - Triana",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954333646",
+    "telefonos": [
+      "954333646"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.382427,
+    "lng": -6.0068633,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-039d2ee960c516ce",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "LÓPEZ DE GOMARA, 5. Tardón",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954333073",
+    "telefonos": [
+      "954333073"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3802678,
+    "lng": -6.0087273,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9e43b8f288e52e1e",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "NIEBLA, 4. Próxima a Plaza de Cuba.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954273812",
+    "telefonos": [
+      "954273812"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3783315,
+    "lng": -5.999573,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d7b578860f1ec54d",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "JUAN DIAZ DE SOLIS, 12 - Tardón",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954330249",
+    "telefonos": [
+      "954330249"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3784568,
+    "lng": -6.0089093,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ee996c42266d2ea9",
+    "cofm_id": null,
+    "nombre": "URGENCIA DE NOCHE (de 22:00 a 9:30",
+    "direccion": "AVDA. JUAN PABLO II, Nº 7- (nueva tablada)",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "645536701",
+    "telefonos": [
+      "645536701"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 9:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3683046,
+    "lng": -6.0022186,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://solofarmacias.es/sevilla/farmacia-tablada-24-h",
+    "direccion_coordenadas": "AVDA. JUAN PABLO II, Nº 7- (nueva tablada)",
+    "nota_ubicacion": "El cartel indica Juan Pablo II 7; la ficha de la farmacia con el mismo teléfono indica 5, local 5. Confirma la entrada por teléfono."
+  },
+  {
+    "id": "cof-sevilla-9c085420289d2dc0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. CIUDAD DE CHIVA, 26 - Parque Alcosa",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954510720",
+    "telefonos": [
+      "954510720"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4096531,
+    "lng": -5.9245791,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8676466ffdf2917b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. JUAN XXIII. Bl. Romegosa. Frente Parque Amate",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954655461",
+    "telefonos": [
+      "954655461"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3791942,
+    "lng": -5.9532617,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/10877817768",
+    "direccion_coordenadas": "AVDA. JUAN XXIII. Bl. Romegosa. Frente Parque Amate",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-0813d0bd79b50383",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CASTILLO DE CONSTANTINA, 4. Frente Urgencias Traumatologia. Virgen del Rocio.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954610437",
+    "telefonos": [
+      "954610437"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3611547,
+    "lng": -5.9785198,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-3b183688cb2f1fd7",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "MESINA, 8. Esq. Avda de los Pinos. Montequinto",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954127448",
+    "telefonos": [
+      "954127448"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3393253,
+    "lng": -5.9317777,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/7006623751",
+    "direccion_coordenadas": "MESINA, 8. Esq. Avda de los Pinos. Montequinto",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-deebeceb18ed6efc",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CARRETERA DE SU EMINENCIA, 6. Frente campo Real Betis",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA TRIANA - LOS REMEDIOS",
+    "telefono": "954440431",
+    "telefonos": [
+      "954440431"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3567108,
+    "lng": -5.9793884,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-3872d63dba969867",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CUEVA DEL GATO, 3, MANZANA, 2, LOC 1. LAS GÓNDOLAS. Junto al Colegio Alemán. Sevilla Este",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954259066",
+    "telefonos": [
+      "954259066"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3992831,
+    "lng": -5.941627,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-5f7a54306b7dfeef",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVD. GAVILANES - Rochelambert. Bl.14 - Junto al ambulatorio Cerro Amate",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954632539",
+    "telefonos": [
+      "954632539"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.376836,
+    "lng": -5.9522598,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f1b49993ef6a646e",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AV.DE LAS CIENCIAS, 33 ACC. A. EDIF. ESTRELLA-ESTE. Junto Correos y cerca Supermercado MAS",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954442329",
+    "telefonos": [
+      "954442329"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3981523,
+    "lng": -5.9245859,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-b348068d1cd5c800",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVENIDA PARSI, EDIFICIO ARENA 1, MODULO 2A.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "955887062",
+    "telefonos": [
+      "955887062"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-df5ac7885b67dd80",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CANDELERIA, 28 - Bda. Candelaria",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954632695",
+    "telefonos": [
+      "954632695"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3822116,
+    "lng": -5.9537285,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-eeb79c41f4829eca",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AV. DE LAS CIENCIAS, 18. frente a Residencial Argos.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954409657",
+    "telefonos": [
+      "954409657"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3955811,
+    "lng": -5.9219742,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-afe9933662c83ff9",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "URBANO ORAD, 9. EDIF. NAVIESTE 4. Trasera del Palacio de Congresos, junto Coleg. la Luna",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SEVILLA ESTE - ROCHELAMBERT",
+    "telefono": "954406496",
+    "telefonos": [
+      "954406496"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.4028792,
+    "lng": -5.9298274,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-0dc6993a19a43b20",
+    "cofm_id": null,
+    "nombre": "Excepto Sábado",
+    "direccion": "AVDA. NTRA. SRA. DE LAS MERCEDES, 8. (Antigua General Merry)",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954619519",
+    "telefonos": [
+      "954619519"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.372424,
+    "lng": -5.9750974,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ece7e9f48f8ea971",
+    "cofm_id": null,
+    "nombre": "Excepto Sábado",
+    "direccion": "AVDA. EUROPA, 101 H - Montequinto",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954123251",
+    "telefonos": [
+      "954123251"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3327846,
+    "lng": -5.9257293,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-2fed5fa67b95d3bc",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. MANUEL SIUROT, 3 - Bloque La Estrella.",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954615795",
+    "telefonos": [
+      "954615795"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3664042,
+    "lng": -5.9840933,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f28a875dbef62d95",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "BAMI, 19. Esq. con Rafael Salgado c/ de la Clínica Sagrado Corazón - Bda. Bami",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954232220",
+    "telefonos": [
+      "954232220"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3595133,
+    "lng": -5.978394,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-0b66d19a810d5645",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "REINA MERCEDES, 17 - Sector Sur",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954611934",
+    "telefonos": [
+      "954611934"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3620575,
+    "lng": -5.9859105,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-eee2a97a04b5538e",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. BELLAVISTA, 68 - Junto al Hospital de Valme y gasolinera Repsol",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954213424",
+    "telefonos": [
+      "954213424"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3271568,
+    "lng": -5.9690833,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-40d03bb6ad854829",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "ASENSIO Y TOLEDO, 40. Esquina Avda. Bellavista",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954690924",
+    "telefonos": [
+      "954690924"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.324926,
+    "lng": -5.9684092,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c29e8cf2dcca8dc3",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "VICENZA, 3. Montequinto",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954121889",
+    "telefonos": [
+      "954121889"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3416003,
+    "lng": -5.9323276,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d333c8df177a9765",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "AVDA. FINLANDIA, S/N. Entrada por Fremap, junto a Correos. Los Bermejales",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "955641625",
+    "telefonos": [
+      "955641625"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3441047,
+    "lng": -5.9770499,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/3004682050",
+    "direccion_coordenadas": "AVDA. FINLANDIA, S/N. Entrada por Fremap, junto a Correos. Los Bermejales",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-5bd1dae66303b8c2",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "CHUCENA, 36. La Doctora-La Negrilla. Junto al Centro de Transportes",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954672008",
+    "telefonos": [
+      "954672008"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3793135,
+    "lng": -5.9411012,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-438e01b88df6ddc0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "BDA. LA OLIVA LOC. 8-9 - Frente Cencosur",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954235034",
+    "telefonos": [
+      "954235034"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3659347,
+    "lng": -5.9684111,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/928657458",
+    "direccion_coordenadas": "BDA. LA OLIVA LOC. 8-9 - Frente Cencosur",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-53057fbf6ab4611c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "PERSÉFONE, 6. Dentro de Urb. Jardines de Hércules. Bellavista",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla",
+    "sector": "ZONA SUR",
+    "telefono": "954377667",
+    "telefonos": [
+      "954377667"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf",
+    "lat": 37.3304581,
+    "lng": -5.9663434,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/Sevilla.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-69b5cf91454ce43b",
+    "cofm_id": null,
+    "nombre": "Sánchez Gavilán, Reyes",
+    "direccion": "Santander, 20, Frente Ambulatorio",
+    "localidad": "Alcalá de Guadaira",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955683800",
+    "telefonos": [
+      "955683800"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf",
+    "lat": 37.3365029,
+    "lng": -5.8362988,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-771fa22ae0790867",
+    "cofm_id": null,
+    "nombre": "Yuste Romero, Tomás",
+    "direccion": "Silos, 91",
+    "localidad": "Alcalá de Guadaira",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955614039",
+    "telefonos": [
+      "955614039"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf",
+    "lat": 37.3452598,
+    "lng": -5.8501891,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-1a60c073cf40d16b",
+    "cofm_id": null,
+    "nombre": "Farmacia Malasmañanas CB",
+    "direccion": "Malasmañanas, 59, próxima polideportivo",
+    "localidad": "Alcalá de Guadaira",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955612802",
+    "telefonos": [
+      "955612802"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf",
+    "lat": 37.3460144,
+    "lng": -5.8402473,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9060f3834fa219fd",
+    "cofm_id": null,
+    "nombre": "Martín Cancho, Mª Fernanda",
+    "direccion": "Duquesa de Talavera, 25 (próximo Mercadona del Punto)",
+    "localidad": "Alcalá de Guadaira",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955685491",
+    "telefonos": [
+      "955685491"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (próximo Mercadona del Punto)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (próximo Mercadona del Punto)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf",
+    "lat": 37.3374979,
+    "lng": -5.8523636,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-71e88bd4c03601d2",
+    "cofm_id": null,
+    "nombre": "Haro Urquizar, Manuel",
+    "direccion": "Pepe Luces, 20-B - Casa Cultura-Parq.Centro",
+    "localidad": "Alcalá de Guadaira",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955612655",
+    "telefonos": [
+      "955612655"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf",
+    "lat": 37.3401357,
+    "lng": -5.8380256,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladeguadaira.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-988a4f105c6b0f69",
+    "cofm_id": null,
+    "nombre": "Moreno Álvarez de Toledo, Fátima",
+    "direccion": "(Desde 9:30 h) Central, 2 - Esquivel",
+    "localidad": "Alcalá del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954780148",
+    "telefonos": [
+      "954780148"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00); (Desde 9:30 h)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00); (Desde 9:30 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladelrio.pdf",
+    "lat": 37.545388,
+    "lng": -5.9442075,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladelrio.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/way/1080940714",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "cof-sevilla-30d3831539212c18",
+    "cofm_id": null,
+    "nombre": "Enrique Jesús Pérez Ruiz",
+    "direccion": "San José, 1",
+    "localidad": "Alcalá del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954780302",
+    "telefonos": [
+      "954780302"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00) · Noche (de 22:00 a 9:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)",
+      "Noche (de 22:00 a 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladelrio.pdf",
+    "lat": 37.5180139,
+    "lng": -5.9784218,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/alcaladelrio.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-95052345e1df64c7",
+    "cofm_id": null,
+    "nombre": "Marta Jiménez Campos-Mª Consuelo González Agudo,",
+    "direccion": "Real, 29",
+    "localidad": "Brenes",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954796250",
+    "telefonos": [
+      "954796250"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/brenes.pdf",
+    "lat": 37.5500768,
+    "lng": -5.873481,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/brenes.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-11e506009c0b9251",
+    "cofm_id": null,
+    "nombre": "Rafael Morera García de Cosio",
+    "direccion": "Virgen del Rosario, 13",
+    "localidad": "Burguillos",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955738413",
+    "telefonos": [
+      "955738413"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/burguillos.pdf",
+    "lat": 37.5851878,
+    "lng": -5.9681775,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/burguillos.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-9f938b27458c44d1",
+    "cofm_id": null,
+    "nombre": "Farmacia El Llano CB",
+    "direccion": "Presidente Adolfo Suárez, 6",
+    "localidad": "Cantillana",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955731737",
+    "telefonos": [
+      "955731737"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 21:00) · Noche (de 21:00 a 9:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 21:00)",
+      "Noche (de 21:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/cantillana.pdf",
+    "lat": 37.6078555,
+    "lng": -5.826173,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/cantillana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-69f2adfd32582c6f",
+    "cofm_id": null,
+    "nombre": "Cecilio Jalón Sánchez",
+    "direccion": "Plaza San Fernando, 21",
+    "localidad": "Carmona",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954140118",
+    "telefonos": [
+      "954140118"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/carmona.pdf",
+    "lat": 37.4725734,
+    "lng": -5.6383784,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/carmona.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d8d00a42644d9cf6",
+    "cofm_id": null,
+    "nombre": "Carmen y Felipe López Romero",
+    "direccion": "Antonio Machado, 44, (esq. c/ Miguel Hdez.) Bda. Arco Norte",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955674085",
+    "telefonos": [
+      "955674085"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (esq. c/ Miguel Hdez.) · Noche (de 22:00 a 09:30); (esq. c/ Miguel Hdez.)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (esq. c/ Miguel Hdez.)",
+      "Noche (de 22:00 a 09:30); (esq. c/ Miguel Hdez.)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.2969851,
+    "lng": -5.9302533,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-996d97c6d10b1fcf",
+    "cofm_id": null,
+    "nombre": "Gonzálo Sánchez L. -Gonzalo y Valme Sánchez L",
+    "direccion": "Antonia Díaz, 30",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954722069",
+    "telefonos": [
+      "954722069"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.282236,
+    "lng": -5.9234499,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d402941020e742e3",
+    "cofm_id": null,
+    "nombre": "Manuel Poyatos del Pozo",
+    "direccion": "Avd. Reyes Católicos, 4",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954720831",
+    "telefonos": [
+      "954720831"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.2799106,
+    "lng": -5.9235591,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-64a0e91506fce1d4",
+    "cofm_id": null,
+    "nombre": "Ruiz Marín, Nieves",
+    "direccion": "Bda. Elcano, c/ Juan Sebastian Elcano",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954720685",
+    "telefonos": [
+      "954720685"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-f0576d5735a395e7",
+    "cofm_id": null,
+    "nombre": "José, Juan L. y Fco. Javier Cabezuelo",
+    "direccion": "Esperanza,103-D. Bda. Las Ganchosas",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954720522",
+    "telefonos": [
+      "954720522"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.2911984,
+    "lng": -5.9177707,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-7ed8f85bd4c26bd2",
+    "cofm_id": null,
+    "nombre": "Luis Guillermo Buzo Sánchez",
+    "direccion": "Isaac Peral, 45, loc.3 y 4 (Cuesta los Marchaos)",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955670660",
+    "telefonos": [
+      "955670660"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.284462,
+    "lng": -5.929373,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-4fb52df179220380",
+    "cofm_id": null,
+    "nombre": "Luis Manuel Alonso Ruiz",
+    "direccion": "Avd. de Los Pirralos, 100. Bda. del Rocio",
+    "localidad": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954103014",
+    "telefonos": [
+      "954103014"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf",
+    "lat": 37.2755052,
+    "lng": -5.9286546,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/doshermanas.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-57fce96070cb1a49",
+    "cofm_id": null,
+    "nombre": "Farmacia Herrainz CB",
+    "direccion": "Av. Dr. Sánchez Malo, 2 (San Benito)",
+    "localidad": "Écija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954830094",
+    "telefonos": [
+      "954830094"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00) · Noche (de 22:00 a 9:00); (De 8:00 a 9:00 de la mañana)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)",
+      "Noche (de 22:00 a 9:00); (De 8:00 a 9:00 de la mañana)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+    "lat": 37.5362841,
+    "lng": -5.0839523,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laluisiana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-40db48286248a0c9",
+    "cofm_id": null,
+    "nombre": "Domingo Ortega López",
+    "direccion": "Ronda Las Huertas esquina c/ Mezquita",
+    "localidad": "Écija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955903613",
+    "telefonos": [
+      "955903613"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+    "lat": 37.5453703,
+    "lng": -5.0768843,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laluisiana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/6316210326",
+    "direccion_coordenadas": "Ronda Las Huertas esquina c/ Mezquita",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-ed7044986e4d2516",
+    "cofm_id": null,
+    "nombre": "Enrique Martin Beato",
+    "direccion": "Avda. María Auxiliadora, 7",
+    "localidad": "Écija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954830740",
+    "telefonos": [
+      "954830740"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+    "lat": 37.5413724,
+    "lng": -5.0858598,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laluisiana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-4118d026f24547ea",
+    "cofm_id": null,
+    "nombre": "Mª. Valle Martin Govantes",
+    "direccion": "C/ Ancha esquina a C/ Hospital de Ecija",
+    "localidad": "Écija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954830415",
+    "telefonos": [
+      "954830415"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00) · Noche (de 22:00 a 9:00); (De 8:00 a 9:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)",
+      "Noche (de 22:00 a 9:00); (De 8:00 a 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laluisiana.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-fa5e525a88fc5a2f",
+    "cofm_id": null,
+    "nombre": "Valverde Muñoz, Álvaro y Javier",
+    "direccion": "Ramón y Cajal, 1 (entre Colg. Calvo Sotelo y casitas Pinichi)",
+    "localidad": "Écija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954830089",
+    "telefonos": [
+      "954830089"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+    "lat": 37.5374187,
+    "lng": -5.0878396,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/ecija.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laluisiana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ab8321102470ed48",
+    "cofm_id": null,
+    "nombre": "Celia y Felix Sánchez Sánchez Ibagüen",
+    "direccion": "(Hasta las 20:00) - Avda. de Jerez, 70",
+    "localidad": "El Cuervo",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955979116",
+    "telefonos": [
+      "955979116"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 20:00) · Noche (de 22:00 a 09:30); (Desde las 20:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 20:00)",
+      "Noche (de 22:00 a 09:30); (Desde las 20:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elcuervo.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elcuervo.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-8b8c9fb5c28d591d",
+    "cofm_id": null,
+    "nombre": "Librada Moreno de los Santos",
+    "direccion": "La Muela n. 20, junto a la Recovera",
+    "localidad": "El Viso del Alcor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955945019",
+    "telefonos": [
+      "955945019"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elvisodelalcor.pdf",
+    "lat": 37.3850876,
+    "lng": -5.7238769,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elvisodelalcor.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e770b106c7e9543e",
+    "cofm_id": null,
+    "nombre": "García Muñoz, Marita",
+    "direccion": "Avda. Vereda San Agustín, 36",
+    "localidad": "Mairena del Alcor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955748818",
+    "telefonos": [
+      "955748818"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30) · Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)",
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elvisodelalcor.pdf",
+    "lat": 37.376046,
+    "lng": -5.7564188,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/elvisodelalcor.pdf",
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/mairenadelalcor.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-7730af5a32dc3fc1",
+    "cofm_id": null,
+    "nombre": "Marcelo Manuel Zamora Lázaro",
+    "direccion": "Pilar García, 39",
+    "localidad": "La Algaba",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955788232",
+    "telefonos": [
+      "955788232"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 22:00) · Noche (de 22:00 a 9:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 22:00)",
+      "Noche (de 22:00 a 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laalgaba.pdf",
+    "lat": 37.4611862,
+    "lng": -6.0123945,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/laalgaba.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-dac957cdd6109897",
+    "cofm_id": null,
+    "nombre": "Beltrán Gómez, Inés",
+    "direccion": "Plaza Andalucía, 4",
+    "localidad": "La Campana",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954199435",
+    "telefonos": [
+      "954199435"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lacampana.pdf",
+    "lat": 37.5697591,
+    "lng": -5.4266579,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lacampana.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8467a7905ef5ac65",
+    "cofm_id": null,
+    "nombre": "Francisco de Borja Molina Cerrato",
+    "direccion": "Marismillas, nº 1 (junto al Mercadona)",
+    "localidad": "Las Cabezas de San Juan",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955870587",
+    "telefonos": [
+      "955870587"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lascabezasdesanjuan.pdf",
+    "lat": 36.9825655,
+    "lng": -5.936423,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lascabezasdesanjuan.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-8ce2d9341b2165ee",
+    "cofm_id": null,
+    "nombre": "Dorantes Calderón, Benito",
+    "direccion": "Avda. José Fernández Ruiz, 48",
+    "localidad": "Lebrija",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955972518",
+    "telefonos": [
+      "955972518"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:00 a 21:00) · Noche (de 21:00 a 9:00)",
+    "guardia_franjas": [
+      "Día (de 9:00 a 21:00)",
+      "Noche (de 21:00 a 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lebrija.pdf",
+    "lat": 36.9200829,
+    "lng": -6.0668894,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lebrija.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-59607f330db430b3",
+    "cofm_id": null,
+    "nombre": "Mª Eloísa Sánchez Parejo",
+    "direccion": "Charco, 8",
+    "localidad": "Los Palacios y Villafranca",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955811531",
+    "telefonos": [
+      "955811531"
+    ],
+    "guardia": true,
+    "guardia_franja": "(De 9:30 a 9:30 del día siguiente, 24 horas)",
+    "guardia_franjas": [
+      "(De 9:30 a 9:30 del día siguiente, 24 horas)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lospalaciosyvillafranca.pdf",
+    "lat": 37.1595816,
+    "lng": -5.9263675,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/lospalaciosyvillafranca.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-56d3df9d5561198f",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "San Bartolomé, 16",
+    "localidad": "Aguadulce",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "632300262",
+    "telefonos": [
+      "632300262"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2524918,
+    "lng": -4.9919481,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-048e287de4e32411",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Huerta, 45",
+    "localidad": "Algámitas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955857625",
+    "telefonos": [
+      "955857625"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.0166592,
+    "lng": -5.1499483,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-cf8c17893fe7ff39",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Veracruz, 19",
+    "localidad": "Arahal",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954840893",
+    "telefonos": [
+      "954840893"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2629703,
+    "lng": -5.5438323,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-1189a20e5900d8c0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "28 de Febrero, 1",
+    "localidad": "Badolatosa",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954018808",
+    "telefonos": [
+      "954018808"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.3077971,
+    "lng": -4.6731965,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d7af67a5d8815aa4",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Santiago Apostol, 64",
+    "localidad": "Casariche",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954019045",
+    "telefonos": [
+      "954019045"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2927771,
+    "lng": -4.7601557,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a5e64b2e21c89451",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "San Sebastián, 7",
+    "localidad": "El Coronil",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955830324",
+    "telefonos": [
+      "955830324"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.0797315,
+    "lng": -5.6338059,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-fd8dc813479c493c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Travesia Ecija-Olvera, 9",
+    "localidad": "El Saucejo",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954825404",
+    "telefonos": [
+      "954825404"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-86c2a988977a5cab",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 20:30) - Mesones, 10",
+    "localidad": "Estepa",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955913008",
+    "telefonos": [
+      "955913008"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 20:30) · Noche (de 22:00 a 09:30); (Desde las 20:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 20:30)",
+      "Noche (de 22:00 a 09:30); (Desde las 20:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2914374,
+    "lng": -4.878397,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-fd39a668fd6ef733",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "La Cruz, 28",
+    "localidad": "Gilena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "661288200",
+    "telefonos": [
+      "661288200"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2511423,
+    "lng": -4.9163881,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-4461c1e6311f2324",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 23:00) - Cantarranas, 17-C/ Dr. Marañon",
+    "localidad": "Herrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954013304",
+    "telefonos": [
+      "954013304"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 23:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 23:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-ee5423e8cb1393fa",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza de España n. 4",
+    "localidad": "La Lantejuela",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954828014",
+    "telefonos": [
+      "954828014"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.3534508,
+    "lng": -5.2238928,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-eda52bb2ce3aa835",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 23:00) - Real, 91",
+    "localidad": "La Roda de Andalucía",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954016822",
+    "telefonos": [
+      "954016822"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 23:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 23:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2024892,
+    "lng": -4.7777621,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-0393932c9ae6348b",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Antonio Machado,94",
+    "localidad": "Los Corrales",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955917735",
+    "telefonos": [
+      "955917735"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.0998703,
+    "lng": -4.9835812,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a4475d4c0effe010",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Desde 9 h) - Méndez Nuñez, 55",
+    "localidad": "Marchena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954844128",
+    "telefonos": [
+      "954844128"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Desde 9 h)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Desde 9 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.3257657,
+    "lng": -5.418111,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-90425debe4c9c7d1",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Desde 9 h) - Eduardo Ferreras, 7",
+    "localidad": "Marchena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954843036",
+    "telefonos": [
+      "954843036"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Desde 9 h) · Noche (de 22:00 a 09:30); (Desde 9 h)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Desde 9 h)",
+      "Noche (de 22:00 a 09:30); (Desde 9 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-46c8c7e8ec260864",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Desde 9 h) -Manuel Rojas Marcos, 36",
+    "localidad": "Marchena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954844248",
+    "telefonos": [
+      "954844248"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Desde 9 h)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Desde 9 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.3295106,
+    "lng": -5.416471,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-23411d2df65f2622",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. de la Libertad, 50",
+    "localidad": "Marinaleda",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955829816",
+    "telefonos": [
+      "955829816"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.3713891,
+    "lng": -4.959965,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-029bde8023828410",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Nueva, 44",
+    "localidad": "Martín de la Jara",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955825376",
+    "telefonos": [
+      "955825376"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.1080031,
+    "lng": -4.9621529,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a725628bf453f789",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 23:00) Plaza de Andalucía, 21",
+    "localidad": "Montellano",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954875074",
+    "telefonos": [
+      "954875074"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 23:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 23:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 36.9953903,
+    "lng": -5.5729924,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d6597d857e835481",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "San Francisco, 15",
+    "localidad": "Morón de la Frontera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954850333",
+    "telefonos": [
+      "954850333"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.1181675,
+    "lng": -5.4527787,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e541e44842084ebe",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(A partir 9:00) - Derramadero, 29",
+    "localidad": "Osuna",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954811817",
+    "telefonos": [
+      "954811817"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (A partir 9:00) · Noche (de 22:00 a 09:30); (A partir 9:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (A partir 9:00)",
+      "Noche (de 22:00 a 09:30); (A partir 9:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2327977,
+    "lng": -5.1043365,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-7bd5e2dd45229f17",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 23:00) Puebla, 5",
+    "localidad": "Paradas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954849558",
+    "telefonos": [
+      "954849558"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 23:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 23:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2895685,
+    "lng": -5.4933173,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a1c9ae2e90eb2525",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Ramón y Cajal, 6",
+    "localidad": "Pedrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955827288",
+    "telefonos": [
+      "955827288"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.2245628,
+    "lng": -4.8958939,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ae3a6712ce367a58",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza de España, 6",
+    "localidad": "Pruna",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954858483",
+    "telefonos": [
+      "954858483"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 36.9732536,
+    "lng": -5.2223677,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-f1371ab3ec5836cb",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. Doctor Espinosa, 15",
+    "localidad": "Puebla de Cazalla",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955843975",
+    "telefonos": [
+      "955843975"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-423e049b502ef6bf",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Cilla n. 7",
+    "localidad": "Villanueva de San Juan",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955916504",
+    "telefonos": [
+      "955916504"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": 37.0492309,
+    "lng": -5.1753488,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-e801036d1fc9aacf",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "C/ Victoria, 8 - Olvera",
+    "localidad": "Pruna",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "956130701",
+    "telefonos": [
+      "956130701"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/moron-osuna-estepa.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-9d05c84cbdc59605",
+    "cofm_id": null,
+    "nombre": "Morell Gutiérrez, Pablo",
+    "direccion": "Virgen de Gracia, 1",
+    "localidad": "La Rinconada",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955797875",
+    "telefonos": [
+      "955797875"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sanjosedelarinconada.pdf",
+    "lat": 37.4873021,
+    "lng": -5.9818026,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sanjosedelarinconada.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/way/758205450",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "cof-sevilla-35f62555c51fb10e",
+    "cofm_id": null,
+    "nombre": "Díaz Díez, Isabel María",
+    "direccion": "Avda. de la Unión, 3. Local 6",
+    "localidad": "San José de la Rinconada",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955415454",
+    "telefonos": [
+      "955415454"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sanjosedelarinconada.pdf",
+    "lat": 37.4818598,
+    "lng": -5.9534907,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sanjosedelarinconada.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-80761cb22485dc4d",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Bancos, 24",
+    "localidad": "Alanís",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954885076",
+    "telefonos": [
+      "954885076",
+      "619237676"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 38.0376682,
+    "lng": -5.7133922,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ff5e8ae27be2419a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Virgen del Rosario, 8",
+    "localidad": "Alcolea del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955644384",
+    "telefonos": [
+      "955644384"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.613611,
+    "lng": -5.6671488,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-753ef3b50327b36a",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Cristobal Colón 18 (Pza la Palmera)",
+    "localidad": "Almadén de la Plata",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954735085",
+    "telefonos": [
+      "954735085"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.8739691,
+    "lng": -6.0817837,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/11013627281",
+    "direccion_coordenadas": "Cristobal Colón 18 (Pza la Palmera)",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-a0c0958da467ba6c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Antonio Machado, 124",
+    "localidad": "Castilblanco de los Arroyos",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "618861358",
+    "telefonos": [
+      "618861358",
+      "955734038"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.6765047,
+    "lng": -5.9857815,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-4d71587418ce041f",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Cervantes, 36",
+    "localidad": "Cazalla de la Sierra",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954884070",
+    "telefonos": [
+      "954884070"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.9304568,
+    "lng": -5.7600186,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-d92448489a2dd408",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Pza.de Santa Ana, 14 local 6",
+    "localidad": "Constantina",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955880855",
+    "telefonos": [
+      "955880855"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.8704571,
+    "lng": -5.620252,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-b2cd676c896cbb94",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Servicios localizables",
+    "localidad": "El Castillo de las Guardas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954130624",
+    "telefonos": [
+      "954130624"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-c12eba562d19395c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Moret, 14",
+    "localidad": "El Pedroso",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954889413",
+    "telefonos": [
+      "954889413"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.8416829,
+    "lng": -5.7649054,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-a13ed1325efcc670",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza de Andalucía, 1",
+    "localidad": "El Real de la Jara",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954733152",
+    "telefonos": [
+      "954733152"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.9497154,
+    "lng": -6.1550245,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-bd5cf77591e9bad1",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Servicios localizables",
+    "localidad": "El Ronquillo",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "687816550",
+    "telefonos": [
+      "687816550"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-d6b2ef2dd37ac6f6",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Lora del Río, 22",
+    "localidad": "Fuentes de Andalucía",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954837016",
+    "telefonos": [
+      "954837016"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.4643925,
+    "lng": -5.3461842,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-0ead9d9e184547f0",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Avda. Primero de Mayo, 9",
+    "localidad": "Gerena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955782054",
+    "telefonos": [
+      "955782054"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.5299191,
+    "lng": -6.1545696,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://solofarmacias.es/sevilla/gerena/farmacia-primero-de-mayo",
+    "direccion_coordenadas": "Avda. Primero de Mayo, 9",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-f87a7046aa9185b6",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Juan Carlos I, 3",
+    "localidad": "Guadalcanal",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "657801566",
+    "telefonos": [
+      "657801566"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 38.0931737,
+    "lng": -5.8197254,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-dc0faecc23723988",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Málaga, 3",
+    "localidad": "Guillena",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955785094",
+    "telefonos": [
+      "955785094"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.5471227,
+    "lng": -6.0560054,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-ad91903d99b8e099",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Plaza de España, 10",
+    "localidad": "Las Navas de la Concepción",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955885180",
+    "telefonos": [
+      "955885180"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.9329802,
+    "lng": -5.4651975,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://solofarmacias.es/sevilla/las-navas-de-la-concepcion/farmacia-las-navas",
+    "direccion_coordenadas": "Plaza de España, 10",
+    "nota_ubicacion": ""
+  },
+  {
+    "id": "cof-sevilla-6710f2f822e34099",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Sierra de Cazorla, 20 (Pimentonera)",
+    "localidad": "Lora del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955802261",
+    "telefonos": [
+      "955802261"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.6574712,
+    "lng": -5.5229487,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-90b88e5b0f7e2e21",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(De 9:00 a 21:00) - La Carrera, 17",
+    "localidad": "Peñaflor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954807461",
+    "telefonos": [
+      "954807461"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (De 9:00 a 21:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (De 9:00 a 21:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.7108713,
+    "lng": -5.3435676,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-672265c305765922",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Cruz,2",
+    "localidad": "San Nicolás del Puerto",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955886625",
+    "telefonos": [
+      "955886625"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.9940073,
+    "lng": -5.6527904,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-603c46f18dcdc654",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "(Hasta las 23:59 h) Juan Gómez Torga, 17 - Barrio Casas Nuevas",
+    "localidad": "Villanueva del Río y Minas",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954747242",
+    "telefonos": [
+      "954747242"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00); (Hasta las 23:59 h)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00); (Hasta las 23:59 h)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": 37.6583603,
+    "lng": -5.7136783,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-14559bba82e8644c",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Servicios localizables",
+    "localidad": "Constantina",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "639239564",
+    "telefonos": [
+      "639239564",
+      "955880855"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-8fbc68d7e4f0bbc8",
+    "cofm_id": null,
+    "nombre": "",
+    "direccion": "Urgencias nocturnas en Palma del Río (.)",
+    "localidad": "Peñaflor",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": null,
+    "telefonos": [],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/sierranorte.pdf"
+    ]
+  },
+  {
+    "id": "cof-sevilla-c1f344713d5f410f",
+    "cofm_id": null,
+    "nombre": "Alemán Martín, Sofía",
+    "direccion": "Av. de Sevilla, 21",
+    "localidad": "Los Rosales",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955645523",
+    "telefonos": [
+      "955645523"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/tocina-losrosales.pdf",
+    "lat": 37.5896837,
+    "lng": -5.7316645,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/tocina-losrosales.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-2027171a9d0ef68f",
+    "cofm_id": null,
+    "nombre": "José Luis Algarín Pachón",
+    "direccion": "Corredera, 1",
+    "localidad": "Utrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954860448",
+    "telefonos": [
+      "954860448"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf",
+    "lat": 37.1819037,
+    "lng": -5.7849268,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-13c052febe685caf",
+    "cofm_id": null,
+    "nombre": "Rafael González-Rafael González",
+    "direccion": "Cristo de los Afligidos, 74 (Antig. La Fuente)",
+    "localidad": "Utrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954860213",
+    "telefonos": [
+      "954860213"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf",
+    "lat": 37.1786399,
+    "lng": -5.7852349,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf"
+    ],
+    "precision_ubicacion": "aproximada",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-673e3c02733c7b19",
+    "cofm_id": null,
+    "nombre": "Pablo Troncoso López",
+    "direccion": "Avda. María Auxiliadora, 95. \"El Charco\"",
+    "localidad": "Utrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954860196",
+    "telefonos": [
+      "954860196"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf",
+    "lat": 37.1851479,
+    "lng": -5.7847823,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1182628081",
+    "direccion_coordenadas": "Avda. María Auxiliadora, 95. \"El Charco\"",
+    "nota_ubicacion": "El cartel indica María Auxiliadora 95; la ficha actual con el mismo teléfono indica 116. Confirma la entrada por teléfono."
+  },
+  {
+    "id": "cof-sevilla-7bf1fd259f80bc5e",
+    "cofm_id": null,
+    "nombre": "Farmacia Morales Guerrero, CB",
+    "direccion": "Avda. Alcalde José Dorado, 5 - Bda.El Carmen",
+    "localidad": "Utrera",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "954864924",
+    "telefonos": [
+      "954864924"
+    ],
+    "guardia": true,
+    "guardia_franja": "Noche (de 22:00 a 9:30)",
+    "guardia_franjas": [
+      "Noche (de 22:00 a 9:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf",
+    "lat": 37.1907063,
+    "lng": -5.7906692,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/utrera.pdf"
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "cof-sevilla-c5a7146989209787",
+    "cofm_id": null,
+    "nombre": "Juan A. Torres Fernández",
+    "direccion": "Av. Virgen de Aguas Santas, 77",
+    "localidad": "Villaverde del Río",
+    "provincia": "Sevilla",
+    "sector": "",
+    "telefono": "955737189",
+    "telefonos": [
+      "955737189"
+    ],
+    "guardia": true,
+    "guardia_franja": "Día (de 9:30 a 22:00) · Noche (de 22:00 a 09:30)",
+    "guardia_franjas": [
+      "Día (de 9:30 a 22:00)",
+      "Noche (de 22:00 a 09:30)"
+    ],
+    "fecha_guardia": "2026-11-10",
+    "fuente": "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/villaverdedelrio.pdf",
+    "lat": null,
+    "lng": null,
+    "fuentes": [
+      "https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/villaverdedelrio.pdf"
+    ]
+  }
+]

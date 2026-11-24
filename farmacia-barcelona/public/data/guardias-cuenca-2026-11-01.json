@@ -1,0 +1,928 @@
+[
+  {
+    "id": "cof-cuenca-CU-0138-F",
+    "nombre": "ELADIO RODRIGUEZ ESTEVEZ",
+    "direccion": "Calle ARCEDIANO 10",
+    "localidad": "Almonacid Del Marquesado",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969120055",
+    "telefonos_adicionales": [],
+    "zona": "MONTALBO",
+    "localidades_atendidas": [
+      "Almonacid Del Marquesado"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.82293027,
+    "lng": -2.76731449,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0149-F",
+    "nombre": "JAVIER CARRERO ARIZA",
+    "direccion": "Calle VEGA 7",
+    "localidad": "Belmontejo",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969241543",
+    "telefonos_adicionales": [],
+    "zona": "S.LORENZO DE LA PARRILLA",
+    "localidades_atendidas": [
+      "Belmontejo"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T10:00:00",
+        "inicio_original": "2026-10-31T10:00:00",
+        "fin_original": "2026-11-01T10:00:00"
+      },
+      {
+        "inicio": "2026-11-01T10:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 10:00–01/11/2026 10:00",
+      "01/11/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.82084464,
+    "lng": -2.34623536,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 10:00–01/11/2026 10:00 · 01/11/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0016-F",
+    "nombre": "ROCIO ALARCÓN GASCUEÑA",
+    "direccion": "Calle AGUA 30",
+    "localidad": "Buenache De Alarcon",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969209026",
+    "telefonos_adicionales": [],
+    "zona": "VALVERDE DE JUCAR",
+    "localidades_atendidas": [
+      "Buenache De Alarcon"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T10:00:00",
+        "inicio_original": "2026-10-31T10:00:00",
+        "fin_original": "2026-11-01T10:00:00"
+      },
+      {
+        "inicio": "2026-11-01T10:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 10:00–01/11/2026 10:00",
+      "01/11/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.65614394,
+    "lng": -2.15997545,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 10:00–01/11/2026 10:00 · 01/11/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0017-F",
+    "nombre": "ESTHER VALERO SANCHEZ",
+    "direccion": "Calle TOLEDILLO 2",
+    "localidad": "Campillo De Altobuey",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969337268",
+    "telefonos_adicionales": [],
+    "zona": "CAMPILLO DEL ALTOBUEY",
+    "localidades_atendidas": [
+      "Campillo De Altobuey"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.61142361,
+    "lng": -1.79663607,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0106-F",
+    "nombre": "JUAN CARLOS GUIJARRO LOPEZ",
+    "direccion": "Calle VALENCIA 28",
+    "localidad": "Cañada Juncosa",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969381058",
+    "telefonos_adicionales": [],
+    "zona": "HONRUBIA",
+    "localidades_atendidas": [
+      "Cañada Juncosa"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.54942885,
+    "lng": -2.2474939,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0019-F",
+    "nombre": "CAROLINA MALLO DE LA VEGA",
+    "direccion": "Calle SAN MIGUEL 4",
+    "localidad": "Cañete",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969346003",
+    "telefonos_adicionales": [],
+    "zona": "CAÑETE",
+    "localidades_atendidas": [
+      "Cañete"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-28T10:00:00",
+        "fin_original": "2026-11-04T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "28/10/2026 10:00–04/11/2026 10:00"
+    ],
+    "lat": 40.04198332,
+    "lng": -1.64850462,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "28/10/2026 10:00–04/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0021-F",
+    "nombre": "ELENA CARBONELL LLORENS",
+    "direccion": "Calle IGLESIA 29",
+    "localidad": "Cardenete",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969348003",
+    "telefonos_adicionales": [],
+    "zona": "CARDENETE",
+    "localidades_atendidas": [
+      "Cardenete"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.76644289,
+    "lng": -1.68763185,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0025-F",
+    "nombre": "ESPERANZA ESCRIBANO RUIZ",
+    "direccion": "Calle CERVANTES 17",
+    "localidad": "Casasimarro",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "967487057",
+    "telefonos_adicionales": [],
+    "zona": "CASASIMARRO",
+    "localidades_atendidas": [
+      "Casasimarro"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T09:30:00",
+        "fin_original": "2026-11-02T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 09:30–02/11/2026 09:30"
+    ],
+    "lat": 39.39183218,
+    "lng": -2.04010742,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 09:30–02/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0170-F",
+    "nombre": "BEATRIZ PERALES NAVARRO",
+    "direccion": "Calle LAS TORRES 12",
+    "localidad": "Cuenca",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969234529",
+    "telefonos_adicionales": [],
+    "zona": "CUENCA",
+    "localidades_atendidas": [
+      "Cuenca"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:30:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:30:00",
+        "fin_original": "2026-11-02T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "01/11/2026 09:30–02/11/2026 09:30"
+    ],
+    "lat": 40.07304711,
+    "lng": -2.13315002,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "01/11/2026 09:30–02/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0155-F",
+    "nombre": "MARIA JESUS GOMEZ MORENO",
+    "direccion": "Avenida REYES CATOLICOS 26",
+    "localidad": "Cuenca",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969230601",
+    "telefonos_adicionales": [],
+    "zona": "CUENCA",
+    "localidades_atendidas": [
+      "Cuenca"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:30:00",
+        "inicio_original": "2026-10-31T09:30:00",
+        "fin_original": "2026-11-01T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 09:30–01/11/2026 09:30"
+    ],
+    "lat": 40.06295564,
+    "lng": -2.13899726,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 09:30–01/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0158-F",
+    "nombre": "PAULA SERRANO  TELLEZ",
+    "direccion": "Avenida JUAN CARLOS l 12",
+    "localidad": "Cuenca",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969241347",
+    "telefonos_adicionales": [],
+    "zona": "CUENCA",
+    "localidades_atendidas": [
+      "Cuenca"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:30:00",
+        "fin": "2026-11-01T21:30:00",
+        "inicio_original": "2026-11-01T09:30:00",
+        "fin_original": "2026-11-01T21:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "01/11/2026 09:30–01/11/2026 21:30"
+    ],
+    "lat": 40.05722927,
+    "lng": -2.1290208,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "01/11/2026 09:30–01/11/2026 21:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0130-F",
+    "nombre": "CARLOS VALERO AGULLÓ",
+    "direccion": "Calle CANTÓN 23",
+    "localidad": "Henarejos",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969364643",
+    "telefonos_adicionales": [],
+    "zona": "LANDETE",
+    "localidades_atendidas": [
+      "Henarejos"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-30T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "30/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.86523441,
+    "lng": -1.48589372,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "30/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0135-F",
+    "nombre": "SUSANA SANZ LÓPEZ",
+    "direccion": "Calle ISABEL LA CATOLICA 12",
+    "localidad": "Horcajo De Santiago",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969127212",
+    "telefonos_adicionales": [],
+    "zona": "HORCAJO DE SANTIAGO",
+    "localidades_atendidas": [
+      "Horcajo De Santiago"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.84307036,
+    "lng": -2.99855281,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0030-F",
+    "nombre": "JUAN PABLO CARRASCO ONATE",
+    "direccion": "Calle MAMERTO ALIQUE 10",
+    "localidad": "Huete",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969371332",
+    "telefonos_adicionales": [],
+    "zona": "HUETE",
+    "localidades_atendidas": [
+      "Huete"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T10:00:00",
+        "inicio_original": "2026-10-31T10:00:00",
+        "fin_original": "2026-11-01T10:00:00"
+      },
+      {
+        "inicio": "2026-11-01T10:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 10:00–01/11/2026 10:00",
+      "01/11/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 40.1447231,
+    "lng": -2.6892676,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 10:00–01/11/2026 10:00 · 01/11/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0031-F",
+    "nombre": "ROCIO ORTIZ FERRER",
+    "direccion": "Calle NUEVA 32",
+    "localidad": "Iniesta",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "967490034",
+    "telefonos_adicionales": [],
+    "zona": "INIESTA",
+    "localidades_atendidas": [
+      "Iniesta"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.44815241,
+    "lng": -1.75176015,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0163-F",
+    "nombre": "NOEMI Y DAVID DIAZ DEL CAMPO DE PABLOS",
+    "direccion": "Calle MAYOR BAJA 11",
+    "localidad": "Mota Del Cuervo",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "967182637",
+    "telefonos_adicionales": [],
+    "zona": "MOTA DEL CUERVO",
+    "localidades_atendidas": [
+      "Mota Del Cuervo"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 09:00–02/11/2026 09:00"
+    ],
+    "lat": 39.49938413,
+    "lng": -2.87054935,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 09:00–02/11/2026 09:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0038-F",
+    "nombre": "Mª ANGELES GARCIA MARTINEZ",
+    "direccion": "Calle VIRGEN 5",
+    "localidad": "Motilla Del Palancar",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969331204",
+    "telefonos_adicionales": [],
+    "zona": "MOTILLA DEL PALANCAR",
+    "localidades_atendidas": [
+      "Motilla Del Palancar"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-28T09:00:00",
+        "fin_original": "2026-11-04T09:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "28/10/2026 09:00–04/11/2026 09:00"
+    ],
+    "lat": 39.56019196,
+    "lng": -1.90882285,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "28/10/2026 09:00–04/11/2026 09:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0042-F",
+    "nombre": "Mª CONSUELO SAEZ MOTILLA",
+    "direccion": "Calle MONTEJANO 62",
+    "localidad": "Pedroñeras, Las",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "967161416",
+    "telefonos_adicionales": [],
+    "zona": "PEDROÑERAS, LAS",
+    "localidades_atendidas": [
+      "Pedroñeras, Las"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:00:00",
+        "inicio_original": "2026-10-31T09:30:00",
+        "fin_original": "2026-11-01T09:00:00"
+      },
+      {
+        "inicio": "2026-11-01T09:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:00:00",
+        "fin_original": "2026-11-02T09:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 09:30–01/11/2026 09:00",
+      "01/11/2026 09:00–02/11/2026 09:00"
+    ],
+    "lat": 39.45148116,
+    "lng": -2.67464331,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 09:30–01/11/2026 09:00 · 01/11/2026 09:00–02/11/2026 09:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0114-F",
+    "nombre": "CAROLINA CEBRIAN PICAZO",
+    "direccion": "Calle ESCUELAS 11",
+    "localidad": "Pozoamargo",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969387395",
+    "telefonos_adicionales": [],
+    "zona": "SISANTE",
+    "localidades_atendidas": [
+      "Pozoamargo"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.36546993,
+    "lng": -2.19485246,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0134-F",
+    "nombre": "NAHUM SALINAS PALOMAR",
+    "direccion": "Calle CANALEJAS 17",
+    "localidad": "Puente De Vadillos (Cañizares)",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969313123",
+    "telefonos_adicionales": [],
+    "zona": "BETETA",
+    "localidades_atendidas": [
+      "Puente De Vadillos (Cañizares)"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 40.52833569,
+    "lng": -2.15218636,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0161-F",
+    "nombre": "JOSE Mª PASTOR BORONAT",
+    "direccion": "Calle SANTA ANA 1",
+    "localidad": "Quintanar Del Rey",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "967496904",
+    "telefonos_adicionales": [],
+    "zona": "QUINTANAR DEL REY",
+    "localidades_atendidas": [
+      "Quintanar Del Rey"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:30:00",
+        "inicio_original": "2026-10-31T10:00:00",
+        "fin_original": "2026-11-01T09:30:00"
+      },
+      {
+        "inicio": "2026-11-01T09:30:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:30:00",
+        "fin_original": "2026-11-02T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 10:00–01/11/2026 09:30",
+      "01/11/2026 09:30–02/11/2026 09:30"
+    ],
+    "lat": 39.34132715,
+    "lng": -1.92780512,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 10:00–01/11/2026 09:30 · 01/11/2026 09:30–02/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0052-F",
+    "nombre": "Mª DOLORES MORENO PIQUERAS",
+    "direccion": "Calle FERIA 11",
+    "localidad": "San Clemente",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969300293",
+    "telefonos_adicionales": [],
+    "zona": "SAN CLEMENTE",
+    "localidades_atendidas": [
+      "San Clemente"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-30T09:00:00",
+        "fin_original": "2026-11-06T09:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "30/10/2026 09:00–06/11/2026 09:00"
+    ],
+    "lat": 39.40286874,
+    "lng": -2.42800207,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "30/10/2026 09:00–06/11/2026 09:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0057-F",
+    "nombre": "FÉLIX SERRANO BAYÓN",
+    "direccion": "Calle ZAPATERIA 13",
+    "localidad": "Tarancon",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969321352",
+    "telefonos_adicionales": [],
+    "zona": "TARANCON",
+    "localidades_atendidas": [
+      "Tarancon"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T09:30:00",
+        "inicio_original": "2026-10-31T22:00:00",
+        "fin_original": "2026-11-01T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 22:00–01/11/2026 09:30"
+    ],
+    "lat": 40.01127089,
+    "lng": -3.00551609,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 22:00–01/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0076-F",
+    "nombre": "JUAN MIGUEL ÁBALOS PUIG",
+    "direccion": "S. DOMINGO DE GUZMAN 2",
+    "localidad": "Tarancon",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969320589",
+    "telefonos_adicionales": [],
+    "zona": "TARANCON",
+    "localidades_atendidas": [
+      "Tarancon"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:30:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T09:30:00",
+        "fin_original": "2026-11-02T09:30:00"
+      }
+    ],
+    "guardia_franjas": [
+      "01/11/2026 09:30–02/11/2026 09:30"
+    ],
+    "lat": 40.00971101,
+    "lng": -3.01288135,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "01/11/2026 09:30–02/11/2026 09:30"
+  },
+  {
+    "id": "cof-cuenca-CU-0074-F",
+    "nombre": "ANA ISABEL CASTILLO LARA",
+    "direccion": "Calle HIEDRA 20",
+    "localidad": "Tresjuncos",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969126701",
+    "telefonos_adicionales": [],
+    "zona": "BELMONTE",
+    "localidades_atendidas": [
+      "Tresjuncos"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-10-26T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "26/10/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 39.70086276,
+    "lng": -2.75532493,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "26/10/2026 10:00–02/11/2026 10:00"
+  },
+  {
+    "id": "cof-cuenca-CU-0105-F",
+    "nombre": "ESTRELLA PEÑA MARTINEZ",
+    "direccion": "CTRA.CAÑAVERAS S/N",
+    "localidad": "Villaconejos De Trabaque",
+    "sector": "",
+    "provincia": "Cuenca",
+    "telefono": "969315556",
+    "telefonos_adicionales": [],
+    "zona": "CAÑAVERAS",
+    "localidades_atendidas": [
+      "Villaconejos De Trabaque"
+    ],
+    "guardia": true,
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_localizada": false,
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00",
+        "fin": "2026-11-01T10:00:00",
+        "inicio_original": "2026-10-31T10:00:00",
+        "fin_original": "2026-11-01T10:00:00"
+      },
+      {
+        "inicio": "2026-11-01T10:00:00",
+        "fin": "2026-11-02T00:00:00",
+        "inicio_original": "2026-11-01T10:00:00",
+        "fin_original": "2026-11-02T10:00:00"
+      }
+    ],
+    "guardia_franjas": [
+      "31/10/2026 10:00–01/11/2026 10:00",
+      "01/11/2026 10:00–02/11/2026 10:00"
+    ],
+    "lat": 40.40045807,
+    "lng": -2.32075923,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://farmaciasdeguardia.cofcam.es/",
+    "guardia_franja": "31/10/2026 10:00–01/11/2026 10:00 · 01/11/2026 10:00–02/11/2026 10:00"
+  }
+]

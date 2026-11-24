@@ -1,0 +1,4085 @@
+[
+  {
+    "id": "cof-baleares-18606",
+    "cofa_id": "18606",
+    "nombre": "MORANTA RIBAS",
+    "direccion": "AVINGUDA DELS REIS CATÒLICS, 112 - INCA",
+    "localidad": "Inca",
+    "provincia": "Baleares",
+    "telefono": "609273090",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=31%2F10%2F2026",
+    "lat": 39.720144,
+    "lng": 2.91700959,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Costitx",
+      "Escorca",
+      "Inca",
+      "Lloret",
+      "Lloseta",
+      "Llubí",
+      "Mancor",
+      "MARIA DE LA SALUT",
+      "Selva",
+      "Sencelles",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18606"
+  },
+  {
+    "id": "cof-baleares-70730",
+    "cofa_id": "70730",
+    "nombre": "FERRIOL VICH",
+    "direccion": "RECH, 5 - BINISSALEM",
+    "localidad": "Binissalem",
+    "provincia": "Baleares",
+    "telefono": "971886514",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=03%2F11%2F2026",
+    "lat": 39.686719,
+    "lng": 2.84435212,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Sencelles"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70730"
+  },
+  {
+    "id": "cof-baleares-20677",
+    "cofa_id": "20677",
+    "nombre": "PERELLO OLIVER",
+    "direccion": "COSTA I LLOBERA,94 - INCA",
+    "localidad": "Inca",
+    "provincia": "Baleares",
+    "telefono": "971501344",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=01%2F11%2F2026",
+    "lat": 39.7170753479004,
+    "lng": 2.90502238273621,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Costitx",
+      "Escorca",
+      "Inca",
+      "Lloret",
+      "Lloseta",
+      "Llubí",
+      "Mancor",
+      "MARIA DE LA SALUT",
+      "Selva",
+      "Sencelles",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=20677"
+  },
+  {
+    "id": "cof-baleares-18408",
+    "cofa_id": "18408",
+    "nombre": "ALCOVER CASASNOVAS, R",
+    "direccion": "AV. JOAN MIRÓ, 186 (davant C.Cial. Porto-Pí)-PALMA",
+    "localidad": "Palma",
+    "provincia": "Baleares",
+    "telefono": "971909015",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=02%2F11%2F2026",
+    "lat": 39.5522880554199,
+    "lng": 2.62143325805664,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Andratx",
+      "Banyalbufar",
+      "Bunyola",
+      "Calvià",
+      "Campos",
+      "Esporles",
+      "Estellencs",
+      "Felanitx",
+      "Llucmajor",
+      "Marratxí",
+      "Palma",
+      "Platja de Palma",
+      "Puigpunyent",
+      "Santa Eugènia",
+      "Santa Maria",
+      "Santanyí",
+      "Ses Salines",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 21:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–03/11 22:00 · Guardia COFIB · 03/11 22:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–03/11 22:00",
+      "Guardia COFIB · 03/11 22:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18408"
+  },
+  {
+    "id": "cof-baleares-18259",
+    "cofa_id": "18259",
+    "nombre": "BAUZA SERVERA",
+    "direccion": "AV.SA MARINA, 14 - CALA EGOS",
+    "localidad": "Algaida",
+    "provincia": "Baleares",
+    "telefono": "971659814",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=31%2F10%2F2026",
+    "lat": 39.3643188476563,
+    "lng": 3.22613096237183,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Algaida",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18259"
+  },
+  {
+    "id": "cof-baleares-22103",
+    "cofa_id": "22103",
+    "nombre": "GOMEZ GARCIA",
+    "direccion": "CL BALANGUERA, 15 (Junto Plaza Madrid) PALMA",
+    "localidad": "Palma",
+    "provincia": "Baleares",
+    "telefono": "971458788",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=02%2F11%2F2026",
+    "lat": 39.5782852172852,
+    "lng": 2.64139223098755,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Banyalbufar",
+      "Bunyola",
+      "Campos",
+      "Esporles",
+      "Estellencs",
+      "Felanitx",
+      "Llucmajor",
+      "Marratxí",
+      "Palma",
+      "Platja de Palma",
+      "Puigpunyent",
+      "Santa Eugènia",
+      "Santa Maria",
+      "Santanyí",
+      "Ses Salines",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 21:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–03/11 22:00 · Guardia COFIB · 03/11 22:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–03/11 22:00",
+      "Guardia COFIB · 03/11 22:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22103"
+  },
+  {
+    "id": "cof-baleares-26955",
+    "cofa_id": "26955",
+    "nombre": "REAL VICENS",
+    "direccion": "ARAGÓ, 70 (al costat Bar Güell)- PALMA",
+    "localidad": "Palma",
+    "provincia": "Baleares",
+    "telefono": "971272501",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=02%2F11%2F2026",
+    "lat": 39.5784149169922,
+    "lng": 2.66241145133972,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Banyalbufar",
+      "Bunyola",
+      "Campos",
+      "Esporles",
+      "Estellencs",
+      "Felanitx",
+      "Llucmajor",
+      "Marratxí",
+      "Palma",
+      "Platja de Palma",
+      "Puigpunyent",
+      "Santa Eugènia",
+      "Santa Maria",
+      "Santanyí",
+      "Ses Salines",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 21:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–03/11 22:00 · Guardia COFIB · 03/11 22:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–03/11 22:00",
+      "Guardia COFIB · 03/11 22:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=26955"
+  },
+  {
+    "id": "cof-baleares-10975",
+    "cofa_id": "10975",
+    "nombre": "CIRERA PUIG",
+    "direccion": "ANTONIO MAURA,20 - LLUCMAJOR",
+    "localidad": "Llucmajor",
+    "provincia": "Baleares",
+    "telefono": "971660210",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4875869750977,
+    "lng": 2.88904309272766,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=10975"
+  },
+  {
+    "id": "cof-baleares-18309",
+    "cofa_id": "18309",
+    "nombre": "GAMUNDI FERRETJANS",
+    "direccion": "CONSTITUCIO,5 - LLUCMAJOR",
+    "localidad": "Llucmajor",
+    "provincia": "Baleares",
+    "telefono": "971660597",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4913711547852,
+    "lng": 2.89070916175842,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18309"
+  },
+  {
+    "id": "cof-baleares-23226",
+    "cofa_id": "23226",
+    "nombre": "MESTRE MESTRE",
+    "direccion": "AV PRÍNCEPS D'ESPANYA, 5 A - ALCUDIA",
+    "localidad": "Alcúdia",
+    "provincia": "Baleares",
+    "telefono": "971548558",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alc%C3%BAdia&data=02%2F11%2F2026",
+    "lat": 39.851863861084,
+    "lng": 3.12444472312927,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alcúdia",
+      "Búger",
+      "Campanet",
+      "Muro",
+      "Pollença",
+      "Sa Pobla",
+      "Santa Margalida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 21:00–04/11 00:00 · Guardia COFIB · 03/11 22:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00",
+      "Guardia COFIB · 03/11 22:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=23226"
+  },
+  {
+    "id": "cof-baleares-13516",
+    "cofa_id": "13516",
+    "nombre": "VIZOSO - RIUTORT",
+    "direccion": "AVDA. PEDRO MAS REUS, 30- PTO. ALCUDIA",
+    "localidad": "Alcúdia",
+    "provincia": "Baleares",
+    "telefono": "971890530",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alc%C3%BAdia&data=01%2F11%2F2026",
+    "lat": 39.8312873840332,
+    "lng": 3.10907912254334,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Alcúdia"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=13516"
+  },
+  {
+    "id": "cof-baleares-18556",
+    "cofa_id": "18556",
+    "nombre": "ANTICH SIQUIER",
+    "direccion": "RAMON DE MONCADA, 19 (Local 6) - SANTA PONSA",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971691266",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=31%2F10%2F2026",
+    "lat": 39.5192692,
+    "lng": 2.47760486,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Andratx",
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18556"
+  },
+  {
+    "id": "cof-baleares-15263",
+    "cofa_id": "15263",
+    "nombre": "ALEMANY MANDILEGO",
+    "direccion": "PL.ESPAÑA, 6  - ANDRATX",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971136052",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=03%2F11%2F2026",
+    "lat": 39.5748672485352,
+    "lng": 2.42044711112976,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Andratx"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15263"
+  },
+  {
+    "id": "cof-baleares-16550",
+    "cofa_id": "16550",
+    "nombre": "GONZALEZ - PUIG",
+    "direccion": "AVD.MATEO BOSCH,16-B (PORT ANDRATX)",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971672019",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=01%2F11%2F2026",
+    "lat": 39.5449905395508,
+    "lng": 2.38900589942932,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Andratx",
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=16550"
+  },
+  {
+    "id": "cof-baleares-29587",
+    "cofa_id": "29587",
+    "nombre": "PASCUAL SUREDA",
+    "direccion": "Pza. Abeurador, 3 - MANACOR",
+    "localidad": "Manacor",
+    "provincia": "Baleares",
+    "telefono": "971551263",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=31%2F10%2F2026",
+    "lat": 39.5744018554688,
+    "lng": 3.20806741714478,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Ariany",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Manacor",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Santanyí",
+      "Ses Salines",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=29587"
+  },
+  {
+    "id": "cof-baleares-14001",
+    "cofa_id": "14001",
+    "nombre": "RIERA CB.",
+    "direccion": "CL CIUTAT, 53  -  PETRA",
+    "localidad": "Petra",
+    "provincia": "Baleares",
+    "telefono": "971561130",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=01%2F11%2F2026",
+    "lat": 39.6145896911621,
+    "lng": 3.11232924461365,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Ariany",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=14001"
+  },
+  {
+    "id": "cof-baleares-22962",
+    "cofa_id": "22962",
+    "nombre": "LADARIA SUREDA",
+    "direccion": "CL MENORCA 44",
+    "localidad": "Ariany",
+    "provincia": "Baleares",
+    "telefono": "971551730",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=01%2F11%2F2026",
+    "lat": 39.5647659301758,
+    "lng": 3.20150446891785,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Ariany",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Manacor",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Santanyí",
+      "Ses Salines",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22962"
+  },
+  {
+    "id": "cof-baleares-19505",
+    "cofa_id": "19505",
+    "nombre": "RAMIS BELL",
+    "direccion": "NA LLAMBIAS, S/N - CALA BONA",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971585895",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=02%2F11%2F2026",
+    "lat": 39.6101989746094,
+    "lng": 3.38956737518311,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera",
+      "Sant Llorenç",
+      "Son Servera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 21:30–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 21:30–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:30:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19505"
+  },
+  {
+    "id": "cof-baleares-17269",
+    "cofa_id": "17269",
+    "nombre": "SIRER - SANCHO",
+    "direccion": "AV JOAN CARLES I, 111 - CALA RATJADA",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971819133",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.7049942016602,
+    "lng": 3.45049381256104,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=17269"
+  },
+  {
+    "id": "cof-baleares-27250",
+    "cofa_id": "27250",
+    "nombre": "BENITO BUENO",
+    "direccion": "CTRA. VALLDEMOSSA, 59 (Junto Carrefour)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971293740",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5936393737793,
+    "lng": 2.64765286445618,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=27250"
+  },
+  {
+    "id": "cof-baleares-19075",
+    "cofa_id": "19075",
+    "nombre": "BENNASER - VERD",
+    "direccion": "LA RAMBLA, 14 (cantonada C/ Horts)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971711511",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.573616027832,
+    "lng": 2.64956474304199,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19075"
+  },
+  {
+    "id": "cof-baleares-23275",
+    "cofa_id": "23275",
+    "nombre": "BUADES MATEU",
+    "direccion": "PZA. JUAN CARLOS I, 3 (Inicio Jaime III)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971070635",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5714988708496,
+    "lng": 2.6470308303833,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=23275"
+  },
+  {
+    "id": "cof-baleares-25296",
+    "cofa_id": "25296",
+    "nombre": "FLUXA TORRES",
+    "direccion": "ARAGÓ, 202  (al costat d'Eroski, Lidl i Aldi)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971474566",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5866165161133,
+    "lng": 2.67405772209167,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=25296"
+  },
+  {
+    "id": "cof-baleares-30858",
+    "cofa_id": "30858",
+    "nombre": "FORNES NADAL",
+    "direccion": "CTRA. VALLDEMOSSA, 25",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971298050",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5895347595215,
+    "lng": 2.64951109886169,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=30858"
+  },
+  {
+    "id": "cof-baleares-27078",
+    "cofa_id": "27078",
+    "nombre": "HERNANDEZ FRONTERA",
+    "direccion": "MIQUEL CAPLLONCH, 32  ( Frente Conservatorio de Música)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971666901",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5909881591797,
+    "lng": 2.65296983718872,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=27078"
+  },
+  {
+    "id": "cof-baleares-14324",
+    "cofa_id": "14324",
+    "nombre": "MARIMON SIMO",
+    "direccion": "CL TRAFALGAR, 25 (Ciudad Jardín)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971267660",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.551815032959,
+    "lng": 2.69242310523987,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=14324"
+  },
+  {
+    "id": "cof-baleares-13623",
+    "cofa_id": "13623",
+    "nombre": "MUNAR MASOT",
+    "direccion": "AV. ALEXANDRE ROSSELLÓ, 19 (davant del Corte Inglés)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971726817",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.57373046875,
+    "lng": 2.65553402900696,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=13623"
+  },
+  {
+    "id": "cof-baleares-14647",
+    "cofa_id": "14647",
+    "nombre": "PIÑA - GALLARDO",
+    "direccion": "AUSIÀS MARCH, 32 (Al costat Pl. Sta. Pagesa)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971909095",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5821189880371,
+    "lng": 2.64813184738159,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=14647"
+  },
+  {
+    "id": "cof-baleares-28522",
+    "cofa_id": "28522",
+    "nombre": "SAGRISTA BUADES, F",
+    "direccion": "CL MARQUES DE LA FONTSANTA, 6 (Junto a Plaza España)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971222202",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5761337280273,
+    "lng": 2.65553689002991,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=28522"
+  },
+  {
+    "id": "cof-baleares-31773",
+    "cofa_id": "31773",
+    "nombre": "SAGRISTA BUADES, G",
+    "direccion": "PASQUAL RIBOT,52 (Entre Policlínica Miramar i PAC Son Pizà)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971222201",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5810775756836,
+    "lng": 2.63384556770325,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=31773"
+  },
+  {
+    "id": "cof-baleares-25379",
+    "cofa_id": "25379",
+    "nombre": "SAGRISTA-FARRE-MATEMALAS",
+    "direccion": "C/SON RAPINYA, 31 LOC. 7,8 (Rotonda Colegios)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971609946",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5848197937012,
+    "lng": 2.61807727813721,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=25379"
+  },
+  {
+    "id": "cof-baleares-22590",
+    "cofa_id": "22590",
+    "nombre": "TINOCO GIL",
+    "direccion": "AV GABRIEL ALOMAR I VILLALONGA, 27",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "645899135",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5684623718262,
+    "lng": 2.6572048664093,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22590"
+  },
+  {
+    "id": "cof-baleares-13300",
+    "cofa_id": "13300",
+    "nombre": "TORRES CERDO",
+    "direccion": "BARTOMEU ROSSELLÓ I PÒRCEL, 25 (Esquina Andrea Doria)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971737529",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5707556,
+    "lng": 2.63043039,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=13300"
+  },
+  {
+    "id": "cof-baleares-17947",
+    "cofa_id": "17947",
+    "nombre": "VAQUER MESTRE",
+    "direccion": "ANSELM TURMEDA, 9 (Davant c/ Jesús-cami del cementiri)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971291159",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5818748474121,
+    "lng": 2.64475083351135,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=17947"
+  },
+  {
+    "id": "cof-baleares-18739",
+    "cofa_id": "18739",
+    "nombre": "VICENS CALDENTEY, JOAN",
+    "direccion": "REIS CATÒLICS, 58-60",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971274756",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5743675231934,
+    "lng": 2.6698203086853,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18739"
+  },
+  {
+    "id": "cof-baleares-30130",
+    "cofa_id": "30130",
+    "nombre": "CAMPINS-CATANY (FARMACIA MAJOR)",
+    "direccion": "MAJOR, 40 - SA POBLA",
+    "localidad": "Sa Pobla",
+    "provincia": "Baleares",
+    "telefono": "971540771",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=B%C3%BAger&data=01%2F11%2F2026",
+    "lat": 39.7690086364746,
+    "lng": 3.02301955223084,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Búger",
+      "Campanet",
+      "Sa Pobla"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=30130"
+  },
+  {
+    "id": "cof-baleares-18374",
+    "cofa_id": "18374",
+    "nombre": "BAUZA DIAZ",
+    "direccion": "SON FRAU, S/N (En front club Tenis) -PONT D'INCA NOU-",
+    "localidad": "Bunyola",
+    "provincia": "Baleares",
+    "telefono": "971794613",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Bunyola&data=03%2F11%2F2026",
+    "lat": 39.6052894592285,
+    "lng": 2.70039844512939,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Bunyola",
+      "Marratxí",
+      "Santa Eugènia",
+      "Santa Maria"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18374"
+  },
+  {
+    "id": "cof-baleares-32599",
+    "cofa_id": "32599",
+    "nombre": "RIOS SOSA",
+    "direccion": "CABANA,39 (SA CABANA)",
+    "localidad": "Bunyola",
+    "provincia": "Baleares",
+    "telefono": "971794671",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Bunyola&data=01%2F11%2F2026",
+    "lat": 39.6017112731934,
+    "lng": 2.68896317481995,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Bunyola",
+      "Marratxí",
+      "Santa Eugènia",
+      "Santa Maria"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 20:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T20:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=32599"
+  },
+  {
+    "id": "cof-baleares-19281",
+    "cofa_id": "19281",
+    "nombre": "RIERA DEL OJO",
+    "direccion": "Avda. Paguera, 78 (Final Bulevar dirección Palma) PAGUERA",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971686761",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=01%2F11%2F2026",
+    "lat": 39.5365333557129,
+    "lng": 2.45623683929443,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 19:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 19:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T19:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19281"
+  },
+  {
+    "id": "cof-baleares-22533",
+    "cofa_id": "22533",
+    "nombre": "FRAU MORENO",
+    "direccion": "Puig d'es Galatzo, s/n - SANTA PONSA",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971699656",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5164260864258,
+    "lng": 2.48134779930115,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22533"
+  },
+  {
+    "id": "cof-baleares-26328",
+    "cofa_id": "26328",
+    "nombre": "SHUHAIBAR TICOULAT",
+    "direccion": "SA LLANA, 67 - FELANITX",
+    "localidad": "Felanitx",
+    "provincia": "Baleares",
+    "telefono": "971581797",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Campos&data=01%2F11%2F2026",
+    "lat": 39.4738082885742,
+    "lng": 3.15064811706543,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=26328"
+  },
+  {
+    "id": "cof-baleares-70706",
+    "cofa_id": "70706",
+    "nombre": "ESTELA - ESTELA",
+    "direccion": "FOSSAR, 28 - SINEU",
+    "localidad": "Sineu",
+    "provincia": "Baleares",
+    "telefono": "971520115",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Costitx&data=01%2F11%2F2026",
+    "lat": 39.6435737609863,
+    "lng": 3.01327061653137,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Costitx",
+      "Lloret",
+      "Llubí",
+      "MARIA DE LA SALUT",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70706"
+  },
+  {
+    "id": "cof-baleares-19745",
+    "cofa_id": "19745",
+    "nombre": "SITJAR CHACARTEGUI",
+    "direccion": "CL DE JAUME TORRENS, 13",
+    "localidad": "Deià",
+    "provincia": "Baleares",
+    "telefono": "971631796",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Dei%C3%A0&data=02%2F11%2F2026",
+    "lat": 39.7979097,
+    "lng": 2.69619476,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Deià",
+      "Fornalutx",
+      "Sóller"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19745"
+  },
+  {
+    "id": "cof-baleares-10736",
+    "cofa_id": "10736",
+    "nombre": "JUAN - HEKKING",
+    "direccion": "Passeig Colon, 96 - CAN PICAFORT",
+    "localidad": "Muro",
+    "provincia": "Baleares",
+    "telefono": "971850400",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Muro&data=01%2F11%2F2026",
+    "lat": 39.7675552368164,
+    "lng": 3.15104675292969,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Muro",
+      "Santa Margalida"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=10736"
+  },
+  {
+    "id": "cof-baleares-15818",
+    "cofa_id": "15818",
+    "nombre": "FULLANA ROSSELLO",
+    "direccion": "AVDA. SA COMA,  24  - URB. SA MANIGA - CALA MILLOR",
+    "localidad": "Sant Llorenç",
+    "provincia": "Baleares",
+    "telefono": "971813922",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Lloren%C3%A7&data=01%2F11%2F2026",
+    "lat": 39.5922393798828,
+    "lng": 3.38313150405884,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Sant Llorenç",
+      "Son Servera"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 21:30",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 21:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T21:30:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15818"
+  },
+  {
+    "id": "cof-baleares-29975",
+    "cofa_id": "29975",
+    "nombre": "ESCUDERO ROTGER JOSE Mª",
+    "direccion": "CAMI D'ES CASTELL, 9 - MAO",
+    "localidad": "Maó",
+    "provincia": "Baleares",
+    "telefono": "971363148",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=31%2F10%2F2026",
+    "lat": 39.8874056,
+    "lng": 4.26769495,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Castell",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries",
+      "Maó",
+      "Sant Lluís"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=29975"
+  },
+  {
+    "id": "cof-baleares-24695",
+    "cofa_id": "24695",
+    "nombre": "FARMACIA PLAÇA NOVA",
+    "direccion": "PZ. NOVA, 2  - CIUTADELLA",
+    "localidad": "Ciutadella",
+    "provincia": "Baleares",
+    "telefono": "971380695",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=31%2F10%2F2026",
+    "lat": 40.0023307800293,
+    "lng": 3.83936595916748,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Alaior",
+      "Ciutadella",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=24695"
+  },
+  {
+    "id": "cof-baleares-16113",
+    "cofa_id": "16113",
+    "nombre": "MARTINEZ RIUDAVETS",
+    "direccion": "CARRER D'ENMIG, 22 -    ES MERCADAL",
+    "localidad": "Es Mercadal",
+    "provincia": "Baleares",
+    "telefono": "971154015",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=01%2F11%2F2026",
+    "lat": 39.988525390625,
+    "lng": 4.09190464019775,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=16113"
+  },
+  {
+    "id": "cof-baleares-27862",
+    "cofa_id": "27862",
+    "nombre": "BARRAU MARTINEZ",
+    "direccion": "DR. ORFILA, 28 - MAO",
+    "localidad": "Maó",
+    "provincia": "Baleares",
+    "telefono": "971360768",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=01%2F11%2F2026",
+    "lat": 39.8880882263184,
+    "lng": 4.26221609115601,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Castell",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries",
+      "Maó",
+      "Sant Lluís"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=27862"
+  },
+  {
+    "id": "cof-baleares-14753",
+    "cofa_id": "14753",
+    "nombre": "OLEO FORCADES",
+    "direccion": "FEDERICO PAREJA, 52  - CIUTADELLA",
+    "localidad": "Ciutadella",
+    "provincia": "Baleares",
+    "telefono": "971380935",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=01%2F11%2F2026",
+    "lat": 40.0038223266602,
+    "lng": 3.84024477005005,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alaior",
+      "Ciutadella",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=14753"
+  },
+  {
+    "id": "cof-baleares-29322",
+    "cofa_id": "29322",
+    "nombre": "BONILLA BONILLA",
+    "direccion": "Atzaro, 8",
+    "localidad": "Eivissa",
+    "provincia": "Baleares",
+    "telefono": "971394882",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Eivissa&data=31%2F10%2F2026",
+    "lat": 38.905460357666,
+    "lng": 1.41215193271637,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Eivissa"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=29322"
+  },
+  {
+    "id": "cof-baleares-70599",
+    "cofa_id": "70599",
+    "nombre": "ROMANY TERENCIO",
+    "direccion": "AV Miramar (edifici Miranda I, local 01)  nº112",
+    "localidad": "Formentera",
+    "provincia": "Baleares",
+    "telefono": "971281418",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Formentera&data=01%2F11%2F2026",
+    "lat": 38.7237502,
+    "lng": 1.45737789,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Formentera"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70599"
+  },
+  {
+    "id": "cof-baleares-12856",
+    "cofa_id": "12856",
+    "nombre": "VILLANGÒMEZ MARÍ",
+    "direccion": "CARRER AMPLE, 12",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971340891",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=31%2F10%2F2026",
+    "lat": 38.9803314208984,
+    "lng": 1.30394303798676,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=12856"
+  },
+  {
+    "id": "cof-baleares-70250",
+    "cofa_id": "70250",
+    "nombre": "BRU BONILLA",
+    "direccion": "AV. D' ISIDOR MACABICH, 13B",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971724707",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=01%2F11%2F2026",
+    "lat": 38.9850432,
+    "lng": 1.2986744,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70250"
+  },
+  {
+    "id": "cof-baleares-32540",
+    "cofa_id": "32540",
+    "nombre": "LACHEN CASANOVAS",
+    "direccion": "CL MARGALIDES, 1  LC-A. EDIF MONTEVIDEO (URB SIESTA)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971331224",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=31%2F10%2F2026",
+    "lat": 38.9781501,
+    "lng": 1.52584299,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 00:00–01/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 00:00–01/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T00:00:00+01:00",
+        "fin": "2026-11-01T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=32540"
+  },
+  {
+    "id": "cof-baleares-20974",
+    "cofa_id": "20974",
+    "nombre": "RODRIGUEZ - CASTILLO",
+    "direccion": "CARRER SANT JAUME, 43 (STA. EULÀRIA)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971330642",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=03%2F11%2F2026",
+    "lat": 38.9844169616699,
+    "lng": 1.5330855846405,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=20974"
+  },
+  {
+    "id": "cof-baleares-24034",
+    "cofa_id": "24034",
+    "nombre": "FLUXA - ARROYO",
+    "direccion": "Pins, 34 Cala Estancia (Junto Hotel Alexandra) - CA'N PASTILLA",
+    "localidad": "Platja de Palma",
+    "provincia": "Baleares",
+    "telefono": "971264560",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Platja+de+Palma&data=03%2F11%2F2026",
+    "lat": 39.5352668762207,
+    "lng": 2.71200346946716,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Platja de Palma"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=24034"
+  },
+  {
+    "id": "cof-baleares-21568",
+    "cofa_id": "21568",
+    "nombre": "FRAU BELTRAN - FRAU ROCA",
+    "direccion": "Berlín, 23 (davant terminal Bus Arenal) - EL ARENAL",
+    "localidad": "Platja de Palma",
+    "provincia": "Baleares",
+    "telefono": "971260074",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Platja+de+Palma&data=03%2F11%2F2026",
+    "lat": 39.50537109375,
+    "lng": 2.75319409370422,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Platja de Palma"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=21568"
+  },
+  {
+    "id": "cof-baleares-tel-871712922",
+    "cofa_id": "",
+    "nombre": "GOMIS HURTADO",
+    "direccion": "Avg. d' Europa, 11  -  S'ARENAL DE LLUCMAJOR",
+    "localidad": "Llucmajor",
+    "provincia": "Baleares",
+    "telefono": "871712922",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Platja+de+Palma&data=03%2F11%2F2026",
+    "lat": null,
+    "lng": null,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Platja de Palma"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-baleares-tel-971864699",
+    "cofa_id": "",
+    "nombre": "MARCOS GARCIA",
+    "direccion": "C/ JOAN XXIII, 106",
+    "localidad": "Pollença",
+    "provincia": "Baleares",
+    "telefono": "971864699",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Pollen%C3%A7a&data=01%2F11%2F2026",
+    "lat": null,
+    "lng": null,
+    "guardia": false,
+    "fecha_guardia": "2026-11-01",
+    "localidades_atendidas": [
+      "Pollença"
+    ],
+    "guardia_franja": "Guardia COFIB · 01/11 09:00–01/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 01/11 09:00–01/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-01T09:00:00+01:00",
+        "fin": "2026-11-01T21:00:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-baleares-tel-971931439",
+    "cofa_id": "",
+    "nombre": "DE LA CUEVA TORREGROSA",
+    "direccion": "AV. DE LA PAU,1 LOCAL 2 (EDIF. CANÀRIES)",
+    "localidad": "Eivissa",
+    "provincia": "Baleares",
+    "telefono": "971931439",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Eivissa&data=01%2F11%2F2026",
+    "lat": null,
+    "lng": null,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Eivissa"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 00:00–02/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 00:00–02/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00+01:00",
+        "fin": "2026-11-02T09:00:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-baleares-70722",
+    "cofa_id": "70722",
+    "nombre": "COSTA - BONET",
+    "direccion": "ANTONI MAURA, 1 - SENCELLES          ( telf. guàrdies 678048796 )",
+    "localidad": "Alaró",
+    "provincia": "Baleares",
+    "telefono": "971874291",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=02%2F11%2F2026",
+    "lat": 39.6476402282715,
+    "lng": 2.89828705787659,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Sencelles"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70722"
+  },
+  {
+    "id": "cof-baleares-16501",
+    "cofa_id": "16501",
+    "nombre": "PUJADAS BALAGUER",
+    "direccion": "JAUME ARMENGOL, 53 - INCA",
+    "localidad": "Inca",
+    "provincia": "Baleares",
+    "telefono": "971500710",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=02%2F11%2F2026",
+    "lat": 39.7200698852539,
+    "lng": 2.90968728065491,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Costitx",
+      "Escorca",
+      "Inca",
+      "Lloret",
+      "Lloseta",
+      "Llubí",
+      "Mancor",
+      "MARIA DE LA SALUT",
+      "Selva",
+      "Sencelles",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=16501"
+  },
+  {
+    "id": "cof-baleares-18614",
+    "cofa_id": "18614",
+    "nombre": "COMAS PONS",
+    "direccion": "C/ IMPERIAL, 2 , LOCAL - 2  - URB. MAIORIS",
+    "localidad": "Algaida",
+    "provincia": "Baleares",
+    "telefono": "871253225",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4549491,
+    "lng": 2.75268438,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18614"
+  },
+  {
+    "id": "cof-baleares-21717",
+    "cofa_id": "21717",
+    "nombre": "GARCIAS CLAR",
+    "direccion": "AV AVINGUDA DE CARLES V, 16 B",
+    "localidad": "Algaida",
+    "provincia": "Baleares",
+    "telefono": "971660706",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4897422790527,
+    "lng": 2.89072418212891,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=21717"
+  },
+  {
+    "id": "cof-baleares-19034",
+    "cofa_id": "19034",
+    "nombre": "SITJAR GARI",
+    "direccion": "PASSEIG DE JAUME III, 16  (LLUCMAJOR)",
+    "localidad": "Llucmajor",
+    "provincia": "Baleares",
+    "telefono": "871031061",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4875297546387,
+    "lng": 2.88595628738403,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19034"
+  },
+  {
+    "id": "cof-baleares-70821",
+    "cofa_id": "70821",
+    "nombre": "VIDAL PADES",
+    "direccion": "CL FALZIA, s/n - URB. PUIG DE ROS",
+    "localidad": "Algaida",
+    "provincia": "Baleares",
+    "telefono": "971749769",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4491539001465,
+    "lng": 2.75497388839722,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70821"
+  },
+  {
+    "id": "cof-baleares-31146",
+    "cofa_id": "31146",
+    "nombre": "MESTRE PUIG",
+    "direccion": "HORT, 43 - FELANITX",
+    "localidad": "Felanitx",
+    "provincia": "Baleares",
+    "telefono": "971583319",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=02%2F11%2F2026",
+    "lat": 39.4705924987793,
+    "lng": 3.14565658569336,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=31146"
+  },
+  {
+    "id": "cof-baleares-15339",
+    "cofa_id": "15339",
+    "nombre": "BARCELO MELIA",
+    "direccion": "CARRER DELS MARINERS, 2  - PORT D'ALCUDIA",
+    "localidad": "Alcúdia",
+    "provincia": "Baleares",
+    "telefono": "971546463",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alc%C3%BAdia&data=02%2F11%2F2026",
+    "lat": 39.8426361083984,
+    "lng": 3.13457536697388,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alcúdia"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15339"
+  },
+  {
+    "id": "cof-baleares-71001",
+    "cofa_id": "71001",
+    "nombre": "NOSTI ALES",
+    "direccion": "Platges, 3  -CAPDELLÀ",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971138521",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=02%2F11%2F2026",
+    "lat": 39.5790748596191,
+    "lng": 2.46888113021851,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Andratx",
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=71001"
+  },
+  {
+    "id": "cof-baleares-70110",
+    "cofa_id": "70110",
+    "nombre": "SASTRE BARCELO, ANTONIA",
+    "direccion": "Almoina, 53 - PORRERES",
+    "localidad": "Porreres",
+    "provincia": "Baleares",
+    "telefono": "971647084",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=03%2F11%2F2026",
+    "lat": 39.5158882141113,
+    "lng": 3.02229976654053,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Ariany",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70110"
+  },
+  {
+    "id": "cof-baleares-27557",
+    "cofa_id": "27557",
+    "nombre": "RIERA GARAU",
+    "direccion": "Sa Bassa, 7 - MANACOR",
+    "localidad": "Manacor",
+    "provincia": "Baleares",
+    "telefono": "971550061",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=02%2F11%2F2026",
+    "lat": 39.5697898864746,
+    "lng": 3.20954918861389,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Ariany",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Manacor",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Santanyí",
+      "Ses Salines",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=27557"
+  },
+  {
+    "id": "cof-baleares-11841",
+    "cofa_id": "11841",
+    "nombre": "ANTICH ROJAS",
+    "direccion": "LEONOR SERVERA,51 (CALA RATJADA)",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971563395",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.7107734680176,
+    "lng": 3.46137070655823,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=11841"
+  },
+  {
+    "id": "cof-baleares-20248",
+    "cofa_id": "20248",
+    "nombre": "CALDENTEY NADAL",
+    "direccion": "CARDENAL DESPUIG,2,A - ARTÀ",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971835968",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.6926689147949,
+    "lng": 3.34982681274414,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=20248"
+  },
+  {
+    "id": "cof-baleares-26716",
+    "cofa_id": "26716",
+    "nombre": "GARCIAS LADARIA",
+    "direccion": "CL GRAN VIA DE LA CONSTITUCIÓ, 25  - ARTÀ",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971836524",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.6927795410156,
+    "lng": 3.34763717651367,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=26716"
+  },
+  {
+    "id": "cof-baleares-18986",
+    "cofa_id": "18986",
+    "nombre": "PALMER LLANERAS",
+    "direccion": "AVG. DE COSTA I LLOBERA, 47  - ARTA",
+    "localidad": "Artà",
+    "provincia": "Baleares",
+    "telefono": "971836348",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Art%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.6916122436523,
+    "lng": 3.35457277297974,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Artà",
+      "Capdepera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18986"
+  },
+  {
+    "id": "cof-baleares-70862",
+    "cofa_id": "70862",
+    "nombre": "GALLARDO PIÑA, MIGUEL",
+    "direccion": "CL ARAGÓ, 34 A",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971469327",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5758373,
+    "lng": 2.65951704,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70862"
+  },
+  {
+    "id": "cof-baleares-26054",
+    "cofa_id": "26054",
+    "nombre": "GALLARDO PIÑA, NEUS",
+    "direccion": "CL VILLALONGA, 57 (CANTONADA JOAN CRESPI)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971730439",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.575008392334,
+    "lng": 2.63434743881226,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=26054"
+  },
+  {
+    "id": "cof-baleares-27094",
+    "cofa_id": "27094",
+    "nombre": "MATARO - MATARO",
+    "direccion": "COMTE DE BARCELONA, 2 (Esq. Avda. Argentina)",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971732578",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5746421813965,
+    "lng": 2.64072036743164,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=27094"
+  },
+  {
+    "id": "cof-baleares-10199",
+    "cofa_id": "10199",
+    "nombre": "NADAL ESTELA",
+    "direccion": "ARAGO, 231",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971474882",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.5903167724609,
+    "lng": 2.67851138114929,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=10199"
+  },
+  {
+    "id": "cof-baleares-70334",
+    "cofa_id": "70334",
+    "nombre": "RUBI CANO",
+    "direccion": "CAMÍ DELS REIS, 187",
+    "localidad": "Banyalbufar",
+    "provincia": "Baleares",
+    "telefono": "971793689",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Banyalbufar&data=03%2F11%2F2026",
+    "lat": 39.588680267334,
+    "lng": 2.62451839447021,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Banyalbufar",
+      "Esporles",
+      "Estellencs",
+      "Palma",
+      "Puigpunyent",
+      "Valldemossa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70334"
+  },
+  {
+    "id": "cof-baleares-12229",
+    "cofa_id": "12229",
+    "nombre": "BESALDUCH - BESALDUCH",
+    "direccion": "PZ DEL TREN, 7  -   SA POBLA",
+    "localidad": "Sa Pobla",
+    "provincia": "Baleares",
+    "telefono": "971541083",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=B%C3%BAger&data=02%2F11%2F2026",
+    "lat": 39.7704124450684,
+    "lng": 3.02765512466431,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Búger",
+      "Campanet",
+      "Sa Pobla"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=12229"
+  },
+  {
+    "id": "cof-baleares-15180",
+    "cofa_id": "15180",
+    "nombre": "BALLESTER - BALLESTER",
+    "direccion": "VORANOVA,10 (frente Mercadona) - SON CALIU",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971680571",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5280113220215,
+    "lng": 2.54431128501892,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15180"
+  },
+  {
+    "id": "cof-baleares-18481",
+    "cofa_id": "18481",
+    "nombre": "GARCIA ROMO",
+    "direccion": "Riu Sil, 1  (Junto Burger King)- SANTA PONSA",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971693828",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5185737609863,
+    "lng": 2.48102331161499,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18481"
+  },
+  {
+    "id": "cof-baleares-20644",
+    "cofa_id": "20644",
+    "nombre": "PERELLO - PERELLO",
+    "direccion": "Avda. de la Playa, 7 - PALMA NOVA",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971681160",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5259017944336,
+    "lng": 2.53884339332581,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=20644"
+  },
+  {
+    "id": "cof-baleares-13144",
+    "cofa_id": "13144",
+    "nombre": "SALVA AULET",
+    "direccion": "Avda. Jaime I, 117 (Frente Supermercado Eroski) - SANTA PONSA",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971692379",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5175552368164,
+    "lng": 2.48788070678711,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=13144"
+  },
+  {
+    "id": "cof-baleares-15602",
+    "cofa_id": "15602",
+    "nombre": "SERRA JAUME",
+    "direccion": "Benito Feijoo, 10 - Rotonda Pto. Portals (Cerca Marineland) - COSTA D'EN BLANES",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971675500",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5329818725586,
+    "lng": 2.5647656917572,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15602"
+  },
+  {
+    "id": "cof-baleares-25049",
+    "cofa_id": "25049",
+    "nombre": "VILANOVA MURET",
+    "direccion": "Ctra. Andratx,30-Frente Ed.Portals Plaza. PORTALS NOUS",
+    "localidad": "Calvià",
+    "provincia": "Baleares",
+    "telefono": "971675136",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Calvi%C3%A0&data=03%2F11%2F2026",
+    "lat": 39.5353507995605,
+    "lng": 2.57146763801575,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=25049"
+  },
+  {
+    "id": "cof-baleares-14480",
+    "cofa_id": "14480",
+    "nombre": "GARCIAS GRIMALT",
+    "direccion": "CL ESPALMADOR, 29 L. 1 - CALA ESMERALDA",
+    "localidad": "Campos",
+    "provincia": "Baleares",
+    "telefono": "971643221",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Campos&data=02%2F11%2F2026",
+    "lat": 39.3781089782715,
+    "lng": 3.23608255386353,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=14480"
+  },
+  {
+    "id": "cof-baleares-19380",
+    "cofa_id": "19380",
+    "nombre": "ROIG - XAMENA",
+    "direccion": "CL MAJOR, 82 - FELANITX",
+    "localidad": "Felanitx",
+    "provincia": "Baleares",
+    "telefono": "971580130",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Campos&data=02%2F11%2F2026",
+    "lat": 39.4704475402832,
+    "lng": 3.14972138404846,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19380"
+  },
+  {
+    "id": "cof-baleares-70425",
+    "cofa_id": "70425",
+    "nombre": "GARAU FERRAGUT",
+    "direccion": "COSTA I LLOBERA, 15 - MARIA DE LA SALUT",
+    "localidad": "MARIA DE LA SALUT",
+    "provincia": "Baleares",
+    "telefono": "971525020",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Costitx&data=03%2F11%2F2026",
+    "lat": 39.6647605895996,
+    "lng": 3.07646322250366,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Costitx",
+      "Lloret",
+      "Llubí",
+      "MARIA DE LA SALUT",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70425"
+  },
+  {
+    "id": "cof-baleares-19893",
+    "cofa_id": "19893",
+    "nombre": "GAMUNDI CLOQUELL",
+    "direccion": "Av. de les Platges de Muro, s/n. PLATJA DE MURO",
+    "localidad": "Muro",
+    "provincia": "Baleares",
+    "telefono": "971890234",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Muro&data=02%2F11%2F2026",
+    "lat": 39.7915496826172,
+    "lng": 3.12348127365112,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Muro",
+      "Santa Margalida"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19893"
+  },
+  {
+    "id": "cof-baleares-26609",
+    "cofa_id": "26609",
+    "nombre": "JAUME-MIRO",
+    "direccion": "JOAN XXIII, 58 -  PTO. POLLENÇA",
+    "localidad": "Pollença",
+    "provincia": "Baleares",
+    "telefono": "971866443",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Pollen%C3%A7a&data=02%2F11%2F2026",
+    "lat": 39.9059257507324,
+    "lng": 3.0800244808197,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Pollença"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=26609"
+  },
+  {
+    "id": "cof-baleares-tel-971567798",
+    "cofa_id": "",
+    "nombre": "CONDE CERRATO, RAFAEL VICENTE",
+    "direccion": "C/ JOANA ROCA, 123 - SON SERVERA",
+    "localidad": "Son Servera",
+    "provincia": "Baleares",
+    "telefono": "971567798",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Lloren%C3%A7&data=03%2F11%2F2026",
+    "lat": null,
+    "lng": null,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Llorenç",
+      "Son Servera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:30",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:30:00+01:00"
+      }
+    ]
+  },
+  {
+    "id": "cof-baleares-32136",
+    "cofa_id": "32136",
+    "nombre": "ANGLADA-FEDELICH",
+    "direccion": "CL DEL REVEREND PARE HUGUET, 17",
+    "localidad": "Alaior",
+    "provincia": "Baleares",
+    "telefono": "971373177",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=02%2F11%2F2026",
+    "lat": 39.9825057983398,
+    "lng": 4.01266717910767,
+    "guardia": false,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 02/11 09:00–02/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 02/11 09:00–02/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00+01:00",
+        "fin": "2026-11-02T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=32136"
+  },
+  {
+    "id": "cof-baleares-22053",
+    "cofa_id": "22053",
+    "nombre": "MOLL CARRETERO",
+    "direccion": "EIVISSA, 50  - CIUTADELLA",
+    "localidad": "Ciutadella",
+    "provincia": "Baleares",
+    "telefono": "971481881",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=02%2F11%2F2026",
+    "lat": 39.998176574707,
+    "lng": 3.83389902114868,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaior",
+      "Ciutadella",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22053"
+  },
+  {
+    "id": "cof-baleares-18796",
+    "cofa_id": "18796",
+    "nombre": "VICTORY BERNAT",
+    "direccion": "MOLL DE LLEVANT, 41 - MAO",
+    "localidad": "Maó",
+    "provincia": "Baleares",
+    "telefono": "971364869",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=02%2F11%2F2026",
+    "lat": 39.8896179199219,
+    "lng": 4.26805925369263,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Castell",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries",
+      "Maó",
+      "Sant Lluís"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18796"
+  },
+  {
+    "id": "cof-baleares-16683",
+    "cofa_id": "16683",
+    "nombre": "ESTRELLA VIDIELLA",
+    "direccion": "C/Bisbe Abad i Lasierra, 54  - EIVISSA",
+    "localidad": "Eivissa",
+    "provincia": "Baleares",
+    "telefono": "971192622",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Eivissa&data=02%2F11%2F2026",
+    "lat": 38.9125709533691,
+    "lng": 1.42730629444122,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Eivissa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=16683"
+  },
+  {
+    "id": "cof-baleares-70748",
+    "cofa_id": "70748",
+    "nombre": "TORRES MERCADAL",
+    "direccion": "Carrer Santa Maria - SANT FRANCESC",
+    "localidad": "Formentera",
+    "provincia": "Baleares",
+    "telefono": "971322419",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Formentera&data=02%2F11%2F2026",
+    "lat": 38.7071304321289,
+    "lng": 1.43006384372711,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Formentera"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70748"
+  },
+  {
+    "id": "cof-baleares-15750",
+    "cofa_id": "15750",
+    "nombre": "PETIT ALFOS",
+    "direccion": "AV.CALA DE BOU, 43 - CALA DE BOU - SANT JOSEP",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971345266",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=03%2F11%2F2026",
+    "lat": 38.9673805,
+    "lng": 1.29771064,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=15750"
+  },
+  {
+    "id": "cof-baleares-21444",
+    "cofa_id": "21444",
+    "nombre": "PUGET FUSTE",
+    "direccion": "BALANZAT,3",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971340449",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=03%2F11%2F2026",
+    "lat": 38.9795989990234,
+    "lng": 1.30277538299561,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00 · Guardia COFIB · 03/11 21:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=21444"
+  },
+  {
+    "id": "cof-baleares-21725",
+    "cofa_id": "21725",
+    "nombre": "TORRES RIBAS",
+    "direccion": "CIRERERS, S/N.",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971345155",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=03%2F11%2F2026",
+    "lat": 38.9736633300781,
+    "lng": 1.33192789554596,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=21725"
+  },
+  {
+    "id": "cof-baleares-28845",
+    "cofa_id": "28845",
+    "nombre": "MANZANO AUSIN",
+    "direccion": "CARRER BARCELONA, S/N",
+    "localidad": "Sant Antoni",
+    "provincia": "Baleares",
+    "telefono": "971348990",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Antoni&data=02%2F11%2F2026",
+    "lat": 38.984790802002,
+    "lng": 1.30135381221771,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Antoni",
+      "Sant Josep de sa Talaia"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=28845"
+  },
+  {
+    "id": "cof-baleares-30106",
+    "cofa_id": "30106",
+    "nombre": "BERMEJO GOMEZ",
+    "direccion": "CARRER SANT JAUME, 96 (STA. EULÀRIA)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971868693",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=03%2F11%2F2026",
+    "lat": 38.986609,
+    "lng": 1.537421,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=30106"
+  },
+  {
+    "id": "cof-baleares-70284",
+    "cofa_id": "70284",
+    "nombre": "LOPEZ SALAS",
+    "direccion": "C/ CESAR PUGET RIQUER, 50, Crta. Es Canar, (CAS CAPITÀ)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971375706",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=02%2F11%2F2026",
+    "lat": 38.9902459,
+    "lng": 1.5445809,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 00:00–03/11 09:00 · Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 00:00–03/11 09:00",
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T00:00:00+01:00",
+        "fin": "2026-11-03T09:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70284"
+  },
+  {
+    "id": "cof-baleares-19976",
+    "cofa_id": "19976",
+    "nombre": "PLANELLS RAMON",
+    "direccion": "C/ CESAR PUGET RIQUER, 31 - LOCAL 4 - (STA. EULÀRIA)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971714557",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=03%2F11%2F2026",
+    "lat": 38.988036,
+    "lng": 1.53992995,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=19976"
+  },
+  {
+    "id": "cof-baleares-22756",
+    "cofa_id": "22756",
+    "nombre": "VAZQUEZ - VAZQUEZ",
+    "direccion": "CARRER MOLINS DEL REI, 10 (STA. EULÀRIA)",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971330113",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=03%2F11%2F2026",
+    "lat": 38.9846267700195,
+    "lng": 1.53683388233185,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=22756"
+  },
+  {
+    "id": "cof-baleares-10066",
+    "cofa_id": "10066",
+    "nombre": "ARMENGOL COLL",
+    "direccion": "MAJOR, 41 - INCA",
+    "localidad": "Inca",
+    "provincia": "Baleares",
+    "telefono": "971500094",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alar%C3%B3&data=03%2F11%2F2026",
+    "lat": 39.7206954956055,
+    "lng": 2.91257214546204,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaró",
+      "Binissalem",
+      "Consell",
+      "Costitx",
+      "Escorca",
+      "Inca",
+      "Lloret",
+      "Lloseta",
+      "Llubí",
+      "Mancor",
+      "MARIA DE LA SALUT",
+      "Selva",
+      "Sencelles",
+      "Sineu"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 22:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 22:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=10066"
+  },
+  {
+    "id": "cof-baleares-23895",
+    "cofa_id": "23895",
+    "nombre": "PEDRALS PEREZ",
+    "direccion": "CL SANTANYÍ, 34 - FELANITX",
+    "localidad": "Felanitx",
+    "provincia": "Baleares",
+    "telefono": "971827084",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Algaida&data=03%2F11%2F2026",
+    "lat": 39.4640235900879,
+    "lng": 3.14719533920288,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Algaida",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 21:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 21:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=23895"
+  },
+  {
+    "id": "cof-baleares-70482",
+    "cofa_id": "70482",
+    "nombre": "TORRENS VALLES",
+    "direccion": "TEODORO CANET, 12 - PTO. ALCUDIA",
+    "localidad": "Alcúdia",
+    "provincia": "Baleares",
+    "telefono": "971545851",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alc%C3%BAdia&data=03%2F11%2F2026",
+    "lat": 39.8402517,
+    "lng": 3.13735807,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alcúdia"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70482"
+  },
+  {
+    "id": "cof-baleares-70763",
+    "cofa_id": "70763",
+    "nombre": "ROSSELLO - SALVA",
+    "direccion": "Puig de Saragossa cant. Son Pilló (Urb. Galatzó) Santa Ponça",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971690786",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=03%2F11%2F2026",
+    "lat": 39.5240783691406,
+    "lng": 2.49772119522095,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Andratx",
+      "Calvià"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 21:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 21:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70763"
+  },
+  {
+    "id": "cof-baleares-20156",
+    "cofa_id": "20156",
+    "nombre": "ARSUAGA MARTINEZ",
+    "direccion": "CAMI DES SALINAR S/N  LOCAL-1 - CAMP DE MAR",
+    "localidad": "Andratx",
+    "provincia": "Baleares",
+    "telefono": "971235883",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Andratx&data=03%2F11%2F2026",
+    "lat": 39.5389105,
+    "lng": 2.42251663,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Andratx"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 16:30",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 16:30"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T16:30:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=20156"
+  },
+  {
+    "id": "cof-baleares-23655",
+    "cofa_id": "23655",
+    "nombre": "SUREDA GOMILA",
+    "direccion": "AV DES  TREN, 6 - MANACOR",
+    "localidad": "Manacor",
+    "provincia": "Baleares",
+    "telefono": "971551817",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Ariany&data=03%2F11%2F2026",
+    "lat": 39.571174621582,
+    "lng": 3.2032196521759,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Ariany",
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Manacor",
+      "Montuïri",
+      "Petra",
+      "Porreres",
+      "Sant Joan",
+      "Santanyí",
+      "Ses Salines",
+      "Villafranca"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 22:00–04/11 00:00 · Guardia COFIB · 03/11 21:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 22:00–04/11 00:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=23655"
+  },
+  {
+    "id": "cof-baleares-18051",
+    "cofa_id": "18051",
+    "nombre": "SABATER RIERA, MARGARITA",
+    "direccion": "PLAÇA, 7 - SA POBLA",
+    "localidad": "Sa Pobla",
+    "provincia": "Baleares",
+    "telefono": "971541551",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=B%C3%BAger&data=03%2F11%2F2026",
+    "lat": 39.7694854736328,
+    "lng": 3.02483153343201,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Búger",
+      "Campanet",
+      "Sa Pobla"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18051"
+  },
+  {
+    "id": "cof-baleares-70276",
+    "cofa_id": "70276",
+    "nombre": "ARTIGUES - AMENGUAL",
+    "direccion": "PZ PAX, 24 - FELANITX",
+    "localidad": "Felanitx",
+    "provincia": "Baleares",
+    "telefono": "971580063",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Campos&data=03%2F11%2F2026",
+    "lat": 39.4690933227539,
+    "lng": 3.1510751247406,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70276"
+  },
+  {
+    "id": "cof-baleares-70342",
+    "cofa_id": "70342",
+    "nombre": "RIERA OLIVER, LAURA",
+    "direccion": "AV. MARQUES DEL PALMER, 8- COLONIA DE SANT JORDI",
+    "localidad": "Campos",
+    "provincia": "Baleares",
+    "telefono": "971655207",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Campos&data=03%2F11%2F2026",
+    "lat": 39.3174133300781,
+    "lng": 2.99421858787537,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Campos",
+      "Felanitx",
+      "Llucmajor",
+      "Santanyí",
+      "Ses Salines"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70342"
+  },
+  {
+    "id": "cof-baleares-17939",
+    "cofa_id": "17939",
+    "nombre": "QUETGLAS BENNASAR",
+    "direccion": "OLIVERA, 17 - SON SERRA MARINA",
+    "localidad": "Muro",
+    "provincia": "Baleares",
+    "telefono": "971854149",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Muro&data=03%2F11%2F2026",
+    "lat": 39.736686706543,
+    "lng": 3.22248911857605,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Muro",
+      "Santa Margalida"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=17939"
+  },
+  {
+    "id": "cof-baleares-29801",
+    "cofa_id": "29801",
+    "nombre": "REAL VICENS",
+    "direccion": "CL LLEVANT, 44",
+    "localidad": "Pollença",
+    "provincia": "Baleares",
+    "telefono": "971864039",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Pollen%C3%A7a&data=03%2F11%2F2026",
+    "lat": 39.9096832275391,
+    "lng": 3.08189845085144,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Pollença"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=29801"
+  },
+  {
+    "id": "cof-baleares-18788",
+    "cofa_id": "18788",
+    "nombre": "CASTELL - CASTELL",
+    "direccion": "MAJOR, 7  - ALAIOR",
+    "localidad": "Alaior",
+    "provincia": "Baleares",
+    "telefono": "971371496",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=03%2F11%2F2026",
+    "lat": 39.9339904785156,
+    "lng": 4.13983678817749,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 22:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T22:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=18788"
+  },
+  {
+    "id": "cof-baleares-23168",
+    "cofa_id": "23168",
+    "nombre": "BARCA RIBAS",
+    "direccion": "CIUTADELLA, 116 - MAO",
+    "localidad": "Maó",
+    "provincia": "Baleares",
+    "telefono": "971352399",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=03%2F11%2F2026",
+    "lat": 39.8906211853027,
+    "lng": 4.25372505187988,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaior",
+      "Es Castell",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries",
+      "Maó",
+      "Sant Lluís"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 22:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 22:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=23168"
+  },
+  {
+    "id": "cof-baleares-24505",
+    "cofa_id": "24505",
+    "nombre": "FONT LOPEZ, JAUME",
+    "direccion": "JERONI ALZINA, 5  -  CIUTADELLA",
+    "localidad": "Ciutadella",
+    "provincia": "Baleares",
+    "telefono": "971382062",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Alaior&data=03%2F11%2F2026",
+    "lat": 40.0041122436523,
+    "lng": 3.84596371650696,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Alaior",
+      "Ciutadella",
+      "Es Mercadal",
+      "Es Migjorn Gran",
+      "Ferreries"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 22:00–04/11 00:00 · Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 22:00–04/11 00:00",
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T22:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=24505"
+  },
+  {
+    "id": "cof-baleares-13011",
+    "cofa_id": "13011",
+    "nombre": "FERRER FERRER",
+    "direccion": "Formentera, 8 (Figueretes)",
+    "localidad": "Eivissa",
+    "provincia": "Baleares",
+    "telefono": "971302737",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Eivissa&data=03%2F11%2F2026",
+    "lat": 38.9058113098145,
+    "lng": 1.42198443412781,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Eivissa"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=13011"
+  },
+  {
+    "id": "cof-baleares-70581",
+    "cofa_id": "70581",
+    "nombre": "DI FORTE",
+    "direccion": "C/ DEL SOL, 22 - Ed. Can Cardona -  (STA. EULÀLIA )",
+    "localidad": "Sant Joan de Labritja",
+    "provincia": "Baleares",
+    "telefono": "971715421",
+    "fuente": "https://www.cofib.es/es/llistat_guardies.aspx?z=Sant+Joan+de+Labritja&data=03%2F11%2F2026",
+    "lat": 38.9863055,
+    "lng": 1.53100989,
+    "guardia": false,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Sant Joan de Labritja",
+      "Santa Eulària"
+    ],
+    "guardia_franja": "Guardia COFIB · 03/11 09:00–03/11 21:00 · Guardia COFIB · 03/11 21:00–04/11 00:00",
+    "guardia_franjas": [
+      "Guardia COFIB · 03/11 09:00–03/11 21:00",
+      "Guardia COFIB · 03/11 21:00–04/11 00:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-03T09:00:00+01:00",
+        "fin": "2026-11-03T21:00:00+01:00"
+      },
+      {
+        "inicio": "2026-11-03T21:00:00+01:00",
+        "fin": "2026-11-04T00:00:00+01:00"
+      }
+    ],
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.cofib.es/es/mapes.aspx?sede=0&numfact=70581"
+  }
+]

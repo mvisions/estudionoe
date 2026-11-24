@@ -1,0 +1,267 @@
+[
+  {
+    "id": "cof-segovia-capital-tel-921460325",
+    "nombre": "FARMACIA SERRANO VELASCO",
+    "direccion": "CRONISTA LECEA, 6 (Junto Plaza Mayor)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921460325",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · nocturna 10/11 22:00–11/11 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · nocturna 10/11 22:00–11/11 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-10T22:00:00+01:00",
+        "fin": "2026-11-11T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9503404,
+    "lng": -4.1230737,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/5586120321",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 6 m.",
+    "osm_id": "osm-5586120321",
+    "ajuste_ubicacion_m": 5.9
+  },
+  {
+    "id": "cof-segovia-capital-tel-683396809",
+    "nombre": "FARMACIA MARTÍN CANTERO",
+    "direccion": "CENTRO COMERCIAL LUZ DE CASTILLA (Calle Guadarrama S/N)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "683396809",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · diurna 11/11 10:15–11/11 22:00",
+    "guardia_franjas": [
+      "Guardia COF Segovia · diurna 11/11 10:15–11/11 22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:15:00+01:00",
+        "fin": "2026-11-11T22:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "cof-segovia-capital-tel-921432583",
+    "nombre": "FARMACIA POSTIGO RUBIO",
+    "direccion": "VIA ROMA, 30",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921432583",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · nocturna 11/11 22:00–12/11 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · nocturna 11/11 22:00–12/11 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T22:00:00+01:00",
+        "fin": "2026-11-12T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9531023,
+    "lng": -4.1089722,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "jcyl-40-e1-00009",
+    "nombre": "CABRERIZO IZQUIERDO, CESAR",
+    "direccion": "Calle SANTA MARINA 5",
+    "localidad": "Cuéllar",
+    "provincia": "Segovia",
+    "telefono": "921140606",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/GUARDIAS-CUELLAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Cuéllar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 09/11 al 15/11; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 09/11 al 15/11; sin horario publicado"
+    ],
+    "lat": 41.4002881,
+    "lng": -4.3136831,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "jcyl-40-e1-00017",
+    "nombre": "BARTOLOME SANCHEZ, MARIA JESUS",
+    "direccion": "Calle MARQUES DE PERALES 2",
+    "localidad": "El Espinar",
+    "provincia": "Segovia",
+    "telefono": "921181171",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/Guardias-EL-ESPINAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "El Espinar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 09/11 al 15/11; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 09/11 al 15/11; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00026",
+    "nombre": "DE LA PEÑA MARTIN, JUAN",
+    "direccion": "Plaza Mayor 12",
+    "localidad": "Ayllón",
+    "provincia": "Segovia",
+    "telefono": "921553003",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Ayllón"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–22:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:00:00+01:00",
+        "fin": "2026-11-11T22:00:00+01:00"
+      }
+    ],
+    "lat": 41.4194085,
+    "lng": -3.3767598,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "jcyl-40-e1-00063",
+    "nombre": "MINGUEZ DEL POZO, CRISTINA",
+    "direccion": "Calle Valenciana 3",
+    "localidad": "La Granja",
+    "provincia": "Segovia",
+    "telefono": "921470038",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "La Granja"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–22:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:00:00+01:00",
+        "fin": "2026-11-11T22:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00057",
+    "nombre": "CARRASCO HERRERO, MONICA",
+    "direccion": "Calle Fragua 10",
+    "localidad": "Torreval",
+    "provincia": "Segovia",
+    "telefono": "921506193",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Torreval"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:00:00+01:00",
+        "fin": "2026-11-11T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00041",
+    "nombre": "AVELLON SENOVILLA, PATRICIA",
+    "direccion": "Calle Santillana 3",
+    "localidad": "Fuentepelayo",
+    "provincia": "Segovia",
+    "telefono": "921574392",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Fuentepelayo"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:00:00+01:00",
+        "fin": "2026-11-11T20:00:00+01:00"
+      }
+    ],
+    "lat": 41.220376,
+    "lng": -4.1752541,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "jcyl-40-e1-00054",
+    "nombre": "CUBERO DE BLAS, SERGIO",
+    "direccion": "Calle Franco 1",
+    "localidad": "Navas De Oro",
+    "provincia": "Segovia",
+    "telefono": "921591585",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-11",
+    "localidades_atendidas": [
+      "Navas De Oro"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-11T10:00:00+01:00",
+        "fin": "2026-11-11T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  }
+]

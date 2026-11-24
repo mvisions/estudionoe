@@ -1,0 +1,454 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Pontevedra",
+  "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Agolada",
+      "codigo": "5270",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Arbo",
+      "codigo": "5271",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Baiona",
+      "codigo": "5272",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Barro",
+      "codigo": "5273",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Bueu",
+      "codigo": "5274",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Caldas de Reis",
+      "codigo": "5275",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cambados",
+      "codigo": "5276",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Campo Lameiro",
+      "codigo": "5277",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cangas",
+      "codigo": "5278",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cañiza, A",
+      "codigo": "5279",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Catoira",
+      "codigo": "5280",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cerdedo",
+      "codigo": "5281",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cerdedo-Cotobade",
+      "codigo": "8117",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cotobade",
+      "codigo": "5282",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Covelo",
+      "codigo": "5283",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Crecente",
+      "codigo": "5284",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Cuntis",
+      "codigo": "5285",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Dozón",
+      "codigo": "5286",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Estrada, A",
+      "codigo": "5287",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Forcarei",
+      "codigo": "5288",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Fornelos de Montes",
+      "codigo": "5289",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Gondomar",
+      "codigo": "5290",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Grove, O",
+      "codigo": "5291",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Guarda, A",
+      "codigo": "5292",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Illa de Arousa, A",
+      "codigo": "5293",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Lalín",
+      "codigo": "5294",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Lama, A",
+      "codigo": "5295",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Marín",
+      "codigo": "5296",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Meaño",
+      "codigo": "5297",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Meis",
+      "codigo": "5298",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Moaña",
+      "codigo": "5299",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Mondariz",
+      "codigo": "5300",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Mondariz-Balneario",
+      "codigo": "5301",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Moraña",
+      "codigo": "5302",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Mos",
+      "codigo": "5303",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Neves, As",
+      "codigo": "5304",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Nigrán",
+      "codigo": "5305",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Oia",
+      "codigo": "5306",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Pazos de Borbén",
+      "codigo": "5307",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Poio",
+      "codigo": "5308",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Ponte Caldelas",
+      "codigo": "5309",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Ponteareas",
+      "codigo": "5310",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Pontecesures",
+      "codigo": "5311",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Pontevedra",
+      "codigo": "5312",
+      "estado": "parcial",
+      "farmacias": 12,
+      "error": "Horario exacto y posible madrugada anterior pendientes de confirmar."
+    },
+    {
+      "nombre": "Porriño, O",
+      "codigo": "5313",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Portas",
+      "codigo": "5314",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Redondela",
+      "codigo": "5315",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Ribadumia",
+      "codigo": "5316",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Rodeiro",
+      "codigo": "5317",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Rosal, O",
+      "codigo": "5318",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Salceda de Caselas",
+      "codigo": "5319",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Salvaterra de Miño",
+      "codigo": "5320",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Sanxenxo",
+      "codigo": "5321",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Silleda",
+      "codigo": "5322",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Soutomaior",
+      "codigo": "5323",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Tomiño",
+      "codigo": "5324",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Tui",
+      "codigo": "5325",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Valga",
+      "codigo": "5326",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Vigo",
+      "codigo": "5327",
+      "estado": "parcial",
+      "farmacias": 30,
+      "error": "Horario exacto y posible madrugada anterior pendientes de confirmar."
+    },
+    {
+      "nombre": "Vila de Cruces",
+      "codigo": "5328",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Vilaboa",
+      "codigo": "5329",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Vilagarcía de Arousa",
+      "codigo": "5330",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    },
+    {
+      "nombre": "Vilanova de Arousa",
+      "codigo": "5331",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Municipio aún no consultado."
+    }
+  ],
+  "farmacias": 42,
+  "farmacias_confirmadas": 42,
+  "con_coordenadas": 8,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

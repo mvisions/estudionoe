@@ -1,0 +1,260 @@
+[
+  {
+    "id": "cof-segovia-capital-tel-921421849",
+    "nombre": "FARMACIA USEROS HERNÁNDEZ",
+    "direccion": "STA, TERESA DE JESUS, 24 (Barrio El Carmen)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921421849",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · nocturna 30/11 22:00–01/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · nocturna 30/11 22:00–01/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-30T22:00:00+01:00",
+        "fin": "2026-12-01T10:15:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "cof-segovia-capital-tel-921423641",
+    "nombre": "FARMACIA ANTÓN ELÓSEGUI",
+    "direccion": "PLAZA SAN JOSÉ, 1 (Barrio San José)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921423641",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · diurna 01/12 10:15–01/12 22:00 · Guardia COF Segovia · nocturna 01/12 22:00–02/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · diurna 01/12 10:15–01/12 22:00",
+      "Guardia COF Segovia · nocturna 01/12 22:00–02/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:15:00+01:00",
+        "fin": "2026-12-01T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-12-01T22:00:00+01:00",
+        "fin": "2026-12-02T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9376097,
+    "lng": -4.1087396,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/13824040107",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 3 m.",
+    "osm_id": "osm-13824040107",
+    "ajuste_ubicacion_m": 3.3
+  },
+  {
+    "id": "jcyl-40-e1-00008",
+    "nombre": "ALCARAZ GARCIA DE LA BARRERA, FRANCISCO JAVIER",
+    "direccion": "Calle RESINA 14",
+    "localidad": "Cuéllar",
+    "provincia": "Segovia",
+    "telefono": "921143093",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/GUARDIAS-CUELLAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Cuéllar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 30/11 al 06/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 30/11 al 06/12; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00017",
+    "nombre": "BARTOLOME SANCHEZ, MARIA JESUS",
+    "direccion": "Calle MARQUES DE PERALES 2",
+    "localidad": "El Espinar",
+    "provincia": "Segovia",
+    "telefono": "921181171",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/Guardias-EL-ESPINAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "El Espinar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 30/11 al 06/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 30/11 al 06/12; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00064",
+    "nombre": "MONEDERO MARTINEZ PARDO, LAURA",
+    "direccion": "Plaza Dolores (De) (Los) 13",
+    "localidad": "La Granja",
+    "provincia": "Segovia",
+    "telefono": "921470017",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "La Granja"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–22:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T22:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00071",
+    "nombre": "MARTIN CUESTA, MARIA JESUS",
+    "direccion": "Calle Reina 1",
+    "localidad": "Navafría",
+    "provincia": "Segovia",
+    "telefono": "921506113",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Navafría"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00058",
+    "nombre": "SANTOS DEL CURA, JESUS",
+    "direccion": "Calle Real 3",
+    "localidad": "Olombrada",
+    "provincia": "Segovia",
+    "telefono": "921164027",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Olombrada"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00021",
+    "nombre": "SEISDEDOS MARTIN, ROSARIO",
+    "direccion": "Plaza Posito Real 1",
+    "localidad": "Carbonero M",
+    "provincia": "Segovia",
+    "telefono": "921560287",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Carbonero M"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00054",
+    "nombre": "CUBERO DE BLAS, SERGIO",
+    "direccion": "Calle Franco 1",
+    "localidad": "Navas De Oro",
+    "provincia": "Segovia",
+    "telefono": "921591585",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Navas De Oro"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00077",
+    "nombre": "HERRADON GIL GALLARDO, CRISTINA",
+    "direccion": "Calle Iglesia 18",
+    "localidad": "Villacastín",
+    "provincia": "Segovia",
+    "telefono": "921198173",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-01",
+    "localidades_atendidas": [
+      "Villacastín"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-01T10:00:00+01:00",
+        "fin": "2026-12-01T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  }
+]

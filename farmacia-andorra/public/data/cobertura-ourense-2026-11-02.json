@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Ourense",
+  "fuente": "https://www.cofourense.es/buscador-de-farmacias-de-guardia/",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Provincia de Ourense",
+      "estado": "parcial",
+      "farmacias": 29,
+      "error": "La fuente no acredita cobertura de todos los municipios; confirmar por teléfono."
+    }
+  ],
+  "farmacias": 29,
+  "farmacias_confirmadas": 29,
+  "con_coordenadas": 15,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

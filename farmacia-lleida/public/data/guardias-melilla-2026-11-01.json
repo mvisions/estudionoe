@@ -1,0 +1,76 @@
+[
+  {
+    "id": "52-52000017",
+    "cofm_id": "52000017",
+    "direccion": "Mexico, 11",
+    "localidad": "MELILLA",
+    "sector": "",
+    "zona": "MELILLA",
+    "provincia": "Melilla",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 35.2978867,
+    "lng": -2.9493852,
+    "localidades_atendidas": [
+      "MELILLA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Adelino Bueno Horcajadas",
+    "telefono": "952682830",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "52-52000002",
+    "cofm_id": "52000002",
+    "direccion": "Ejercito Español, 7",
+    "localidad": "MELILLA",
+    "sector": "",
+    "zona": "MELILLA",
+    "provincia": "Melilla",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 35.2932686,
+    "lng": -2.9387583,
+    "localidades_atendidas": [
+      "MELILLA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  del Carmen Ramos Medina",
+    "telefono": "952681725",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "52-52000022",
+    "cofm_id": "52000022",
+    "direccion": "General Aizpuru, 29",
+    "localidad": "MELILLA",
+    "sector": "",
+    "zona": "MELILLA",
+    "provincia": "Melilla",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "MELILLA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Servicio Nocturno Farmaceutico de Urgencias",
+    "telefono": "952677526"
+  }
+]

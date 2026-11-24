@@ -1,0 +1,1267 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Jaén",
+  "fuente": "https://www.farmaceuticosdejaen.es/Paginas/Farmacias_Guardia.asp",
+  "consultado": "2026-11-02T08:45:50.609072+00:00",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "ALBANCHEZ DE MÁGINA",
+      "codigo": "2",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA(2).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ALCALA LA REAL",
+      "codigo": "3",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALCALA LA REAL.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "ALCAUDETE",
+      "codigo": "4",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALCAUDETE.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ALDEA SANTA ANA",
+      "codigo": "93",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ALDEAHERMOSA",
+      "codigo": "104",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ALDEAQUEMADA",
+      "codigo": "5",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ANDUJAR",
+      "codigo": "6",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS ANDUJAR NOVIEMBRE 2026 MOD.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ARBUNIEL",
+      "codigo": "110",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ARJONA",
+      "codigo": "7",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "Sin documento mensual/anual vigente publicado para esta población."
+      ]
+    },
+    {
+      "nombre": "ARJONILLA",
+      "codigo": "8",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ARJONILLA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ARQUILLOS",
+      "codigo": "9",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILCHES - ARQUILLOS(1).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "ARROYO DEL OJANCO",
+      "codigo": "101",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(1).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "ARROYO FRIO",
+      "codigo": "96",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ARROYO FRIO - COTO RIOS.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "BAEZA",
+      "codigo": "10",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAEZA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "BAILEN",
+      "codigo": "11",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BAILEN.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "BAÑOS DE LA ENCINA",
+      "codigo": "12",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "BEAS DE SEGURA",
+      "codigo": "13",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BEAS DE SEGURA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "BEDMAR",
+      "codigo": "105",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA(1).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "BEGIJAR",
+      "codigo": "14",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 - IBROS - BEGIJAR - LUPION - MOD III.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "BELMEZ DE LA MORALEDA",
+      "codigo": "15",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "BENATAE",
+      "codigo": "16",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(2).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "Bobadilla",
+      "codigo": "114",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "BOBADILLA",
+      "codigo": "95",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "Burunchel",
+      "codigo": "111",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 BURUNCHEL.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "CABRA DEL SANTO CRISTO",
+      "codigo": "17",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CAMBIL",
+      "codigo": "18",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CAMPILLO DE ARENAS",
+      "codigo": "19",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CANENA",
+      "codigo": "20",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CANENA - RUS.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "CARBONEROS",
+      "codigo": "21",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CARCHELEJO",
+      "codigo": "90",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CASTELLAR",
+      "codigo": "22",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CASTELLAR.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "CASTILLO DE LOCUBIN",
+      "codigo": "23",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CASTILLO DE LOCUBIN.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "CAZALILLA",
+      "codigo": "24",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CAZORLA",
+      "codigo": "25",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CAZORLA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "CHICLANA DE SEGURA",
+      "codigo": "26",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "CHILLUEVAR",
+      "codigo": "27",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTO TOME - CHILLUEVAR.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "CORTIJOS NUEVOS",
+      "codigo": "102",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(3).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "COTO RIOS",
+      "codigo": "112",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ARROYO FRIO - COTO RIOS(1).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "Entrecaminos",
+      "codigo": "115",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ESCAÑUELA",
+      "codigo": "28",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ESPELUY",
+      "codigo": "29",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "ESTACION LINARES-BAEZA",
+      "codigo": "98",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "FRAILES",
+      "codigo": "30",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "FUENSANTA DE MARTOS",
+      "codigo": "31",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "FUERTE DEL REY",
+      "codigo": "32",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "Garciez",
+      "codigo": "113",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "GENAVE",
+      "codigo": "33",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(4).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "GUARROMAN",
+      "codigo": "35",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "Sin documento mensual/anual vigente publicado para esta población."
+      ]
+    },
+    {
+      "nombre": "HIGUERA DE CALATRAVA",
+      "codigo": "37",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HIGUERA DE CALATRAVA - SANTIAGO DE CALATRAVA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "HINOJARES",
+      "codigo": "38",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "HORNOS DE SEGURA",
+      "codigo": "39",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(5).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "HUELMA",
+      "codigo": "40",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HUELMA.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Calendario por colores sin nombre/dirección legible en la casilla."
+      ]
+    },
+    {
+      "nombre": "HUESA",
+      "codigo": "41",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HUESA.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Farmacia no identificada inequívocamente en Quesada: QUESADA"
+      ]
+    },
+    {
+      "nombre": "IBROS",
+      "codigo": "42",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 - IBROS - BEGIJAR - LUPION - MOD III(2).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "IZNATORAF",
+      "codigo": "44",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "JABALQUINTO",
+      "codigo": "45",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "JAEN",
+      "codigo": "46",
+      "estado": "disponible",
+      "farmacias": 4,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11-GUARDIAS JAEN NOVIEMBRE 2026.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "JAMILENA",
+      "codigo": "47",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "JIMENA",
+      "codigo": "48",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ALBANCHEZ BEDMAR Y JIMENA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "JODAR",
+      "codigo": "49",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 JODAR.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "LA BOBADILLA",
+      "codigo": "119",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LA CAROLINA",
+      "codigo": "91",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS LA CAROLINA DE 2026.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "LA GUARDIA DE JAEN",
+      "codigo": "34",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LA GUARDIA.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Días de la tabla no coinciden con el calendario."
+      ]
+    },
+    {
+      "nombre": "LA HIGUERA",
+      "codigo": "107",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LA IRUELA",
+      "codigo": "43",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LA PUERTA DE SEGURA",
+      "codigo": "36",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(6).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "LA RABITA",
+      "codigo": "106",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LA YEDRA",
+      "codigo": "108",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LARVA",
+      "codigo": "50",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LAS CASILLAS",
+      "codigo": "97",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "Las Infantas",
+      "codigo": "116",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LAS INFANTAS.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Días de la tabla no coinciden con el calendario."
+      ]
+    },
+    {
+      "nombre": "Las ventas del carrizal",
+      "codigo": "117",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "LINARES",
+      "codigo": "51",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 22-09-2026.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "LOPERA",
+      "codigo": "52",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "Los noguerones",
+      "codigo": "118",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LOS NOGUERONES.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Días de la tabla no coinciden con el calendario."
+      ]
+    },
+    {
+      "nombre": "LOS VILLARES",
+      "codigo": "66",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LOS VILLARES.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "LOS VILLARES DE ANDUJAR",
+      "codigo": "109",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 LOS VILLARES DE ANDUJAR.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Días de la tabla no coinciden con el calendario."
+      ]
+    },
+    {
+      "nombre": "LUPION",
+      "codigo": "53",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 - IBROS - BEGIJAR - LUPION - MOD III(1).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "MANCHA REAL",
+      "codigo": "54",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 MANCHA REAL.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "MARMOLEJO",
+      "codigo": "55",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 MARMOLEJO.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "MARTOS",
+      "codigo": "56",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 MARTOS.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "Calendario por colores sin nombre/dirección legible en la casilla."
+      ]
+    },
+    {
+      "nombre": "MENGIBAR",
+      "codigo": "57",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11- NOVIEMBRE  2026  MENGIBAR.doc.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "MOGON",
+      "codigo": "100",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "MONTE LOPEZ ALVAREZ",
+      "codigo": "103",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "MURES",
+      "codigo": "94",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "NAVAS DE SAN JUAN",
+      "codigo": "58",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA(1).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "NOALEJO",
+      "codigo": "59",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 NOALEJO.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "ORCERA",
+      "codigo": "60",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(7).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "PEAL DE BECERRO",
+      "codigo": "61",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 PEAL DE BECERRO.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "PEGALAJAR",
+      "codigo": "62",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=11 - GUARDIAS PEGALAJAR NOVIEMBRE 2026.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "PORCUNA",
+      "codigo": "63",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 PORCUNA.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "POZO ALCON",
+      "codigo": "64",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 POZO ALCON.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "PUENTE DE GENAVE",
+      "codigo": "65",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(9).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "QUESADA",
+      "codigo": "67",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "RUS",
+      "codigo": "68",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 CANENA - RUS(1).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "SABIOTE",
+      "codigo": "69",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SABIOTE.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "SANTA ELENA",
+      "codigo": "70",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "SANTIAGO DE CALATRAVA",
+      "codigo": "71",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 HIGUERA DE CALATRAVA - SANTIAGO DE CALATRAVA(1).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "SANTIAGO DE LA ESPADADA",
+      "codigo": "92",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTIAGO DE LA ESPADA.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "SANTISTEBAN DEL PUERTO",
+      "codigo": "72",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTISTEBAN - NAVAS DE SAN JUAN - ALDEAHERMOSA(2).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "SANTO TOME",
+      "codigo": "73",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 SANTO TOME - CHILLUEVAR(1).pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "SILES",
+      "codigo": "74",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(8).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "SORIHUELA DEL GUADALIMAR",
+      "codigo": "75",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "TORREBLASCOPEDRO",
+      "codigo": "76",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "Sin documento mensual/anual vigente publicado para esta población."
+      ]
+    },
+    {
+      "nombre": "TORREDELCAMPO",
+      "codigo": "77",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDELCAMPO 30.9.26.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "TORREDONJIMENO",
+      "codigo": "78",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREDONJIMENO MOD..pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "TORREPEROGIL",
+      "codigo": "79",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORREPEROGIL.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "TORRES",
+      "codigo": "80",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 TORRES.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "TORRES DE ALBANCHEZ",
+      "codigo": "81",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(10).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "UBEDA",
+      "codigo": "82",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 UBEDA - MOD 28-9-26.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "VALDEPEÑAS DE JAEN",
+      "codigo": "83",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VALEPENAS DE JAEN.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "VILCHES",
+      "codigo": "84",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILCHES - ARQUILLOS.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "VILLACARRILLO",
+      "codigo": "85",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLACARRILLO V12-6.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "VILLANUEVA DE LA REINA",
+      "codigo": "86",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLANUEVA DE LA REINA.pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    },
+    {
+      "nombre": "VILLANUEVA DEL ARZOBISPO",
+      "codigo": "87",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 VILLANUEVA DEL ARZOBISPO.pdf&Tipo=Guardias"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "VILLARDOMPARDO",
+      "codigo": "88",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "Sin documento mensual/anual vigente publicado para esta población."
+      ]
+    },
+    {
+      "nombre": "VILLARGORDO",
+      "codigo": "99",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [],
+      "errores": [
+        "El formulario no confirma resultados para la población."
+      ]
+    },
+    {
+      "nombre": "VILLARRODRIGO",
+      "codigo": "89",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "https://www.farmaceuticosdejaen.es/Paginas/MostrarDocumento.asp?Documento=GUARDIAS 2026 ZONA BASICA ORCERA - MOD.(11).pdf&Tipo=Guardias"
+      ],
+      "errores": [
+        "PDF sin guardias interpretables para la fecha: calendario gráfico, otro mes o formato pendiente."
+      ]
+    }
+  ],
+  "farmacias": 32,
+  "farmacias_confirmadas": 32,
+  "con_coordenadas": 5,
+  "calendario_actualizado": true,
+  "errores_coordenadas": [],
+  "conserva_guardias_no_reconfirmadas": true
+}

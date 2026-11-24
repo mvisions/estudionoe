@@ -1,0 +1,998 @@
+[
+  {
+    "id": "50-50000047",
+    "cofm_id": "50000047",
+    "direccion": "C/ CORONA DE ARAGON, S/N",
+    "localidad": "ALAGÓN",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ALAGON",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "ALAGÓN"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "IZQUIERDO GOMEZ, MARIA-CARMEN"
+  },
+  {
+    "id": "50-50000251",
+    "cofm_id": "50000251",
+    "direccion": "C/ SOL, 11",
+    "localidad": "La Puebla de Alfinden",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ALFAJARIN",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.631587,
+    "lng": -0.7494433,
+    "localidades_atendidas": [
+      "La Puebla de Alfinden"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "MARTINEZ VEGA, SANTIAGO",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1363399290",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "50-50000040",
+    "cofm_id": "50000040",
+    "direccion": "PLAZA DE ESPAÑA, 4",
+    "localidad": "Ateca",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ALHAMA-ATECA-ARIZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ateca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "IBARRA ESTEBAN, MARIA BELEN"
+  },
+  {
+    "id": "50-50000189",
+    "cofm_id": "50000189",
+    "direccion": "PLAZA DEL MERCADO, 12",
+    "localidad": "BORJA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE BORJA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "BORJA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "NOGUES ARRONDO, MARIA-ANGELES"
+  },
+  {
+    "id": "50-50000388",
+    "cofm_id": "50000388",
+    "direccion": "C/ LA LUNA, 9",
+    "localidad": "Bujaraloz",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE BUJARALOZ",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Bujaraloz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "GIMENO PORQUET, JOSE-TOMAS"
+  },
+  {
+    "id": "50-50000084",
+    "cofm_id": "50000084",
+    "direccion": "C/ PORTAL ALTO, 23",
+    "localidad": "Maluenda",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CALATAYUD RURAL",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Maluenda"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "ESTERAS SEBASTIAN, JOSE-CARLOS"
+  },
+  {
+    "id": "50-50000409",
+    "cofm_id": "50000409",
+    "direccion": "PZ MAYOR,9-",
+    "localidad": "MIEDES DE ARAGON",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CALATAYUD RURAL",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "MIEDES DE ARAGON"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "BERGER VALLEJO, ROGELIO"
+  },
+  {
+    "id": "50-50000080",
+    "cofm_id": "50000080",
+    "direccion": "PLAZA DE PRIMO DE RIVERA, 7",
+    "localidad": "CALATAYUD",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CALATAYUD URBANA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "CALATAYUD"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "TAUS INDART, PEDRO-LUIS"
+  },
+  {
+    "id": "50-50000337",
+    "cofm_id": "50000337",
+    "direccion": "PLAZA DE ESPAÑA, S/N",
+    "localidad": "Barrio de Casetas",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CASETAS",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Barrio de Casetas"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "BARA BANDRES, MARIA-PILAR"
+  },
+  {
+    "id": "50-50000176",
+    "cofm_id": "50000176",
+    "direccion": "PLAZA DE HEREDIA, 1",
+    "localidad": "CASPE",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CASPE",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "CASPE"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "REVILLA HERNANDEZ, MANUEL"
+  },
+  {
+    "id": "50-50000105",
+    "cofm_id": "50000105",
+    "direccion": "C/ GUMA, 34",
+    "localidad": "CASPE",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE CASPE",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "CASPE"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "SENANTE CORTES, ANA"
+  },
+  {
+    "id": "50-50000230",
+    "cofm_id": "50000230",
+    "direccion": "C/ MAYOR, 165-173",
+    "localidad": "DAROCA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE DAROCA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "DAROCA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "OLIVA EGEA, ROMUALDO"
+  },
+  {
+    "id": "50-50000044",
+    "cofm_id": "50000044",
+    "direccion": "AVDA. FERNANDO EL CATOLICO, 1",
+    "localidad": "Ejea de los Caballeros",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE EJEA DE LOS CABALLEROS",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 42.127052,
+    "lng": -1.1356848,
+    "localidades_atendidas": [
+      "Ejea de los Caballeros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ARNER NAVARRO, JOSE ANTONIO",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/12470921343",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "50-50000495",
+    "cofm_id": "50000495",
+    "direccion": "C/ BAJA, 31",
+    "localidad": "ÉPILA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE EPILA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.5976397,
+    "lng": -1.2818152,
+    "localidades_atendidas": [
+      "ÉPILA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "DE LOS SANTOS ESTEBAN, JOSE",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "50-50000616",
+    "cofm_id": "50000616",
+    "direccion": "DIEGO VELAZQUEZ, 4",
+    "localidad": "FRAGA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE FRAGA (HUESCA)",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "FRAGA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "CORTILLA BENAIGES, ROBERTO"
+  },
+  {
+    "id": "50-50000029",
+    "cofm_id": "50000029",
+    "direccion": "P . DEL JUSTICIA, 32",
+    "localidad": "Fuentes de Ebro",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE FUENTES DE EBRO",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Fuentes de Ebro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "MARCO PARRAS, ROCIO"
+  },
+  {
+    "id": "50-50000130",
+    "cofm_id": "50000130",
+    "direccion": "CL CERVANTES,16-",
+    "localidad": "GALLUR",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE GALLUR",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "GALLUR"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "ALVIRA VERA, ANA"
+  },
+  {
+    "id": "50-50000144",
+    "cofm_id": "50000144",
+    "direccion": "PLAZA DE ESPAÑA, 3",
+    "localidad": "Gallur",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE GALLUR",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Gallur"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "BENLLOCH MOLTO, RICARDO"
+  },
+  {
+    "id": "50-50000034",
+    "cofm_id": "50000034",
+    "direccion": "C/ BARRANQUILLO, 16",
+    "localidad": "Herrera de los Navarros",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE HERRERA DE LOS NAVARROS",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Herrera de los Navarros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MEDINA ARNAL, VICTORIA"
+  },
+  {
+    "id": "50-50000387",
+    "cofm_id": "50000387",
+    "direccion": "PLAZA DE ESPAÑA, 11 BAJO.",
+    "localidad": "Brea de Aragon",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ILLUECA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Brea de Aragon"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "FERNANDEZ TORRIJO, ALBA"
+  },
+  {
+    "id": "50-50000142",
+    "cofm_id": "50000142",
+    "direccion": "CL SOLDEVILLA, 13",
+    "localidad": "NONASPE",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE MAELLA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "NONASPE"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "MONSEC BRUNET, ESMERALDA"
+  },
+  {
+    "id": "50-50000004",
+    "cofm_id": "50000004",
+    "direccion": "AV GOYA,S/N-",
+    "localidad": "Maria de Huerva",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE MARIA DE HUERVA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Maria de Huerva"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ROIG MARIN-YASELI, MAGARITA"
+  },
+  {
+    "id": "50-50000609",
+    "cofm_id": "50000609",
+    "direccion": "SANGUESA (NAVARRA)",
+    "localidad": "SANGUESA (NAVARRA)",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE SANGUESA (NAVARRA)",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SANGUESA (NAVARRA)"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "FARMACIA EN SANGUESA (NAVARRA)"
+  },
+  {
+    "id": "50-50000109",
+    "cofm_id": "50000109",
+    "direccion": "C/ MAYOR, 53",
+    "localidad": "SASTAGO",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE SASTAGO",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SASTAGO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "BUSTIN MARTINEZ, CARLOS"
+  },
+  {
+    "id": "50-50000119",
+    "cofm_id": "50000119",
+    "direccion": "C/ MARRODAN, 13",
+    "localidad": "Tarazona",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE TARAZONA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Tarazona"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "CONTRERAS POZA, EVA-MARIA"
+  },
+  {
+    "id": "50-50000007",
+    "cofm_id": "50000007",
+    "direccion": "C/ GERMAN, 11",
+    "localidad": "Tauste",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE TAUSTE",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Tauste"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "LOPEZ LOSTALE, MARIA-ANGELES"
+  },
+  {
+    "id": "50-50000512",
+    "cofm_id": "50000512",
+    "direccion": "C/ ATLANTICO, 18",
+    "localidad": "UTEBO",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE UTEBO",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "UTEBO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "NONAY SALVATIERRA, ALBERTO"
+  },
+  {
+    "id": "50-50000430",
+    "cofm_id": "50000430",
+    "direccion": "C/ GARCIA LORCA, 3",
+    "localidad": "UTEBO",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE UTEBO",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "UTEBO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "BROTO POLO, NELIDA"
+  },
+  {
+    "id": "50-50000170",
+    "cofm_id": "50000170",
+    "direccion": "C/ SAN PABLO, 51",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.6558452,
+    "lng": -0.8862767,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MORAL GÓMEZ-JORGE MORAL",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792487403"
+  },
+  {
+    "id": "50-50000187",
+    "cofm_id": "50000187",
+    "direccion": "P . DE SAGASTA, 8",
+    "localidad": "Zaragoza",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zaragoza"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ARTAL LERIN, ANA CRISTINA"
+  },
+  {
+    "id": "50-50000237",
+    "cofm_id": "50000237",
+    "direccion": "PLAZA DE TAUSTE, 1",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MIRAVETE GUIU, LUIS-JAVIER"
+  },
+  {
+    "id": "50-50000313",
+    "cofm_id": "50000313",
+    "direccion": "VIA HISPANIDAD, 56",
+    "localidad": "Zaragoza",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.643173,
+    "lng": -0.9150407,
+    "localidades_atendidas": [
+      "Zaragoza"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "LASMARÍAS PALOS, INÉS",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792487563"
+  },
+  {
+    "id": "50-50000323",
+    "cofm_id": "50000323",
+    "direccion": "C/ PABLO REMACHA, 17",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.6382844,
+    "lng": -0.8719524,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "BETORÉ GALLIZO, SARA",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792486340"
+  },
+  {
+    "id": "50-50000465",
+    "cofm_id": "50000465",
+    "direccion": "C/ BALBINO ORENSANZ, 17",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.6582811,
+    "lng": -0.8586377,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "NAVARRO CUBELLS, FRANCISCO",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792487446"
+  },
+  {
+    "id": "50-50000509",
+    "cofm_id": "50000509",
+    "direccion": "C/ ANTONIO SAURA, 10",
+    "localidad": "Zaragoza",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zaragoza"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MARÍN SAN MIGUEL, ENRIQUE"
+  },
+  {
+    "id": "50-50000020",
+    "cofm_id": "50000020",
+    "direccion": "C/ SAN VICENTE DE PAUL, 43",
+    "localidad": "Zaragoza",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zaragoza"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ASENSIO CATALAN, MONICA"
+  },
+  {
+    "id": "50-50000033",
+    "cofm_id": "50000033",
+    "direccion": "C/ DOCTOR IRANZO, 82",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.6491694,
+    "lng": -0.8634781,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ARTAL LERÍN, MIGUEL-ÁNGEL",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792486130",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "50-50000117",
+    "cofm_id": "50000117",
+    "direccion": "CAMINO DEL PUENTE VIRREY, 45",
+    "localidad": "Zaragoza",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zaragoza"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ARTAL GONZALEZ, ANA"
+  },
+  {
+    "id": "50-50000232",
+    "cofm_id": "50000232",
+    "direccion": "C/ SANTANDER, 15",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.724377,
+    "lng": -1.033274,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "SANCHO AVELLÁN, MARÍA-PILAR",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2353917152",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "50-50000350",
+    "cofm_id": "50000350",
+    "direccion": "VÍA HISPANIDAD, 136",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.6556187,
+    "lng": -0.9203929,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "HERNÁNDEZ BARRUTIA, CARLOS",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1792487165",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "50-50000466",
+    "cofm_id": "50000466",
+    "direccion": "C/ SALVADOR ALLENDE, 87-89",
+    "localidad": "ZARAGOZA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZARAGOZA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "ZARAGOZA"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "LABAT CASANOVA, MARÍA-PILAR"
+  },
+  {
+    "id": "50-50000074",
+    "cofm_id": "50000074",
+    "direccion": "C/ GOMEZ ACEBO, 71",
+    "localidad": "VILLANUEVA DE GÁLLEGO",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZUERA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "VILLANUEVA DE GÁLLEGO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ARILLA LEZA, LUIS-PEDRO"
+  },
+  {
+    "id": "50-50000111",
+    "cofm_id": "50000111",
+    "direccion": "CL JORGE LUNA, 19",
+    "localidad": "ZUERA",
+    "sector": "",
+    "zona": "ZONA DE SALUD DE ZUERA",
+    "provincia": "Zaragoza",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "ZUERA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "GIMENEZ GARCIA, JOSE-ESTEBAN"
+  }
+]

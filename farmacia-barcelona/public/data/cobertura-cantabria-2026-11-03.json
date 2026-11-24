@@ -1,0 +1,138 @@
+{
+  "fecha": "2026-11-03",
+  "provincia": "Cantabria",
+  "fuente": "https://cofcantabria.org/cofguardiasclient/",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Alto Pas",
+      "codigo": "altopas",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Bajo Pas",
+      "codigo": "bajopas",
+      "estado": "disponible",
+      "farmacias": 7
+    },
+    {
+      "nombre": "Besaya",
+      "codigo": "besaya",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Bezana",
+      "codigo": "bezana",
+      "estado": "disponible",
+      "farmacias": 7
+    },
+    {
+      "nombre": "Cudeyo · Miera",
+      "codigo": "cudeyo-miera",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Liébana",
+      "codigo": "liebana",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Meruelo · Gama",
+      "codigo": "meruelo-gama",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Nansa",
+      "codigo": "nansa",
+      "estado": "disponible",
+      "farmacias": 1
+    },
+    {
+      "nombre": "Pisueña · Cayón · Selaya",
+      "codigo": "pisue-a-cay-n-selaya",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Santoña",
+      "codigo": "santo-a",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Santander",
+      "codigo": "santander",
+      "estado": "disponible",
+      "farmacias": 8
+    },
+    {
+      "nombre": "Torrelavega",
+      "codigo": "torrelavega",
+      "estado": "disponible",
+      "farmacias": 2
+    },
+    {
+      "nombre": "Alto y Bajo Asón",
+      "codigo": "altoybajoas-n",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Camargo",
+      "codigo": "camargo",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Campoo · Los Valles",
+      "codigo": "campoo-losvalles",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Castro Urdiales",
+      "codigo": "castro-urdiales",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "El Astillero",
+      "codigo": "elastillero",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Laredo · Colindres",
+      "codigo": "laredocolindres",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Polanco · Suances · Altamira",
+      "codigo": "polanco-suances-altamira",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Saja · San Vicente",
+      "codigo": "saja-sanvicente",
+      "estado": "disponible",
+      "farmacias": 3
+    },
+    {
+      "nombre": "Censo municipal provincial",
+      "estado": "parcial",
+      "error": "Se consultan todas las zonas publicadas; no acreditan un censo de los 102 municipios ni derivaciones municipio a municipio. El catálogo contiene farmacias observadas en calendarios, no todas las oficinas."
+    }
+  ],
+  "farmacias": 36,
+  "farmacias_confirmadas": 36,
+  "con_coordenadas": 36,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

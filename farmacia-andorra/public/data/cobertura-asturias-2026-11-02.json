@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Asturias",
+  "fuente": "https://www.farmasturias.org/GESCOF/cms/Guardias/FarmaciaBuscar.asp?IdMenu=111",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Resto de Asturias",
+      "estado": "pendiente",
+      "error": "Otros municipios aún no consultados.",
+      "farmacias": 0
+    },
+    {
+      "nombre": "Oviedo",
+      "estado": "disponible",
+      "farmacias": 8
+    },
+    {
+      "nombre": "Gijón",
+      "estado": "disponible",
+      "farmacias": 4
+    }
+  ],
+  "farmacias": 12,
+  "farmacias_confirmadas": 12,
+  "con_coordenadas": 6,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

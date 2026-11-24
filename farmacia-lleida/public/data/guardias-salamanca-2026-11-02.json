@@ -1,0 +1,952 @@
+[
+  {
+    "id": "37-37000063",
+    "cofm_id": "37000063",
+    "direccion": "PLAZA MAYOR, 10",
+    "localidad": "ALBA DE TORMES",
+    "sector": "",
+    "zona": "Alba de Tormes",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.8271998,
+    "lng": -5.5142061,
+    "localidades_atendidas": [
+      "ALBA DE TORMES"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "CANO SANTIBAÑEZ FRANCISCO RAFAEL",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/3483460683",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "37-37000232",
+    "cofm_id": "37000232",
+    "direccion": "JESUS, 17-A",
+    "localidad": "MIEZA",
+    "sector": "",
+    "zona": "Aldeadavila de la Ribera",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "MIEZA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "DIAZ RODRIGUEZ M  ANGELES",
+    "telefono": "923523430"
+  },
+  {
+    "id": "37-37010009",
+    "cofm_id": "37010009",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LA REALIZA LA ZONA DE LUMBRALES-VITIGUDINO",
+    "localidad": "Zona de Aldeavila",
+    "sector": "",
+    "zona": "Aldeadavila de la Ribera",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zona de Aldeavila"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "37-37000328",
+    "cofm_id": "37000328",
+    "direccion": "Libertad, 73",
+    "localidad": "BEJAR",
+    "sector": "",
+    "zona": "Bejar",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "BEJAR"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "37-37000273",
+    "cofm_id": "37000273",
+    "direccion": "La Luna, 12",
+    "localidad": "PALACIOS DEL ARZOBISPO",
+    "sector": "",
+    "zona": "Calzada de Valdunciel - Ledesma",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "PALACIOS DEL ARZOBISPO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "KASSEM HASSAN FAWAZ",
+    "telefono": "923320907"
+  },
+  {
+    "id": "37-37010001",
+    "cofm_id": "37010001",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZA LA CIUDAD DE SALAMANCA - Zona Calzada de Valdunciel",
+    "localidad": "Ledesma",
+    "sector": "",
+    "zona": "Calzada de Valdunciel - Ledesma",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ledesma"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ]
+  },
+  {
+    "id": "37-37000117",
+    "cofm_id": "37000117",
+    "direccion": "LAGUNA, 5",
+    "localidad": "CIUDAD RODRIGO",
+    "sector": "",
+    "zona": "Ciudad Rodrigo",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.6001322,
+    "lng": -6.5286282,
+    "localidades_atendidas": [
+      "CIUDAD RODRIGO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "CABO HARGUINDEY ROSA MARIA DE",
+    "telefono": "923460318",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/9321274829",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "37-37000251",
+    "cofm_id": "37000251",
+    "direccion": "Los Caños, 46",
+    "localidad": "PAYO  (El)",
+    "sector": "",
+    "zona": "Fuenteguinaldo - Robleda",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.28756,
+    "lng": -6.7270793,
+    "localidades_atendidas": [
+      "PAYO  (El)"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "PEREZ DE LA MONJA ALFREDO",
+    "telefono": "923486848",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37010014",
+    "cofm_id": "37010014",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZA CIUDAD RODRIGO - Zona Fuenteguinaldo",
+    "localidad": "Robleda",
+    "sector": "",
+    "zona": "Fuenteguinaldo - Robleda",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Robleda"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ]
+  },
+  {
+    "id": "37-37010004",
+    "cofm_id": "37010004",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZA CIUDAD RODRIGO",
+    "localidad": "Zona de Fuentes de Oñoro",
+    "sector": "",
+    "zona": "Fuentes de Oñoro",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zona de Fuentes de Oñoro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "37-37000082",
+    "cofm_id": "37000082",
+    "direccion": "Plaza España, 10",
+    "localidad": "Fuentes de Oñoro",
+    "sector": "",
+    "zona": "Fuentes de Oñoro",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.6044292,
+    "lng": -6.8227007,
+    "localidades_atendidas": [
+      "Fuentes de Oñoro"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "CUADRADO SANCHEZ JOSE JAVIER",
+    "telefono": "923473064",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37000324",
+    "cofm_id": "37000324",
+    "direccion": "FILIBERTO VILLALOBOS, 38",
+    "localidad": "GUIJUELO",
+    "sector": "",
+    "zona": "Guijuelo",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "GUIJUELO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "MARTIN SANCHEZ ELENA",
+    "telefono": "923581990"
+  },
+  {
+    "id": "37-37000290",
+    "cofm_id": "37000290",
+    "direccion": "Salas Pombo, 16",
+    "localidad": "ALDEHUELA DE LA BOVEDA",
+    "sector": "",
+    "zona": "La Fuente de San Esteban - Matilla",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "ALDEHUELA DE LA BOVEDA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "PEDRAZA DOMINGUEZ ANGEL",
+    "telefono": "923445022"
+  },
+  {
+    "id": "37-37010008",
+    "cofm_id": "37010008",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZAN CIUDAD RODRIGO Y LA CIUDAD DE SALAMANCA - La Fuente de San Esteba",
+    "localidad": "Matilla",
+    "sector": "",
+    "zona": "La Fuente de San Esteban - Matilla",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Matilla"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ]
+  },
+  {
+    "id": "37-37000215",
+    "cofm_id": "37000215",
+    "direccion": "Eras, 24",
+    "localidad": "HINOJOSA DE DUERO",
+    "sector": "",
+    "zona": "Lumbrales - Vitigudino",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "HINOJOSA DE DUERO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "CUADRADO MORO ANA",
+    "telefono": "923515250"
+  },
+  {
+    "id": "37-37000155",
+    "cofm_id": "37000155",
+    "direccion": "Pedro Velasco, 26",
+    "localidad": "VITIGUDINO",
+    "sector": "",
+    "zona": "Lumbrales - Vitigudino",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 41.0088122,
+    "lng": -6.432451,
+    "localidades_atendidas": [
+      "VITIGUDINO"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "DELGADO LAPAZARAN ARTURO",
+    "telefono": "923500955",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4872046533",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "37-37000056",
+    "cofm_id": "37000056",
+    "direccion": "Ctra. de la Estacion, 64",
+    "localidad": "LUMBRALES",
+    "sector": "",
+    "zona": "Lumbrales - Vitigudino",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "LUMBRALES"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "SOTO LOPEZ SUSANA",
+    "telefono": "923512126"
+  },
+  {
+    "id": "37-37000179",
+    "cofm_id": "37000179",
+    "direccion": "Estella, 16",
+    "localidad": "SEQUEROS",
+    "sector": "",
+    "zona": "Miranda - Linares",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SEQUEROS"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "SANCHEZ ACERA ELIAN",
+    "telefono": "923437303"
+  },
+  {
+    "id": "37-37010010",
+    "cofm_id": "37010010",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LA REALIZA LA ZONAS DE BEJAR Y GUIJUELO - Zona de Miranda",
+    "localidad": "Linares",
+    "sector": "",
+    "zona": "Miranda - Linares",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Linares"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ]
+  },
+  {
+    "id": "37-37000281",
+    "cofm_id": "37000281",
+    "direccion": "La Iglesia, 14",
+    "localidad": "SAN MIGUEL DE VALERO",
+    "sector": "",
+    "zona": "Miranda - Linares",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SAN MIGUEL DE VALERO"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "BARTOL CANEDO MARIA ISABEL",
+    "telefono": "923415613"
+  },
+  {
+    "id": "37-37000092",
+    "cofm_id": "37000092",
+    "direccion": "Avda. Las Villas, 44",
+    "localidad": "VILLORIA",
+    "sector": "",
+    "zona": "Pedrosillo - Villoria - Cantalapiedra",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "VILLORIA"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MATEOS RODRIGUEZ M  DOLORES CB",
+    "telefono": "923356010"
+  },
+  {
+    "id": "37-37010015",
+    "cofm_id": "37010015",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZA SALAMANCA, PEÑARANDA DE BRACAMONTE O SANTA MARTA - Zona de Pedrosillo - Villoria",
+    "localidad": "Cantalapiedra",
+    "sector": "",
+    "zona": "Pedrosillo - Villoria - Cantalapiedra",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Cantalapiedra"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ]
+  },
+  {
+    "id": "37-37000317",
+    "cofm_id": "37000317",
+    "direccion": "PASEO ESTACION, 8",
+    "localidad": "PEÑARANDA DE BRACAMONTE",
+    "sector": "",
+    "zona": "Peñaranda de Bracamonte",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.9000435,
+    "lng": -5.2037518,
+    "localidades_atendidas": [
+      "PEÑARANDA DE BRACAMONTE"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "SAYAGUES VEGA MARIANO",
+    "telefono": "923540333",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/6210080267",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "37-37000031",
+    "cofm_id": "37000031",
+    "direccion": "PLAZA DE ESPAÑA, 33",
+    "localidad": "PEÑARANDA DE BRACAMONTE",
+    "sector": "",
+    "zona": "Peñaranda de Bracamonte",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "PEÑARANDA DE BRACAMONTE"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "ALCALDE SANCHEZ MANUEL",
+    "telefono": "923540038"
+  },
+  {
+    "id": "37-37000268",
+    "cofm_id": "37000268",
+    "direccion": "Plaza Real, 4",
+    "localidad": "MOZARBEZ",
+    "sector": "",
+    "zona": "Periurbana Norte y Sur",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "MOZARBEZ"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MARTINEZ DIAZ M  ELENA",
+    "telefono": "923308620"
+  },
+  {
+    "id": "37-37010000",
+    "cofm_id": "37010000",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LAS REALIZA LA CIUDAD DE SALAMANCA",
+    "localidad": "Periurbana Norte y Sur",
+    "sector": "",
+    "zona": "Periurbana Norte y Sur",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Periurbana Norte y Sur"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "37-37000025",
+    "cofm_id": "37000025",
+    "direccion": "CRESPO RASCON, 2-10",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "SEVILLANO SANTOS MARIA JOSE",
+    "telefono": "923217687"
+  },
+  {
+    "id": "37-37000081",
+    "cofm_id": "37000081",
+    "direccion": "MARIA AUXILIADORA, 45",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.9715661,
+    "lng": -5.658098,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "DE ORAA MORTE MARIA PALOMA",
+    "telefono": "923220596",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37000095",
+    "cofm_id": "37000095",
+    "direccion": "ZAMORA, 86 (Frente Iglesia San Marcos)",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MULAS SANTIAGO PATRICIA",
+    "telefono": "923218433"
+  },
+  {
+    "id": "37-37000217",
+    "cofm_id": "37000217",
+    "direccion": "CTRA. LEDESMA, 150 (Barrio Pizarrales)",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.9787009,
+    "lng": -5.6757316,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "FERRERO HERNANDEZ ALVARO",
+    "telefono": "923258439",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37000104",
+    "cofm_id": "37000104",
+    "direccion": "PASEO CANALEJAS, 117-119",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "SANTOS ALONSO-BURON BLANCA",
+    "telefono": "923271440"
+  },
+  {
+    "id": "37-37000135",
+    "cofm_id": "37000135",
+    "direccion": "TORO, 25 (Plaza Liceo)",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.9664859,
+    "lng": -5.6627679,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "FELIPE CONDE AMADOR",
+    "telefono": "923214124",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37000305",
+    "cofm_id": "37000305",
+    "direccion": "AVDA. CIPRESES, 48",
+    "localidad": "Salamanca",
+    "sector": "",
+    "zona": "Salamanca Ciudad",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.976279,
+    "lng": -5.6490492,
+    "localidades_atendidas": [
+      "Salamanca"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "FARMACIA REYES CARBALLO",
+    "telefono": "923123189",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37000160",
+    "cofm_id": "37000160",
+    "direccion": "CARRETERA DE MADRID, 79-81",
+    "localidad": "SANTA MARTA DE TORMES",
+    "sector": "",
+    "zona": "Santa Marta de Tormes",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SANTA MARTA DE TORMES"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "MARTIN SIMON MYRIAM",
+    "telefono": "923200031"
+  },
+  {
+    "id": "37-37000270",
+    "cofm_id": "37000270",
+    "direccion": "CTRA. MADRID, 61-65 (Esquina c/ Estrecha)",
+    "localidad": "SANTA MARTA DE TORMES",
+    "sector": "",
+    "zona": "Santa Marta de Tormes",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SANTA MARTA DE TORMES"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "GARCIA HERNANDEZ CARLOS",
+    "telefono": "923130171"
+  },
+  {
+    "id": "37-37000322",
+    "cofm_id": "37000322",
+    "direccion": "MONSEÑOR ROMERO, 1",
+    "localidad": "SANTA MARTA DE TORMES",
+    "sector": "",
+    "zona": "Santa Marta de Tormes",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.9504835,
+    "lng": -5.6251351,
+    "localidades_atendidas": [
+      "SANTA MARTA DE TORMES"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "BALLESTERO VEGA JESUS MARIA",
+    "telefono": "923200437",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/3844216857",
+    "nota_ubicacion": "Ubicación por dirección exacta; pendiente de verificar como farmacia."
+  },
+  {
+    "id": "37-37000299",
+    "cofm_id": "37000299",
+    "direccion": "URB. VALDELAGUA",
+    "localidad": "SANTA MARTA DE TORMES",
+    "sector": "",
+    "zona": "Santa Marta de Tormes",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "SANTA MARTA DE TORMES"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "FARMACIA VALDELAGUA C.B.",
+    "telefono": "923139115"
+  },
+  {
+    "id": "37-37000256",
+    "cofm_id": "37000256",
+    "direccion": "Larga, 1",
+    "localidad": "MAILLO (El)",
+    "sector": "",
+    "zona": "Tamames - La Alberca",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 40.5650651,
+    "lng": -6.1798551,
+    "localidades_atendidas": [
+      "MAILLO (El)"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "SEGUNDO SEGUNDO FRANCISCA ADELIA",
+    "telefono": "923485607",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "37-37010011",
+    "cofm_id": "37010011",
+    "direccion": "SERVICIO DE URGENCIA NOCTURNO, FINES DE SEMANA Y FESTIVOS LA REALIZA LA ZONA DE CIUDAD RODRIGO - Zona de Tamames",
+    "localidad": "La Alberca",
+    "sector": "",
+    "zona": "Tamames - La Alberca",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "La Alberca"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ]
+  },
+  {
+    "id": "37-37000023",
+    "cofm_id": "37000023",
+    "direccion": "F. Garcia Lorca, 11",
+    "localidad": "TAMAMES",
+    "sector": "",
+    "zona": "Tamames - La Alberca",
+    "provincia": "Salamanca",
+    "guardia": true,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "TAMAMES"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "MANZANO TORIBIO ELVIRA",
+    "telefono": "923449042"
+  }
+]

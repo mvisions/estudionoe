@@ -1,0 +1,50 @@
+[
+  {
+    "id": "51-51000005",
+    "cofm_id": "51000005",
+    "direccion": "HISPANIA. Alcade Fructuoso Miajas, 4",
+    "localidad": "Ceuta",
+    "sector": "",
+    "zona": "Ceuta",
+    "provincia": "Ceuta",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 35.8883956,
+    "lng": -5.3077945,
+    "localidades_atendidas": [
+      "Ceuta"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Ramirez Sanchez, Alberto Jose",
+    "telefono": "956512530",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org"
+  },
+  {
+    "id": "51-51000019",
+    "cofm_id": "51000019",
+    "direccion": "PUYA (BARRIADAS). C/Tte. Crl. Gautier, 10",
+    "localidad": "Ceuta",
+    "sector": "",
+    "zona": "Ceuta",
+    "provincia": "Ceuta",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ceuta"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Puya C.B.",
+    "telefono": "956512309"
+  }
+]

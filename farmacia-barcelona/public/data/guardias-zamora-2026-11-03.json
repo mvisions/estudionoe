@@ -1,0 +1,48 @@
+[
+  {
+    "id": "jcyl-49-e1-00046",
+    "nombre": "JOSÉ MANUEL CATALINA COELLO",
+    "direccion": "AVDA  TRES CRUCES, 25",
+    "localidad": "Zamora",
+    "provincia": "Zamora",
+    "telefono": "980520060",
+    "fuente": "https://cofzamora.es/admin/config/media/ver_mes_completo",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Zamora"
+    ],
+    "guardia_franja": "Guardia diurna COF Zamora; horario exacto pendiente, confirmar por teléfono.",
+    "guardia_franjas": [
+      "Guardia diurna COF Zamora; horario exacto pendiente, confirmar por teléfono."
+    ],
+    "guardia_intervalos": [],
+    "guardia_apertura": "desconocida",
+    "lat": null,
+    "lng": null,
+    "ubicacion_requiere_verificacion": true
+  },
+  {
+    "id": "jcyl-49-e1-00035",
+    "nombre": "LUELMO HERNANDEZ, VIOLETA JULIA",
+    "direccion": "AVDA  PRINCIPE DE ASTURIAS, 27",
+    "localidad": "Zamora",
+    "provincia": "Zamora",
+    "telefono": "647301886",
+    "fuente": "https://cofzamora.es/admin/config/media/ver_mes_completo",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "localidades_atendidas": [
+      "Zamora"
+    ],
+    "guardia_franja": "Guardia nocturna COF Zamora; horario exacto pendiente, confirmar por teléfono.",
+    "guardia_franjas": [
+      "Guardia nocturna COF Zamora; horario exacto pendiente, confirmar por teléfono."
+    ],
+    "guardia_intervalos": [],
+    "guardia_apertura": "desconocida",
+    "lat": null,
+    "lng": null,
+    "ubicacion_requiere_verificacion": true
+  }
+]

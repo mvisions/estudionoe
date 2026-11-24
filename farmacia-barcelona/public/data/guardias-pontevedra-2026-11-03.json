@@ -1,0 +1,927 @@
+[
+  {
+    "id": "cof-pontevedra-33c176b91e88a899",
+    "cofm_id": null,
+    "nombre": "Abril Gómez, María Paz",
+    "direccion": "C/ Joaquín Costa, 81",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986856063",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": 42.4270325,
+    "lng": -8.6342315,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+      "Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono. · Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101924844",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 6.0 m.",
+    "ajuste_ubicacion_m": 6.0,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.6342315&lat=42.4270325"
+  },
+  {
+    "id": "cof-pontevedra-b8b51cf66ca8da7f",
+    "cofm_id": null,
+    "nombre": "Álvarez Fernández, María Elena",
+    "direccion": "Plaza de España, 1",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986851334",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-a445ca12b54bc863",
+    "cofm_id": null,
+    "nombre": "Amaro y Area C.B.",
+    "direccion": "C/ Benito Corbal, 15",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986869960",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-a5b0c5844c1197b9",
+    "cofm_id": null,
+    "nombre": "Farmacia Campolongo C.B.",
+    "direccion": "C/ General Rubín, 11 Local 6",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986859853",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-b3919a6c184f3a21",
+    "cofm_id": null,
+    "nombre": "Farmacia Saavedra C.B.",
+    "direccion": "C/ Echegaray, 12",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986842934",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": 42.431583,
+    "lng": -8.649907,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101927198",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 9.3 m.",
+    "ajuste_ubicacion_m": 9.3,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.649907&lat=42.431583"
+  },
+  {
+    "id": "cof-pontevedra-6ca82ca6795e82e5",
+    "cofm_id": null,
+    "nombre": "Lorenzo Outón, Carlos",
+    "direccion": "C/ Loureiro Crespo, 14",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986852813",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-8cb34e3bec8f811f",
+    "cofm_id": null,
+    "nombre": "Martín - Mariño C.B.",
+    "direccion": "C/ Benito Corbal, 50",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986851706",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": 42.4297121,
+    "lng": -8.6394749,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101924811",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 2.0 m.",
+    "ajuste_ubicacion_m": 2.0,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.6394749&lat=42.4297121"
+  },
+  {
+    "id": "cof-pontevedra-6650a0158273de6b",
+    "cofm_id": null,
+    "nombre": "Muiña López, Marta",
+    "direccion": "Avda. Juan Carlos I, 13",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986108160",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-1bf865d1bc32503c",
+    "cofm_id": null,
+    "nombre": "Negreira del Río, José",
+    "direccion": "C/ Pintor Laxeiro, 32",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986859153",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": 42.4249178,
+    "lng": -8.631752,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2523117902",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 11.1 m.",
+    "ajuste_ubicacion_m": 11.1,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.631752&lat=42.4249178"
+  },
+  {
+    "id": "cof-pontevedra-8fdbd8079d0099d3",
+    "cofm_id": null,
+    "nombre": "Pereira Santiago C.B.",
+    "direccion": "C/ Augusto García Sánchez, 14",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986852130",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": 42.427564,
+    "lng": -8.6426233,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101924550",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 7.2 m.",
+    "ajuste_ubicacion_m": 7.2,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.6426233&lat=42.427564"
+  },
+  {
+    "id": "cof-pontevedra-0d10ae213d9b10af",
+    "cofm_id": null,
+    "nombre": "Pozas Calviño, Emilio",
+    "direccion": "Lugar Carballeira, 54 - Salcedo",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "630461873",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-eb37b1dd252e7f6e",
+    "cofm_id": null,
+    "nombre": "Rey Carballeda, Ana María",
+    "direccion": "C/ José Malvar, 39 - Esquina C/ La Seca",
+    "localidad": "Pontevedra",
+    "provincia": "Pontevedra",
+    "telefono": "986858201",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Pontevedra"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-c0dd67a9b6258d4b",
+    "cofm_id": null,
+    "nombre": "Abril Gómez, José Luis",
+    "direccion": "Travesia de Vigo, 156",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986276949",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": 42.2408932,
+    "lng": -8.7020552,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+      "Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono. · Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101923305",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 0.9 m.",
+    "ajuste_ubicacion_m": 0.9,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.7020552&lat=42.2408932"
+  },
+  {
+    "id": "cof-pontevedra-f0e3ba7051adce8b",
+    "cofm_id": null,
+    "nombre": "Acea Lorenzo, Raquel",
+    "direccion": "C/ Regueiro, 8",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986294351",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-c37dfd86a2a7c4de",
+    "cofm_id": null,
+    "nombre": "Álvarez Ruano, Marcos",
+    "direccion": "C/ Teixugueiras, 3",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986461796",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-2ea57ee1ae82d1e6",
+    "cofm_id": null,
+    "nombre": "Campelo Sánchez, Antonio",
+    "direccion": "Avda. Castelao, 31",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986290317",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-3f4241bb3459360c",
+    "cofm_id": null,
+    "nombre": "Charro Temes, José Luis",
+    "direccion": "C/ Urzaiz, 176",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986272986",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-a2ad9191d8c6a587",
+    "cofm_id": null,
+    "nombre": "Costas Mira, Ramón",
+    "direccion": "C/ Ramiro Pascual nº 15",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986292842",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-6f8516132587b8d7",
+    "cofm_id": null,
+    "nombre": "Darriba Rodríguez, Andrea",
+    "direccion": "C/ Enrique Lorenzo, 10",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986378504",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": 42.2488124,
+    "lng": -8.6986839,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101920859",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 0.6 m.",
+    "ajuste_ubicacion_m": 0.6,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.6986839&lat=42.2488124"
+  },
+  {
+    "id": "cof-pontevedra-76301bb0febd996d",
+    "cofm_id": null,
+    "nombre": "Estévez Martínez, María Teresa",
+    "direccion": "Avda. de la Florida, 127",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986236380",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-f36b10a016042536",
+    "cofm_id": null,
+    "nombre": "Farmacia Caloto C.B.",
+    "direccion": "Avda. Fragoso, 93",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986299408",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-941eb010b8f8de8f",
+    "cofm_id": null,
+    "nombre": "Fernández Caldeiro, Carmen Adelina",
+    "direccion": "C/ Senra de Abaixo, 48 - San Miguel de Oia",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986491401",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-c3badc05d4c91767",
+    "cofm_id": null,
+    "nombre": "Fernández Pérez, Nuria",
+    "direccion": "Avda. Coruña, 20",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986295205",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-c1be2862659ced78",
+    "cofm_id": null,
+    "nombre": "García Peña, María Teresa",
+    "direccion": "Travesia de Vigo, 202 Centro Comercial",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986251220",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-655f665999f9898c",
+    "cofm_id": null,
+    "nombre": "Goicoa Gago, María del Carmen",
+    "direccion": "C/ Venezuela, 54",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986411568",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-e7aee6994da89e5a",
+    "cofm_id": null,
+    "nombre": "González González, Laura",
+    "direccion": "C/ Gregorio Espino, 10",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986370671",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-055af528e4e1ce9f",
+    "cofm_id": null,
+    "nombre": "Huarte Alonso-Macías, Marina",
+    "direccion": "C/ Conde Torrecedeira, 38",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986296092",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-30055cecbbe22b78",
+    "cofm_id": null,
+    "nombre": "Lara-Barahona Riobóo, María Elisa",
+    "direccion": "Centro Comercial Gran Vía, L 2",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986421324",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-12f1608897b387ca",
+    "cofm_id": null,
+    "nombre": "Leal Carro, Jimena",
+    "direccion": "Ronda de Don Bosco, 2",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986438408",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-69f5003508fa45d4",
+    "cofm_id": null,
+    "nombre": "Lestón Fernández, Pablo",
+    "direccion": "C/ Pablo Iglesias, 4",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986208064",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-a94fdda684b1b526",
+    "cofm_id": null,
+    "nombre": "López Viéitez, Amil",
+    "direccion": "C/ Nicaragua, 31-A",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986424224",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-e93d7a8f540641d7",
+    "cofm_id": null,
+    "nombre": "Navia 28 C.B.",
+    "direccion": "C/ Teixugueiras, 28 - Polígono de Navia",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986246606",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-35402f079adf3a64",
+    "cofm_id": null,
+    "nombre": "Orjales Barge, Vicente",
+    "direccion": "Avda. O Grove, 2 Portal 3 - Coia",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986207882",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-5186faceb5d0de05",
+    "cofm_id": null,
+    "nombre": "Otero Ferreiro, Vanessa",
+    "direccion": "C/ Manuel de Castro, 21",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986235531",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+      "Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono. · Nocturno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-614166d68e078902",
+    "cofm_id": null,
+    "nombre": "Rey Vasalo, Santiago",
+    "direccion": "Avda. de la Florida, 28",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986237157",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-9434cd5111ac73c4",
+    "cofm_id": null,
+    "nombre": "Sabín Domínguez, Elisa",
+    "direccion": "C/ Baiona, 7 - Polígono de Coia",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "886111246",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-1c85f18a50e694d5",
+    "cofm_id": null,
+    "nombre": "Termes Lis, Vanesa",
+    "direccion": "C/ Cambados, 2-A",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986291620",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-f758333f6bbb685a",
+    "cofm_id": null,
+    "nombre": "Touriño Baliña, Elena",
+    "direccion": "C/ Urzaiz, 96",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986417519",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-02252dbd3e477012",
+    "cofm_id": null,
+    "nombre": "Touriño Baliña, Javier",
+    "direccion": "C/ Pizarro, 63",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986419804",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": 42.2314163,
+    "lng": -8.7130833,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono.",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4101921269",
+    "nota_ubicacion": "Teléfono, dirección y portal CartoCiudad coinciden a 3.3 m.",
+    "ajuste_ubicacion_m": 3.3,
+    "referencia_ubicacion": "https://www.cartociudad.es/geocoder/api/geocoder/reverseGeocode?lon=-8.7130833&lat=42.2314163"
+  },
+  {
+    "id": "cof-pontevedra-bbc850111116526b",
+    "cofm_id": null,
+    "nombre": "Valdés Vilches, Daniel",
+    "direccion": "C/ Gran Via, 176",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986239102",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-4da88abda350e120",
+    "cofm_id": null,
+    "nombre": "Vázquez Fernández, José",
+    "direccion": "C/ Sanjurjo Badía, 192",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986371327",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  },
+  {
+    "id": "cof-pontevedra-9797582adeca733a",
+    "cofm_id": null,
+    "nombre": "Yaziji Lorenzo, Edgar",
+    "direccion": "Avda. García Barbón, 80",
+    "localidad": "Vigo",
+    "provincia": "Pontevedra",
+    "telefono": "986225966",
+    "guardia": true,
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmacias.cofpo.org/public/guardias_listado_prensa.php",
+    "localidades_atendidas": [
+      "Vigo"
+    ],
+    "lat": null,
+    "lng": null,
+    "guardia_franjas": [
+      "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+    ],
+    "guardia_franja": "Diurno según listado del Colegio; horario exacto no indicado, confirmar por teléfono."
+  }
+]

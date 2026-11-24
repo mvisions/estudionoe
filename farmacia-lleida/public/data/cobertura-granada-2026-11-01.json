@@ -1,0 +1,1640 @@
+{
+  "fecha": "2026-11-01",
+  "provincia": "Granada",
+  "fuente": "https://www.cofgranada.com/Paginas/Farmacias_Guardia.asp",
+  "consultado": "2026-11-01T04:00:27.519375+00:00",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Agrón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alamedilla",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Albolote",
+      "estado": "parcial",
+      "farmacias": 1,
+      "documentos": [
+        "Albolote. 2026. FIJO.pdf"
+      ],
+      "errores": [
+        "Albolote. 2026. FIJO.pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Albondón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "23 VERSION D octubre.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Albuñán",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Albuñol",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "23 VERSION D octubre.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Albuñuelas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alcudia de guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Aldeire",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "7-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Alfacar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Algarinejo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alhama de granada",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alhendín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alicún de ortega",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Almegíjar",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Almuñécar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "julio octubre ALMUnECAR 2026-18.pdf"
+      ],
+      "errores": [
+        "julio octubre ALMUnECAR 2026-18.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Alomartes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Alquife",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "7-10(2).pdf",
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Ambroz",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey - fornes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Arenas del rey - játar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Armilla",
+      "estado": "parcial",
+      "farmacias": 1,
+      "documentos": [
+        "Armilla  2026. FIJO(1).pdf"
+      ],
+      "errores": [
+        "Armilla  2026. FIJO(1).pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Atarfe",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Bácor-olivar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Baza",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "MODIFICADO Baza  2026. POR DIAS EXC. VERANO POR SEMANAS-9(1).pdf"
+      ],
+      "errores": [
+        "MODIFICADO Baza  2026. POR DIAS EXC. VERANO POR SEMANAS-9(1).pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Beas de granada",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Beas de guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Belicena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Benalúa de guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Benalúa de las villas",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Benamaurel",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Bérchules",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Bubión",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Busquístar",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cacín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cádiar",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cájar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Calahonda",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "22-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Calahorra, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "7-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Calicasas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Campo cámara",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Campotéjar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Caniles",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cáñar",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Capileira",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Carataunas",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Carchuna",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "22-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cástaras",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Castell de ferro",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "22-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Castilléjar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "2 CASTILLEJAR horizontal-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Castril",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "3 CASTRIL-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cenes de la vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chaparral, el",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chauchina",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Chimeneas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Churriana de la vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cijuela",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cogollos de guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cogollos vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Colomera",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cortes de baza",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cortes y graena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cozvijar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cuevas del campo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Cúllar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cúllar vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Cúllar vega - el ventorrillo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Darro",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Dehesas de guadix",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Dehesas viejas",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Deifontes",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Diezma",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Dílar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Dólar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "7-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Domingo pérez",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Dúdar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "14-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Dúrcal",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Escoznar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Escúzar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ferreira",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "7-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Fonelas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Freila",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Fuente vaqueros",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Gabias, las",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Galera",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "4 GALERA-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Gobernador",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Gójar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Gor",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Gorafe",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Granada",
+      "estado": "disponible",
+      "farmacias": 31,
+      "documentos": [
+        "1 DE NOVIEMBRE DOMINGO-2026.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Guadahortuna",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Guadix",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Guejar faragüit",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Güéjar sierra",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "14-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Güevéjar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Herradura, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Hijar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huélago",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Huéneja",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "7-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Huéscar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huétor de santillán",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Huétor tájar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "WEB JULIO DICIEMBRE 2026.pdf"
+      ],
+      "errores": [
+        "WEB JULIO DICIEMBRE 2026.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Huétor vega",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Illora",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Itrabo",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Iznalloz",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Jayena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Jerez del marquesado",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Jete",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Jun",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Juviles",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Láchar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lanjarón",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lanteira",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "6-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Laroles",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Lecrín",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Lentegí",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "julio octubre ALMUnECAR 2026-18.pdf"
+      ],
+      "errores": [
+        "julio octubre ALMUnECAR 2026-18.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Lobras/juviles",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Loja",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "Loja 2026 OCTUBRE.pdf"
+      ],
+      "errores": [
+        "Loja 2026 OCTUBRE.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Lugros",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Lújar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "22-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Malahá, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Mamola, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "23 VERSION D octubre.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Maracena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "MARACENA 2026 -4.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Marchal",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Mecina bombaron",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Moclín - olivares",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moclín - puerto lope",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moclín - tiena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Molvízar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Monachil",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Monachil-sierra nevada",
+      "estado": "error",
+      "error": "Respuesta sin calendario reconocible."
+    },
+    {
+      "nombre": "Montefrío",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Montejícar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Montillana",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Moraleda de zafayona",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moraleda de zafayona -loreto",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Moreda",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Motril",
+      "estado": "parcial",
+      "farmacias": 5,
+      "documentos": [
+        "Motril 2026. FIJO.pdf"
+      ],
+      "errores": [
+        "Motril 2026. FIJO.pdf: Horario fijo parcialmente interpretado; excepciones de festivos pendientes."
+      ]
+    },
+    {
+      "nombre": "Murtas",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Nigüelas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Nívar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ogíjares",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Orce",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "5 ORCE-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Órgiva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Otívar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Otura",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Padul",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pampaneira",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pedro martínez",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Peligros",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Peza, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pinos del valle",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pinos genil",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "14-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pinos puente",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Piñar",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Pitres",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Polícar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "8-10(2).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Pórtugos",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Puebla de don fadrique",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pulianas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Pulianillas",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Purchil",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Purullena",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Quéntar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "14-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Rábita, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "23 VERSION D octubre.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Restabal",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Rubite",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Salar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Salobreña",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "Salobrea 2026 DEFINITIVO-1.pdf"
+      ],
+      "errores": [
+        "Salobrea 2026 DEFINITIVO-1.pdf: Formato PDF pendiente de interpretación (no tabla semanal)."
+      ]
+    },
+    {
+      "nombre": "Santa cruz del comercio",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Santa fe",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Soportújar",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Sorvilán",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "23 VERSION D octubre.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Tocon",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Torre-cardela",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Torrenueva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Torvizcón",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Trevélez",
+      "estado": "disponible",
+      "farmacias": 3,
+      "documentos": [
+        "25-11.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Turón",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Ugíjar",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Valderrubio",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Válor",
+      "estado": "disponible",
+      "farmacias": 2,
+      "documentos": [
+        "26 HORIZONTAL-10.pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Varadero - el puerto (motril)",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "22-10(1).pdf"
+      ],
+      "errores": []
+    },
+    {
+      "nombre": "Vélez de benaudalla",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventas de huelma",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventas de zafarraya",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Ventorros de san josé",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Villanueva de las torres",
+      "estado": "pendiente_pdf",
+      "farmacias": 0,
+      "documentos": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf"
+      ],
+      "errores": [
+        "modificado 30 de octubre a 6 de noviembre 2026.pdf: Cartel sin año."
+      ]
+    },
+    {
+      "nombre": "Villanueva mesía",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Viznar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zafarraya",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zagra",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zubia, la",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zujaira-casanueva",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [],
+      "errores": []
+    },
+    {
+      "nombre": "Zújar",
+      "estado": "disponible",
+      "farmacias": 1,
+      "documentos": [
+        "1-10(1).pdf"
+      ],
+      "errores": []
+    }
+  ],
+  "farmacias": 104,
+  "con_coordenadas": 79,
+  "calendario_actualizado": true
+}

@@ -1,0 +1,2830 @@
+[
+  {
+    "id": "alm-d9b85a0b-25c1-47bc-a1e6-399a9e14f7b0",
+    "nombre": "SANCHEZ ARCOS, Mª ANTONIA",
+    "direccion": "AV. CARLOS III, 463-465",
+    "localidad": "AGUADULCE",
+    "provincia": "Almería",
+    "telefono": "950552870",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00",
+        "fin": "2026-11-02T09:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 00:00–02/11 09:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 00:00–02/11 09:00"
+  },
+  {
+    "id": "alm-3cc53a8c-0c64-470a-a3d4-1abcd12f53d1",
+    "nombre": "LIRIA SANCHEZ, AMALIA",
+    "direccion": "C/ ROSALIA DE CASTRO, 14",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950482561",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T00:00:00",
+        "fin": "2026-11-02T08:00:00",
+        "tipo": "presencial"
+      },
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 00:00–02/11 08:00",
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": 36.7675789,
+    "lng": -2.8202296,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 00:00–02/11 08:00 · presencial: 02/11 08:30–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/8954899693"
+  },
+  {
+    "id": "alm-a7877a36-c1a2-4b2f-a9cb-0738a23a3e95",
+    "nombre": "LAHRECH BELHASSAN, MYRIAM",
+    "direccion": "AV. BULEVAR, 412 ESQ. GLORIETA MENDIZÁBAL",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950489373",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T07:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 07:00–03/11 00:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 07:00–03/11 00:00"
+  },
+  {
+    "id": "alm-3e4c3448-8fa5-44b3-a6c4-fe4ce28948a9",
+    "nombre": "PEREZ FERNANDEZ, MARIA DE LA O",
+    "direccion": "C/LABRADORES ESQ. C/ LA MOLINA",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950322671",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T07:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 07:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 07:30–02/11 21:00"
+  },
+  {
+    "id": "alm-9e5d8b75-0135-45eb-8ade-04af0be89a53",
+    "nombre": "SOLER SORIA, SILVIA",
+    "direccion": "C/ DEL AGUA, 15",
+    "localidad": "Puebla de Vicar",
+    "provincia": "Almería",
+    "telefono": "950553201",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00"
+  },
+  {
+    "id": "alm-d3d6ba7d-ad80-4ff4-94de-abe3aa370589",
+    "nombre": "VERDEJO LUCAS, MARIA DEL MAR",
+    "direccion": "PLAZA DEL NIÑO JESUS, 7",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950243868",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": 36.8331399,
+    "lng": -2.4481984,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1885381621"
+  },
+  {
+    "id": "alm-6244dfea-3c22-485a-88c1-6b4e66eb7d62",
+    "nombre": "EGEA GARCIA, MARIA LUZ",
+    "direccion": "AV. ROQUETAS, 94",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950320975",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": 36.7629255,
+    "lng": -2.6117803,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2555564274"
+  },
+  {
+    "id": "alm-13f2dcb3-f7a2-4a3f-98d3-a88b07de03fc",
+    "nombre": "GARCIA PEREZ, MARCO ANTONIO",
+    "direccion": "CTRA. NIJAR KM. 9 - FARMACIA AEROPUERTO",
+    "localidad": "El Alquián",
+    "provincia": "Almería",
+    "telefono": "950290199",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00"
+  },
+  {
+    "id": "alm-4ac4c710-6d52-4850-86b5-5f8c23d5f1c7",
+    "nombre": "BERGILLOS MECA, ROCIO",
+    "direccion": "CTRA. NACIONAL 340, 86 LOCAL 2",
+    "localidad": "Huercal-overa",
+    "provincia": "Almería",
+    "telefono": "950470082",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00",
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00 · Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "nota_horario": "Huercal-overa, CTRA. NACIONAL 340, 86 LOCAL 2: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas."
+  },
+  {
+    "id": "alm-86c8a58d-84a5-4618-aeda-77daf9627e11",
+    "nombre": "GARRIDO PEREZ, MARIA DEL MAR",
+    "direccion": "AV.CABO DE GATA, 33 (FARMACIA)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950230501",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": 36.831623,
+    "lng": -2.4566136,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4425106185"
+  },
+  {
+    "id": "alm-4c22e5b1-0878-4e00-8b3b-4cf0e83d2a65",
+    "nombre": "MARTINEZ LAPAZ, ANA",
+    "direccion": "AV. MADRID, 2",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950244425",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 22:00"
+  },
+  {
+    "id": "alm-80ed9671-9d0e-4537-ad02-cae0f865eba1",
+    "nombre": "FERNANDEZ FRIAS, JOSE ALBERTO",
+    "direccion": "AV. BULEVAR, 195",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950481105",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–03/11 00:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–03/11 00:00"
+  },
+  {
+    "id": "alm-67f93bd4-cc3a-46f3-8f79-c369648f964c",
+    "nombre": "VERDU DE LA VEGA, JOSE ANTONIO",
+    "direccion": "AV. SABINAL, 1",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950320778",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–03/11 00:00"
+    ],
+    "lat": 36.7576271,
+    "lng": -2.6087539,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–03/11 00:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2555549900"
+  },
+  {
+    "id": "alm-bebd293c-7f97-41d1-8137-13d633c1977f",
+    "nombre": "FARMACIA VIVAS-PEREZ ZORRILLA, C.B.",
+    "direccion": "C/ MURCIA, 41",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950231260",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–03/11 00:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–03/11 00:00"
+  },
+  {
+    "id": "alm-00b6783b-742c-4c5d-afdf-2cabb2d36007",
+    "nombre": "FUENTES MUNUERA, Mª DEL PILAR",
+    "direccion": "C/CASTILLA 14 (ESQ.PLAZA ESPAÑA)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950280600",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–03/11 00:00"
+    ],
+    "lat": 36.8316387,
+    "lng": -2.4534204,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–03/11 00:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2758496645"
+  },
+  {
+    "id": "alm-00dd7d81-5d26-4c0b-8ec4-d38f6175e035",
+    "nombre": "MORCILLO ESCUDERO, EDUARDO",
+    "direccion": "C/ SEVILLA, 40",
+    "localidad": "Benahadux",
+    "provincia": "Almería",
+    "telefono": "950310028",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 21:30"
+  },
+  {
+    "id": "alm-cba023e1-45d5-4fe0-b936-916f67879ebe",
+    "nombre": "FARMACIA GIMENEZ HERNANDEZ, C.B.",
+    "direccion": "C/ GUILLERMO REYNA, 64",
+    "localidad": "Huercal-overa",
+    "provincia": "Almería",
+    "telefono": "950135427",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 21:30"
+  },
+  {
+    "id": "alm-e7115826-d5db-4bac-a159-f0e037777931",
+    "nombre": "FONTAN MEANA, Mª DEL CARMEN",
+    "direccion": "C/ MERCURIO, 8",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950281119",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 21:30"
+  },
+  {
+    "id": "alm-06c46d2c-2c59-4263-9fe0-761404d050cd",
+    "nombre": "GALDEANO ROMERO, PURIFICACION",
+    "direccion": "CTRA. DE LA MOJONERA, 465 ESQ. C/ EL YIYO, 8",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950322532",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 21:30"
+  },
+  {
+    "id": "alm-66e380f9-eb3c-4e78-a5ff-2bbc9103e0e6",
+    "nombre": "SANCHEZ LOPEZ, ROCIO",
+    "direccion": "AV. GUILLERMO REINA, 16",
+    "localidad": "Huercal-overa",
+    "provincia": "Almería",
+    "telefono": "950470040",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:00–02/11 21:30"
+    ],
+    "lat": 37.3909233,
+    "lng": -1.9435164,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:00–02/11 21:30",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4321023271"
+  },
+  {
+    "id": "alm-b10b0a08-3ffe-4e33-a4bf-bb5d73b545b0",
+    "nombre": "MIRANDA MEMBRIVE, JOAQUIN",
+    "direccion": "AV. SANTA ISABEL, 37",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950254636",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": 36.8475031,
+    "lng": -2.4549318,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.openstreetmap.org/way/1420010672"
+  },
+  {
+    "id": "alm-3b4081f6-156a-4caa-b5f3-0b79ad7b7410",
+    "nombre": "MARTINEZ ALVAREZ, PABLO",
+    "direccion": "AV. CARLOS III, 565",
+    "localidad": "Aguadulce",
+    "provincia": "Almería",
+    "telefono": "950340242",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-c043dbcb-3cd3-4926-968c-ed4c033b4ba6",
+    "nombre": "ACUYO IRIARTE, PILAR",
+    "direccion": "C/ CALZADA DE CASTRO, 32",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950255289",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": 36.8379046,
+    "lng": -2.4528582,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1741304109"
+  },
+  {
+    "id": "alm-7db24daf-cbe8-45c1-b5da-d968839c56d6",
+    "nombre": "MENA NAVARRO, OTILIA",
+    "direccion": "AV. CARLOS III, 2 (FARMACIA)",
+    "localidad": "Vicar",
+    "provincia": "Almería",
+    "telefono": "950341659",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-667d8301-5d5b-4923-b30b-3ca879be0ad4",
+    "nombre": "DE OÑA LOPEZ, MARIA",
+    "direccion": "ALCAZAR, S/N",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950268468",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-1339dccf-8b5d-4b52-bae0-0bef2838b46f",
+    "nombre": "WAISEN RESTOY, JOSE",
+    "direccion": "AV. REINO DE ESPAÑA, 204",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950327244",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-ca7dcc1f-519d-49a5-94d0-094d8a5dc486",
+    "nombre": "RUBIO DAZA, Mª DEL MAR",
+    "direccion": "C/ MARMOLES, 2",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950341744",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-5487c572-f06e-4df8-8aaf-9f8d81f85d2b",
+    "nombre": "LOPEZ MARTINEZ, MARIA DOLORES",
+    "direccion": "PLAZA VIRGEN DEL MAR, 9",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950237047",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": 36.8370251,
+    "lng": -2.4652395,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/8949713985"
+  },
+  {
+    "id": "alm-00dde697-38b9-420c-a201-a5b0d7855a22",
+    "nombre": "BERNAL ASENSIO, AMBROSIO",
+    "direccion": "PLAZA CONSTITUCION, 5",
+    "localidad": "Huercal-overa",
+    "provincia": "Almería",
+    "telefono": "950470014",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:30"
+  },
+  {
+    "id": "alm-96427b71-b897-46c7-bb4a-eb6498a9194b",
+    "nombre": "FARMACIA CAPARROS Y REINA, C.B.",
+    "direccion": "AV. DAZA CASTAÑEDA, 122",
+    "localidad": "Santa María del Águila",
+    "provincia": "Almería",
+    "telefono": "950580501",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-9970294f-309d-4bee-9774-94e8e777062a",
+    "nombre": "FARMACIA AYNAT, C.B.",
+    "direccion": "CTRA. DE NIJAR, 128",
+    "localidad": "El Alquián",
+    "provincia": "Almería",
+    "telefono": "950297850",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-8e658dc7-cd61-4f40-8f9f-f66284063700",
+    "nombre": "PUJALTE MORENO, JOSE MIGUEL",
+    "direccion": "CTRA. DE SAN AGUSTIN, 1",
+    "localidad": "Las Norias de Daza",
+    "provincia": "Almería",
+    "telefono": "950587553",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-3123fadf-8471-4b16-b54d-0bccd2c017ab",
+    "nombre": "FARMACIA BOGAS GARRIDO, C.B.",
+    "direccion": "C/ ARCIPRESTE DE HITA, 16",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950220065",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-a8b65a96-33ea-4bb4-bc84-34f74c267a39",
+    "nombre": "ORTEGA MARTINEZ, PEPITA-POSADAS FERNANDEZ, LUIS",
+    "direccion": "C/ PADRE MENDEZ, 58",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950254343",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-a0010af4-d6f8-4591-93a9-e74c61cb58da",
+    "nombre": "FERNANDEZ ESPINOSA, PURIFICACION",
+    "direccion": "C/ PRINCIPES DE ESPAÑA, 80 LOCAL 4",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950486573",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30"
+  },
+  {
+    "id": "alm-6a45451b-184f-4e32-bbef-fd13d698be1d",
+    "nombre": "MORAN FERNANDEZ, FERNANDA",
+    "direccion": "C/ FERNANDEZ BUESO, 1 ESQ. CTRA. SIERRA ALHAMILLA",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950230090",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30"
+    ],
+    "lat": 36.8342957,
+    "lng": -2.4546265,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/6401709644"
+  },
+  {
+    "id": "alm-b29bcf08-27a1-48e2-addd-ec1c792d9d00",
+    "nombre": "FARMACIA PLAZA PAVIA",
+    "direccion": "PLAZA PAVIA, 28-31",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950236192",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      },
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 20:30",
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 20:30 · presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-1bdd5a49-5db9-4d50-bf5f-43030bef1422",
+    "nombre": "RUBIO DAZA, ANA DEL MAR",
+    "direccion": "AV. EUROPA, 78",
+    "localidad": "La Mojonera",
+    "provincia": "Almería",
+    "telefono": "950330008",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-0b935bf5-042f-40c7-9f1b-7ac5a23d5c35",
+    "nombre": "FARMACIA GARCIA BALCAZAR, C.B.",
+    "direccion": "C/ SIERRA DE GREDOS, 29 (FARMACIA)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950315052",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-e37f53be-6045-4147-a640-178189893cf8",
+    "nombre": "FARMACIA VILLALOBOS, C.B.",
+    "direccion": "C/ ANTONIO MUÑOZ ZAMORA, 20",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950277121",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": 36.8320553,
+    "lng": -2.4409624,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1888193708"
+  },
+  {
+    "id": "alm-9243c484-77e2-4a50-9635-a50e77e4108f",
+    "nombre": "HERNANDEZ PUJOL FIDEL",
+    "direccion": "AV. OASIS, 130",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950480561",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": 36.7691292,
+    "lng": -2.8012869,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2689392522"
+  },
+  {
+    "id": "alm-5c470f93-3fa2-4533-a120-71a2fe1b5af5",
+    "nombre": "GARCIA LOPEZ, JUAN ANTONIO",
+    "direccion": "C/ MANUEL AZAÑA, 137",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950533601",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": 36.8433082,
+    "lng": -2.4438581,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/469474642",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 8 m.",
+    "osm_id": "osm-469474642",
+    "ajuste_ubicacion_m": 7.8
+  },
+  {
+    "id": "alm-383db190-3afd-48ab-8fdd-af433660ec19",
+    "nombre": "MOYA GARNICA, RAMON",
+    "direccion": "C/ ISABEL LA CATOLICA, 16",
+    "localidad": "Campohermoso",
+    "provincia": "Almería",
+    "telefono": "950611319",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": 36.9389858,
+    "lng": -2.1339708,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/8953844506"
+  },
+  {
+    "id": "alm-25d6ab4f-c043-4de4-87d7-823a3575d2a0",
+    "nombre": "MARTIN GOMEZ-CORONADO, DIEGO JESUS",
+    "direccion": "C/ DR. PACO PEREZ, 19",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950234979",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-eb0d7907-6820-4304-9aed-85ba4f3f0c2b",
+    "nombre": "LOPEZ ARENAS, MARIA VIRTUDES",
+    "direccion": "C/ ARCILLA ESQ. C/ LA GLORIA",
+    "localidad": "Huercal de Almeria",
+    "provincia": "Almería",
+    "telefono": "950300148",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-fae04660-7295-4bb2-aec4-5fe0ff90c42c",
+    "nombre": "MOLINA CUADRADO, Mª DEL MAR",
+    "direccion": "C/ BLAS INFANTE, 44",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950226257",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 21:00"
+  },
+  {
+    "id": "alm-347ce177-7f79-4601-95a0-2293d4b6fd77",
+    "nombre": "MARIN CRUZ, SILVIA",
+    "direccion": "AV.CABO GATA, 275 (PUERTO PINO)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950274658",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 22:00"
+  },
+  {
+    "id": "alm-e1d5f7dc-45e3-4248-8934-d1b5e96ad7c6",
+    "nombre": "FERNANDEZ RODRIGUEZ, Mª DOLORES",
+    "direccion": "PASEO JUAN CARLOS I, 32",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950573681",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T08:30:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 08:30–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 08:30–02/11 22:00"
+  },
+  {
+    "id": "alm-fda72ac2-4888-4218-a079-3eea332f15e6",
+    "nombre": "MARTIN LOPEZ, Mª ALMUDENA",
+    "direccion": "PASEO DE ALMERIA, 4",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950230930",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": 36.8409083,
+    "lng": -2.4639252,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/6610782556",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 1 m.",
+    "osm_id": "osm-6610782556",
+    "ajuste_ubicacion_m": 1.4
+  },
+  {
+    "id": "alm-94e3cc83-5dcf-457c-8671-e56113b23fcd",
+    "nombre": "EISMAN MORENO, MARIA DEL MAR",
+    "direccion": "CTRA. DEL IRYDA, 12",
+    "localidad": "Campohermoso",
+    "provincia": "Almería",
+    "telefono": "950385358",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-d0948fdc-e097-4080-952b-34a2193b666b",
+    "nombre": "JIMENEZ MONTOYA LUIS",
+    "direccion": "C/ GREGORIO MARAÑON, 43 LOCAL 4",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950221599",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-6e2adcde-6034-4a5d-89ae-e81f0fd573cd",
+    "nombre": "MARTIN GOMEZ, MARCOS",
+    "direccion": "AV. BULEVAR, 119",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950480314",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-8e063b54-31de-4dcb-9b8e-a772450f484e",
+    "nombre": "PADUA ARCOS, DANIEL",
+    "direccion": "AV. BARCELONA, 109",
+    "localidad": "Cuevas del Almanzora",
+    "provincia": "Almería",
+    "telefono": "950456339",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-eb6dec5c-548d-42d3-86f5-0b51fdb83000",
+    "nombre": "RIPOLLÉS FUSTER, Mª DEL PILAR",
+    "direccion": "AV. CARLOS III, 312",
+    "localidad": "AGUADULCE",
+    "provincia": "Almería",
+    "telefono": "950347600",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-b6295794-1426-45b5-8083-f3e198d1d2c9",
+    "nombre": "RUIZ-COELLO ANDRES, Mª DEL PILAR",
+    "direccion": "CRTA. TORRECARDENAS, 78",
+    "localidad": "Huercal de Almeria",
+    "provincia": "Almería",
+    "telefono": "950145211",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": 36.8698192,
+    "lng": -2.4395505,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/5110172521"
+  },
+  {
+    "id": "alm-45082672-bb83-4896-a8c2-3afbce19b849",
+    "nombre": "SIERRA POSSO, YOLANDA",
+    "direccion": "AV. DEL MEDITERRANEO, 414(ESQ.C/ALBANIA)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950145331",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": 36.8529797,
+    "lng": -2.4459841,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4496896200"
+  },
+  {
+    "id": "alm-aa9b4261-da8f-41b2-903a-9ed01575f57b",
+    "nombre": "LOPEZ GOMEZ, ROSA MARIA",
+    "direccion": "AV. DEL GUADALQUIVIR, 2",
+    "localidad": "La Gangosa",
+    "provincia": "Almería",
+    "telefono": "950554827",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-11e8b562-362c-46fd-ae3f-f9651216f521",
+    "nombre": "RUIZ COLLADO, JUANA MARIA",
+    "direccion": "C/ POETA ALVAREZ SOTOMAYOR, 3",
+    "localidad": "Cuevas del Almanzora",
+    "provincia": "Almería",
+    "telefono": "950456083",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00",
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00 · Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "nota_horario": "Cuevas del Almanzora, C/ POETA ALVAREZ SOTOMAYOR, 3: intervalo oficial no válido (2026-11-02 21:00:00–2026-11-02 21:00:00); no se supone una guardia de 24 horas."
+  },
+  {
+    "id": "alm-df548c37-999d-47e8-aef8-2d5522e0a496",
+    "nombre": "ACOSTA PEREGRIN, JACOBO",
+    "direccion": "C/ VILLAESPESA, 32",
+    "localidad": "Laujar de Andarax",
+    "provincia": "Almería",
+    "telefono": "679920873",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00"
+  },
+  {
+    "id": "alm-6a8c7801-6bfd-4595-93dd-b15503194bec",
+    "nombre": "FARMACIA PLAZA GARCIA, C.B.",
+    "direccion": "PASEO ALMERIA, 39",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950237703",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": 36.8386513,
+    "lng": -2.4632639,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/12301649401",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 3 m.",
+    "osm_id": "osm-12301649401",
+    "ajuste_ubicacion_m": 2.7
+  },
+  {
+    "id": "alm-33d76d04-0dc2-4d26-bc11-4b189114afbb",
+    "nombre": "DELGADO NARANJO, Mª ASUNCION",
+    "direccion": "C/ REAL DEL BARRIO ALTO, 149",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950250438",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T22:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 22:00"
+    ],
+    "lat": 36.8452898,
+    "lng": -2.4525888,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 22:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4496965498",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 2 m.",
+    "osm_id": "osm-4496965498",
+    "ajuste_ubicacion_m": 2.1
+  },
+  {
+    "id": "alm-e9653e88-ec51-4bef-8438-3055b4308313",
+    "nombre": "SOLSONA PUERTA, PABLO JULIO",
+    "direccion": "CTRA. DE RONDA, 325",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950253557",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Almería, CTRA. DE RONDA, 325: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-278c393f-9a7e-4150-b836-c731064e97ce",
+    "nombre": "FARMACIA EISMAN ASOCIADOS, C.B.",
+    "direccion": "AV.CONSTITUCION, 95",
+    "localidad": "San Isidro de Nijar",
+    "provincia": "Almería",
+    "telefono": "950366009",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "San Isidro de Nijar, AV.CONSTITUCION, 95: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-5eb272d6-c480-4e13-8fa0-7490c546b07f",
+    "nombre": "GARCIA NAVARRO,  Mª TERESA",
+    "direccion": "PASEO DE SAN LORENZO, 4",
+    "localidad": "Chercos Nuevos",
+    "provincia": "Almería",
+    "telefono": "950122524",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Chercos Nuevos, PASEO DE SAN LORENZO, 4: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-fe5c38a4-b421-4402-9f92-1186b9009c8d",
+    "nombre": "ABELLAN BERRUEZO, MIGUEL ENRIQUE",
+    "direccion": "C/ PIEDRA VILLAZAR, 2",
+    "localidad": "Mojácar",
+    "provincia": "Almería",
+    "telefono": "950475282",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 37.1334055,
+    "lng": -1.8305031,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Mojácar, C/ PIEDRA VILLAZAR, 2: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/1120010218"
+  },
+  {
+    "id": "alm-bf65a58a-b52e-4be4-b71f-bdf4b3a3589c",
+    "nombre": "MARTINEZ ALONSO, FLORENTINA",
+    "direccion": "CTRA. ALBOX/CHIRIVEL, S/N",
+    "localidad": "Llanos de Los Olleres",
+    "provincia": "Almería",
+    "telefono": "950434170",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Llanos de Los Olleres, CTRA. ALBOX/CHIRIVEL, S/N: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-46ddd982-cd66-4ef8-900b-b19bb79bea88",
+    "nombre": "RODRIGUEZ RODRIGUEZ, MARIA TRINIDAD",
+    "direccion": "BULEVAR CIUDAD DE VICAR, 958",
+    "localidad": "Las Cabañuelas",
+    "provincia": "Almería",
+    "telefono": "950554225",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 36.8035312,
+    "lng": -2.6317474,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Las Cabañuelas, BULEVAR CIUDAD DE VICAR, 958: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/9995289191"
+  },
+  {
+    "id": "alm-22e5e787-9ca6-4217-9f37-5bfa8d621a3c",
+    "nombre": "SAEZ TORRES, AGUSTIN",
+    "direccion": "AV. DE ALMERIA, 24",
+    "localidad": "Carboneras",
+    "provincia": "Almería",
+    "telefono": "950130232",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 36.9997174,
+    "lng": -1.8950001,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Carboneras, AV. DE ALMERIA, 24: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2682643309",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 5 m.",
+    "osm_id": "osm-2682643309",
+    "ajuste_ubicacion_m": 5.3
+  },
+  {
+    "id": "alm-0e9e6ca0-1fef-425c-a001-3f2d2ccecffe",
+    "nombre": "DE LA FUENTE GAITA, JOSE IGNACIO",
+    "direccion": "C/ EXTREMADURA, 3",
+    "localidad": "San Juan de Los Terreros",
+    "provincia": "Almería",
+    "telefono": "950466213",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "San Juan de Los Terreros, C/ EXTREMADURA, 3: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-31f7f8f7-9d81-44cd-a77b-ea6007067976",
+    "nombre": "BERMUDEZ JIMENEZ, ELOISA",
+    "direccion": "C/ REAL, 115",
+    "localidad": "Serón",
+    "provincia": "Almería",
+    "telefono": "950426038",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Serón, C/ REAL, 115: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-65477002-5c9b-4aac-88be-8d47c26bfaa4",
+    "nombre": "RUIZ BONACHELA, NOELIA",
+    "direccion": "C/ MAYOR, 100",
+    "localidad": "Vera",
+    "provincia": "Almería",
+    "telefono": "950390410",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 37.243394,
+    "lng": -1.8598803,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Vera, C/ MAYOR, 100: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/12409822261",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 4 m.",
+    "osm_id": "osm-12409822261",
+    "ajuste_ubicacion_m": 4.0
+  },
+  {
+    "id": "alm-eb3f89cb-3267-45c0-9a66-fc7b796f38a9",
+    "nombre": "FERNANDEZ GONZALEZ, FRANCISCO",
+    "direccion": "PLAZA CONSTITUCION, 18",
+    "localidad": "Berja",
+    "provincia": "Almería",
+    "telefono": "950490005",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T22:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+      "presencial: 02/11 22:00–03/11 00:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Berja, PLAZA CONSTITUCION, 18: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono · presencial: 02/11 22:00–03/11 00:00"
+  },
+  {
+    "id": "alm-68e96f23-ee36-4a81-917f-5fb58fea965f",
+    "nombre": "ESPEJO GUERRERO, JOSE",
+    "direccion": "C/ NATALIO RIVAS, 35",
+    "localidad": "Adra",
+    "provincia": "Almería",
+    "telefono": "950401678",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 36.7486494,
+    "lng": -3.0155477,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Adra, C/ NATALIO RIVAS, 35: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/10896085626"
+  },
+  {
+    "id": "alm-0ce3f1cb-3fe5-4251-aeaa-ae78eecd35d0",
+    "nombre": "PEREZ RODRIGUEZ, Mª CARMEN",
+    "direccion": "C/ GRANADA, 7",
+    "localidad": "Olula del Río",
+    "provincia": "Almería",
+    "telefono": "950441010",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Olula del Río, C/ GRANADA, 7: intervalo oficial no válido (2026-11-02 09:00:00–2026-11-02 09:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-00eb54a8-1f43-46ec-bfcf-233bb2f9dc3e",
+    "nombre": "MARTINEZ LAO, BEGOÑA",
+    "direccion": "C/ SANTIAGO, 110",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950224791",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.8444156,
+    "lng": -2.4501961,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/8357584643",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 3 m.",
+    "osm_id": "osm-8357584643",
+    "ajuste_ubicacion_m": 3.4
+  },
+  {
+    "id": "alm-bf956cda-b7c5-454d-aede-f1ca13962358",
+    "nombre": "MARTINEZ MORENO CRISTINA Mª",
+    "direccion": "C/ COSTA BALEAR, 10 (FARMACIA)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950141034",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.8556659,
+    "lng": -2.4446019,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4900222421",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 7 m.",
+    "osm_id": "osm-4900222421",
+    "ajuste_ubicacion_m": 6.8
+  },
+  {
+    "id": "alm-d0711ab7-ef21-490d-9150-ab0ffbf46ee0",
+    "nombre": "ROMERO MALDONADO, JUAN JOSE",
+    "direccion": "C/ POETA PACO AQUINO, 47",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950172566",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.84032103533417,
+    "lng": -2.455798380340805,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "direccion",
+    "fuente_coordenadas": "https://www.cartociudad.es/",
+    "nota_ubicacion": "OpenStreetMap y CartoCiudad (IGN) sitúan esta dirección a menos de 15 m entre sí."
+  },
+  {
+    "id": "alm-2318440b-59a5-47d2-9863-f2cae3cc96b9",
+    "nombre": "BONILLO MARTINEZ, ANA SALVADORA",
+    "direccion": "C/ GERONA, 13",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950271424",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-5aa95743-530b-4eb1-81b1-385fed3bbbba",
+    "nombre": "GOMEZ RIVERA ENCARNACIÓN Mª",
+    "direccion": "C/ DR. CARRACIDO, 13",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950268213",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-f066b485-7c70-4670-aea7-81427d3db119",
+    "nombre": "MALDONADO SALMERON, Mª TERESA",
+    "direccion": "C/ PABLO PICASSO, 139",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950320933",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-4132633a-0108-4447-8b44-80c87277c5f1",
+    "nombre": "RODRIGUEZ GARVI, MARINA",
+    "direccion": "AV. MEDITERRANEO 239",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950225431",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.8437749,
+    "lng": -2.447479,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4487153675",
+    "nota_ubicacion": "Ubicación contrastada: la dirección y una farmacia de OpenStreetMap coinciden a 8 m.",
+    "osm_id": "osm-4487153675",
+    "ajuste_ubicacion_m": 8.2
+  },
+  {
+    "id": "alm-a873248b-c44f-4397-a179-c3769f52883e",
+    "nombre": "FERNANDEZ FUENTES, FERNANDO JESUS",
+    "direccion": "C/ SOLERA ESQ. AV. EUROPA, 122",
+    "localidad": "La Mojonera",
+    "provincia": "Almería",
+    "telefono": "950330780",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-b1a2efee-51f4-479b-a6ec-c3e8a0cea722",
+    "nombre": "NAVARRETE ALCALA, ANTONIO",
+    "direccion": "BULEVAR CIUDAD DE VICAR, 672",
+    "localidad": "La Gangosa",
+    "provincia": "Almería",
+    "telefono": "950343402",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-8eaf0a39-5601-40e4-82f4-a77d27bb5859",
+    "nombre": "PUERTO LOPEZ, EUGENIO",
+    "direccion": "PASEO MEDITERRANEO, 237 ESQ. C/ZURBARA",
+    "localidad": "Mojácar",
+    "provincia": "Almería",
+    "telefono": "950576267",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 37.1188906,
+    "lng": -1.8350841,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/4323064838"
+  },
+  {
+    "id": "alm-a0d6977c-d06e-4251-8525-df71adf46ee6",
+    "nombre": "FARMACIA MARTINEZ MARTIN",
+    "direccion": "PASEO DEL TOYO, 58",
+    "localidad": "Retamar",
+    "provincia": "Almería",
+    "telefono": "950207144",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.8339423,
+    "lng": -2.313107,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/9990505460"
+  },
+  {
+    "id": "alm-d59ab374-682e-47c4-99bc-120a4ca4ccd2",
+    "nombre": "DOMINGUEZ RODRIGUEZ, MARIA ISABEL",
+    "direccion": "CTRA. SABINAL, 309",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950323805",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": 36.7427706,
+    "lng": -2.6158523,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2555556350"
+  },
+  {
+    "id": "alm-856d1a46-d450-4f7b-a418-e752c87ea2e6",
+    "nombre": "CESPEDES MARTINEZ, MARIA DEL MAR",
+    "direccion": "AV. CONSTITUCIÓN, 143 ESQ. C/ DEL DEPORTE",
+    "localidad": "San Isidro de Nijar",
+    "provincia": "Almería",
+    "telefono": "950366500",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-57704979-5772-47bf-ad78-3f2fa1463383",
+    "nombre": "TERRES MARTOS, Mª DEL CARMEN",
+    "direccion": "PASEO PEDRO PONCE, 125 ESQUINA C/ CAMPIÑA",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950589135",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-34ca5dc6-4901-4c4d-9549-67a7277b6603",
+    "nombre": "FERNANDEZ AMADOR, ANA ROSA",
+    "direccion": "CTRA. DE ALMERIA, 28",
+    "localidad": "Huercal de Almeria",
+    "provincia": "Almería",
+    "telefono": "950301980",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-2ff0b522-a25c-46ce-8644-f3759ffc662f",
+    "nombre": "LOPEZ LOPEZ, Mª DOLORES",
+    "direccion": "PASEO ALCALDE GARCIA ACIEN, 80  ESQ. C/ OCTAVIO AUGUSTO",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950573112",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-fb709fa6-7d53-45f7-827c-863e4e9bcee6",
+    "nombre": "JIMENEZ VICENTE, Mª CARMEN",
+    "direccion": "CAMINO VIEJO DE BENEJÍ, S/N LOCAL 1 Y 2",
+    "localidad": "Berja",
+    "provincia": "Almería",
+    "telefono": "950605598",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-89e49f1d-c573-439f-8ca9-a42c7fe02236",
+    "nombre": "MIRASOL RIVERA, JUAN ANTONIO",
+    "direccion": "PLAZA MANOLO ESCOBAR, 11",
+    "localidad": "El Ejido",
+    "provincia": "Almería",
+    "telefono": "950284986",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-d981a0be-1b73-42ac-998f-c73521cd3b11",
+    "nombre": "GODOY MORENO, VANESA",
+    "direccion": "C/ REAL, 11",
+    "localidad": "Huercal de Almeria",
+    "provincia": "Almería",
+    "telefono": "950300157",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-c2cf13e5-5de8-4ab8-9fe2-ab0c6c88fa66",
+    "nombre": "MARTINEZ ALVAREZ, FRANCISCO JAVIER",
+    "direccion": "PLAZA CONSTITUCION, 3",
+    "localidad": "Villaricos",
+    "provincia": "Almería",
+    "telefono": "950304437",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:00"
+  },
+  {
+    "id": "alm-d5afc863-a320-42ae-bf73-95a024ac7d1e",
+    "nombre": "VARGAS URIBE, JOSE MANUEL",
+    "direccion": "AV. JUAN DE AUSTRIA, 158",
+    "localidad": "AGUADULCE",
+    "provincia": "Almería",
+    "telefono": "950349252",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:30"
+  },
+  {
+    "id": "alm-a01d5dc9-620f-48eb-a8c6-3de3781d4a32",
+    "nombre": "RUBIO DAZA, MANUEL ALBERTO",
+    "direccion": "AV. JUAN CARLOS I, 70",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950326393",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:30"
+    ],
+    "lat": 36.7657715,
+    "lng": -2.6109043,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:30",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/5921484969"
+  },
+  {
+    "id": "alm-b8dccfd0-6cf2-41d1-aede-ddb8208016d6",
+    "nombre": "MARTIN BARRANCO INES Mª",
+    "direccion": "BULEVAR CIUDAD DE VICAR, 1058",
+    "localidad": "Puebla de Vicar",
+    "provincia": "Almería",
+    "telefono": "950532692",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:30"
+  },
+  {
+    "id": "alm-7cd16f4e-ef2c-4229-ad06-f50a27fc8a19",
+    "nombre": "MARTINEZ SANCHEZ, MARIA",
+    "direccion": "PASEO DE ALMERIA, 58",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950250423",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:30"
+  },
+  {
+    "id": "alm-c51869b4-748e-411e-aa9b-1fcc7dbcd563",
+    "nombre": "BALCAZAR GARCIA, FRANCISCO",
+    "direccion": "C/ LA REINA ESQ A C/PEDRO JOVER, 1",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950235455",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 21:30"
+  },
+  {
+    "id": "alm-42fd2d0b-edc8-49d1-94ca-1424bf81d4cc",
+    "nombre": "MUÑOZ PERAMO, MONICA",
+    "direccion": "C/ BARRIO DE CARPINTEROS, 2",
+    "localidad": "Pampanico",
+    "provincia": "Almería",
+    "telefono": "950486306",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:00:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:00–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:00–02/11 20:30"
+  },
+  {
+    "id": "alm-f0228d54-4688-4275-ae3b-0b394440c213",
+    "nombre": "FARMACIA NAVARRO SANCHEZ, C.B.",
+    "direccion": "C/ ARBOL DE LA SEDA ESQ. CAMINO DE LA GOLETA",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950553287",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:15:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:15–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:15–02/11 20:30"
+  },
+  {
+    "id": "alm-832ef11a-b6c8-4322-8712-a7bf682d0175",
+    "nombre": "RODRIGUEZ GONZALEZ, FRANCISCO JOSE",
+    "direccion": "C/ CONCHA ROS, S/N",
+    "localidad": "Instinción",
+    "provincia": "Almería",
+    "telefono": "950648034",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Instinción, C/ CONCHA ROS, S/N: intervalo oficial no válido (2026-11-02 09:30:00–2026-11-02 09:30:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-bf0c438d-769b-4941-b2a1-a6a66dcfd16f",
+    "nombre": "FARMACIA AGUERO GIL, C.B.",
+    "direccion": "PLAZA SAN SEBASTIAN, 12",
+    "localidad": "Lubrín",
+    "provincia": "Almería",
+    "telefono": "950477168",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Lubrín, PLAZA SAN SEBASTIAN, 12: intervalo oficial no válido (2026-11-02 09:30:00–2026-11-02 09:30:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-a34edd5a-ae62-46a2-8252-2af37cadf841",
+    "nombre": "VIZCAINO PASCUAL, ANGELES",
+    "direccion": "C/ SAN JUAN, 1",
+    "localidad": "ALHABIA",
+    "provincia": "Almería",
+    "telefono": "950643085",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "ALHABIA, C/ SAN JUAN, 1: intervalo oficial no válido (2026-11-02 09:30:00–2026-11-02 09:30:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-fe03877b-5d93-484d-a936-8d2b1832363b",
+    "nombre": "GUIL GALINDO, CARMEN PATRICIA",
+    "direccion": "C/ ALHAMBRA, 19",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": "950973447",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:30:00",
+        "fin": "2026-11-02T21:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:30–02/11 21:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:30–02/11 21:30"
+  },
+  {
+    "id": "alm-4773f0d8-0e45-4773-bc90-51a54b4581ec",
+    "nombre": "MARTINEZ ALIAGA, Mª TERESA",
+    "direccion": "PASEO MARITIMO, 7",
+    "localidad": "Aguadulce",
+    "provincia": "Almería",
+    "telefono": "950345009",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:30:00",
+        "fin": "2026-11-02T20:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:30–02/11 20:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:30–02/11 20:30"
+  },
+  {
+    "id": "alm-a758ca69-8eac-46c0-84df-ec9e8063bf5e",
+    "nombre": "PUERTAS LOPEZ, JULIO",
+    "direccion": "AV. TORRECARDENAS, 64 LOCAL 2.1 (EDF. EUROPA II)",
+    "localidad": "Almería",
+    "provincia": "Almería",
+    "telefono": null,
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T09:30:00",
+        "fin": "2026-11-02T22:30:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 09:30–02/11 22:30"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 09:30–02/11 22:30"
+  },
+  {
+    "id": "alm-1e35b6d9-2090-4935-9957-19e867c596a7",
+    "nombre": "FUENTES APARICIO, LUISA",
+    "direccion": "C/ CAMACHA, 28",
+    "localidad": "Doña María",
+    "provincia": "Almería",
+    "telefono": "950350828",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Doña María, C/ CAMACHA, 28: intervalo oficial no válido (2026-11-02 20:00:00–2026-11-02 20:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+  },
+  {
+    "id": "alm-51c974a7-3cfa-4901-917f-96c96cb8768c",
+    "nombre": "FARMACIA REINA, C.B.",
+    "direccion": "C/ CARRIL, 19",
+    "localidad": "Velez-Rubio",
+    "provincia": "Almería",
+    "telefono": "950410033",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 37.6502102,
+    "lng": -2.0747938,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Velez-Rubio, C/ CARRIL, 19: intervalo oficial no válido (2026-11-02 20:00:00–2026-11-02 20:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/7701939798"
+  },
+  {
+    "id": "alm-12a7a15c-9644-4098-846f-01e1eed869ea",
+    "nombre": "PASTOR MAS, Mª DEL PILAR",
+    "direccion": "C/ CLAVEL, 3",
+    "localidad": "Velez-Blanco",
+    "provincia": "Almería",
+    "telefono": "950415437",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [],
+    "guardia_franjas": [
+      "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono"
+    ],
+    "lat": 37.6921185,
+    "lng": -2.0959197,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "nota_horario": "Velez-Blanco, C/ CLAVEL, 3: intervalo oficial no válido (2026-11-02 20:00:00–2026-11-02 20:00:00); no se supone una guardia de 24 horas.",
+    "guardia_franja": "Guardia publicada para la fecha; horario oficial inválido, confirmar por teléfono",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/9162530148"
+  },
+  {
+    "id": "alm-ea1c0f27-741f-4765-b1b0-1806a593916b",
+    "nombre": "BLANES MARTINEZ, MIGUEL JESUS",
+    "direccion": "CTRA. ALMERIA, 12",
+    "localidad": "Villaricos",
+    "provincia": "Almería",
+    "telefono": "950304380",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T22:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 22:00–03/11 00:00"
+    ],
+    "lat": null,
+    "lng": null,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 22:00–03/11 00:00"
+  },
+  {
+    "id": "alm-ef5c3f82-0c2d-4cab-9f73-2ce9397fa891",
+    "nombre": "BUESO FERNANDEZ, IGNACIO",
+    "direccion": "C/ ROSARIO, 12",
+    "localidad": "Roquetas de Mar",
+    "provincia": "Almería",
+    "telefono": "950320029",
+    "telefono_guardia": null,
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-02T22:00:00",
+        "fin": "2026-11-03T00:00:00",
+        "tipo": "presencial"
+      }
+    ],
+    "guardia_franjas": [
+      "presencial: 02/11 22:00–03/11 00:00"
+    ],
+    "lat": 36.7654028,
+    "lng": -2.6143917,
+    "fuente": "https://www.cofalmeria.com/buscador-de-farmacias/?activo_guardias=on",
+    "guardia_franja": "presencial: 02/11 22:00–03/11 00:00",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/2555565938"
+  }
+]

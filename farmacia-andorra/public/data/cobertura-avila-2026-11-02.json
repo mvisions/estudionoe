@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Ávila",
+  "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias/publico/Provincia_pNew.asp?id=05",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "CGCOF Ávila",
+      "estado": "error",
+      "farmacias": 0,
+      "error": "Para esta fecha, el CGCOF devolvió «Datos no disponibles». El calendario rural 2026 de COF Segovia se comprobó y no asignó guardia a Maello; esto no acredita la cobertura del resto de Ávila."
+    }
+  ],
+  "farmacias": 0,
+  "farmacias_confirmadas": 0,
+  "con_coordenadas": 0,
+  "calendario_actualizado": false,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

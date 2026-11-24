@@ -1,0 +1,232 @@
+[
+  {
+    "id": "cof-segovia-capital-tel-921433836",
+    "nombre": "FARMACIA DE ELÍAS HERNÁNDEZ",
+    "direccion": "AVDA. DE LA CONSTITUCION, 5 (Junto nuevo Campus Univ.)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "921433836",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · nocturna 21/12 22:00–22/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · nocturna 21/12 22:00–22/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-21T22:00:00+01:00",
+        "fin": "2026-12-22T10:15:00+01:00"
+      }
+    ],
+    "lat": 40.9412723,
+    "lng": -4.1131801,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "cof-segovia-capital-tel-683396809",
+    "nombre": "FARMACIA MARTÍN CANTERO",
+    "direccion": "CENTRO COMERCIAL LUZ DE CASTILLA (Calle Guadarrama S/N)",
+    "localidad": "Segovia",
+    "provincia": "Segovia",
+    "telefono": "683396809",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/09/CALENDARIO-GUARDIAS-SEGOVIA-CAPITAL-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Segovia"
+    ],
+    "guardia_franja": "Guardia COF Segovia · diurna 22/12 10:15–22/12 22:00 · Guardia COF Segovia · nocturna 22/12 22:00–23/12 10:15",
+    "guardia_franjas": [
+      "Guardia COF Segovia · diurna 22/12 10:15–22/12 22:00",
+      "Guardia COF Segovia · nocturna 22/12 22:00–23/12 10:15"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:15:00+01:00",
+        "fin": "2026-12-22T22:00:00+01:00"
+      },
+      {
+        "inicio": "2026-12-22T22:00:00+01:00",
+        "fin": "2026-12-23T10:15:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00093",
+    "nombre": "SANCHEZ GUTIERREZ, LORENA",
+    "direccion": "Carretera BAHABON 9",
+    "localidad": "Cuéllar",
+    "provincia": "Segovia",
+    "telefono": "921144794",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/GUARDIAS-CUELLAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Cuéllar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 21/12 al 27/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 21/12 al 27/12; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00017",
+    "nombre": "BARTOLOME SANCHEZ, MARIA JESUS",
+    "direccion": "Calle MARQUES DE PERALES 2",
+    "localidad": "El Espinar",
+    "provincia": "Segovia",
+    "telefono": "921181171",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/01/Guardias-EL-ESPINAR_2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "El Espinar"
+    ],
+    "guardia_franja": "Turno semanal COF Segovia del 21/12 al 27/12; sin horario publicado",
+    "guardia_franjas": [
+      "Turno semanal COF Segovia del 21/12 al 27/12; sin horario publicado"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00063",
+    "nombre": "MINGUEZ DEL POZO, CRISTINA",
+    "direccion": "Calle Valenciana 3",
+    "localidad": "La Granja",
+    "provincia": "Segovia",
+    "telefono": "921470038",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "La Granja"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–22:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–22:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:00:00+01:00",
+        "fin": "2026-12-22T22:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00071",
+    "nombre": "MARTIN CUESTA, MARIA JESUS",
+    "direccion": "Calle Reina 1",
+    "localidad": "Navafría",
+    "provincia": "Segovia",
+    "telefono": "921506113",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Navafría"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:00:00+01:00",
+        "fin": "2026-12-22T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00046",
+    "nombre": "BURGOS BURGOS, MARIA ISABEL",
+    "direccion": "Plaza Mayor 1",
+    "localidad": "Hontalbilla",
+    "provincia": "Segovia",
+    "telefono": "921148191",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Hontalbilla"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:00:00+01:00",
+        "fin": "2026-12-22T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00023",
+    "nombre": "CHAMORRO GARCIA, MIRIAM",
+    "direccion": "Calle Florentino Trapero 5",
+    "localidad": "Aguilafuente",
+    "provincia": "Segovia",
+    "telefono": "921570030",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Aguilafuente"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:00:00+01:00",
+        "fin": "2026-12-22T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "id": "jcyl-40-e1-00086",
+    "nombre": "DE LAS HERAS MARTIN, M EVA",
+    "direccion": "Calle Diana 21",
+    "localidad": "Navas De Sa",
+    "provincia": "Segovia",
+    "telefono": "921193128",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-12-22",
+    "localidades_atendidas": [
+      "Navas De Sa"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-12-22T10:00:00+01:00",
+        "fin": "2026-12-22T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  }
+]

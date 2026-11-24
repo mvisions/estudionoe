@@ -1,0 +1,2250 @@
+[
+  {
+    "id": "06-6000001",
+    "cofm_id": "6000001",
+    "direccion": "Pilar, 4",
+    "localidad": "Aceuchal",
+    "sector": "",
+    "zona": "Aceuchal",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.6465312,
+    "lng": -6.4886818,
+    "localidades_atendidas": [
+      "Aceuchal"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Lazaro Carlos Cordero Boraita",
+    "telefono": "924680281",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000006",
+    "cofm_id": "6000006",
+    "direccion": "Aurelio Cabrera, 17",
+    "localidad": "Alburquerque",
+    "sector": "",
+    "zona": "Alburquerque",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 39.2195353,
+    "lng": -7.0032668,
+    "localidades_atendidas": [
+      "Alburquerque"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Raquel Martin Garcia",
+    "telefono": "924400029",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000106",
+    "cofm_id": "6000106",
+    "direccion": "Jose Salguero, 8",
+    "localidad": "Higuera de Vargas",
+    "sector": "",
+    "zona": "Alconchel",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.4446298,
+    "lng": -6.9746494,
+    "localidades_atendidas": [
+      "Higuera de Vargas"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Victor Barrena Perez",
+    "telefono": "924424023",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000300",
+    "cofm_id": "6000300",
+    "direccion": "San Antonio, 59",
+    "localidad": "Almendralejo",
+    "sector": "",
+    "zona": "Almendralejo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.684082,
+    "lng": -6.4023259,
+    "localidades_atendidas": [
+      "Almendralejo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Jose A. Santana Henandez",
+    "telefono": "924661391",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000010",
+    "cofm_id": "6000010",
+    "direccion": "Plaza de la Constitucion, 12",
+    "localidad": "Almendralejo",
+    "sector": "",
+    "zona": "Almendralejo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.6828419,
+    "lng": -6.4085354,
+    "localidades_atendidas": [
+      "Almendralejo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Fernando Trigo Duran",
+    "telefono": "924663220",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000029",
+    "cofm_id": "6000029",
+    "direccion": "Avda. Carolina Coronado, 35 - C",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Antonio Maria Valverde Ramirez",
+    "telefono": "924272451"
+  },
+  {
+    "id": "06-6000035",
+    "cofm_id": "6000035",
+    "direccion": "Av. Ricardo Carapeto, 95",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8786535,
+    "lng": -6.9532483,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Diego Laja Mora",
+    "telefono": "924259263",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000037",
+    "cofm_id": "6000037",
+    "direccion": "Menacho, 3",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8780206,
+    "lng": -6.9731128,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Alejandro Ramirez del Molino Moran",
+    "telefono": "924222672",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000040",
+    "cofm_id": "6000040",
+    "direccion": "Francisco Pizarro, 8",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8792897,
+    "lng": -6.9719174,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Jose Fernandez de Arevalo Conejo",
+    "telefono": "924223527",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000042",
+    "cofm_id": "6000042",
+    "direccion": "Santo Domingo, 79 A",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8776773,
+    "lng": -6.9753864,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Teresa Blanco Blanco",
+    "telefono": "924223477",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000233",
+    "cofm_id": "6000233",
+    "direccion": "Damian Tellez La fuente, 13-A",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Luis Garcia-Doncel y Garcia",
+    "telefono": "924230238"
+  },
+  {
+    "id": "06-6000257",
+    "cofm_id": "6000257",
+    "direccion": "Avenida Maria Auxiliadora, 23",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8662594,
+    "lng": -6.9821238,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Salome Pacheco Velasco",
+    "telefono": "924222219",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000260",
+    "cofm_id": "6000260",
+    "direccion": "Avda. Villanueva, 19-A",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8708073,
+    "lng": -6.978114,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Pilar Blanco Palenciano",
+    "telefono": "924231171",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000264",
+    "cofm_id": "6000264",
+    "direccion": "Avda. de Huelva, 10",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8737179,
+    "lng": -6.9750166,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Cecilio J. Venegas Fito",
+    "telefono": "924230937",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000307",
+    "cofm_id": "6000307",
+    "direccion": "Antonio Ucieda Gavilanes, 1",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Gemma Julia Medeiro Perez",
+    "telefono": "924235473"
+  },
+  {
+    "id": "06-6000309",
+    "cofm_id": "6000309",
+    "direccion": "Suecia, 2",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8655437,
+    "lng": -6.9619511,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Javier Hernadez Saes",
+    "telefono": "924237093",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000313",
+    "cofm_id": "6000313",
+    "direccion": "Cardenal Cisneros, 36",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8868308,
+    "lng": -6.9795731,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Lourdes Angeles Medeiro Perez",
+    "telefono": "924270910",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000346",
+    "cofm_id": "6000346",
+    "direccion": "Pantano de Cijara, Local 9 CC. Las Vaguadas.",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8436564,
+    "lng": -6.9682194,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Jesus Salvatierra Gordillo",
+    "telefono": "924267230",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000378",
+    "cofm_id": "6000378",
+    "direccion": "Crta. Corte de Peleas, 104",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8725438,
+    "lng": -6.9463982,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Gonzalo Blanco Jimenez",
+    "telefono": "924248544",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000381",
+    "cofm_id": "6000381",
+    "direccion": "Castillo Puebla de Alcocer, 24",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9781027,
+    "lng": -5.2545062,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Farmacia Conejo Vara C.B.",
+    "telefono": "924229275",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000387",
+    "cofm_id": "6000387",
+    "direccion": "Campanillas, 36. Ciudad Jardin",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Jesus Mediero Almendros",
+    "telefono": "924223043"
+  },
+  {
+    "id": "06-6000388",
+    "cofm_id": "6000388",
+    "direccion": "Avda. de Elvas, 11",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8828945,
+    "lng": -6.994565,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Rosalia Chacon Mariscal",
+    "telefono": "924286037",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6001394",
+    "cofm_id": "6001394",
+    "direccion": "Avda. Padre Tacorante, 27",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Sara Llorente Cancho",
+    "telefono": "924272753"
+  },
+  {
+    "id": "06-6000031",
+    "cofm_id": "6000031",
+    "direccion": "Plaza de la Autonomia Extremeña, 3",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Farmacia Alarcon C.B.",
+    "telefono": "924250912"
+  },
+  {
+    "id": "06-6000217",
+    "cofm_id": "6000217",
+    "direccion": "Avda. Santa Marina, 20",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8743316,
+    "lng": -6.9766124,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Amelia Berben Muñoz",
+    "telefono": "924232315",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000227",
+    "cofm_id": "6000227",
+    "direccion": "Avda. Sto Cristo la Paz, 29-A",
+    "localidad": "Badajoz",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.8763224,
+    "lng": -6.9614606,
+    "localidades_atendidas": [
+      "Badajoz"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Farmacia Rico Martin C.B.",
+    "telefono": "924250219",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000055",
+    "cofm_id": "6000055",
+    "direccion": "Plaza Magdalena, 3",
+    "localidad": "Cabeza del Buey",
+    "sector": "",
+    "zona": "Cabeza del Buey",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.7187449,
+    "lng": -5.2247492,
+    "localidades_atendidas": [
+      "Cabeza del Buey"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Javier Sanchez Rodriguez",
+    "telefono": "924600142",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000369",
+    "cofm_id": "6000369",
+    "direccion": "Iglesias, 49",
+    "localidad": "Calamonte",
+    "sector": "",
+    "zona": "Calamonte",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Calamonte"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Nuria Alves Rodriguez",
+    "telefono": "924324144"
+  },
+  {
+    "id": "06-6000131",
+    "cofm_id": "6000131",
+    "direccion": "Benquerencia, 12",
+    "localidad": "Monterrubio de la Serena",
+    "sector": "",
+    "zona": "Castuera",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.5892578,
+    "lng": -5.4464209,
+    "localidades_atendidas": [
+      "Monterrubio de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Antonio Callado Cintero",
+    "telefono": "924610359",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000253",
+    "cofm_id": "6000253",
+    "direccion": "Abajo, 7",
+    "localidad": "Puebla de Obando",
+    "sector": "",
+    "zona": "Cordobilla de Lácara",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 39.1819529,
+    "lng": -6.6523603,
+    "localidades_atendidas": [
+      "Puebla de Obando"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Ana Garcia Pineda",
+    "telefono": "924407104",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000074",
+    "cofm_id": "6000074",
+    "direccion": "Arroyazo, 29",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.954716,
+    "lng": -5.8632252,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Angeles Bermejo Garcia",
+    "telefono": "924800095",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000075",
+    "cofm_id": "6000075",
+    "direccion": "Groizard, 13",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.955176,
+    "lng": -5.8616057,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Reyes Garcia C.B.",
+    "telefono": "924801287",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000080",
+    "cofm_id": "6000080",
+    "direccion": "Consuelo Torres, 1",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9538818,
+    "lng": -5.8595134,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Francisco J. Sanchez-Porro Arias",
+    "telefono": "924804906",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000286",
+    "cofm_id": "6000286",
+    "direccion": "Pescadores, 97",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.957403,
+    "lng": -5.8662394,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Romero y Gomez C.B",
+    "telefono": "924800684",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000299",
+    "cofm_id": "6000299",
+    "direccion": "Don Llorente, 45",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9829287,
+    "lng": -5.8858087,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Antonio Godoy Mayoral",
+    "telefono": "924800185",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000367",
+    "cofm_id": "6000367",
+    "direccion": "Tenor Paredes, 18 Chalet 1",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Rosario Sanchez Lillo",
+    "telefono": "924813183"
+  },
+  {
+    "id": "06-6000291",
+    "cofm_id": "6000291",
+    "direccion": "Luna, 57",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9532117,
+    "lng": -5.8696055,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Guillermo Mera Cazalet de Haut",
+    "telefono": "924801649",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000343",
+    "cofm_id": "6000343",
+    "direccion": "Orihuela Grande, 25",
+    "localidad": "Fregenal de la Sierra",
+    "sector": "",
+    "zona": "Fregenal de la Sierra",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.1639579,
+    "lng": -6.6486865,
+    "localidades_atendidas": [
+      "Fregenal de la Sierra"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Florentino Zoido Alvarez",
+    "telefono": "924701059",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000089",
+    "cofm_id": "6000089",
+    "direccion": "Llerena, 1",
+    "localidad": "Fuente de Cantos",
+    "sector": "",
+    "zona": "Fuente de Cantos",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.24803,
+    "lng": -6.2906097,
+    "localidades_atendidas": [
+      "Fuente de Cantos"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "M  Isabel Toribio Jaen",
+    "telefono": "924500298",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000093",
+    "cofm_id": "6000093",
+    "direccion": "Antonio Machado, 5",
+    "localidad": "Fuente del Maestre",
+    "sector": "",
+    "zona": "Fuente del Maestre",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.5283458,
+    "lng": -6.4488806,
+    "localidades_atendidas": [
+      "Fuente del Maestre"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "M  Estrella Casillas Ovando",
+    "telefono": "924530055",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000101",
+    "cofm_id": "6000101",
+    "direccion": "Plaza de España, 6",
+    "localidad": "Guareña",
+    "sector": "",
+    "zona": "Guareña",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Guareña"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Miguel de Peralta Gomez",
+    "telefono": "924350235"
+  },
+  {
+    "id": "06-6000099",
+    "cofm_id": "6000099",
+    "direccion": "Don Benito, 1",
+    "localidad": "Guareña",
+    "sector": "",
+    "zona": "Guareña",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Guareña"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Pilar Sanchez-Mohino Arias",
+    "telefono": "924350377"
+  },
+  {
+    "id": "06-6000104",
+    "cofm_id": "6000104",
+    "direccion": "La Carrera, 75",
+    "localidad": "Herrera del Duque",
+    "sector": "",
+    "zona": "Herrera del Duque",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Herrera del Duque"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Remedios Navarrete Perez",
+    "telefono": "924650306"
+  },
+  {
+    "id": "06-6000111",
+    "cofm_id": "6000111",
+    "direccion": "Plaza de España, 13",
+    "localidad": "Jerez de los Caballeros",
+    "sector": "",
+    "zona": "Jerez de los Caballeros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.3201848,
+    "lng": -6.771029,
+    "localidades_atendidas": [
+      "Jerez de los Caballeros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Gilberto Gascon  Betegon",
+    "telefono": "924730113",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/7089453598",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000116",
+    "cofm_id": "6000116",
+    "direccion": "Santiago, 47",
+    "localidad": "Llerena",
+    "sector": "",
+    "zona": "Llerena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.2359821,
+    "lng": -6.0147226,
+    "localidades_atendidas": [
+      "Llerena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Maria Teresa Camacho Corredera",
+    "telefono": "924870214",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000126",
+    "cofm_id": "6000126",
+    "direccion": "Santa Eulalia, 27",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Fernandez Chacon C.B.",
+    "telefono": "924311507"
+  },
+  {
+    "id": "06-6000241",
+    "cofm_id": "6000241",
+    "direccion": "Calderon de la Barca, 1",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9144953,
+    "lng": -6.3430993,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Elisa de Tena Sereno",
+    "telefono": "924311056",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000302",
+    "cofm_id": "6000302",
+    "direccion": "Mario Roso de Luna, 11",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Viguera Estrada C.B.",
+    "telefono": "924372694"
+  },
+  {
+    "id": "06-6000341",
+    "cofm_id": "6000341",
+    "direccion": "Holguin Esq. Morerias",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9177448,
+    "lng": -6.3490677,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Santana Morales C.B",
+    "telefono": "924313408",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000353",
+    "cofm_id": "6000353",
+    "direccion": "Hernan Cortes, 54",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9178837,
+    "lng": -6.3382766,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Claudio Barquero Godoy",
+    "telefono": "924330052",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000389",
+    "cofm_id": "6000389",
+    "direccion": "Santa Eulalia, 68",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Irene Mateos Galan"
+  },
+  {
+    "id": "06-6001392",
+    "cofm_id": "6001392",
+    "direccion": "Almendralejo, 76",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "06-6000297",
+    "cofm_id": "6000297",
+    "direccion": "Astorga, 5",
+    "localidad": "Mérida",
+    "sector": "",
+    "zona": "Mérida",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9256237,
+    "lng": -6.3490728,
+    "localidades_atendidas": [
+      "Mérida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Carmen Amores Valverde",
+    "telefono": "924319205",
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org",
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000135",
+    "cofm_id": "6000135",
+    "direccion": "Conquistadores, 1",
+    "localidad": "Montijo",
+    "sector": "",
+    "zona": "Montijo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9085415,
+    "lng": -6.6187007,
+    "localidades_atendidas": [
+      "Montijo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Pintor - Galindo C.B.",
+    "telefono": "924456114",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000380",
+    "cofm_id": "6000380",
+    "direccion": "Mendez Nuñez, 2",
+    "localidad": "Montijo",
+    "sector": "",
+    "zona": "Montijo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Montijo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Nazaret Luengo Nieto",
+    "telefono": "924459043"
+  },
+  {
+    "id": "06-6001391",
+    "cofm_id": "6001391",
+    "direccion": "Concepcion Arenal, 71",
+    "localidad": "Montijo",
+    "sector": "",
+    "zona": "Montijo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.906313,
+    "lng": -6.6155036,
+    "localidades_atendidas": [
+      "Montijo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Ana Salas Vinader",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000232",
+    "cofm_id": "6000232",
+    "direccion": "San Antonio, 25",
+    "localidad": "Montijo",
+    "sector": "",
+    "zona": "Montijo",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9078864,
+    "lng": -6.6159544,
+    "localidades_atendidas": [
+      "Montijo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Manuel Benitez-Donoso Cuesta",
+    "telefono": "924454958",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6001396",
+    "cofm_id": "6001396",
+    "direccion": "La Guardias la realizar la Farmacia de Montijo",
+    "localidad": "Zona de Montijo",
+    "sector": "",
+    "zona": "Pueblonuevo del Guadiana",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zona de Montijo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "06-6000166",
+    "cofm_id": "6000166",
+    "direccion": "Avda de Extremadura, 103",
+    "localidad": "Santa Marta",
+    "sector": "",
+    "zona": "Santa Marta de los Barros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.6153153,
+    "lng": -6.6308541,
+    "localidades_atendidas": [
+      "Santa Marta"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Santos Gomez C.B.",
+    "telefono": "924690095",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000177",
+    "cofm_id": "6000177",
+    "direccion": "Constitucion, 100",
+    "localidad": "Talarrubias",
+    "sector": "",
+    "zona": "Talarrubias",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 39.0366366,
+    "lng": -5.2351333,
+    "localidades_atendidas": [
+      "Talarrubias"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Marcelino Abellan Rivero",
+    "telefono": "924630052",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000189",
+    "cofm_id": "6000189",
+    "direccion": "Larga, 6",
+    "localidad": "Villafranca de los Barros",
+    "sector": "",
+    "zona": "Villafranca de los Barros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.5602778,
+    "lng": -6.3397627,
+    "localidades_atendidas": [
+      "Villafranca de los Barros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Purificacion Duran Mariñas",
+    "telefono": "924525020",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000190",
+    "cofm_id": "6000190",
+    "direccion": "Plaza Pio XII, 2-B",
+    "localidad": "Villafranca de los Barros",
+    "sector": "",
+    "zona": "Villafranca de los Barros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.5624559,
+    "lng": -6.3415842,
+    "localidades_atendidas": [
+      "Villafranca de los Barros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Luis Felipe Lara Garcia",
+    "telefono": "924524815",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000191",
+    "cofm_id": "6000191",
+    "direccion": "Beata juaquina, 25",
+    "localidad": "Villafranca de los Barros",
+    "sector": "",
+    "zona": "Villafranca de los Barros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Villafranca de los Barros"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Jose Luis Mata Marchena",
+    "telefono": "924520269"
+  },
+  {
+    "id": "06-6000338",
+    "cofm_id": "6000338",
+    "direccion": "Jabata, 11",
+    "localidad": "Villanueva de la Serena",
+    "sector": "",
+    "zona": "Villanueva de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9818458,
+    "lng": -5.7978458,
+    "localidades_atendidas": [
+      "Villanueva de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Sanz Pedrosa Peralta C.B.",
+    "telefono": "924844112",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000352",
+    "cofm_id": "6000352",
+    "direccion": "San Benito, 46",
+    "localidad": "Villanueva de la Serena",
+    "sector": "",
+    "zona": "Villanueva de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9733029,
+    "lng": -5.8034277,
+    "localidades_atendidas": [
+      "Villanueva de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Soledad Cumbreño Barquero",
+    "telefono": "924845413",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000383",
+    "cofm_id": "6000383",
+    "direccion": "Cruz del Rio, 12",
+    "localidad": "Villanueva de la Serena",
+    "sector": "",
+    "zona": "Villanueva de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9836708,
+    "lng": -5.7803386,
+    "localidades_atendidas": [
+      "Villanueva de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Luis Perez Higuero",
+    "telefono": "924840139",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6001390",
+    "cofm_id": "6001390",
+    "direccion": "Hernan Cortes, 22",
+    "localidad": "Villanueva de la Serena",
+    "sector": "",
+    "zona": "Villanueva de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9696112,
+    "lng": -5.7963087,
+    "localidades_atendidas": [
+      "Villanueva de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Fernandez de los Rios C.B.",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000293",
+    "cofm_id": "6000293",
+    "direccion": "Hernan Cortes, 161",
+    "localidad": "Villanueva de la Serena",
+    "sector": "",
+    "zona": "Villanueva de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.9748696,
+    "lng": -5.7931662,
+    "localidades_atendidas": [
+      "Villanueva de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Maria Trinidad Cardenal Parejo",
+    "telefono": "924841935",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000052",
+    "cofm_id": "6000052",
+    "direccion": "Ancha, 1",
+    "localidad": "Burguillos del Cerro",
+    "sector": "",
+    "zona": "Zafra",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-01",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.3812032,
+    "lng": -6.5869978,
+    "localidades_atendidas": [
+      "Burguillos del Cerro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Carmen Fernandez-Salguero",
+    "telefono": "924541572",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000203",
+    "cofm_id": "6000203",
+    "direccion": "Huelva, 25",
+    "localidad": "Zafra",
+    "sector": "",
+    "zona": "Zafra",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.4253198,
+    "lng": -6.417811,
+    "localidades_atendidas": [
+      "Zafra"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Rafael Fernandez Martinez",
+    "telefono": "924550791",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000208",
+    "cofm_id": "6000208",
+    "direccion": "Avda. de Europa s/n",
+    "localidad": "Zalamea de la Serena",
+    "sector": "",
+    "zona": "Zalamea de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": 38.6516795,
+    "lng": -5.6549995,
+    "localidades_atendidas": [
+      "Zalamea de la Serena"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Maria del Mar del Pozo",
+    "telefono": "924780022",
+    "precision_ubicacion": null,
+    "fuente_coordenadas": null,
+    "nota_ubicacion": null
+  },
+  {
+    "id": "06-6000072",
+    "cofm_id": "6000072",
+    "direccion": "Calle Chandavila, 2",
+    "localidad": "Codosera (La)",
+    "sector": "",
+    "zona": "Alburquerque",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Codosera (La)"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Maria Jose Barroso Pasalodos",
+    "telefono": "924404009"
+  },
+  {
+    "id": "06-6000098",
+    "cofm_id": "6000098",
+    "direccion": "Canalejas, 12",
+    "localidad": "Granja de Torrehermosa",
+    "sector": "",
+    "zona": "Azuaga",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Granja de Torrehermosa"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Valentina Suero Rincon",
+    "telefono": "924895006"
+  },
+  {
+    "id": "06-6000292",
+    "cofm_id": "6000292",
+    "direccion": "Angel de la Guarda, 5",
+    "localidad": "Valdebotoa",
+    "sector": "",
+    "zona": "Badajoz",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Valdebotoa"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Rosa M  Fernandez de Soto Garcia",
+    "telefono": "924432034"
+  },
+  {
+    "id": "06-6000162",
+    "cofm_id": "6000162",
+    "direccion": "Cubo, 2",
+    "localidad": "Salvaleón",
+    "sector": "",
+    "zona": "Barcarrota",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Salvaleón"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Jose Pintor Amador",
+    "telefono": "924752450"
+  },
+  {
+    "id": "06-6000152",
+    "cofm_id": "6000152",
+    "direccion": "Donoso Cortes",
+    "localidad": "Peñalsordo",
+    "sector": "",
+    "zona": "Cabeza del Buey",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Peñalsordo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Antonio Pozuelo Calvo",
+    "telefono": "924614362"
+  },
+  {
+    "id": "06-6000374",
+    "cofm_id": "6000374",
+    "direccion": "Federico Garcia Lorca, 33",
+    "localidad": "Calamonte",
+    "sector": "",
+    "zona": "Calamonte",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Calamonte"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Maria Teresa Aguas Solo de Zaldivar",
+    "telefono": "924324579"
+  },
+  {
+    "id": "06-6000077",
+    "cofm_id": "6000077",
+    "direccion": "Avda. de la Constitucion s/n",
+    "localidad": "Don Benito",
+    "sector": "",
+    "zona": "Don Benito",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Don Benito"
+    ],
+    "guardia_franjas": [
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Farmacia Puertas-Moreno",
+    "telefono": "924801376"
+  },
+  {
+    "id": "06-6000085",
+    "cofm_id": "6000085",
+    "direccion": "Marques de Riocabado, 4",
+    "localidad": "Fregenal de la Sierra",
+    "sector": "",
+    "zona": "Fregenal de la Sierra",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Fregenal de la Sierra"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "M  Isabel Bravo Diaz",
+    "telefono": "924700184"
+  },
+  {
+    "id": "06-6000049",
+    "cofm_id": "6000049",
+    "direccion": "Vicario,7",
+    "localidad": "Bienvenida",
+    "sector": "",
+    "zona": "Fuente de Cantos",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Bienvenida"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Teresa Nuñez Dominguez",
+    "telefono": "924506088"
+  },
+  {
+    "id": "06-6000087",
+    "cofm_id": "6000087",
+    "direccion": "Martinez, 9",
+    "localidad": "Fuente de Cantos",
+    "sector": "",
+    "zona": "Fuente de Cantos",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Fuente de Cantos"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Ines Godoy Lozano",
+    "telefono": "924500059"
+  },
+  {
+    "id": "06-6000061",
+    "cofm_id": "6000061",
+    "direccion": "Olivo, 16",
+    "localidad": "Cristina",
+    "sector": "",
+    "zona": "Guareña",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Cristina"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Gloria Bernabeu Nieto",
+    "telefono": "924350491"
+  },
+  {
+    "id": "06-6000326",
+    "cofm_id": "6000326",
+    "direccion": "Arroyuelo, 14",
+    "localidad": "Helechosa de los Montes",
+    "sector": "",
+    "zona": "Herrera del Duque",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Helechosa de los Montes"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Eulalia Gallego Lopez",
+    "telefono": "924658027"
+  },
+  {
+    "id": "06-6000245",
+    "cofm_id": "6000245",
+    "direccion": "Diaz y Ponce, 12",
+    "localidad": "Valle de Santa Ana",
+    "sector": "",
+    "zona": "Jerez de los Caballeros",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Valle de Santa Ana"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Antonio Alvarez Leria",
+    "telefono": "924753676"
+  },
+  {
+    "id": "06-6000057",
+    "cofm_id": "6000057",
+    "direccion": "Extremadura, 15",
+    "localidad": "Casas de Reina",
+    "sector": "",
+    "zona": "Llerena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Casas de Reina"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Virginia Martinez Gutierrez",
+    "telefono": "924870839"
+  },
+  {
+    "id": "06-6000226",
+    "cofm_id": "6000226",
+    "direccion": "Plaza Mayor, 17",
+    "localidad": "Guadiana del Caudillo",
+    "sector": "",
+    "zona": "Pueblonuevo del Guadiana",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Guadiana del Caudillo"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Lcdos. Villanueva C. B.",
+    "telefono": "924470057"
+  },
+  {
+    "id": "06-6000345",
+    "cofm_id": "6000345",
+    "direccion": "Plaza del Concilio, 11",
+    "localidad": "Vivares",
+    "sector": "",
+    "zona": "Santa Amalia",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Vivares"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": ""
+  },
+  {
+    "id": "06-6000357",
+    "cofm_id": "6000357",
+    "direccion": "Avda. de la Paz, 7",
+    "localidad": "Burguillos del Cerro",
+    "sector": "",
+    "zona": "Zafra",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Burguillos del Cerro"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "M  Concepcion Gallego Vidal-Aragon",
+    "telefono": "924541205"
+  },
+  {
+    "id": "06-6000082",
+    "cofm_id": "6000082",
+    "direccion": "Plaza de la Constitucion, 5",
+    "localidad": "Esparragosa de la Serena",
+    "sector": "",
+    "zona": "Zalamea de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Esparragosa de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Emilia Ramirez Zambrana",
+    "telefono": "924776042"
+  },
+  {
+    "id": "06-6000207",
+    "cofm_id": "6000207",
+    "direccion": "San Francisco, 4",
+    "localidad": "Zalamea de la Serena",
+    "sector": "",
+    "zona": "Zalamea de la Serena",
+    "provincia": "Badajoz",
+    "guardia": false,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-03",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Zalamea de la Serena"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Fernandez Hernaiz C.B.",
+    "telefono": "924780035"
+  }
+]

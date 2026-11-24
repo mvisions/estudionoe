@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jcyl-49-e1-00042",
+    "nombre": "LOPEZ-ARIAS TESTA, JOSE ANTONIO",
+    "direccion": "CALLE SANTA CLARA, 6",
+    "localidad": "Zamora",
+    "provincia": "Zamora",
+    "telefono": "980531510",
+    "fuente": "https://cofzamora.es/admin/config/media/ver_mes_completo",
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Zamora"
+    ],
+    "guardia_franja": "Guardia diurna COF Zamora; horario exacto pendiente, confirmar por teléfono.",
+    "guardia_franjas": [
+      "Guardia diurna COF Zamora; horario exacto pendiente, confirmar por teléfono."
+    ],
+    "guardia_intervalos": [],
+    "guardia_apertura": "desconocida",
+    "lat": 41.504465,
+    "lng": -5.7447279,
+    "ubicacion_requiere_verificacion": true,
+    "precision_ubicacion": "farmacia",
+    "fuente_coordenadas": "https://www.openstreetmap.org/node/7807208990",
+    "nota_ubicacion": "Ubicación contrastada: una farmacia de OpenStreetMap y una fuente independiente coinciden a 5.5 m.",
+    "osm_id": "osm-7807208990",
+    "ajuste_ubicacion_m": 5.5
+  },
+  {
+    "id": "jcyl-49-e1-00175",
+    "nombre": "RODRIGUEZ RAMOS, CATALINA",
+    "direccion": "CALLE CALLE VEGA, 1",
+    "localidad": "Zamora",
+    "provincia": "Zamora",
+    "telefono": "980510159",
+    "fuente": "https://cofzamora.es/admin/config/media/ver_mes_completo",
+    "guardia": true,
+    "fecha_guardia": "2026-11-02",
+    "localidades_atendidas": [
+      "Zamora"
+    ],
+    "guardia_franja": "Guardia nocturna COF Zamora; horario exacto pendiente, confirmar por teléfono.",
+    "guardia_franjas": [
+      "Guardia nocturna COF Zamora; horario exacto pendiente, confirmar por teléfono."
+    ],
+    "guardia_intervalos": [],
+    "guardia_apertura": "desconocida",
+    "lat": null,
+    "lng": null,
+    "ubicacion_requiere_verificacion": true
+  }
+]

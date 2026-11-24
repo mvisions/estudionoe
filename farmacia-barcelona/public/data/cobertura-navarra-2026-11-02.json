@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-11-02",
+  "provincia": "Navarra",
+  "fuente": "https://datosabiertos.navarra.es/es/dataset/farmacias-de-guardia",
+  "completa": false,
+  "consultas": [
+    {
+      "nombre": "Pamplona / Iruña",
+      "estado": "parcial",
+      "farmacias": 3,
+      "error": "Horarios, cambio de fecha y madrugada anterior pendientes de interpretar."
+    },
+    {
+      "nombre": "Tudela",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Horarios, cambio de fecha y madrugada anterior pendientes de interpretar."
+    },
+    {
+      "nombre": "Estella-Lizarra",
+      "estado": "parcial",
+      "farmacias": 1,
+      "error": "Horarios, cambio de fecha y madrugada anterior pendientes de interpretar."
+    },
+    {
+      "nombre": "Resto de Navarra",
+      "estado": "pendiente",
+      "farmacias": 0,
+      "error": "Otros municipios y turnos semanales pendientes de interpretar."
+    }
+  ],
+  "farmacias": 5,
+  "farmacias_confirmadas": 5,
+  "con_coordenadas": 1,
+  "calendario_actualizado": true,
+  "guardias_conservadas_no_reconfirmadas": 0
+}

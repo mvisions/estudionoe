@@ -1,0 +1,49 @@
+[
+  {
+    "id": "51-51000006",
+    "cofm_id": "51000006",
+    "direccion": "ZURITA. C/ Beatriz de Silva, 5",
+    "localidad": "Ceuta",
+    "sector": "",
+    "zona": "Ceuta",
+    "provincia": "Ceuta",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ceuta"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono."
+    ],
+    "nombre": "Zurita C.B.",
+    "telefono": "956512341"
+  },
+  {
+    "id": "51-51000019",
+    "cofm_id": "51000019",
+    "direccion": "PUYA (BARRIADAS). C/Tte. Crl. Gautier, 10",
+    "localidad": "Ceuta",
+    "sector": "",
+    "zona": "Ceuta",
+    "provincia": "Ceuta",
+    "guardia": true,
+    "guardia_franja": "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono. · Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre.",
+    "fecha_guardia": "2026-11-02",
+    "fuente": "https://farmaciasguardia.farmaceuticos.com/web_guardias",
+    "lat": null,
+    "lng": null,
+    "localidades_atendidas": [
+      "Ceuta"
+    ],
+    "guardia_franjas": [
+      "Guardia fechada según CGCOF; consultar horas del cartel y confirmar por teléfono.",
+      "Madrugada: guardia nocturna/24h del día anterior; confirmar hora de cierre."
+    ],
+    "nombre": "Puya C.B.",
+    "telefono": "956512309"
+  }
+]

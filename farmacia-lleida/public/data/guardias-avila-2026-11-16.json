@@ -1,0 +1,28 @@
+[
+  {
+    "id": "jcyl-05-e1-00032",
+    "nombre": "GUERRA GARCIA, NOELIA",
+    "direccion": "Calle Vilorio 8",
+    "localidad": "Maello",
+    "provincia": "Ávila",
+    "telefono": "920192126",
+    "fuente": "https://cofsegovia.com/wp-content/uploads/2026/10/SERVICIOS-DE-URGENCIA-RURALES-2026.pdf",
+    "guardia": true,
+    "fecha_guardia": "2026-11-16",
+    "localidades_atendidas": [
+      "Maello"
+    ],
+    "guardia_franja": "Guardia rural COF Segovia · 10:00–20:00",
+    "guardia_franjas": [
+      "Guardia rural COF Segovia · 10:00–20:00"
+    ],
+    "guardia_intervalos": [
+      {
+        "inicio": "2026-11-16T10:00:00+01:00",
+        "fin": "2026-11-16T20:00:00+01:00"
+      }
+    ],
+    "lat": null,
+    "lng": null
+  }
+]
